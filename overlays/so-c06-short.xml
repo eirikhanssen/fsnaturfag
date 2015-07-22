@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locale 
+	lang="so"
+	langtitle="SOOMAALI"
+	langtitle-trans="Somalisk"
+	id="so-c06-short"
+	desc="Somalian translation of chapter 06 – In the earthworm's world, short text">
+	<text key="c06-short-001" html="p">Gooryaan dhuleedku wuxuu sameeyaa ciid wanaagsan.</text>
+	<text key="c06-short-002" html="p">Jenny, Samir, Hen iyo Katt dhulka hoose ayey ku jiraan.</text>
+	<text key="c06-short-003" html="p">Way yaryihiin.</text>
+	<text key="c06-short-004" html="p">Waxay socdaan luuqluuqyada gooryaan dhuleedka.</text>
+	<text key="c06-short-005" html="p">Waxay maqleen qaar wax cunaya.</text>
+	<text key="c06-short-006" html="p">Wax bunni ah ayaa dhaqdhaqaaqay.</text>
+	<text key="c06-short-007" html="p">– Ma gooryaan dhuleed baa, Jenny ayaa hoos u tiri.</text>
+	<text key="c06-short-008" html="p">– Muxuu samaynayaa! Samir baa yiri.</text>
+	<text key="c06-short-009" html="p">– Madaxa ayuu igaga soo xaaray!</text>
+	<text key="c06-short-010" html="p">– Fiican Hen baa yiri. – ciid fiican baay noqonqysaa!</text>
+	<text key="c06-short-011" html="p">– Anigu ciid noqon maayo! Samir baa yiri.</text>
+	<text key="c06-short-012" html="p">Wuxuu shanleeyay timahiisii.</text>
+	<text key="c06-short-013" html="p">Si shanqadh laáana ayey hore ugu socdeen.</text>
+	<text key="c06-short-014" html="p">Waxa ay maqleen cod.</text>
+	<text key="c06-short-015" html="p">– Qam…Qam!(wax la raamsanayo)</text>
+	<text key="c06-short-016" html="p">Jenny way istaagtay oo waxay tiri istaaga!</text>
+	<text key="c06-short-017" html="p">CId baa wax cunaysa!</text>
+	<text key="c06-short-018" html="p">Waxay arkeen xayawaan. Midab liinood.</text>
+	<text key="c06-short-019" html="p">Wuu dheer yahay.Cago badabna wu leeyahay.</text>
+	<text key="c06-short-020" html="p">Laba cidiyood oo waaweyn.</text>
+	<text key="c06-short-021" html="p">Cidiyiha ayuu ku hayaa gooryaanka.</text>
+	<text key="c06-short-022" html="p">Xayawaankii wuxuu cunay gooryaankii.</text>
+	<text key="c06-short-023" html="p">– Qam…Qam!</text>
+	<text key="c06-short-024" html="p">– Waa Geesoole! Hen baa yidhi.</text>
+	<text key="c06-short-025" html="p">– Geesooluhu wuu jecelyahay gooryaan dhuleedka!</text>
+	<text key="c06-short-026" html="p">Jenny way fikiraysaa: – Waynu yaryar nahay!</text>
+	<text key="c06-short-027" html="p">Way ordeen.</text>
+	<text key="c06-short-028" html="p">Geesoolihii wuu daba orday.</text>
+	<text key="c06-short-029" html="p">Jenny way oroday wayna qaylisay.</text>
+	<text key="c06-short-030" html="p">– Anigu cuntadaadii ma ihi!</text>
+	<text key="c06-short-031" html="p">Anigu cuntadaadii ma ihi!</text>
+	<text key="c06-short-032" html="p">Samir wuu orday waanu qayliyey.</text>
+	<text key="c06-short-033" html="p">– Anigu ma ihi gooryaan.</text>
+	<text key="c06-short-034" html="p">– Anigu ma ihi gooryaan.</text>
+	<text key="c06-short-035" html="p">Katt iyo Hen way ordeen.</text>
+	<text key="c06-short-036" html="p">Geesooliina wuu daba orday.</text>
+	<text key="c06-short-037" html="p">Cidiyihiisina in yar bay u soo jiraan.</text>
+	<text key="c06-short-038" html="p">Jenny waxay aragtay iftiin. Waa daloolkii.</text>
+	<text key="c06-short-039" html="p">Dibadda ayey usoo boodeen. Shantuba.</text>
+	<text key="c06-short-040" html="p">Dooga dhushiisa istaaga, ayuu yiri Hen.</text>
+	<text key="c06-short-041" html="p">Waynaada!</text>
+	<text key="c06-short-042" html="p">Jenny way weynaatay.</text>
+	<text key="c06-short-043" html="p">Samir wuu waynaaday.</text>
+	<text key="c06-short-044" html="p">Hen iyo Katt way weynaadeen.</text>
+	<text key="c06-short-045" html="p">Jenny waxay eegtay geesoolihii.</text>
+	<text key="c06-short-046" html="p">Waa waxyar.</text>
+	<text key="c06-short-047" html="p">Wuxuu leeg yahay far yarada.</text>
+	<text key="c06-short-048" html="p">Jenny way qososhay: ma waxan yar baan ka cabsanayey.</text>
+</locale>
