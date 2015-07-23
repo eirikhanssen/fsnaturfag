@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timesheet xmlns="http://www.w3.org/ns/SMIL">
+	<!-- Timings for Arabic language - long story -->
+	<!-- language key level sync -->
+	<!-- mediaSync attribute targets element clock (video or audio) that begin and end time values should be synced against. -->
+	<par mediaSync="#audio-ar-c06-long">
+		<item select="#ar-c06-long-001" begin="0.364183" end="4.148521"/>
+		<item select="#ar-c06-long-002" begin="4.496870" end="7.632012"/>
+		<item select="#ar-c06-long-003" begin="7.980361" end="70.999877"/>
+		<item select="#ar-c06-long-004" begin="71.677438" end="138.150574"/>
+		<item select="#ar-c06-long-005" begin="138.465986" end="220.449773"/>
+		<item select="#ar-c06-long-006" begin="220.948323" end="223.893456"/>
+		<item select="#ar-c06-long-007" begin="224.273473" end="261.170000"/>
+		<item select="#ar-c06-long-008" begin="261.170000" end="311.719410"/>
+		<item select="#ar-c06-long-009" begin="311.719410" end="363.994263"/>
+		<item select="#ar-c06-long-010" begin="363.994263" end="436.063152"/>
+		<item select="#ar-c06-long-011" begin="436.063152" end="526.979977"/>
+		<item select="#ar-c06-long-012" begin="527.099664" end="530.234806"/>
+		<item select="#ar-c06-long-013" begin="530.377312" end="607.464263"/>
+		<item select="#ar-c06-long-014" begin="607.891782" end="693.895539"/>
+		<item select="#ar-c06-long-015" begin="694.056342" end="778.496864"/>
+		<item select="#ar-c06-long-016" begin="778.686872" end="869.035957"/>
+		<item select="#ar-c06-long-017" begin="869.574315" end="930.250391"/>
+	</par>
+	
+	<!-- paragraph level sync (demo) not timed yet-->
+	<!--<par mediaSync="#audio-ar-c06-long" timeAction="class: current_para">	</par>-->
+	<!-- sentence level sync (demo) not timed yet -->
+	
+	<!-- Timings for Norwegian language - long story -->
+	<!-- language key level sync -->
+	<!-- mediaSync attribute targets element clock (video or audio) that begin and end time values should be synced against. -->
+	<par mediaSync="#audio-no-c06-long">
+		<item select="#no-c06-long-001" begin="0.038938" end="3.083896"/>
+		<item select="#no-c06-long-002" begin="3.130621" end="9.103722"/>
+		<item select="#no-c06-long-003" begin="9.407439" end="73.390484"/>
+		<item select="#no-c06-long-004" begin="73.390484" end="142.419904"/>
+		<item select="#no-c06-long-005" begin="142.918311" end="220.607559"/>
+		<item select="#no-c06-long-006" begin="220.607559" end="226.837651"/>
+		<item select="#no-c06-long-007" begin="226.837651" end="255.309172"/>
+		<item select="#no-c06-long-008" begin="255.682977" end="311.380000"/>
+		<item select="#no-c06-long-009" begin="311.691505" end="356.672769"/>
+		<item select="#no-c06-long-010" begin="356.921973" end="422.462541"/>
+		<item select="#no-c06-long-011" begin="422.774046" end="498.843469"/>
+		<item select="#no-c06-long-012" begin="498.843469" end="506.319580"/>
+		<item select="#no-c06-long-013" begin="506.319580" end="572.047051"/>
+		<item select="#no-c06-long-014" begin="572.358555" end="653.598956"/>
+		<item select="#no-c06-long-015" begin="653.972761" end="735.773870"/>
+		<item select="#no-c06-long-016" begin="735.773870" end="816.951969"/>
+		<item select="#no-c06-long-017" begin="816.951969" end="872.399788"/>
+	</par>
+	<!-- paragraph level sync (demo) -->
+	<par mediaSync="#audio-no-c06-long" timeAction="class: current_para">
+		<item select="#no-c06-long-p001" begin="9.407439" end="73.333752"/>
+		<item select="#no-c06-long-p002" begin="73.390484" end="77.099540"/>
+		<item select="#no-c06-long-p003" begin="77.099540" end="84.987873"/>
+		<item select="#no-c06-long-p004" begin="84.987873" end="92.955486"/>
+		<item select="#no-c06-long-p005" begin="92.955486" end="117.928602"/>
+		<item select="#no-c06-long-p006" begin="117.928602" end="125.143057"/>
+		<item select="#no-c06-long-p007" begin="125.143057" end="142.505319"/>
+		<item select="#no-c06-long-p008" begin="142.918311" end="147.777421"/>
+		<item select="#no-c06-long-p009" begin="147.777421" end="171.006382"/>
+		<item select="#no-c06-long-p010" begin="171.006382" end="179.727153"/>
+		<item select="#no-c06-long-p011" begin="179.727153" end="196.653376"/>
+		<item select="#no-c06-long-p012" begin="196.653376" end="220.675135"/>
+	</par>
+	<!-- sentence level sync (demo) to be done -->
+	<par mediaSync="#audio-no-c06-long" timeAction="class: current_sentence">
+		<item select="#no-c06-long-s003" begin="9.407439" end="11.908461"/>
+		<item select="#no-c06-long-s004" begin="11.908461" end="15.718552"/>
+		<item select="#no-c06-long-s005" begin="15.718552" end="18.186627"/>
+		<item select="#no-c06-long-s006" begin="18.186627" end="21.873314"/>
+		<item select="#no-c06-long-s007" begin="21.873314" end="24.125432"/>
+		<item select="#no-c06-long-s008" begin="24.125432" end="26.223296"/>
+		<item select="#no-c06-long-s009" begin="26.223296" end="28.459989"/>
+		<item select="#no-c06-long-s010" begin="28.459989" end="31.915294"/>
+		<item select="#no-c06-long-s011" begin="31.915294" end="33.997732"/>
+		<item select="#no-c06-long-s012" begin="33.997732" end="39.242391"/>
+		<item select="#no-c06-long-s013" begin="39.242391" end="41.710466"/>
+		<item select="#no-c06-long-s014" begin="41.710466" end="45.921619"/>
+		<item select="#no-c06-long-s015" begin="45.921619" end="53.773182"/>
+		<item select="#no-c06-long-s016" begin="53.773182" end="56.272108"/>
+		<item select="#no-c06-long-s017" begin="56.272108" end="61.547618"/>
+		<item select="#no-c06-long-s018" begin="61.547618" end="65.943877"/>
+		<item select="#no-c06-long-s019" begin="65.943877" end="69.013545"/>
+		<item select="#no-c06-long-s020" begin="69.013545" end="73.378953"/>
+	</par>
+	<!-- word level sync (demo) to be done -->
+	
+	<!-- Timings for Somali language - long story -->
+	<par mediaSync="#audio-so-c06-long">
+		<item select="#so-c06-long-001" begin="0.094327" end="3.350495"/>
+		<item select="#so-c06-long-002" begin="3.399545" end="7.025475"/>
+		<item select="#so-c06-long-003" begin="7.070752" end="65.349749"/>
+		<item select="#so-c06-long-004" begin="65.485580" end="138.336212"/>
+		<item select="#so-c06-long-005" begin="138.592781" end="208.470226"/>
+		<item select="#so-c06-long-006" begin="208.560780" end="214.310955"/>
+		<item select="#so-c06-long-007" begin="214.552432" end="252.419064"/>
+		<item select="#so-c06-long-008" begin="252.569988" end="309.905714"/>
+		<item select="#so-c06-long-009" begin="310.056637" end="351.726535"/>
+		<item select="#so-c06-long-010" begin="351.952920" end="415.280298"/>
+		<item select="#so-c06-long-011" begin="415.385944" end="494.469704"/>
+		<item select="#so-c06-long-012" begin="494.635720" end="498.891754"/>
+		<item select="#so-c06-long-013" begin="498.967216" end="574.217527"/>
+		<item select="#so-c06-long-014" begin="574.398635" end="651.339286"/>
+		<item select="#so-c06-long-015" begin="651.535486" end="722.107178"/>
+		<item select="#so-c06-long-016" begin="722.197732" end="794.082456"/>
+		<item select="#so-c06-long-017" begin="794.218287" end="847.901672"/>
+	</par>
+	
+	<par mediaSync="#audio-ti-c06-long">
+		<item select="#ti-c06-long-001" begin="0.470312" end="2.406889"/>
+		<item select="#ti-c06-long-002" begin="2.535995" end="5.173429"/>
+		<item select="#ti-c06-long-003" begin="5.320978" end="75.969175"/>
+		<item select="#ti-c06-long-004" begin="76.245829" end="154.437457"/>
+		<item select="#ti-c06-long-005" begin="154.548118" end="242.856059"/>
+		<item select="#ti-c06-long-006" begin="243.178822" end="248.905559"/>
+		<item select="#ti-c06-long-007" begin="249.108439" end="283.182984"/>
+		<item select="#ti-c06-long-008" begin="283.358198" end="351.903825"/>
+		<item select="#ti-c06-long-009" begin="352.051374" end="412.269717"/>
+		<item select="#ti-c06-long-010" begin="412.463375" end="488.792199"/>
+		<item select="#ti-c06-long-011" begin="488.948970" end="585.538086"/>
+		<item select="#ti-c06-long-012" begin="585.657969" end="591.357041"/>
+		<item select="#ti-c06-long-013" begin="591.476924" end="671.918671"/>
+		<item select="#ti-c06-long-014" begin="672.038554" end="780.818888"/>
+		<item select="#ti-c06-long-015" begin="780.901884" end="882.129564"/>
+		<item select="#ti-c06-long-016" begin="882.249448" end="985.552033"/>
+		<item select="#ti-c06-long-017" begin="985.745690" end="1036.216593"/>
+	</par>
+</timesheet>

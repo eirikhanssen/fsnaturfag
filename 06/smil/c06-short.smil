@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timesheet xmlns="http://www.w3.org/ns/SMIL">
+	<par mediaSync="#audio-ar-c06-short" timeAction="class: playing">
+		<!-- Timings for Arabic language - short story -->
+		<item select="#ar-c06-short-001" begin="0.812902" end="4.789265"/>
+		<item select="#ar-c06-short-002" begin="4.828441" end="10.215140"/>
+		<item select="#ar-c06-short-003" begin="10.215140" end="11.772386"/>
+		<item select="#ar-c06-short-004" begin="11.889914" end="14.808526"/>
+		<item select="#ar-c06-short-005" begin="14.906466" end="16.963205"/>
+		<item select="#ar-c06-short-006" begin="16.963205" end="19.176649"/>
+		<item select="#ar-c06-short-007" begin="19.274589" end="21.683913"/>
+		<item select="#ar-c06-short-008" begin="21.683913" end="26.463384"/>
+		<item select="#ar-c06-short-009" begin="26.463384" end="30.165515"/>
+		<item select="#ar-c06-short-010" begin="30.283043" end="35.101691"/>
+		<item select="#ar-c06-short-011" begin="35.199631" end="38.235770"/>
+		<item select="#ar-c06-short-012" begin="38.235770" end="40.429626"/>
+		<item select="#ar-c06-short-013" begin="40.429626" end="43.152357"/>
+		<item select="#ar-c06-short-014" begin="43.054417" end="44.699809"/>
+		<item select="#ar-c06-short-015" begin="44.699809" end="47.579245"/>
+		<item select="#ar-c06-short-016" begin="47.579245" end="50.595796"/>
+		<item select="#ar-c06-short-017" begin="50.674148" end="53.005120"/>
+		<item select="#ar-c06-short-018" begin="53.945344" end="57.823767"/>
+		<item select="#ar-c06-short-019" begin="57.941295" end="60.566087"/>
+		<item select="#ar-c06-short-020" begin="60.566087" end="62.701178"/>
+		<item select="#ar-c06-short-021" begin="62.779530" end="66.285782"/>
+		<item select="#ar-c06-short-022" begin="66.383722" end="68.695106"/>
+		<item select="#ar-c06-short-023" begin="68.695106" end="71.261133"/>
+		<item select="#ar-c06-short-024" begin="71.398249" end="74.453977"/>
+		<item select="#ar-c06-short-025" begin="74.669445" end="78.998392"/>
+		<item select="#ar-c06-short-026" begin="78.998392" end="82.739699"/>
+		<item select="#ar-c06-short-027" begin="82.818051" end="84.502619"/>
+		<item select="#ar-c06-short-028" begin="84.992319" end="88.792390"/>
+		<item select="#ar-c06-short-029" begin="88.792390" end="90.731602"/>
+		<item select="#ar-c06-short-030" begin="90.731602" end="92.709990"/>
+		<item select="#ar-c06-short-031" begin="92.709990" end="94.766730"/>
+		<item select="#ar-c06-short-032" begin="94.766730" end="96.647177"/>
+		<item select="#ar-c06-short-033" begin="96.647177" end="98.272981"/>
+		<item select="#ar-c06-short-034" begin="98.272981" end="100.055489"/>
+		<item select="#ar-c06-short-035" begin="100.133841" end="102.170992"/>
+		<item select="#ar-c06-short-036" begin="102.170992" end="105.207132"/>
+		<item select="#ar-c06-short-037" begin="105.207132" end="108.458739"/>
+		<item select="#ar-c06-short-038" begin="109.046379" end="112.630983"/>
+		<item select="#ar-c06-short-039" begin="112.630983" end="115.902178"/>
+		<item select="#ar-c06-short-040" begin="115.980530" end="117.880566"/>
+		<item select="#ar-c06-short-041" begin="118.017682" end="119.643486"/>
+		<item select="#ar-c06-short-042" begin="119.643486" end="121.445581"/>
+		<item select="#ar-c06-short-043" begin="121.445581" end="123.423969"/>
+		<item select="#ar-c06-short-044" begin="123.423969" end="126.048761"/>
+		<item select="#ar-c06-short-045" begin="125.931233" end="128.986960"/>
+		<item select="#ar-c06-short-046" begin="128.986960" end="130.847820"/>
+		<item select="#ar-c06-short-047" begin="130.847820" end="133.648904"/>
+		<item select="#ar-c06-short-048" begin="133.648904" end="136.998451"/>
+	</par>
+
+	<par mediaSync="#audio-no-c06-short" timeAction="class: playing">
+		<!-- Timings for Norwegian language - short story -->
+		<item select="#no-c06-short-001" begin="0.428537" end="5.168421"/>
+		<item select="#no-c06-short-002" begin="6.077440" end="11.713356"/>
+		<item select="#no-c06-short-003" begin="11.791272" end="14.076805"/>
+		<item select="#no-c06-short-004" begin="14.284581" end="18.764745"/>
+		<item select="#no-c06-short-005" begin="19.011478" end="22.219016"/>
+		<item select="#no-c06-short-006" begin="22.374848" end="25.023988"/>
+		<item select="#no-c06-short-007" begin="25.023988" end="29.140545"/>
+		<item select="#no-c06-short-008" begin="29.140545" end="32.763634"/>
+		<item select="#no-c06-short-009" begin="32.763634" end="35.230970"/>
+		<item select="#no-c06-short-010" begin="35.321872" end="39.905924"/>
+		<item select="#no-c06-short-011" begin="39.983840" end="44.632822"/>
+		<item select="#no-c06-short-012" begin="44.775667" end="47.593626"/>
+		<item select="#no-c06-short-013" begin="47.723485" end="50.606374"/>
+		<item select="#no-c06-short-014" begin="50.736233" end="52.736075"/>
+		<item select="#no-c06-short-015" begin="52.839963" end="57.411028"/>
+		<item select="#no-c06-short-016" begin="57.411028" end="61.410711"/>
+		<item select="#no-c06-short-017" begin="61.605501" end="63.994921"/>
+		<item select="#no-c06-short-018" begin="64.072837" end="67.708912"/>
+		<item select="#no-c06-short-019" begin="67.773842" end="70.461941"/>
+		<item select="#no-c06-short-020" begin="70.656730" end="73.098095"/>
+		<item select="#no-c06-short-021" begin="73.266913" end="76.669240"/>
+		<item select="#no-c06-short-022" begin="76.799100" end="79.019703"/>
+		<item select="#no-c06-short-023" begin="79.019703" end="83.071330"/>
+		<item select="#no-c06-short-024" begin="83.214175" end="86.200951"/>
+		<item select="#no-c06-short-025" begin="86.369769" end="89.655223"/>
+		<item select="#no-c06-short-026" begin="89.655223" end="94.511980"/>
+		<item select="#no-c06-short-027" begin="94.641840" end="96.343004"/>
+		<item select="#no-c06-short-028" begin="96.433906" end="99.109018"/>
+		<item select="#no-c06-short-029" begin="99.212906" end="101.303649"/>
+		<item select="#no-c06-short-030" begin="101.407537" end="103.848902"/>
+		<item select="#no-c06-short-031" begin="103.965775" end="106.095477"/>
+		<item select="#no-c06-short-032" begin="106.173392" end="108.718645"/>
+		<item select="#no-c06-short-033" begin="108.822533" end="110.510711"/>
+		<item select="#no-c06-short-034" begin="110.562655" end="112.367706"/>
+		<item select="#no-c06-short-035" begin="112.536524" end="114.886987"/>
+		<item select="#no-c06-short-036" begin="114.938931" end="117.081618"/>
+		<item select="#no-c06-short-037" begin="117.081618" end="120.886511"/>
+		<item select="#no-c06-short-038" begin="120.886511" end="125.912086"/>
+		<item select="#no-c06-short-039" begin="126.171805" end="129.716979"/>
+		<item select="#no-c06-short-040" begin="129.911768" end="132.703755"/>
+		<item select="#no-c06-short-041" begin="132.872572" end="135.015259"/>
+		<item select="#no-c06-short-042" begin="135.132133" end="137.144961"/>
+		<item select="#no-c06-short-043" begin="137.209890" end="139.040914"/>
+		<item select="#no-c06-short-044" begin="139.040914" end="141.845886"/>
+		<item select="#no-c06-short-045" begin="141.910816" end="145.559877"/>
+		<item select="#no-c06-short-046" begin="145.559877" end="148.377835"/>
+		<item select="#no-c06-short-047" begin="148.377835" end="152.156756"/>
+		<item select="#no-c06-short-048" begin="152.221686" end="157.662813"/>
+	</par>
+
+	<par mediaSync="#audio-so-c06-short" timeAction="class: playing">
+		<!-- Timings for Somali language - short story -->
+		<item select="#so-c06-short-001" begin="0.182104" end="5.275317"/>
+		<item select="#so-c06-short-002" begin="5.343606" end="11.142472"/>
+		<item select="#so-c06-short-003" begin="11.193689" end="13.441532"/>
+		<item select="#so-c06-short-004" begin="13.555346" end="17.573010"/>
+		<item select="#so-c06-short-005" begin="17.658371" end="20.896403"/>
+		<item select="#so-c06-short-006" begin="20.981764" end="24.282394"/>
+		<item select="#so-c06-short-007" begin="24.344992" end="28.584595"/>
+		<item select="#so-c06-short-008" begin="28.630121" end="31.572234"/>
+		<item select="#so-c06-short-009" begin="31.612069" end="35.089112"/>
+		<item select="#so-c06-short-010" begin="35.163092" end="41.553795"/>
+		<item select="#so-c06-short-011" begin="41.593630" end="45.138962"/>
+		<item select="#so-c06-short-012" begin="45.190179" end="47.950188"/>
+		<item select="#so-c06-short-013" begin="47.984333" end="52.571071"/>
+		<item select="#so-c06-short-014" begin="52.639359" end="55.029471"/>
+		<item select="#so-c06-short-015" begin="55.097760" end="57.186262"/>
+		<item select="#so-c06-short-016" begin="57.277314" end="61.721783"/>
+		<item select="#so-c06-short-017" begin="61.773000" end="65.005341"/>
+		<item select="#so-c06-short-018" begin="65.073630" end="69.728656"/>
+		<item select="#so-c06-short-019" begin="69.774182" end="73.626814"/>
+		<item select="#so-c06-short-020" begin="73.655268" end="76.546165"/>
+		<item select="#so-c06-short-021" begin="76.580309" end="80.165476"/>
+		<item select="#so-c06-short-022" begin="80.205312" end="83.562849"/>
+		<item select="#so-c06-short-023" begin="83.608375" end="85.480629"/>
+		<item select="#so-c06-short-024" begin="85.594444" end="88.610537"/>
+		<item select="#so-c06-short-025" begin="88.644681" end="92.434715"/>
+		<item select="#so-c06-short-026" begin="92.474550" end="97.129577"/>
+		<item select="#so-c06-short-027" begin="97.180794" end="98.939233"/>
+		<item select="#so-c06-short-028" begin="99.047357" end="103.076402"/>
+		<item select="#so-c06-short-029" begin="103.167454" end="106.496538"/>
+		<item select="#so-c06-short-030" begin="106.530682" end="108.761453"/>
+		<item select="#so-c06-short-031" begin="108.846814" end="111.100347"/>
+		<item select="#so-c06-short-032" begin="111.180018" end="114.298544"/>
+		<item select="#so-c06-short-033" begin="114.326998" end="116.062674"/>
+		<item select="#so-c06-short-034" begin="116.096819" end="117.929237"/>
+		<item select="#so-c06-short-035" begin="117.969073" end="120.791680"/>
+		<item select="#so-c06-short-036" begin="120.922567" end="124.069547"/>
+		<item select="#so-c06-short-037" begin="124.109383" end="128.536780"/>
+		<item select="#so-c06-short-038" begin="128.758719" end="132.952795"/>
+		<item select="#so-c06-short-039" begin="132.981249" end="136.054249"/>
+		<item select="#so-c06-short-040" begin="136.116847" end="140.094676"/>
+		<item select="#so-c06-short-041" begin="140.145892" end="141.716537"/>
+		<item select="#so-c06-short-042" begin="141.955548" end="143.896091"/>
+		<item select="#so-c06-short-043" begin="143.941617" end="145.637458"/>
+		<item select="#so-c06-short-044" begin="145.637458" end="148.186910"/>
+		<item select="#so-c06-short-045" begin="148.232436" end="150.662383"/>
+		<item select="#so-c06-short-046" begin="150.730672" end="152.392368"/>
+		<item select="#so-c06-short-047" begin="152.472039" end="154.907676"/>
+		<item select="#so-c06-short-048" begin="154.953202" end="159.887075"/>
+	</par>
+	
+	<par mediaSync="#audio-ti-c06-short" timeAction="class: playing">
+		<!-- Timings for Tigrinian language - short story -->
+		<item select="#ti-c06-short-001" begin="0.581976" end="3.753152"/>
+		<item select="#ti-c06-short-002" begin="3.753152" end="10.379320"/>
+		<item select="#ti-c06-short-003" begin="10.448980" end="12.573605"/>
+		<item select="#ti-c06-short-004" begin="12.666485" end="17.473016"/>
+		<item select="#ti-c06-short-005" begin="17.554286" end="21.164989"/>
+		<item select="#ti-c06-short-006" begin="21.315918" end="25.483900"/>
+		<item select="#ti-c06-short-007" begin="25.565170" end="31.637188"/>
+		<item select="#ti-c06-short-008" begin="31.788118" end="36.199909"/>
+		<item select="#ti-c06-short-009" begin="36.385669" end="40.739410"/>
+		<item select="#ti-c06-short-010" begin="40.855510" end="46.439909"/>
+		<item select="#ti-c06-short-011" begin="46.590839" end="50.247982"/>
+		<item select="#ti-c06-short-012" begin="50.329252" end="53.080816"/>
+		<item select="#ti-c06-short-013" begin="53.138866" end="55.553741"/>
+		<item select="#ti-c06-short-014" begin="55.681451" end="57.968617"/>
+		<item select="#ti-c06-short-015" begin="58.026667" end="60.569252"/>
+		<item select="#ti-c06-short-016" begin="60.743401" end="65.666032"/>
+		<item select="#ti-c06-short-017" begin="65.735692" end="68.475646"/>
+		<item select="#ti-c06-short-018" begin="68.684626" end="73.630476"/>
+		<item select="#ti-c06-short-019" begin="73.781406" end="77.183129"/>
+		<item select="#ti-c06-short-020" begin="77.276009" end="79.760544"/>
+		<item select="#ti-c06-short-021" begin="80.143673" end="84.230385"/>
+		<item select="#ti-c06-short-022" begin="84.334875" end="87.086440"/>
+		<item select="#ti-c06-short-023" begin="87.190930" end="90.093424"/>
+		<item select="#ti-c06-short-024" begin="90.232744" end="93.599637"/>
+		<item select="#ti-c06-short-025" begin="93.657687" end="97.372880"/>
+		<item select="#ti-c06-short-026" begin="97.581859" end="101.633741"/>
+		<item select="#ti-c06-short-027" begin="101.633741" end="103.955737"/>
+		<item select="#ti-c06-short-028" begin="104.025397" end="107.520000"/>
+		<item select="#ti-c06-short-029" begin="107.624490" end="110.434104"/>
+		<item select="#ti-c06-short-030" begin="110.585034" end="112.825760"/>
+		<item select="#ti-c06-short-031" begin="112.825760" end="115.368345"/>
+		<item select="#ti-c06-short-032" begin="115.438005" end="118.003810"/>
+		<item select="#ti-c06-short-033" begin="118.119909" end="120.685714"/>
+		<item select="#ti-c06-short-034" begin="120.766984" end="123.692698"/>
+		<item select="#ti-c06-short-035" begin="123.890068" end="126.606803"/>
+		<item select="#ti-c06-short-036" begin="126.746122" end="129.439637"/>
+		<item select="#ti-c06-short-037" begin="129.509297" end="132.307302"/>
+		<item select="#ti-c06-short-038" begin="132.562721" end="136.916463"/>
+		<item select="#ti-c06-short-039" begin="136.986122" end="140.318186"/>
+		<item select="#ti-c06-short-040" begin="140.411066" end="144.579048"/>
+		<item select="#ti-c06-short-041" begin="144.637098" end="146.401814"/>
+		<item select="#ti-c06-short-042" begin="146.552744" end="148.352290"/>
+		<item select="#ti-c06-short-043" begin="148.503220" end="150.209887"/>
+		<item select="#ti-c06-short-044" begin="150.291156" end="152.288073"/>
+		<item select="#ti-c06-short-045" begin="152.404172" end="155.585306"/>
+		<item select="#ti-c06-short-046" begin="155.747846" end="157.860862"/>
+		<item select="#ti-c06-short-047" begin="157.965351" end="161.100045"/>
+		<item select="#ti-c06-short-048" begin="161.250975" end="166.672834"/>
+	</par>
+	
+	<par mediaSync="#audio-ar-c06-short">
+		<!-- sync other languages text to arabic during playback  -->
+		<item select="#no-c06-short-001, #so-c06-short-001, #ti-c06-short-001" begin="0.812902" end="4.789265"/>
+		<item select="#no-c06-short-002, #so-c06-short-002, #ti-c06-short-002" begin="4.828441" end="10.215140"/>
+		<item select="#no-c06-short-003, #so-c06-short-003, #ti-c06-short-003" begin="10.215140" end="11.772386"/>
+		<item select="#no-c06-short-004, #so-c06-short-004, #ti-c06-short-004" begin="11.889914" end="14.808526"/>
+		<item select="#no-c06-short-005, #so-c06-short-005, #ti-c06-short-005" begin="14.906466" end="16.963205"/>
+		<item select="#no-c06-short-006, #so-c06-short-006, #ti-c06-short-006" begin="16.963205" end="19.176649"/>
+		<item select="#no-c06-short-007, #so-c06-short-007, #ti-c06-short-007" begin="19.274589" end="21.683913"/>
+		<item select="#no-c06-short-008, #so-c06-short-008, #ti-c06-short-008" begin="21.683913" end="26.463384"/>
+		<item select="#no-c06-short-009, #so-c06-short-009, #ti-c06-short-009" begin="26.463384" end="30.165515"/>
+		<item select="#no-c06-short-010, #so-c06-short-010, #ti-c06-short-010" begin="30.283043" end="35.101691"/>
+		<item select="#no-c06-short-011, #so-c06-short-011, #ti-c06-short-011" begin="35.199631" end="38.235770"/>
+		<item select="#no-c06-short-012, #so-c06-short-012, #ti-c06-short-012" begin="38.235770" end="40.429626"/>
+		<item select="#no-c06-short-013, #so-c06-short-013, #ti-c06-short-013" begin="40.429626" end="43.152357"/>
+		<item select="#no-c06-short-014, #so-c06-short-014, #ti-c06-short-014" begin="43.054417" end="44.699809"/>
+		<item select="#no-c06-short-015, #so-c06-short-015, #ti-c06-short-015" begin="44.699809" end="47.579245"/>
+		<item select="#no-c06-short-016, #so-c06-short-016, #ti-c06-short-016" begin="47.579245" end="50.595796"/>
+		<item select="#no-c06-short-017, #so-c06-short-017, #ti-c06-short-017" begin="50.674148" end="53.005120"/>
+		<item select="#no-c06-short-018, #so-c06-short-018, #ti-c06-short-018" begin="53.945344" end="57.823767"/>
+		<item select="#no-c06-short-019, #so-c06-short-019, #ti-c06-short-019" begin="57.941295" end="60.566087"/>
+		<item select="#no-c06-short-020, #so-c06-short-020, #ti-c06-short-020" begin="60.566087" end="62.701178"/>
+		<item select="#no-c06-short-021, #so-c06-short-021, #ti-c06-short-021" begin="62.779530" end="66.285782"/>
+		<item select="#no-c06-short-022, #so-c06-short-022, #ti-c06-short-022" begin="66.383722" end="68.695106"/>
+		<item select="#no-c06-short-023, #so-c06-short-023, #ti-c06-short-023" begin="68.695106" end="71.261133"/>
+		<item select="#no-c06-short-024, #so-c06-short-024, #ti-c06-short-024" begin="71.398249" end="74.453977"/>
+		<item select="#no-c06-short-025, #so-c06-short-025, #ti-c06-short-025" begin="74.669445" end="78.998392"/>
+		<item select="#no-c06-short-026, #so-c06-short-026, #ti-c06-short-026" begin="78.998392" end="82.739699"/>
+		<item select="#no-c06-short-027, #so-c06-short-027, #ti-c06-short-027" begin="82.818051" end="84.502619"/>
+		<item select="#no-c06-short-028, #so-c06-short-028, #ti-c06-short-028" begin="84.992319" end="88.792390"/>
+		<item select="#no-c06-short-029, #so-c06-short-029, #ti-c06-short-029" begin="88.792390" end="90.731602"/>
+		<item select="#no-c06-short-030, #so-c06-short-030, #ti-c06-short-030" begin="90.731602" end="92.709990"/>
+		<item select="#no-c06-short-031, #so-c06-short-031, #ti-c06-short-031" begin="92.709990" end="94.766730"/>
+		<item select="#no-c06-short-032, #so-c06-short-032, #ti-c06-short-032" begin="94.766730" end="96.647177"/>
+		<item select="#no-c06-short-033, #so-c06-short-033, #ti-c06-short-033" begin="96.647177" end="98.272981"/>
+		<item select="#no-c06-short-034, #so-c06-short-034, #ti-c06-short-034" begin="98.272981" end="100.055489"/>
+		<item select="#no-c06-short-035, #so-c06-short-035, #ti-c06-short-035" begin="100.133841" end="102.170992"/>
+		<item select="#no-c06-short-036, #so-c06-short-036, #ti-c06-short-036" begin="102.170992" end="105.207132"/>
+		<item select="#no-c06-short-037, #so-c06-short-037, #ti-c06-short-037" begin="105.207132" end="108.458739"/>
+		<item select="#no-c06-short-038, #so-c06-short-038, #ti-c06-short-038" begin="109.046379" end="112.630983"/>
+		<item select="#no-c06-short-039, #so-c06-short-039, #ti-c06-short-039" begin="112.630983" end="115.902178"/>
+		<item select="#no-c06-short-040, #so-c06-short-040, #ti-c06-short-040" begin="115.980530" end="117.880566"/>
+		<item select="#no-c06-short-041, #so-c06-short-041, #ti-c06-short-041" begin="118.017682" end="119.643486"/>
+		<item select="#no-c06-short-042, #so-c06-short-042, #ti-c06-short-042" begin="119.643486" end="121.445581"/>
+		<item select="#no-c06-short-043, #so-c06-short-043, #ti-c06-short-043" begin="121.445581" end="123.423969"/>
+		<item select="#no-c06-short-044, #so-c06-short-044, #ti-c06-short-044" begin="123.423969" end="126.048761"/>
+		<item select="#no-c06-short-045, #so-c06-short-045, #ti-c06-short-045" begin="125.931233" end="128.986960"/>
+		<item select="#no-c06-short-046, #so-c06-short-046, #ti-c06-short-046" begin="128.986960" end="130.847820"/>
+		<item select="#no-c06-short-047, #so-c06-short-047, #ti-c06-short-047" begin="130.847820" end="133.648904"/>
+		<item select="#no-c06-short-048, #so-c06-short-048, #ti-c06-short-048" begin="133.648904" end="136.998451"/>
+	</par>
+	
+	
+	
+	
+	<par mediaSync="#audio-no-c06-short">
+		<!-- sync other languages text to norwegian during playback  -->
+		<item select="#ar-c06-short-001, #so-c06-short-001, #ti-c06-short-001" begin="0.428537" end="5.168421"/>
+		<item select="#ar-c06-short-002, #so-c06-short-002, #ti-c06-short-002" begin="6.077440" end="11.713356"/>
+		<item select="#ar-c06-short-003, #so-c06-short-003, #ti-c06-short-003" begin="11.791272" end="14.076805"/>
+		<item select="#ar-c06-short-004, #so-c06-short-004, #ti-c06-short-004" begin="14.284581" end="18.764745"/>
+		<item select="#ar-c06-short-005, #so-c06-short-005, #ti-c06-short-005" begin="19.011478" end="22.219016"/>
+		<item select="#ar-c06-short-006, #so-c06-short-006, #ti-c06-short-006" begin="22.374848" end="25.023988"/>
+		<item select="#ar-c06-short-007, #so-c06-short-007, #ti-c06-short-007" begin="25.023988" end="29.140545"/>
+		<item select="#ar-c06-short-008, #so-c06-short-008, #ti-c06-short-008" begin="29.140545" end="32.763634"/>
+		<item select="#ar-c06-short-009, #so-c06-short-009, #ti-c06-short-009" begin="32.763634" end="35.230970"/>
+		<item select="#ar-c06-short-010, #so-c06-short-010, #ti-c06-short-010" begin="35.321872" end="39.905924"/>
+		<item select="#ar-c06-short-011, #so-c06-short-011, #ti-c06-short-011" begin="39.983840" end="44.632822"/>
+		<item select="#ar-c06-short-012, #so-c06-short-012, #ti-c06-short-012" begin="44.775667" end="47.593626"/>
+		<item select="#ar-c06-short-013, #so-c06-short-013, #ti-c06-short-013" begin="47.723485" end="50.606374"/>
+		<item select="#ar-c06-short-014, #so-c06-short-014, #ti-c06-short-014" begin="50.736233" end="52.736075"/>
+		<item select="#ar-c06-short-015, #so-c06-short-015, #ti-c06-short-015" begin="52.839963" end="57.411028"/>
+		<item select="#ar-c06-short-016, #so-c06-short-016, #ti-c06-short-016" begin="57.411028" end="61.410711"/>
+		<item select="#ar-c06-short-017, #so-c06-short-017, #ti-c06-short-017" begin="61.605501" end="63.994921"/>
+		<item select="#ar-c06-short-018, #so-c06-short-018, #ti-c06-short-018" begin="64.072837" end="67.708912"/>
+		<item select="#ar-c06-short-019, #so-c06-short-019, #ti-c06-short-019" begin="67.773842" end="70.461941"/>
+		<item select="#ar-c06-short-020, #so-c06-short-020, #ti-c06-short-020" begin="70.656730" end="73.098095"/>
+		<item select="#ar-c06-short-021, #so-c06-short-021, #ti-c06-short-021" begin="73.266913" end="76.669240"/>
+		<item select="#ar-c06-short-022, #so-c06-short-022, #ti-c06-short-022" begin="76.799100" end="79.019703"/>
+		<item select="#ar-c06-short-023, #so-c06-short-023, #ti-c06-short-023" begin="79.019703" end="83.071330"/>
+		<item select="#ar-c06-short-024, #so-c06-short-024, #ti-c06-short-024" begin="83.214175" end="86.200951"/>
+		<item select="#ar-c06-short-025, #so-c06-short-025, #ti-c06-short-025" begin="86.369769" end="89.655223"/>
+		<item select="#ar-c06-short-026, #so-c06-short-026, #ti-c06-short-026" begin="89.655223" end="94.511980"/>
+		<item select="#ar-c06-short-027, #so-c06-short-027, #ti-c06-short-027" begin="94.641840" end="96.343004"/>
+		<item select="#ar-c06-short-028, #so-c06-short-028, #ti-c06-short-028" begin="96.433906" end="99.109018"/>
+		<item select="#ar-c06-short-029, #so-c06-short-029, #ti-c06-short-029" begin="99.212906" end="101.303649"/>
+		<item select="#ar-c06-short-030, #so-c06-short-030, #ti-c06-short-030" begin="101.407537" end="103.848902"/>
+		<item select="#ar-c06-short-031, #so-c06-short-031, #ti-c06-short-031" begin="103.965775" end="106.095477"/>
+		<item select="#ar-c06-short-032, #so-c06-short-032, #ti-c06-short-032" begin="106.173392" end="108.718645"/>
+		<item select="#ar-c06-short-033, #so-c06-short-033, #ti-c06-short-033" begin="108.822533" end="110.510711"/>
+		<item select="#ar-c06-short-034, #so-c06-short-034, #ti-c06-short-034" begin="110.562655" end="112.367706"/>
+		<item select="#ar-c06-short-035, #so-c06-short-035, #ti-c06-short-035" begin="112.536524" end="114.886987"/>
+		<item select="#ar-c06-short-036, #so-c06-short-036, #ti-c06-short-036" begin="114.938931" end="117.081618"/>
+		<item select="#ar-c06-short-037, #so-c06-short-037, #ti-c06-short-037" begin="117.081618" end="120.886511"/>
+		<item select="#ar-c06-short-038, #so-c06-short-038, #ti-c06-short-038" begin="120.886511" end="125.912086"/>
+		<item select="#ar-c06-short-039, #so-c06-short-039, #ti-c06-short-039" begin="126.171805" end="129.716979"/>
+		<item select="#ar-c06-short-040, #so-c06-short-040, #ti-c06-short-040" begin="129.911768" end="132.703755"/>
+		<item select="#ar-c06-short-041, #so-c06-short-041, #ti-c06-short-041" begin="132.872572" end="135.015259"/>
+		<item select="#ar-c06-short-042, #so-c06-short-042, #ti-c06-short-042" begin="135.132133" end="137.144961"/>
+		<item select="#ar-c06-short-043, #so-c06-short-043, #ti-c06-short-043" begin="137.209890" end="139.040914"/>
+		<item select="#ar-c06-short-044, #so-c06-short-044, #ti-c06-short-044" begin="139.040914" end="141.845886"/>
+		<item select="#ar-c06-short-045, #so-c06-short-045, #ti-c06-short-045" begin="141.910816" end="145.559877"/>
+		<item select="#ar-c06-short-046, #so-c06-short-046, #ti-c06-short-046" begin="145.559877" end="148.377835"/>
+		<item select="#ar-c06-short-047, #so-c06-short-047, #ti-c06-short-047" begin="148.377835" end="152.156756"/>
+		<item select="#ar-c06-short-048, #so-c06-short-048, #ti-c06-short-048" begin="152.221686" end="157.662813"/>
+	</par>
+	
+	<par mediaSync="#audio-so-c06-short">
+		<!-- sync other languages text to arabic during playback  -->
+		<item select="#ar-c06-short-001, #no-c06-short-001, #ti-c06-short-001" begin="0.182104" end="5.275317"/>
+		<item select="#ar-c06-short-002, #no-c06-short-002, #ti-c06-short-002" begin="5.343606" end="11.142472"/>
+		<item select="#ar-c06-short-003, #no-c06-short-003, #ti-c06-short-003" begin="11.193689" end="13.441532"/>
+		<item select="#ar-c06-short-004, #no-c06-short-004, #ti-c06-short-004" begin="13.555346" end="17.573010"/>
+		<item select="#ar-c06-short-005, #no-c06-short-005, #ti-c06-short-005" begin="17.658371" end="20.896403"/>
+		<item select="#ar-c06-short-006, #no-c06-short-006, #ti-c06-short-006" begin="20.981764" end="24.282394"/>
+		<item select="#ar-c06-short-007, #no-c06-short-007, #ti-c06-short-007" begin="24.344992" end="28.584595"/>
+		<item select="#ar-c06-short-008, #no-c06-short-008, #ti-c06-short-008" begin="28.630121" end="31.572234"/>
+		<item select="#ar-c06-short-009, #no-c06-short-009, #ti-c06-short-009" begin="31.612069" end="35.089112"/>
+		<item select="#ar-c06-short-010, #no-c06-short-010, #ti-c06-short-010" begin="35.163092" end="41.553795"/>
+		<item select="#ar-c06-short-011, #no-c06-short-011, #ti-c06-short-011" begin="41.593630" end="45.138962"/>
+		<item select="#ar-c06-short-012, #no-c06-short-012, #ti-c06-short-012" begin="45.190179" end="47.950188"/>
+		<item select="#ar-c06-short-013, #no-c06-short-013, #ti-c06-short-013" begin="47.984333" end="52.571071"/>
+		<item select="#ar-c06-short-014, #no-c06-short-014, #ti-c06-short-014" begin="52.639359" end="55.029471"/>
+		<item select="#ar-c06-short-015, #no-c06-short-015, #ti-c06-short-015" begin="55.097760" end="57.186262"/>
+		<item select="#ar-c06-short-016, #no-c06-short-016, #ti-c06-short-016" begin="57.277314" end="61.721783"/>
+		<item select="#ar-c06-short-017, #no-c06-short-017, #ti-c06-short-017" begin="61.773000" end="65.005341"/>
+		<item select="#ar-c06-short-018, #no-c06-short-018, #ti-c06-short-018" begin="65.073630" end="69.728656"/>
+		<item select="#ar-c06-short-019, #no-c06-short-019, #ti-c06-short-019" begin="69.774182" end="73.626814"/>
+		<item select="#ar-c06-short-020, #no-c06-short-020, #ti-c06-short-020" begin="73.655268" end="76.546165"/>
+		<item select="#ar-c06-short-021, #no-c06-short-021, #ti-c06-short-021" begin="76.580309" end="80.165476"/>
+		<item select="#ar-c06-short-022, #no-c06-short-022, #ti-c06-short-022" begin="80.205312" end="83.562849"/>
+		<item select="#ar-c06-short-023, #no-c06-short-023, #ti-c06-short-023" begin="83.608375" end="85.480629"/>
+		<item select="#ar-c06-short-024, #no-c06-short-024, #ti-c06-short-024" begin="85.594444" end="88.610537"/>
+		<item select="#ar-c06-short-025, #no-c06-short-025, #ti-c06-short-025" begin="88.644681" end="92.434715"/>
+		<item select="#ar-c06-short-026, #no-c06-short-026, #ti-c06-short-026" begin="92.474550" end="97.129577"/>
+		<item select="#ar-c06-short-027, #no-c06-short-027, #ti-c06-short-027" begin="97.180794" end="98.939233"/>
+		<item select="#ar-c06-short-028, #no-c06-short-028, #ti-c06-short-028" begin="99.047357" end="103.076402"/>
+		<item select="#ar-c06-short-029, #no-c06-short-029, #ti-c06-short-029" begin="103.167454" end="106.496538"/>
+		<item select="#ar-c06-short-030, #no-c06-short-030, #ti-c06-short-030" begin="106.530682" end="108.761453"/>
+		<item select="#ar-c06-short-031, #no-c06-short-031, #ti-c06-short-031" begin="108.846814" end="111.100347"/>
+		<item select="#ar-c06-short-032, #no-c06-short-032, #ti-c06-short-032" begin="111.180018" end="114.298544"/>
+		<item select="#ar-c06-short-033, #no-c06-short-033, #ti-c06-short-033" begin="114.326998" end="116.062674"/>
+		<item select="#ar-c06-short-034, #no-c06-short-034, #ti-c06-short-034" begin="116.096819" end="117.929237"/>
+		<item select="#ar-c06-short-035, #no-c06-short-035, #ti-c06-short-035" begin="117.969073" end="120.791680"/>
+		<item select="#ar-c06-short-036, #no-c06-short-036, #ti-c06-short-036" begin="120.922567" end="124.069547"/>
+		<item select="#ar-c06-short-037, #no-c06-short-037, #ti-c06-short-037" begin="124.109383" end="128.536780"/>
+		<item select="#ar-c06-short-038, #no-c06-short-038, #ti-c06-short-038" begin="128.758719" end="132.952795"/>
+		<item select="#ar-c06-short-039, #no-c06-short-039, #ti-c06-short-039" begin="132.981249" end="136.054249"/>
+		<item select="#ar-c06-short-040, #no-c06-short-040, #ti-c06-short-040" begin="136.116847" end="140.094676"/>
+		<item select="#ar-c06-short-041, #no-c06-short-041, #ti-c06-short-041" begin="140.145892" end="141.716537"/>
+		<item select="#ar-c06-short-042, #no-c06-short-042, #ti-c06-short-042" begin="141.955548" end="143.896091"/>
+		<item select="#ar-c06-short-043, #no-c06-short-043, #ti-c06-short-043" begin="143.941617" end="145.637458"/>
+		<item select="#ar-c06-short-044, #no-c06-short-044, #ti-c06-short-044" begin="145.637458" end="148.186910"/>
+		<item select="#ar-c06-short-045, #no-c06-short-045, #ti-c06-short-045" begin="148.232436" end="150.662383"/>
+		<item select="#ar-c06-short-046, #no-c06-short-046, #ti-c06-short-046" begin="150.730672" end="152.392368"/>
+		<item select="#ar-c06-short-047, #no-c06-short-047, #ti-c06-short-047" begin="152.472039" end="154.907676"/>
+		<item select="#ar-c06-short-048, #no-c06-short-048, #ti-c06-short-048" begin="154.953202" end="159.887075"/>
+	</par>
+	
+	
+	
+	<par mediaSync="#audio-ti-c06-short">
+		<!-- sync other languages text to tigrinian during playback  -->
+		<item select="#ar-c06-short-001, #no-c06-short-001, #so-c06-short-001" begin="0.581976" end="3.753152"/>
+		<item select="#ar-c06-short-002, #no-c06-short-002, #so-c06-short-002" begin="3.753152" end="10.379320"/>
+		<item select="#ar-c06-short-003, #no-c06-short-003, #so-c06-short-003" begin="10.448980" end="12.573605"/>
+		<item select="#ar-c06-short-004, #no-c06-short-004, #so-c06-short-004" begin="12.666485" end="17.473016"/>
+		<item select="#ar-c06-short-005, #no-c06-short-005, #so-c06-short-005" begin="17.554286" end="21.164989"/>
+		<item select="#ar-c06-short-006, #no-c06-short-006, #so-c06-short-006" begin="21.315918" end="25.483900"/>
+		<item select="#ar-c06-short-007, #no-c06-short-007, #so-c06-short-007" begin="25.565170" end="31.637188"/>
+		<item select="#ar-c06-short-008, #no-c06-short-008, #so-c06-short-008" begin="31.788118" end="36.199909"/>
+		<item select="#ar-c06-short-009, #no-c06-short-009, #so-c06-short-009" begin="36.385669" end="40.739410"/>
+		<item select="#ar-c06-short-010, #no-c06-short-010, #so-c06-short-010" begin="40.855510" end="46.439909"/>
+		<item select="#ar-c06-short-011, #no-c06-short-011, #so-c06-short-011" begin="46.590839" end="50.247982"/>
+		<item select="#ar-c06-short-012, #no-c06-short-012, #so-c06-short-012" begin="50.329252" end="53.080816"/>
+		<item select="#ar-c06-short-013, #no-c06-short-013, #so-c06-short-013" begin="53.138866" end="55.553741"/>
+		<item select="#ar-c06-short-014, #no-c06-short-014, #so-c06-short-014" begin="55.681451" end="57.968617"/>
+		<item select="#ar-c06-short-015, #no-c06-short-015, #so-c06-short-015" begin="58.026667" end="60.569252"/>
+		<item select="#ar-c06-short-016, #no-c06-short-016, #so-c06-short-016" begin="60.743401" end="65.666032"/>
+		<item select="#ar-c06-short-017, #no-c06-short-017, #so-c06-short-017" begin="65.735692" end="68.475646"/>
+		<item select="#ar-c06-short-018, #no-c06-short-018, #so-c06-short-018" begin="68.684626" end="73.630476"/>
+		<item select="#ar-c06-short-019, #no-c06-short-019, #so-c06-short-019" begin="73.781406" end="77.183129"/>
+		<item select="#ar-c06-short-020, #no-c06-short-020, #so-c06-short-020" begin="77.276009" end="79.760544"/>
+		<item select="#ar-c06-short-021, #no-c06-short-021, #so-c06-short-021" begin="80.143673" end="84.230385"/>
+		<item select="#ar-c06-short-022, #no-c06-short-022, #so-c06-short-022" begin="84.334875" end="87.086440"/>
+		<item select="#ar-c06-short-023, #no-c06-short-023, #so-c06-short-023" begin="87.190930" end="90.093424"/>
+		<item select="#ar-c06-short-024, #no-c06-short-024, #so-c06-short-024" begin="90.232744" end="93.599637"/>
+		<item select="#ar-c06-short-025, #no-c06-short-025, #so-c06-short-025" begin="93.657687" end="97.372880"/>
+		<item select="#ar-c06-short-026, #no-c06-short-026, #so-c06-short-026" begin="97.581859" end="101.633741"/>
+		<item select="#ar-c06-short-027, #no-c06-short-027, #so-c06-short-027" begin="101.633741" end="103.955737"/>
+		<item select="#ar-c06-short-028, #no-c06-short-028, #so-c06-short-028" begin="104.025397" end="107.520000"/>
+		<item select="#ar-c06-short-029, #no-c06-short-029, #so-c06-short-029" begin="107.624490" end="110.434104"/>
+		<item select="#ar-c06-short-030, #no-c06-short-030, #so-c06-short-030" begin="110.585034" end="112.825760"/>
+		<item select="#ar-c06-short-031, #no-c06-short-031, #so-c06-short-031" begin="112.825760" end="115.368345"/>
+		<item select="#ar-c06-short-032, #no-c06-short-032, #so-c06-short-032" begin="115.438005" end="118.003810"/>
+		<item select="#ar-c06-short-033, #no-c06-short-033, #so-c06-short-033" begin="118.119909" end="120.685714"/>
+		<item select="#ar-c06-short-034, #no-c06-short-034, #so-c06-short-034" begin="120.766984" end="123.692698"/>
+		<item select="#ar-c06-short-035, #no-c06-short-035, #so-c06-short-035" begin="123.890068" end="126.606803"/>
+		<item select="#ar-c06-short-036, #no-c06-short-036, #so-c06-short-036" begin="126.746122" end="129.439637"/>
+		<item select="#ar-c06-short-037, #no-c06-short-037, #so-c06-short-037" begin="129.509297" end="132.307302"/>
+		<item select="#ar-c06-short-038, #no-c06-short-038, #so-c06-short-038" begin="132.562721" end="136.916463"/>
+		<item select="#ar-c06-short-039, #no-c06-short-039, #so-c06-short-039" begin="136.986122" end="140.318186"/>
+		<item select="#ar-c06-short-040, #no-c06-short-040, #so-c06-short-040" begin="140.411066" end="144.579048"/>
+		<item select="#ar-c06-short-041, #no-c06-short-041, #so-c06-short-041" begin="144.637098" end="146.401814"/>
+		<item select="#ar-c06-short-042, #no-c06-short-042, #so-c06-short-042" begin="146.552744" end="148.352290"/>
+		<item select="#ar-c06-short-043, #no-c06-short-043, #so-c06-short-043" begin="148.503220" end="150.209887"/>
+		<item select="#ar-c06-short-044, #no-c06-short-044, #so-c06-short-044" begin="150.291156" end="152.288073"/>
+		<item select="#ar-c06-short-045, #no-c06-short-045, #so-c06-short-045" begin="152.404172" end="155.585306"/>
+		<item select="#ar-c06-short-046, #no-c06-short-046, #so-c06-short-046" begin="155.747846" end="157.860862"/>
+		<item select="#ar-c06-short-047, #no-c06-short-047, #so-c06-short-047" begin="157.965351" end="161.100045"/>
+		<item select="#ar-c06-short-048, #no-c06-short-048, #so-c06-short-048" begin="161.250975" end="166.672834"/>
+	</par>
+</timesheet>

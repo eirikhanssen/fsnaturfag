@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locale 
+	lang="ti"
+	langtitle="ትግርኛ"
+	langtitle-trans="Tigrinja"
+	id="ti-c06-short"
+	desc="Tigrinyan translation of chapter 06 – In the earthworm's world, short text">
+	<audio>
+		<source type="audio/ogg" src="audio/ti-c06-short-64k.ogg"/>
+		<source type="audio/mp3" src="audio/ti-c06-short-96k.mp3"/>
+		<overlay type="application/smil+xml" src="audio/ti-c06-short.smil"/>
+	</audio>
+	<text key="c06-short-001" html="p">ሓሰኻ ጽቡቕ ሓመድ የዳሉ።</text>
+	<text key="c06-short-002" html="p">የኒ፣ ሰሚር፣ ሄንን እቲ ድሙን ኣብ ውሽጢ መሬት እዮም ዘለዉ።</text>
+	<text key="c06-short-003" html="p">ንኣሽቱ እዮም።</text>
+	<text key="c06-short-004" html="p">ኣብቲ ሓሰኻታት መሬት ዘዳለውዎ መንገዲ ይኸዱ ኣለዉ።</text>
+	<text key="c06-short-005" html="p">ሓደ ዝበልዕ ዘሎ ነገር ይሰምዑ ኣለዉ።</text>
+	<text key="c06-short-006" html="p">ቡናዊ ሕብሪ ዘለዎም ነገራት ይንቃሳቐሱ ኣለዉ።</text>
+	<text key="c06-short-007" html="p">–እዚ እቲ ሓሰኻ መሬት ድዩ? የኒ ሕሹኽሱኽ ትብል።</text>
+	<text key="c06-short-008" html="p">–እንታይ እዩ ዝገብር ዘሎ! ሰሚር ይሓትት።</text>
+	<text key="c06-short-009" html="p">–ኣብ ርእሰይ ሓሪኡለይ! ይብል ሰሚር</text>
+	<text key="c06-short-010" html="p">–ጽቡቕ እምበር! ይብል ሄን። ሕጂ እቲ ሓመድ ጽቡቕ ክኸውን እዩ! </text>
+	<text key="c06-short-011" html="p">–ኣነ ሓመድ ክኸውን ኣይደልን! ይብል ሰሚር።</text>
+	<text key="c06-short-012" html="p">ነቲ ለሚሽ ጸጉሩ ይነግፍ።</text>
+	<text key="c06-short-013" html="p">ቀስ ኢሎም መገዶም ይቕጽሉ።</text>
+	<text key="c06-short-014" html="p">ገለ ድምጺ ይሰምዑ።</text>
+	<text key="c06-short-015" html="p">–ውሕጥ! ውሕጥ!</text>
+	<text key="c06-short-016" html="p">የኒ ጠጠው ትብል እሞ ጠጠው በሉ! ትብል።</text>
+	<text key="c06-short-017" html="p">ገለ ነገር ይበልዕ ኣሎ።</text>
+	<text key="c06-short-018" html="p">ሓደ እንሰሳ ይርእዩ። ኣራንሾኒ ሕብሪ ዘለዎ።</text>
+	<text key="c06-short-019" html="p">ነዊሕ። ብዙሕ እግሪ ዘለዎ።</text>
+	<text key="c06-short-020" html="p">ክልተ ዓበይቲ ኣጻፍር</text>
+	<text key="c06-short-021" html="p">ኣብቲ ኣጽፋር ሓደ ሓሰኻ መሬት ተታሒዙ ኣሎ።</text>
+	<text key="c06-short-022" html="p">እቲ እንሰሳ ነቲ ሓሰካ ይበልዖ።</text>
+	<text key="c06-short-023" html="p">–ውሕጥ! ውሕጥ!</text>
+	<text key="c06-short-024" html="p">–እግረ-ሚእቲ ይብል ሄን</text>
+	<text key="c06-short-025" html="p">–እግረ-ሚእቲ ሓሰኻ መሬት ይፈቱ እዩ።</text>
+	<text key="c06-short-026" html="p">ንኣሽቱ ኢና! ኢላ የኒ ትሓስብ።</text>
+	<text key="c06-short-027" html="p">ይጎዩ</text>
+	<text key="c06-short-028" html="p">እቲ እግረ-ሚእቲ ደድሕሪኦም መጺኡዎም።</text>
+	<text key="c06-short-029" html="p">የኒ ትጎይን ትጭድርን።</text>
+	<text key="c06-short-030" html="p">ኣነ መግብኻ ኣይኮንኩን</text>
+	<text key="c06-short-031" html="p">ኣነ መግብኻ ኣይኮንኩን¨</text>
+	<text key="c06-short-032" html="p">ሰሚር ይጎይን ይጭድርን</text>
+	<text key="c06-short-033" html="p">ኣነ ሓሰኻ መሬት ኣይኾንኩን</text>
+	<text key="c06-short-034" html="p">ኣነ ሓሰኻ መሬት ኣይኾንኩን</text>
+	<text key="c06-short-035" html="p">እቲ ድሙን ሄንን ይጎዩ።</text>
+	<text key="c06-short-036" html="p">እቲ እግሪሚእቲ ደድሕሪኦም።</text>
+	<text key="c06-short-037" html="p">ኣጽፋሩ ናባታቶም አናቕረበ።</text>
+	<text key="c06-short-038" html="p">የኒ ብርሃን ትርኢ። እቲ መውጽኢ ኣብኡ እዩ።</text>
+	<text key="c06-short-039" html="p">ጢር ኢሎም ወጽዮም። ሓሙሽቲኦም።</text>
+	<text key="c06-short-040" html="p">ኣብ ላዕሊ ኣብቲ ሳዕሪ ምስበጽሑ ሄን ይጭድር:</text>
+	<text key="c06-short-041" html="p">–ዓበይቲ ኩኑ</text>
+	<text key="c06-short-042" html="p">የኒ ትዓቢ</text>
+	<text key="c06-short-043" html="p">ሰሚር ይዓቢ</text>
+	<text key="c06-short-044" html="p">ሄንን እቲ ድሙን ይዓብዩ</text>
+	<text key="c06-short-045" html="p">የኒ ነቲ እግረ-ሚእቲ ትጥምቶ።</text>
+	<text key="c06-short-046" html="p">ንእሽተይ እዩ።</text>
+	<text key="c06-short-047" html="p">ልክዕ ከም ሕንጥል ሕንጥሊቶ ንእሽተይ።</text>
+	<text key="c06-short-048" html="p">የኒ ትስሕቕ: – ንምንታይ እየ ዝፈራሕኩ?</text>
+</locale>

@@ -1,0 +1,26 @@
+- hovedoppslag med kort tekst inkludert i bildet
+- mulighet for å vise to språk samtidig (OK)
+- mulighet for å spille av innlest tekst med synkronisering til tekst (OK)
+
+- menyfunksjoner:
+  - språkvalg (OK) [toppmeny]
+  - kort tekst (lagt til av meg)
+    - bilde + kort tekst
+    - kort tekst delt opp i 'slides', med mulighet til å gå til forrige, neste
+    - automatisk modus
+        - lese hele
+        - bytte 'slides' automatisk
+        - animasjoner i bildet trigges på bestemte tidspunkt (bestemte slides er ferdig)
+    - animasjoner trigges på bestemte slides, eller mellom slides
+  - lang tekst
+    - lyd + tekst ok
+    - trenger bilder
+  - oppgaver
+  - film
+  - pekere til dokumeter til læreren og foreldre
+
+
+Interaktivitet:
+    - klikke på en meitemark og få opp informasjonsoppslaget
+    - ett oppgavesett
+    - en ordliste, hvor en av termene leder til et fullstendig informasjonsoppslag

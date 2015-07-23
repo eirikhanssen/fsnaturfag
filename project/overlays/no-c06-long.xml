@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locale 
+	lang="no"
+	langtitle="Norsk"
+	langtitle-trans=""
+	id="no-c06-long"
+	desc="Norwegian translation of chapter 06 – In the earthworm's world, long text">
+	<audio>
+		<source type="audio/ogg" src="audio/no-c06-long-64k.ogg"/>
+		<source type="audio/mp3" src="audio/no-c06-long-96k.mp3"/>
+		<overlay type="application/smil+xml" src="audio/no-c06-long.smil"/>
+	</audio>
+	<text key="c06-long-001" html="h2">I meitemarkens verden</text>
+	<text key="c06-long-002" html="h3">Kapittel 1. Samir får noe i
+		hodet.</text>
+	<text key="c06-long-003">
+		<p id="no-c06-long-p001"><span id="no-c06-long-s003">Nå skal du få høre noe rart.</span> <span id="no-c06-long-s004">Det er ei fortelling om Jenny og Samir.</span> <span id="no-c06-long-s005">De er mennesker.</span> <span id="no-c06-long-s006">Så er det om Katt og Hen.</span> <span id="no-c06-long-s007">Hvor kommer de fra?</span> <span id="no-c06-long-s008">Det veit vi ikke.</span> <span id="no-c06-long-s009">De kom i et romskip.</span> <span id="no-c06-long-s010">Det er helt rundt som ei kule.</span> <span id="no-c06-long-s011">Det er av glass.</span> <span id="no-c06-long-s012">Romskipet landa i et tre med et kræsj!</span> <span id="no-c06-long-s013">Det var jo merkelig.</span> <span id="no-c06-long-s014">Men det er noe som er enda rarere.</span> <span id="no-c06-long-s015">Det er at Hen, altså Hen som kom med romskipet, Hen kan gjøre andre små.</span> <span id="no-c06-long-s016">Veldig, veldig små.</span> <span id="no-c06-long-s017">Så små at de kan gå inn i huset til meitemark!</span> <span id="no-c06-long-s018">De kan gå inn i gangene og se hvordan det er der!</span> <span id="no-c06-long-s019">De har fått hodelykter av Hen.</span> <span id="no-c06-long-s020">For det er helt mørkt hos meitemarken.</span></p>
+	</text>
+	<text key="c06-long-004">
+		<p id="no-c06-long-p002">Nå skal du få høre hva som skjedde.</p>
+		<p id="no-c06-long-p003">– Vi går ned her! sa Hen. Det var et hull i bakken rett ved en blomst. </p>
+		<p id="no-c06-long-p004">De kom ned i mørket. Det var en slags tunnel, eller en gang. Det var stille. </p>
+		<p id="no-c06-long-p005">– Hysj! Hen stoppa. Jenny og Samir prøvde å høre. Nei. Ingenting. Hysj! sa Hen igjen. Da hørte de noe. Hør! Sånn var det: (skrap i bordet). Noe beveget seg. Noe brunt. Noe langt.</p>
+		<p id="no-c06-long-p006">– Er det meitemarken? spurte Jenny. Hun hviska, sånn: – Er det meitemarken?</p>
+		<p id="no-c06-long-p007">– Ja, sa Hen. Det er meitemarken. Vi ser ikke hodet. Vi ser halen. Den dytter hodet inn i jorda. Den spiser og spiser. Den spiser seg bortover. Det er sånn det blir ganger. Tunneler.
+		</p>
+	</text>
+	<text key="c06-long-005">
+		<p id="no-c06-long-p008">– Hvor blir det av all jorda som den spiser? spurte Jenny.</p>
+		<p id="no-c06-long-p009">– Hva skjer! Ropte Samir. Du kan kanskje gjette? Hvor blir det av alt som marken spiser? Hva tror du Samir fikk i hodet? Du gjetta riktig! Det var bæsj! Ut av halen til marken kom det mange brune klumper som dryssa over dem. </p>
+		<p id="no-c06-long-p010">– Flott! ropte Hen. Her blir det fin jord! Vær så god, rot, bare spis!</p>
+		<p id="no-c06-long-p011">Hen tok tak i ei hvit rot som vokste i gangen der. Hen hilste på rota. Samir hørte at Hen sa noe til rota. Kunne Hen snakke med planter? </p>
+		<p id="no-c06-long-p012">De dytta bæsjen til side og gikk videre i mørket. Stille. De gikk enda lengre. Inn i en ny gang. Lyktene de hadde på hodet, lyste inn. Hva ser de der? Det får du vite i neste kapittel. Det er kapittel 2.</p>
+	</text>
+	<text key="c06-long-006" html="h3">Kapittel 2. Noen lager mark.</text>
+	<text key="c06-long-007">
+		<p>Nå er Jenny og Samir inne i gangene til meitemarken. Det er mørkt. Men de har hodelykter. Hen og Katt kom med et romskip. Hen kan gjøre alle små. Det er derfor de kan gå inn i huset til meitemark. Meitemark bæsjer mye. Samir fikk bæsj i hodet. Nå går de videre.</p>
+	</text>
+	<text key="c06-long-008">
+		<p id="no-c06-long-p013">– Stopp! Hen stoppa. </p>
+		<p id="no-c06-long-p014">Alle stoppa. Samir forsto ikke hva han så. Han så to meitemark som lå helt stille. Helt inntil hverandre. De rørte seg ikke. Var de døde? Drepte de hverandre? Var de limt sammen? Spiste de hverandre? Samir ble redd. Samir likte plutselig ikke å være så liten. Han ville ut! Han ville bli stor igjen! </p>
+		<p id="no-c06-long-p015">Hen så at Samir ikke var glad. Hen tok handa hans og smilte på en snill måte og sa: – Det er ikke farlig. De rører seg ikke. De bryr seg ikke om oss. Vi er ikke mat som de liker. </p>
+	</text>
+	<text key="c06-long-009">
+		<p id="no-c06-long-p016">– Hva gjør de? spurte Samir. </p>
+		<p id="no-c06-long-p017">– De skal lage nye markebabyer, sa Hen. – Begge markene har jente–egg og begge har gutte–frø.</p>
+		<p id="no-c06-long-p018">– Hva! ropte Jenny. – Det er vel ikke riktig. Jenter har jenteegg og gutter har guttefrø. </p>
+		<p id="no-c06-long-p019">– Ja! sa Samir. – Jenter har jenteegg og gutter har guttefrø. </p>
+		<p id="no-c06-long-p020">– Men dere er ikke meitemark! sa Hen. – Meitemark er jente og gutt på en gang. Men de bytter med hverandre likevel. De gir hverandre guttefrø. Det heter også sperm og sædceller.</p>
+	</text>
+	<text key="c06-long-010">
+		<p id="no-c06-long-p021">Samir så på de to markene som lå helt stille. Det så ut som de var limt sammen. </p>
+		<p id="no-c06-long-p022">– Er det det de gjør nå? sa han. </p>
+		<p id="no-c06-long-p023">– Ja, sa Hen, de bytter. Så går de fra hverandre. Etter en stund blir det rosa beltet på marken tykkere. På begge markene. Beltet løsner og likner en pose. Marken skyver seg baklengs ut av beltet. Når beltet er ved åpningen for eggene, kommer eggene ut og legger seg i beltet.
+			Når beltet er ved åpningen for spermen, kommer det sperm i beltet. Spermen setter seg fast på eggene. Marken rygger helt ut av beltet. Beltet lukker seg i hver ende. Det ser ut som en liten ballong. Inni den blir det nye, små mark. </p>
+	</text>
+	<text key="c06-long-011">
+		<p id="no-c06-long-p024">Jenny og Samir sto helt stille. Lyktene lyste på de to markene. De lå ikke stille mer. De gikk sakte fra hverandre. – Hva skjer? hvisket Jenny. Hun ville ikke forstyrre. Hun ville se alt. </p>
+		<p id="no-c06-long-p025">Og hun så det. Meitemarkene trakk seg baklengs forsiktig ut av beltet sitt. Beltet lå nå på bakken. Det så ut som en liten ballong. En pose. Det så ut som om noen hadde lagd en knute i begge ender. </p>
+		<p id="no-c06-long-p026">– Blir det marke–baby nå? spurte Samir.</p>
+		<p id="no-c06-long-p027">– Det blir flere. De skal ligge i posen i flere uker. Da blir de ferdige og kommer ut. Posen har et fint navn.</p>
+		<p id="no-c06-long-p028">– Hva er det?</p>
+		<p id="no-c06-long-p029">– Kokong!</p>
+		<p id="no-c06-long-p030">– Kokong?</p>
+		<p id="no-c06-long-p031">– Kokong! </p>
+		<p id="no-c06-long-p032">– Det rimer på ballong, sa Jenny. </p>
+		<p id="no-c06-long-p033">Kanskje de lager en sang mens de går i gangene til meitemarken. Kanskje ikke. Kanskje de får 	noe annet å tenke på. Kanskje det skjer noe farlig. Det får du vite i kapittel 3.</p>
+	</text>
+	<text key="c06-long-012" html="h3">Kapittel 3. De blir nesten spist.</text>
+	<text key="c06-long-013">
+		<p id="no-c06-long-p034">Jenny og Samir er inne i gangene til meitemarken. Det er mørkt. Men de har hodelykter. Hen og Katt kom med et romskip. Hen kan gjøre alle små. Det er derfor de kan gå inn i huset til meitemark. De har sett hvor mye en meitemark kan bæsje. Særlig så Samir det, han fikk det i hodet. De har sett to mark som paret seg. Markene laget en kokong som det blir markebabyer i. Nå går de fire stille videre. Forsiktig. De vil ikke skremme meitemarken. De vil se hva den gjør. De vil se hvordan den har det der inne. Jenny lurer på noe. Hvorfor raser ikke gangene sammen? Hvorfor er de så åpne og fine? Hun spør Hen om det. Hen veit så mye. </p>
+	</text>
+	<text key="c06-long-014">
+		<p id="no-c06-long-p035">– Hvorfor er gangene så sterke og fine? spør Jenny.</p>
+		<p id="no-c06-long-p036">– Marken lager dem harde og fine. Marken spiser og graver. Samtidig smører den slim på veggene. Da blir gangene harde.</p>
+		<p id="no-c06-long-p037">– Hva er slim? </p>
+		<p id="no-c06-long-p038">– Det likner spytt. De smører veggene med det. Da blir gangene nesten så harde som stein</p>
+		<p id="no-c06-long-p039">– Stein?</p>
+		<p id="no-c06-long-p040">– Ja, like harde. Derfor varer de i veldig mange år. De kan vare i tusen år! </p>
+		<p id="no-c06-long-p041">– I tusen år! Jenny måtte tenke. Kan en mark lage noe som varer i tusen år? En liten bløt mark som ikke har nese, ikke øyne, ikke ører? Som ikke kan snakke? Som ikke har armer og hender? Er det mulig? </p>
+		<p id="no-c06-long-p042">Hun rakk ikke å tenke mer. Hun hørte en lyd. Det var lyden av noen som spiste. – Slafs, slafs, slafs, slafs … Noen var sulten. Noen spiste veldig fort. Noen spiste noe bløtt … slafs, slafs, slafs, slafs … </p>
+	</text>
+	<text key="c06-long-015">
+		<p id="no-c06-long-p043">Hen hvisket: – Stå helt stille. Ikke snakk. </p>
+		<p id="no-c06-long-p044">Hen stirret mot lyden.</p>
+		<p id="no-c06-long-p045">Jenny stirret mot lyden. </p>
+		<p id="no-c06-long-p046">Samir stirret mot lyden. </p>
+		<p id="no-c06-long-p047">Katt stirret mot lyden.</p>
+		<p id="no-c06-long-p048">De så et langt dyr. Det var ikke gult. Det var ikke rødt. Det var oransje. Det var litt flatt. Det hadde veldig mange bein på hver side. Og det hadde klør! To store klør. Var det noe under? Lå dyret oppå en pinne? En brun pinne? </p>
+		<p id="no-c06-long-p049">Samir så hva det var. Det var en meitemark! Og slafs, slafs slafs var dyret som spiste meitemarken! Den holdt marken med klørne og tygde marken! Æsj! Samir glemte å være stille. – Den spiser en meitemark! sa han høyt. </p>
+		<p id="no-c06-long-p050">Jenny ble redd.</p>
+		<p id="no-c06-long-p051">Hun og Samir og Hen og Katt var små! De var mindre enn dyret! De var mat! </p>
+	</text>
+	<text key="c06-long-016">
+		<p id="no-c06-long-p052">Dyret hørte dem. Dyret løftet hodet. Munnen og klørne var rett foran dem. </p>
+		<p id="no-c06-long-p053">Jenny løp. Samir løp. Katt løp. Hen løp. De løp etter hverandre. Hvor var ut? Jenny løp hit, løp dit, løp ned, løp bort, løp opp, – hvor var ut! Dyret løp etter dem! Med klørne foran seg! </p>
+		<p id="no-c06-long-p054">Jenny så lys. Det var hullet! Der var ut! De løp alt de kunne – og var ute på gresset. Det var dyret også. Det kastet seg mot Jenny. – Bli store! ropte Hen fort. Med en gang ble de store igjen. Jenny reddet. Samir ble heller ikke spist.</p>
+		<p id="no-c06-long-p055">Hvor var dyret? Borte? – Her! ropte Samir. I gresset så de et lite, oransje dyr. Det var litt flatt. Det hadde mange bein på hver side. Det var mindre enn en finger. – Lite og søtt dyr, sa Samir. – Jeg er veldig stor, heldigvis. </p>
+	</text>
+	<text key="c06-long-017">
+		<p id="no-c06-long-p056">– Det oransje dyret er en skolopender, sa Hen. – Det er meitemarkens største fiende. Den er smal og lang og kan gå ned i gangene. Den dreper meitemarken med klørne sine og spiser den. </p>
+		<p id="no-c06-long-p057">Jenny var så glad! Hun ble ikke spist av en skolopender! – Jeg skjønner ikke hvorfor jeg ble redd for det lille dyret der! </p>
+		<p id="no-c06-long-p058">Det lille dyret forsvant. – I kveld skal vi være ute i mørket, sa Hen.</p>
+		<p id="no-c06-long-p059">– Hva skal vi gjøre? – Hvor skal vi? Jenny og Samir ville vite det.</p>
+		<p id="no-c06-long-p060">Du skal også få vite det. Men det er i en annen fortelling. Og der er det veldig, veldig mørkt. </p>
+	</text>
+</locale>

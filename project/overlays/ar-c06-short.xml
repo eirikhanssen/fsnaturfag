@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locale 
+	lang="ar"
+	langtitle="العربية"
+	langtitle-trans="Arabisk"
+	id="ar-c06-short"
+	desc="Arabic translation of chapter 06 – In the earthworm's world, short text"
+	dir="rtl">
+	<text key="c06-short-001" html="p">دودة الأرض تنتج تربة جيدة</text>
+	<text key="c06-short-001" html="p">دودة الأرض تنتج تربة جيدة</text>
+	<text key="c06-short-002" html="p">جيني، سمير، هين وكات يوجدون تحت الأرض.</text>
+	<text key="c06-short-003" html="p">هم صغار.</text>
+	<text key="c06-short-004" html="p">يمشون في ممرات دودة الأرض.</text>
+	<text key="c06-short-005" html="p">يسمعون احداً يأكل.</text>
+	<text key="c06-short-006" html="p">شيئ بني يتحرك.</text>
+	<text key="c06-short-007" html="p">هل هي دودة الأرض؟ همست جيني </text>
+	<text key="c06-short-008" html="p">مرحبا، ماذا تفعل هاته؟ قال سمير.</text>
+	<text key="c06-short-009" html="p">تغوطت على رأسي!</text>
+	<text key="c06-short-010" html="p">رائع! قال هين.ـ الآن ستصبح تربة جيدة!</text>
+	<text key="c06-short-011" html="p">لا أريد التحوّل الى تراب! قال سمير.</text>
+	<text key="c06-short-012" html="p">إنه يصقل مخالبه.</text>
+	<text key="c06-short-013" html="p">يواصلون طريقهم بهدوء.</text>
+	<text key="c06-short-014" html="p">يسمعون صوتا.</text>
+	<text key="c06-short-015" html="p">سلافس!سلافس!</text>
+	<text key="c06-short-016" html="p">جيني تتوقف وتقول قفوا!</text>
+	<text key="c06-short-017" html="p">صوت أحد يأكل!</text>
+	<text key="c06-short-018" html="p">يشاهدون حيواناً. لونه برتقالي.</text>
+	<text key="c06-short-019" html="p">طويل. له عدة أرجل.</text>
+	<text key="c06-short-020" html="p">مخلبين كبيرين!</text>
+	<text key="c06-short-021" html="p">المخالب تمسك بثبات دودة الأرض.</text>
+	<text key="c06-short-022" html="p">الحيوان يأكل الدودة.</text>
+	<text key="c06-short-023" html="p">سلافس!سلافس!</text>
+	<text key="c06-short-024" html="p">ام الأربعة والأربعين! قال هين.</text>
+	<text key="c06-short-025" html="p">امالأربعةوالأربعين تحب أكل دودة الأرض!</text>
+	<text key="c06-short-026" html="p">جيني تفكر:ـ نحن صغار!</text>
+	<text key="c06-short-027" html="p">هم يركضون.</text>
+	<text key="c06-short-028" html="p">امالأربعةوالأربعين تركض خلفهم.</text>
+	<text key="c06-short-029" html="p">جيني تركض وتصيح:</text>
+	<text key="c06-short-030" html="p">أنا لست طعامك المفضل!</text>
+	<text key="c06-short-031" html="p">أنالست طعامكالمفضل!</text>
+	<text key="c06-short-032" html="p">سمير يركض ويصيح:</text>
+	<text key="c06-short-033" html="p">أنا لست دودة الأرض!</text>
+	<text key="c06-short-034" html="p">أنا لست دودة الأرض!</text>
+	<text key="c06-short-035" html="p">كات وهين تركضان.</text>
+	<text key="c06-short-036" html="p">أم الأربعة والأربعين تركض خلفهم.</text>
+	<text key="c06-short-037" html="p">و مخالبها خلفهم تماما.</text>
+	<text key="c06-short-038" html="p">جيني ترى ضوءاً. إنها فتحة.</text>
+	<text key="c06-short-039" html="p">اندفعوا إلى الخارج. الخمسة كلهم.</text>
+	<text key="c06-short-040" html="p">فوق العشب صاح هين:</text>
+	<text key="c06-short-041" html="p">تحولوا كبارا!</text>
+	<text key="c06-short-042" html="p">جيني أصبحت كبيرة.</text>
+	<text key="c06-short-043" html="p">سمير أصبح كبيرا.</text>
+	<text key="c06-short-044" html="p">هين وكات أصبحا كبيرين.</text>
+	<text key="c06-short-045" html="p">جيني تنظر إلى ام الأربعة والأربعين.</text>
+	<text key="c06-short-046" html="p">هذه صغيرة.</text>
+	<text key="c06-short-047" html="p">صغيرة مثل الاصبع الصغير.</text>
+	<text key="c06-short-048" html="p">جيني تضحك:ـ لماذا كنت خائفة؟</text>
+</locale>

@@ -1,0 +1,80 @@
+/* smil styles */
+/* target elements based on smil status:
+element[smil=idle]
+element[smil=active]
+element[smil=done]*/
+/* or target elements based on classes added by timesheets */
+
+#story [smil=idle] {}
+
+#story [smil=done] {}
+
+#story [smil=active] {}
+
+#story .playing {
+	border-radius: .25rem;
+	position: relative;
+	z-index: 5;
+	box-sizing: border-box;
+}
+
+#story .playing::after {
+	content: "";
+	position: absolute;
+	left: -.5rem;
+	right: -.5rem;
+	bottom: -.5rem;
+	top: -.5rem;
+	z-index: -1;
+	box-sizing: border-box;
+	border-radius: .25em;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 201);
+}
+
+#story [smil=active] {
+	position: relative;
+	z-index: 1;
+}
+
+#story [smil=active]::before {
+	content: "";
+	position: absolute;
+	left: -.5rem;
+	right: -.5rem;
+	bottom: -.5rem;
+	top: -.5rem;
+	z-index: -2;
+	box-sizing: border-box;
+	border-radius: .25em;
+	background-color: rgb(255, 255, 211);
+	border: 1px dashed gray;
+}
+
+#story .current_para::before {
+	border-radius: .75em;
+	box-sizing: border-box;
+	box-shadow: 0 0 .35em gray;
+	border-radius: .25rem;
+	background-color: rgb(211, 255, 206);
+	margin: -.5em;
+	padding: .5em;
+	border: 1px solid black;
+}
+
+#story .current_sentence {
+	text-decoration: underline;
+}
+
+#story .current_sentence::before {
+	border: none;
+	box-shadow: none;
+	border-radius: none;
+	background-color: transparent;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+}
