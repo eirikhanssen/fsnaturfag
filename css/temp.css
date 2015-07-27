@@ -1,0 +1,33 @@
+#lang_select {
+	margin-bottom: 10em;
+}
+
+#main {
+	position: relative;
+	border: 5px solid red;
+}
+
+.lang_container {
+	position: absolute;
+	z-index: 2;
+	width: 46% !important;
+}
+
+article {
+	max-height: 15em;
+	border: 1px solid black;
+	background: rgba(255, 255, 255, 0.53);
+	overflow-y: scroll;
+	padding: .5em;
+}
+
+#primary_language_container {
+	left: 5%;
+	margin-right: 5%;
+}
+
+#secondary_language_container {
+	float: right;
+	right: 5%;
+	margin-left: 5%;
+}

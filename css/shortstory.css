@@ -1,37 +1,133 @@
 body {
-	/*background: grey;*/
+	margin-top: 0;
 }
 
-#lang_select {
-	margin-bottom: 10em;
+main {
+	position: fixed;
+	z-index: 1;
+	top: 8em;
+	right: 5px;
+	bottom: 2em;
+	left: 5px;
+	box-sizing: border-box;
+	background-color: #fffef0;
+	border: 1px solid black;
 }
 
-#main {
-	position: relative;
-	border: 5px solid red;
+footer {
+	position: fixed;
+	bottom: 0;
+	height: 1.95em;
+	left: 5px;
+	right: 5px;
+	background: #f2f1e1;
+	color: black;
+	border: 1px solid #89613f;
+	box-sizing: border-box;
 }
 
-.lang_container {
+footer ul {
+	float: right;
+	margin: 0;
+	padding: 0 .5em;
+	list-style-type: none;
+}
+
+footer li {
+	float: left;
+	line-height: 2em;
+	margin: 0 .5em;
+}
+
+#story {
 	position: absolute;
 	z-index: 2;
-	width: 46% !important;
+	width: 100%;
+	left: 0;
+	right: 0;
+	box-sizing: border-box;
 }
 
-article {
-	max-height: 15em;
+#story .lang_container {
+	width: 50%;
+	float: left;
+	display: inline-block;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.lang_container article {
+	background: rgba(255, 255, 255, .5);
+	position: relative;
+	box-sizing: border-box;
+	padding: .5em 1em;
+	padding-top: 2em;
+	display: block;
+	line-height: 2em;
+	box-shadow: 0 0 .5em gray;
 	border: 1px solid black;
-	background: rgba(255, 255, 255, 0.53);
-	overflow-y: scroll;
-	padding: .5em;
-}
-
-#primary_language_container {
-	left: 5%;
-	margin-right: 5%;
-}
-
-#secondary_language_container {
+	max-width: 95%;
+	width: 25em;
+	height: 11em;
 	float: right;
-	right: 5%;
-	margin-left: 5%;
+	margin: 0.25em;
+	overflow: hidden;
 }
+
+.lang_container + .lang_container article {
+	float: left;
+}
+
+.lang_container article p {
+	margin: 0;
+}
+/*#story .lang_container + .lang_container {
+	display: none;
+}*/
+/*
+.dual #story .lang_container + .lang_container {
+	display: inline-block;
+}*/
+
+.lang_container audio {
+	position: absolute;
+	top: 0;
+	bottom: auto;
+	width: 100%;
+	padding: 0;
+	margin: 0 !important;
+}
+/*
+.dual #primary_language_container audio {
+	margin: auto;
+}*/
+
+#caves {
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: auto;
+	margin: 0;
+	margin-top: auto;
+	border: none;
+}
+/*#svg_wrap {
+			width: 100%;
+			display: block;
+			background: white;
+		}*/
+
+header {
+	font-size: .75em;
+}
+
+header h1 {
+	margin: 0 auto;
+}
+
+#lang_select {}

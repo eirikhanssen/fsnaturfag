@@ -1,0 +1,28 @@
+
+		nav#menu {
+			position: absolute;
+			right: 0;
+			z-index: 5;
+		}
+		
+		nav ul {
+			margin: 0;
+			padding: 0;
+			background: lightgray;
+			box-sizing: border-box;
+			border: 1px solid lightgray;
+		}
+		
+		nav li {
+			list-style-type: none;
+			background: #ebebeb;
+			box-sizing: border-box;
+		}
+		
+		nav li+li {
+			margin-top: 1px;
+		}
+		
+		nav li:hover {
+			background-color: #f2f2f2;
+		}
