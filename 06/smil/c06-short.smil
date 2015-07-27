@@ -51,6 +51,41 @@
 		<item select="#ar-c06-short-047" begin="130.847820" end="133.648904"/>
 		<item select="#ar-c06-short-048" begin="133.648904" end="136.998451"/>
 	</par>
+	
+	<par mediaSync="#audio-ar-c06-short" timeAction="class: showslide" controls="#ar-controls">
+		<item select="#slide-ar01" begin="0.812902" end="14.808526"/>
+		<item select="#slide-ar02" begin="14.906466" end="21.683913"/>
+		<item select="#slide-ar03" begin="21.683913" end="38.235770"/>
+		<item select="#slide-ar04" begin="38.235770" end="47.579245"/>
+		<item select="#slide-ar05" begin="47.579245" end="60.566087"/>
+		<item select="#slide-ar06" begin="60.566087" end="68.695106"/>
+		<item select="#slide-ar07" begin="68.695106" end="82.739699"/>
+		<item select="#slide-ar08" begin="82.818051" end="88.792390"/>
+		<item select="#slide-ar09" begin="88.792390" end="94.766730"/>
+		<item select="#slide-ar10" begin="94.766730" end="100.055489"/>
+		<item select="#slide-ar11" begin="100.133841" end="108.458739"/>
+		<item select="#slide-ar12" begin="109.046379" end="117.880566"/>
+		<item select="#slide-ar13" begin="118.017682" end="126.048761"/>
+		<item select="#slide-ar14" begin="125.931233" end="136.998451"/>
+	</par>
+	
+	<par mediaSync="#audio-ar-c06-short" timeAction="class: slidesync" controls="#ar-controls">
+		<item select="#slide-no01, #slide-so01, #slide-ti01" begin="0.812902" end="14.808526"/>
+		<item select="#slide-no02, #slide-so02, #slide-ti02" begin="14.906466" end="21.683913"/>
+		<item select="#slide-no03, #slide-so03, #slide-ti03" begin="21.683913" end="38.235770"/>
+		<item select="#slide-no04, #slide-so04, #slide-ti04" begin="38.235770" end="47.579245"/>
+		<item select="#slide-no05, #slide-so05, #slide-ti05" begin="47.579245" end="60.566087"/>
+		<item select="#slide-no06, #slide-so06, #slide-ti06" begin="60.566087" end="68.695106"/>
+		<item select="#slide-no07, #slide-so07, #slide-ti07" begin="68.695106" end="82.739699"/>
+		<item select="#slide-no08, #slide-so08, #slide-ti08" begin="82.818051" end="88.792390"/>
+		<item select="#slide-no09, #slide-so09, #slide-ti09" begin="88.792390" end="94.766730"/>
+		<item select="#slide-no10, #slide-so10, #slide-ti10" begin="94.766730" end="100.055489"/>
+		<item select="#slide-no11, #slide-so11, #slide-ti11" begin="100.133841" end="108.458739"/>
+		<item select="#slide-no12, #slide-so12, #slide-ti12" begin="109.046379" end="117.880566"/>
+		<item select="#slide-no13, #slide-so13, #slide-ti13" begin="118.017682" end="126.048761"/>
+		<item select="#slide-no14, #slide-so14, #slide-ti14" begin="125.931233" end="136.998451"/>
+	</par>
+	
 
 	<par mediaSync="#audio-no-c06-short" timeAction="class: playing">
 		<!-- Timings for Norwegian language - short story -->
@@ -102,6 +137,40 @@
 		<item select="#no-c06-short-046" begin="145.559877" end="148.377835"/>
 		<item select="#no-c06-short-047" begin="148.377835" end="152.156756"/>
 		<item select="#no-c06-short-048" begin="152.221686" end="157.662813"/>
+	</par>
+	
+	<par mediaSync="#audio-no-c06-short" timeAction="class: showslide" controls="#no-controls">
+		<item select="#slide-no01" begin="0.428537" end="18.764745"/>
+		<item select="#slide-no02" begin="19.011478" end="29.140545"/>
+		<item select="#slide-no03" begin="29.140545" end="44.632822"/>
+		<item select="#slide-no04" begin="44.775667" end="57.411028"/>
+		<item select="#slide-no05" begin="57.411028" end="70.461941"/>
+		<item select="#slide-no06" begin="70.656730" end="79.019703"/>
+		<item select="#slide-no07" begin="79.019703" end="94.511980"/>
+		<item select="#slide-no08" begin="94.641840" end="99.109018"/>
+		<item select="#slide-no09" begin="99.212906" end="106.095477"/>
+		<item select="#slide-no10" begin="106.173392" end="112.367706"/>
+		<item select="#slide-no11" begin="112.536524" end="120.886511"/>
+		<item select="#slide-no12" begin="120.886511" end="132.703755"/>
+		<item select="#slide-no13" begin="132.872572" end="141.845886"/>
+		<item select="#slide-no14" begin="141.910816" end="157.662813"/>
+	</par>
+	
+	<par mediaSync="#audio-no-c06-short" timeAction="class: slidesync" controls="#no-controls">
+		<item select="#slide-ar01, #slide-so01, #slide-ti01" begin="0.428537" end="18.764745"/>
+		<item select="#slide-ar02, #slide-so02, #slide-ti02" begin="19.011478" end="29.140545"/>
+		<item select="#slide-ar03, #slide-so03, #slide-ti03" begin="29.140545" end="44.632822"/>
+		<item select="#slide-ar04, #slide-so04, #slide-ti04" begin="44.775667" end="57.411028"/>
+		<item select="#slide-ar05, #slide-so05, #slide-ti05" begin="57.411028" end="70.461941"/>
+		<item select="#slide-ar06, #slide-so06, #slide-ti06" begin="70.656730" end="79.019703"/>
+		<item select="#slide-ar07, #slide-so07, #slide-ti07" begin="79.019703" end="94.511980"/>
+		<item select="#slide-ar08, #slide-so08, #slide-ti08" begin="94.641840" end="99.109018"/>
+		<item select="#slide-ar09, #slide-so09, #slide-ti09" begin="99.212906" end="106.095477"/>
+		<item select="#slide-ar10, #slide-so10, #slide-ti10" begin="106.173392" end="112.367706"/>
+		<item select="#slide-ar11, #slide-so11, #slide-ti11" begin="112.536524" end="120.886511"/>
+		<item select="#slide-ar12, #slide-so12, #slide-ti12" begin="120.886511" end="132.703755"/>
+		<item select="#slide-ar13, #slide-so13, #slide-ti13" begin="132.872572" end="141.845886"/>
+		<item select="#slide-ar14, #slide-so14, #slide-ti14" begin="141.910816" end="157.662813"/>
 	</par>
 
 	<par mediaSync="#audio-so-c06-short" timeAction="class: playing">
@@ -156,6 +225,40 @@
 		<item select="#so-c06-short-048" begin="154.953202" end="159.887075"/>
 	</par>
 	
+	<par mediaSync="#audio-so-c06-short" timeAction="class: showslide" controls="#so-controls">
+		<item select="#slide-so01" begin="0.182104" end="17.573010"/>
+		<item select="#slide-so02" begin="17.658371" end="28.584595"/>
+		<item select="#slide-so03" begin="28.630121" end="45.138962"/>
+		<item select="#slide-so04" begin="45.190179" end="57.186262"/>
+		<item select="#slide-so05" begin="57.277314" end="73.626814"/>
+		<item select="#slide-so06" begin="73.655268" end="83.562849"/>
+		<item select="#slide-so07" begin="83.608375" end="97.129577"/>
+		<item select="#slide-so08" begin="97.180794" end="103.076402"/>
+		<item select="#slide-so09" begin="103.167454" end="111.100347"/>
+		<item select="#slide-so10" begin="111.180018" end="117.929237"/>
+		<item select="#slide-so11" begin="117.969073" end="128.536780"/>
+		<item select="#slide-so12" begin="128.758719" end="140.094676"/>
+		<item select="#slide-so13" begin="140.145892" end="148.186910"/>
+		<item select="#slide-so14" begin="148.232436" end="159.887075"/>
+	</par>
+	
+	<par mediaSync="#audio-so-c06-short" timeAction="class: slidesync" controls="#so-controls">
+		<item select="#slide-ar01, #slide-no01, #slide-ti01" begin="0.182104" end="17.573010"/>
+		<item select="#slide-ar02, #slide-no02, #slide-ti02" begin="17.658371" end="28.584595"/>
+		<item select="#slide-ar03, #slide-no03, #slide-ti03" begin="28.630121" end="45.138962"/>
+		<item select="#slide-ar04, #slide-no04, #slide-ti04" begin="45.190179" end="57.186262"/>
+		<item select="#slide-ar05, #slide-no05, #slide-ti05" begin="57.277314" end="73.626814"/>
+		<item select="#slide-ar06, #slide-no06, #slide-ti06" begin="73.655268" end="83.562849"/>
+		<item select="#slide-ar07, #slide-no07, #slide-ti07" begin="83.608375" end="97.129577"/>
+		<item select="#slide-ar08, #slide-no08, #slide-ti08" begin="97.180794" end="103.076402"/>
+		<item select="#slide-ar09, #slide-no09, #slide-ti09" begin="103.167454" end="111.100347"/>
+		<item select="#slide-ar10, #slide-no10, #slide-ti10" begin="111.180018" end="117.929237"/>
+		<item select="#slide-ar11, #slide-no11, #slide-ti11" begin="117.969073" end="128.536780"/>
+		<item select="#slide-ar12, #slide-no12, #slide-ti12" begin="128.758719" end="140.094676"/>
+		<item select="#slide-ar13, #slide-no13, #slide-ti13" begin="140.145892" end="148.186910"/>
+		<item select="#slide-ar14, #slide-no14, #slide-ti14" begin="148.232436" end="159.887075"/>
+	</par>
+	
 	<par mediaSync="#audio-ti-c06-short" timeAction="class: playing">
 		<!-- Timings for Tigrinian language - short story -->
 		<item select="#ti-c06-short-001" begin="0.581976" end="3.753152"/>
@@ -206,6 +309,40 @@
 		<item select="#ti-c06-short-046" begin="155.747846" end="157.860862"/>
 		<item select="#ti-c06-short-047" begin="157.965351" end="161.100045"/>
 		<item select="#ti-c06-short-048" begin="161.250975" end="166.672834"/>
+	</par>
+	
+	<par mediaSync="#audio-ti-c06-short" timeAction="class: showslide" controls="#ti-controls">
+		<item select="#slide-ti01" begin="0.581976" end="17.473016"/>
+		<item select="#slide-ti02" begin="17.554286" end="31.637188"/>
+		<item select="#slide-ti03" begin="31.788118" end="50.247982"/>
+		<item select="#slide-ti04" begin="50.329252" end="60.569252"/>
+		<item select="#slide-ti05" begin="60.743401" end="77.183129"/>
+		<item select="#slide-ti06" begin="77.276009" end="87.086440"/>
+		<item select="#slide-ti07" begin="87.190930" end="101.633741"/>
+		<item select="#slide-ti08" begin="101.633741" end="107.520000"/>
+		<item select="#slide-ti09" begin="107.624490" end="115.368345"/>
+		<item select="#slide-ti10" begin="115.438005" end="123.692698"/>
+		<item select="#slide-ti11" begin="123.890068" end="132.307302"/>
+		<item select="#slide-ti12" begin="132.562721" end="144.579048"/>
+		<item select="#slide-ti13" begin="144.637098" end="152.288073"/>
+		<item select="#slide-ti14" begin="152.404172" end="166.672834"/>
+	</par>
+	
+	<par mediaSync="#audio-ti-c06-short" timeAction="class: slidesync" controls="#ti-controls">
+		<item select="#slide-ar01, #slide-no01, #slide-so01" begin="0.581976" end="17.473016"/>
+		<item select="#slide-ar02, #slide-no02, #slide-so02" begin="17.554286" end="31.637188"/>
+		<item select="#slide-ar03, #slide-no03, #slide-so03" begin="31.788118" end="50.247982"/>
+		<item select="#slide-ar04, #slide-no04, #slide-so04" begin="50.329252" end="60.569252"/>
+		<item select="#slide-ar05, #slide-no05, #slide-so05" begin="60.743401" end="77.183129"/>
+		<item select="#slide-ar06, #slide-no06, #slide-so06" begin="77.276009" end="87.086440"/>
+		<item select="#slide-ar07, #slide-no07, #slide-so07" begin="87.190930" end="101.633741"/>
+		<item select="#slide-ar08, #slide-no08, #slide-so08" begin="101.633741" end="107.520000"/>
+		<item select="#slide-ar09, #slide-no09, #slide-so09" begin="107.624490" end="115.368345"/>
+		<item select="#slide-ar10, #slide-no10, #slide-so10" begin="115.438005" end="123.692698"/>
+		<item select="#slide-ar11, #slide-no11, #slide-so11" begin="123.890068" end="132.307302"/>
+		<item select="#slide-ar12, #slide-no12, #slide-so12" begin="132.562721" end="144.579048"/>
+		<item select="#slide-ar13, #slide-no13, #slide-so13" begin="144.637098" end="152.288073"/>
+		<item select="#slide-ar14, #slide-no14, #slide-so14" begin="152.404172" end="166.672834"/>
 	</par>
 	
 	<par mediaSync="#audio-ar-c06-short">

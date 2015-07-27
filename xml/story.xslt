@@ -7,10 +7,28 @@
 	xmlns:prop="http://saxonica.com/ns/html-property"
 	xmlns:style="http://saxonica.com/ns/html-style-property"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ixsl="http://saxonica.com/ns/interactiveXSLT"
-	xmlns:js="http://saxonica.com/ns/globalJS" exclude-result-prefixes="xs prop style js"
+	xmlns:hfw="http://www.hfw.no/ns"
+	xmlns:js="http://saxonica.com/ns/globalJS" exclude-result-prefixes="xs prop style js hfw"
 	extension-element-prefixes="ixsl" version="2.0">
 	
 	<xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
+	
+	<xsl:function name="hfw:padNumber" as="xs:string">
+		<xsl:param name="num" as="xs:integer"/>
+		<xsl:choose>
+			<xsl:when test="$num &lt; 10">
+				<xsl:value-of select="concat('0', xs:string($num))"/>
+			</xsl:when>
+			<xsl:otherwise>
+				<xsl:value-of select="xs:string($num)"/>
+			</xsl:otherwise>
+		</xsl:choose>
+	</xsl:function>
+	
+	
+	<xsl:template match="/">
+		<xsl:apply-templates/>
+	</xsl:template>
 	
 	<xsl:variable name="languages">
 			<language name="ar">
@@ -60,8 +78,7 @@
 			<xsl:if test="./@dir">
 				<xsl:attribute name="dir" select="./@dir"/>
 			</xsl:if>
-			<xsl:apply-templates select="./audio"/>
-			<xsl:apply-templates select="./text"/>
+			<xsl:apply-templates/>
 		</article>
 	</xsl:template>
 	
@@ -71,7 +88,7 @@
 			then @html 
 			else 'div'"/>
 		<xsl:element name="{$elementName}">
-			<xsl:attribute name="id" select="concat(../@lang , '-' , @key)"/>
+			<xsl:attribute name="id" select="concat(ancestor::locale/@lang , '-' , @key)"/>
 			<xsl:apply-templates/>
 		</xsl:element>
 	</xsl:template>
@@ -81,6 +98,14 @@
 			<xsl:copy-of select="@*"/>
 			<xsl:apply-templates/>
 		</xsl:element>
+	</xsl:template>
+	
+	<xsl:template match="slide">
+		<xsl:variable name="num" select="hfw:padNumber((count(preceding::slide)+1))" as="xs:string"/>
+		<div>
+			<xsl:attribute name="id" select="concat(ancestor::locale/@lang , '-slide' , $num)"/>
+			<xsl:apply-templates/>
+		</div>
 	</xsl:template>
 	
 	<xsl:template match="audio">

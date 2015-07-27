@@ -1,61 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<locale 
-	lang="no"
-	langtitle="Norsk"
-	langtitle-trans=""
-	id="no-c06-short"
+<locale lang="no" langtitle="Norsk" langtitle-trans="" id="no-c06-short"
 	desc="Norwegian translation of chapter 06 – In the earthworm's world, short text">
 	<audio>
 		<source type="audio/ogg" src="audio/no-c06-short-64k.ogg"/>
 		<source type="audio/mp3" src="audio/no-c06-short-96k.mp3"/>
 		<overlay type="application/smil+xml" src="audio/no-c06-short.smil"/>
 	</audio>
-	<text key="c06-short-001" html="p">Meitemark lager god jord </text>
-	<text key="c06-short-002" html="p">Jenny, Samir, Hen og Katt er nede i jorda. </text>
-	<text key="c06-short-003" html="p">De er små. </text>
-	<text key="c06-short-004" html="p">De går i gangene til meitemarken. </text>
-	<text key="c06-short-005" html="p">De hører noen som spiser. </text>
-	<text key="c06-short-006" html="p">Noe brunt rører på seg. </text>
-	<text key="c06-short-007" html="p">– Er det meitemarken, hvisker Jenny</text>
-	<text key="c06-short-008" html="p">– Hei, hva gjør den! sier Samir.</text>
-	<text key="c06-short-009" html="p">– Den bæsja i hodet på meg!</text>
-	<text key="c06-short-010" html="p">– Flott! sier Hen. – Nå blir det fin jord! </text>
-	<text key="c06-short-011" html="p">– Jeg vil ikke bli jord! sier Samir.</text>
-	<text key="c06-short-012" html="p">Han børster krøllene sine.</text>
-	<text key="c06-short-013" html="p">De går stille videre. </text>
-	<text key="c06-short-014" html="p">De hører en lyd.</text>
-	<text key="c06-short-015" html="p">– Slafs! Slafs!</text>
-	<text key="c06-short-016" html="p">Jenny stopper og sier STOPP!</text>
-	<text key="c06-short-017" html="p">NOEN SPISER!</text>
-	<text key="c06-short-018" html="p">De ser et dyr. Oransje farge.</text>
-	<text key="c06-short-019" html="p">Langt. Mange bein.</text>
-	<text key="c06-short-020" html="p">To store klør!</text>
-	<text key="c06-short-021" html="p">Klørne holder fast en meitemark.</text>
-	<text key="c06-short-022" html="p">Dyret spiser marken.</text>
-	<text key="c06-short-023" html="p">– Slafs! Slafs!</text>
-	<text key="c06-short-024" html="p">– Skolopender! sier Hen.</text>
-	<text key="c06-short-025" html="p">– Skolopender elsker meitemark! </text>
-	<text key="c06-short-026" html="p">Jenny tenker: – Vi er små! </text>
-	<text key="c06-short-027" html="p">De løper.</text>
-	<text key="c06-short-028" html="p">Skolopenderen kommer etter dem.</text>
-	<text key="c06-short-029" html="p">Jenny løper og roper: </text>
-	<text key="c06-short-030" html="p">– Jeg er ikke maten din!</text>
-	<text key="c06-short-031" html="p">-Jeg er ikke maten din! </text>
-	<text key="c06-short-032" html="p">Samir løper og roper:</text>
-	<text key="c06-short-033" html="p">– Jeg er ikke meitemark!</text>
-	<text key="c06-short-034" html="p">– Jeg er ikke meitemark!</text>
-	<text key="c06-short-035" html="p">Katt og Hen løper.</text>
-	<text key="c06-short-036" html="p">Skolopenderen etter.</text>
-	<text key="c06-short-037" html="p">Med klørne rett bak dem. </text>
-	<text key="c06-short-038" html="p">Jenny ser lyset. Det er åpningen.</text>
-	<text key="c06-short-039" html="p">De smetter ut. Alle fem. </text>
-	<text key="c06-short-040" html="p">Oppe i gresset roper Hen:</text>
-	<text key="c06-short-041" html="p">– Bli store!</text>
-	<text key="c06-short-042" html="p">Jenny ble stor.</text>
-	<text key="c06-short-043" html="p">Samir ble stor.</text>
-	<text key="c06-short-044" html="p">Hen og Katt ble store.</text>
-	<text key="c06-short-045" html="p">Jenny ser på skolopenderen.</text>
-	<text key="c06-short-046" html="p">Den er liten.</text>
-	<text key="c06-short-047" html="p">Liten som en lillefinger. </text>
-	<text key="c06-short-048" html="p">Jenny ler: – Hvorfor var jeg redd?</text>
+	<slide>
+		<text key="c06-short-001" html="p">Meitemark lager god jord </text>
+		<text key="c06-short-002" html="p">Jenny, Samir, Hen og Katt er nede i jorda. </text>
+		<text key="c06-short-003" html="p">De er små. </text>
+		<text key="c06-short-004" html="p">De går i gangene til meitemarken. </text>
+	</slide>
+	<slide>
+		<text key="c06-short-005" html="p">De hører noen som spiser. </text>
+		<text key="c06-short-006" html="p">Noe brunt rører på seg. </text>
+		<text key="c06-short-007" html="p">– Er det meitemarken, hvisker Jenny</text>
+	</slide>
+	<slide>
+		<text key="c06-short-008" html="p">– Hei, hva gjør den! sier Samir.</text>
+		<text key="c06-short-009" html="p">– Den bæsja i hodet på meg!</text>
+		<text key="c06-short-010" html="p">– Flott! sier Hen. – Nå blir det fin jord! </text>
+		<text key="c06-short-011" html="p">– Jeg vil ikke bli jord! sier Samir.</text>
+	</slide>
+	<slide>
+		<text key="c06-short-012" html="p">Han børster krøllene sine.</text>
+		<text key="c06-short-013" html="p">De går stille videre. </text>
+		<text key="c06-short-014" html="p">De hører en lyd.</text>
+		<text key="c06-short-015" html="p">– Slafs! Slafs!</text>
+	</slide>
+	<slide>
+		<text key="c06-short-016" html="p">Jenny stopper og sier STOPP!</text>
+		<text key="c06-short-017" html="p">NOEN SPISER!</text>
+		<text key="c06-short-018" html="p">De ser et dyr. Oransje farge.</text>
+		<text key="c06-short-019" html="p">Langt. Mange bein.</text>
+	</slide>
+	<slide>
+		<text key="c06-short-020" html="p">To store klør!</text>
+		<text key="c06-short-021" html="p">Klørne holder fast en meitemark.</text>
+		<text key="c06-short-022" html="p">Dyret spiser marken.</text>
+	</slide>
+	<slide>
+		<text key="c06-short-023" html="p">– Slafs! Slafs!</text>
+		<text key="c06-short-024" html="p">– Skolopender! sier Hen.</text>
+		<text key="c06-short-025" html="p">– Skolopender elsker meitemark! </text>
+		<text key="c06-short-026" html="p">Jenny tenker: – Vi er små! </text>
+	</slide>
+	<slide>
+		<text key="c06-short-027" html="p">De løper.</text>
+		<text key="c06-short-028" html="p">Skolopenderen kommer etter dem.</text>
+	</slide>
+	<slide>
+		<text key="c06-short-029" html="p">Jenny løper og roper: </text>
+		<text key="c06-short-030" html="p">– Jeg er ikke maten din!</text>
+		<text key="c06-short-031" html="p">– Jeg er ikke maten din! </text>
+	</slide>
+	<slide>
+		<text key="c06-short-032" html="p">Samir løper og roper:</text>
+		<text key="c06-short-033" html="p">– Jeg er ikke meitemark!</text>
+		<text key="c06-short-034" html="p">– Jeg er ikke meitemark!</text>
+	</slide>
+	<slide>
+		<text key="c06-short-035" html="p">Katt og Hen løper.</text>
+		<text key="c06-short-036" html="p">Skolopenderen etter.</text>
+		<text key="c06-short-037" html="p">Med klørne rett bak dem. </text>
+	</slide>
+	<slide>
+		<text key="c06-short-038" html="p">Jenny ser lyset. Det er åpningen.</text>
+		<text key="c06-short-039" html="p">De smetter ut. Alle fem. </text>
+		<text key="c06-short-040" html="p">Oppe i gresset roper Hen:</text>
+	</slide>
+	<slide>
+		<text key="c06-short-041" html="p">– Bli store!</text>
+		<text key="c06-short-042" html="p">Jenny ble stor.</text>
+		<text key="c06-short-043" html="p">Samir ble stor.</text>
+		<text key="c06-short-044" html="p">Hen og Katt ble store.</text>
+	</slide>
+	<slide>
+		<text key="c06-short-045" html="p">Jenny ser på skolopenderen.</text>
+		<text key="c06-short-046" html="p">Den er liten.</text>
+		<text key="c06-short-047" html="p">Liten som en lillefinger. </text>
+		<text key="c06-short-048" html="p">Jenny ler: – Hvorfor var jeg redd?</text>
+	</slide>
 </locale>

@@ -15,6 +15,25 @@
 	<script src="../js/classmod.js"></script>
 	<script src="../js/switchLanguages.js"></script>
 	<style>
+		article div[id^='slide-'] {
+			display: none;
+		}
+		
+		article div[id^='slide-']::before {
+			display: none;
+		}
+		
+		article div[id^='slide-'].showslide {
+			display: inline-block;
+			border: none;
+			background-color: transparent;
+		}
+		
+		article div[id^='slide-'].slidesync {
+			display: inline-block;
+			border: none;
+			background-color: transparent;
+		}
 	</style>
 </head>
 
@@ -86,54 +105,82 @@
 								<a href="audio/no-c06-short-96k.mp3">no-c06-short-96k.mp3</a> (mp3 format)</li>
 						</ul>
 					</audio>
-					<p id="no-c06-short-001">Meitemark lager god jord </p>
-					<p id="no-c06-short-002">Jenny, Samir, Hen og Katt er nede i jorda. </p>
-					<p id="no-c06-short-003">De er små. </p>
-					<p id="no-c06-short-004">De går i gangene til meitemarken. </p>
-					<p id="no-c06-short-005">De hører noen som spiser. </p>
-					<p id="no-c06-short-006">Noe brunt rører på seg. </p>
-					<p id="no-c06-short-007">– Er det meitemarken, hvisker Jenny</p>
-					<p id="no-c06-short-008">– Hei, hva gjør den! sier Samir.</p>
-					<p id="no-c06-short-009">– Den bæsja i hodet på meg!</p>
-					<p id="no-c06-short-010">– Flott! sier Hen. – Nå blir det fin jord! </p>
-					<p id="no-c06-short-011">– Jeg vil ikke bli jord! sier Samir.</p>
-					<p id="no-c06-short-012">Han børster krøllene sine.</p>
-					<p id="no-c06-short-013">De går stille videre. </p>
-					<p id="no-c06-short-014">De hører en lyd.</p>
-					<p id="no-c06-short-015">– Slafs! Slafs!</p>
-					<p id="no-c06-short-016">Jenny stopper og sier STOPP!</p>
-					<p id="no-c06-short-017">NOEN SPISER!</p>
-					<p id="no-c06-short-018">De ser et dyr. Oransje farge.</p>
-					<p id="no-c06-short-019">Langt. Mange bein.</p>
-					<p id="no-c06-short-020">To store klør!</p>
-					<p id="no-c06-short-021">Klørne holder fast en meitemark.</p>
-					<p id="no-c06-short-022">Dyret spiser marken.</p>
-					<p id="no-c06-short-023">– Slafs! Slafs!</p>
-					<p id="no-c06-short-024">– Skolopender! sier Hen.</p>
-					<p id="no-c06-short-025">– Skolopender elsker meitemark! </p>
-					<p id="no-c06-short-026">Jenny tenker: – Vi er små! </p>
-					<p id="no-c06-short-027">De løper.</p>
-					<p id="no-c06-short-028">Skolopenderen kommer etter dem.</p>
-					<p id="no-c06-short-029">Jenny løper og roper: </p>
-					<p id="no-c06-short-030">– Jeg er ikke maten din!</p>
-					<p id="no-c06-short-031">-Jeg er ikke maten din! </p>
-					<p id="no-c06-short-032">Samir løper og roper:</p>
-					<p id="no-c06-short-033">– Jeg er ikke meitemark!</p>
-					<p id="no-c06-short-034">– Jeg er ikke meitemark!</p>
-					<p id="no-c06-short-035">Katt og Hen løper.</p>
-					<p id="no-c06-short-036">Skolopenderen etter.</p>
-					<p id="no-c06-short-037">Med klørne rett bak dem. </p>
-					<p id="no-c06-short-038">Jenny ser lyset. Det er åpningen.</p>
-					<p id="no-c06-short-039">De smetter ut. Alle fem. </p>
-					<p id="no-c06-short-040">Oppe i gresset roper Hen:</p>
-					<p id="no-c06-short-041">– Bli store!</p>
-					<p id="no-c06-short-042">Jenny ble stor.</p>
-					<p id="no-c06-short-043">Samir ble stor.</p>
-					<p id="no-c06-short-044">Hen og Katt ble store.</p>
-					<p id="no-c06-short-045">Jenny ser på skolopenderen.</p>
-					<p id="no-c06-short-046">Den er liten.</p>
-					<p id="no-c06-short-047">Liten som en lillefinger. </p>
-					<p id="no-c06-short-048">Jenny ler: – Hvorfor var jeg redd?</p>
+					<div id="slide-no01">
+						<p id="no-c06-short-001">Meitemark lager god jord </p>
+						<p id="no-c06-short-002">Jenny, Samir, Hen og Katt er nede i jorda. </p>
+						<p id="no-c06-short-003">De er små. </p>
+						<p id="no-c06-short-004">De går i gangene til meitemarken. </p>
+					</div>
+					<div id="slide-no02">
+						<p id="no-c06-short-005">De hører noen som spiser. </p>
+						<p id="no-c06-short-006">Noe brunt rører på seg. </p>
+						<p id="no-c06-short-007">– Er det meitemarken, hvisker Jenny</p>
+					</div>
+					<div id="slide-no03">
+						<p id="no-c06-short-008">– Hei, hva gjør den! sier Samir.</p>
+						<p id="no-c06-short-009">– Den bæsja i hodet på meg!</p>
+						<p id="no-c06-short-010">– Flott! sier Hen. – Nå blir det fin jord! </p>
+						<p id="no-c06-short-011">– Jeg vil ikke bli jord! sier Samir.</p>
+					</div>
+					<div id="slide-no04">
+						<p id="no-c06-short-012">Han børster krøllene sine.</p>
+						<p id="no-c06-short-013">De går stille videre. </p>
+						<p id="no-c06-short-014">De hører en lyd.</p>
+						<p id="no-c06-short-015">– Slafs! Slafs!</p>
+					</div>
+					<div id="slide-no05">
+						<p id="no-c06-short-016">Jenny stopper og sier STOPP!</p>
+						<p id="no-c06-short-017">NOEN SPISER!</p>
+						<p id="no-c06-short-018">De ser et dyr. Oransje farge.</p>
+						<p id="no-c06-short-019">Langt. Mange bein.</p>
+					</div>
+					<div id="slide-no06">
+						<p id="no-c06-short-020">To store klør!</p>
+						<p id="no-c06-short-021">Klørne holder fast en meitemark.</p>
+						<p id="no-c06-short-022">Dyret spiser marken.</p>
+					</div>
+					<div id="slide-no07">
+						<p id="no-c06-short-023">– Slafs! Slafs!</p>
+						<p id="no-c06-short-024">– Skolopender! sier Hen.</p>
+						<p id="no-c06-short-025">– Skolopender elsker meitemark! </p>
+						<p id="no-c06-short-026">Jenny tenker: – Vi er små! </p>
+					</div>
+					<div id="slide-no08">
+						<p id="no-c06-short-027">De løper.</p>
+						<p id="no-c06-short-028">Skolopenderen kommer etter dem.</p>
+					</div>
+					<div id="slide-no09">
+						<p id="no-c06-short-029">Jenny løper og roper: </p>
+						<p id="no-c06-short-030">– Jeg er ikke maten din!</p>
+						<p id="no-c06-short-031">- Jeg er ikke maten din! </p>
+					</div>
+					<div id="slide-no10">
+						<p id="no-c06-short-032">Samir løper og roper:</p>
+						<p id="no-c06-short-033">– Jeg er ikke meitemark!</p>
+						<p id="no-c06-short-034">– Jeg er ikke meitemark!</p>
+					</div>
+					<div id="slide-no11">
+						<p id="no-c06-short-035">Katt og Hen løper.</p>
+						<p id="no-c06-short-036">Skolopenderen etter.</p>
+						<p id="no-c06-short-037">Med klørne rett bak dem. </p>
+					</div>
+					<div id="slide-no12">
+						<p id="no-c06-short-038">Jenny ser lyset. Det er åpningen.</p>
+						<p id="no-c06-short-039">De smetter ut. Alle fem. </p>
+						<p id="no-c06-short-040">Oppe i gresset roper Hen:</p>
+					</div>
+					<div id="slide-no13">
+						<p id="no-c06-short-041">– Bli store!</p>
+						<p id="no-c06-short-042">Jenny ble stor.</p>
+						<p id="no-c06-short-043">Samir ble stor.</p>
+						<p id="no-c06-short-044">Hen og Katt ble store.</p>
+					</div>
+					<div id="slide-no14">
+						<p id="no-c06-short-045">Jenny ser på skolopenderen.</p>
+						<p id="no-c06-short-046">Den er liten.</p>
+						<p id="no-c06-short-047">Liten som en lillefinger. </p>
+						<p id="no-c06-short-048">Jenny ler: – Hvorfor var jeg redd?</p>
+					</div>
 				</article>
 			</div>
 			<div class="lang_container" id="secondary_language_container"></div>
@@ -141,7 +188,7 @@
 				<!-- languages that are not in current use are placed in this node, and are programatically moved to and from primary or secondary language container. -->
 
 				<article id="language-contents-ar" lang="ar" dir="rtl">
-					<audio controls="controls" preload="metadata" id="audio-ar-c06-short" tabindex="0">
+					<audio controls="controls" preload="metadata" id="audio-ar-c06-short">
 						<source src="audio/ar-c06-short-64k.ogg" type="audio/ogg" />
 						<source src="audio/ar-c06-short-96k.mp3" type="audio/mp3" />Nettleseren din støtter ikke audio-elementet. Last ned lydfilen:
 						<ul>
@@ -151,57 +198,85 @@
 								<a href="audio/ar-c06-short-96k.mp3">ar-c06-short-96k.mp3</a> (mp3 format)</li>
 						</ul>
 					</audio>
-					<p id="ar-c06-short-001">دودة الأرض تنتج تربة جيدة</p>
-					<p id="ar-c06-short-002">جيني، سمير، هين وكات يوجدون تحت الأرض.</p>
-					<p id="ar-c06-short-003">هم صغار.</p>
-					<p id="ar-c06-short-004">يمشون في ممرات دودة الأرض.</p>
-					<p id="ar-c06-short-005">يسمعون احداً يأكل.</p>
-					<p id="ar-c06-short-006">شيئ بني يتحرك.</p>
-					<p id="ar-c06-short-007">هل هي دودة الأرض؟ همست جيني </p>
-					<p id="ar-c06-short-008">مرحبا، ماذا تفعل هاته؟ قال سمير.</p>
-					<p id="ar-c06-short-009">تغوطت على رأسي!</p>
-					<p id="ar-c06-short-010">رائع! قال هين.ـ الآن ستصبح تربة جيدة!</p>
-					<p id="ar-c06-short-011">لا أريد التحوّل الى تراب! قال سمير.</p>
-					<p id="ar-c06-short-012">إنه يصقل مخالبه.</p>
-					<p id="ar-c06-short-013">يواصلون طريقهم بهدوء.</p>
-					<p id="ar-c06-short-014">يسمعون صوتا.</p>
-					<p id="ar-c06-short-015">سلافس!سلافس!</p>
-					<p id="ar-c06-short-016">جيني تتوقف وتقول قفوا!</p>
-					<p id="ar-c06-short-017">صوت أحد يأكل!</p>
-					<p id="ar-c06-short-018">يشاهدون حيواناً. لونه برتقالي.</p>
-					<p id="ar-c06-short-019">طويل. له عدة أرجل.</p>
-					<p id="ar-c06-short-020">مخلبين كبيرين!</p>
-					<p id="ar-c06-short-021">المخالب تمسك بثبات دودة الأرض.</p>
-					<p id="ar-c06-short-022">الحيوان يأكل الدودة.</p>
-					<p id="ar-c06-short-023">سلافس!سلافس!</p>
-					<p id="ar-c06-short-024">ام الأربعة والأربعين! قال هين.</p>
-					<p id="ar-c06-short-025">امالأربعةوالأربعين تحب أكل دودة الأرض!</p>
-					<p id="ar-c06-short-026">جيني تفكر:ـ نحن صغار!</p>
-					<p id="ar-c06-short-027">هم يركضون.</p>
-					<p id="ar-c06-short-028">امالأربعةوالأربعين تركض خلفهم.</p>
-					<p id="ar-c06-short-029">جيني تركض وتصيح:</p>
-					<p id="ar-c06-short-030">أنا لست طعامك المفضل!</p>
-					<p id="ar-c06-short-031">أنالست طعامكالمفضل!</p>
-					<p id="ar-c06-short-032">سمير يركض ويصيح:</p>
-					<p id="ar-c06-short-033">أنا لست دودة الأرض!</p>
-					<p id="ar-c06-short-034">أنا لست دودة الأرض!</p>
-					<p id="ar-c06-short-035">كات وهين تركضان.</p>
-					<p id="ar-c06-short-036">أم الأربعة والأربعين تركض خلفهم.</p>
-					<p id="ar-c06-short-037">و مخالبها خلفهم تماما.</p>
-					<p id="ar-c06-short-038">جيني ترى ضوءاً. إنها فتحة.</p>
-					<p id="ar-c06-short-039">اندفعوا إلى الخارج. الخمسة كلهم.</p>
-					<p id="ar-c06-short-040">فوق العشب صاح هين:</p>
-					<p id="ar-c06-short-041">تحولوا كبارا!</p>
-					<p id="ar-c06-short-042">جيني أصبحت كبيرة.</p>
-					<p id="ar-c06-short-043">سمير أصبح كبيرا.</p>
-					<p id="ar-c06-short-044">هين وكات أصبحا كبيرين.</p>
-					<p id="ar-c06-short-045">جيني تنظر إلى ام الأربعة والأربعين.</p>
-					<p id="ar-c06-short-046">هذه صغيرة.</p>
-					<p id="ar-c06-short-047">صغيرة مثل الاصبع الصغير.</p>
-					<p id="ar-c06-short-048">جيني تضحك:ـ لماذا كنت خائفة؟</p>
+					<div id="slide-ar01">
+						<p id="ar-c06-short-001">دودة الأرض تنتج تربة جيدة</p>
+						<p id="ar-c06-short-002">جيني، سمير، هين وكات يوجدون تحت الأرض.</p>
+						<p id="ar-c06-short-003">هم صغار.</p>
+						<p id="ar-c06-short-004">يمشون في ممرات دودة الأرض.</p>
+					</div>
+					<div id="slide-ar02">
+						<p id="ar-c06-short-005">يسمعون احداً يأكل.</p>
+						<p id="ar-c06-short-006">شيئ بني يتحرك.</p>
+						<p id="ar-c06-short-007">هل هي دودة الأرض؟ همست جيني </p>
+					</div>
+					<div id="slide-ar03">
+						<p id="ar-c06-short-008">مرحبا، ماذا تفعل هاته؟ قال سمير.</p>
+						<p id="ar-c06-short-009">تغوطت على رأسي!</p>
+						<p id="ar-c06-short-010">رائع! قال هين.ـ الآن ستصبح تربة جيدة!</p>
+						<p id="ar-c06-short-011">لا أريد التحوّل الى تراب! قال سمير.</p>
+					</div>
+					<div id="slide-ar04">
+						<p id="ar-c06-short-012">إنه يصقل مخالبه.</p>
+						<p id="ar-c06-short-013">يواصلون طريقهم بهدوء.</p>
+						<p id="ar-c06-short-014">يسمعون صوتا.</p>
+						<p id="ar-c06-short-015">سلافس!سلافس!</p>
+					</div>
+					<div id="slide-ar05">
+						<p id="ar-c06-short-016">جيني تتوقف وتقول قفوا!</p>
+						<p id="ar-c06-short-017">صوت أحد يأكل!</p>
+						<p id="ar-c06-short-018">يشاهدون حيواناً. لونه برتقالي.</p>
+						<p id="ar-c06-short-019">طويل. له عدة أرجل.</p>
+					</div>
+					<div id="slide-ar06">
+						<p id="ar-c06-short-020">مخلبين كبيرين!</p>
+						<p id="ar-c06-short-021">المخالب تمسك بثبات دودة الأرض.</p>
+						<p id="ar-c06-short-022">الحيوان يأكل الدودة.</p>
+					</div>
+					<div id="slide-ar07">
+						<p id="ar-c06-short-023">سلافس!سلافس!</p>
+						<p id="ar-c06-short-024">ام الأربعة والأربعين! قال هين.</p>
+						<p id="ar-c06-short-025">امالأربعةوالأربعين تحب أكل دودة الأرض!</p>
+						<p id="ar-c06-short-026">جيني تفكر:ـ نحن صغار!</p>
+					</div>
+					<div id="slide-ar08">
+						<p id="ar-c06-short-027">هم يركضون.</p>
+						<p id="ar-c06-short-028">امالأربعةوالأربعين تركض خلفهم.</p>
+					</div>
+					<div id="slide-ar09">
+						<p id="ar-c06-short-029">جيني تركض وتصيح:</p>
+						<p id="ar-c06-short-030">أنا لست طعامك المفضل!</p>
+						<p id="ar-c06-short-031">أنالست طعامكالمفضل!</p>
+					</div>
+					<div id="slide-ar10">
+						<p id="ar-c06-short-032">سمير يركض ويصيح:</p>
+						<p id="ar-c06-short-033">أنا لست دودة الأرض!</p>
+						<p id="ar-c06-short-034">أنا لست دودة الأرض!</p>
+					</div>
+					<div id="slide-ar11">
+						<p id="ar-c06-short-035">كات وهين تركضان.</p>
+						<p id="ar-c06-short-036">أم الأربعة والأربعين تركض خلفهم.</p>
+						<p id="ar-c06-short-037">و مخالبها خلفهم تماما.</p>
+					</div>
+					<div id="slide-ar12">
+						<p id="ar-c06-short-038">جيني ترى ضوءاً. إنها فتحة.</p>
+						<p id="ar-c06-short-039">اندفعوا إلى الخارج. الخمسة كلهم.</p>
+						<p id="ar-c06-short-040">فوق العشب صاح هين:</p>
+					</div>
+					<div id="slide-ar13">
+						<p id="ar-c06-short-041">تحولوا كبارا!</p>
+						<p id="ar-c06-short-042">جيني أصبحت كبيرة.</p>
+						<p id="ar-c06-short-043">سمير أصبح كبيرا.</p>
+						<p id="ar-c06-short-044">هين وكات أصبحا كبيرين.</p>
+					</div>
+					<div id="slide-ar14">
+						<p id="ar-c06-short-045">جيني تنظر إلى ام الأربعة والأربعين.</p>
+						<p id="ar-c06-short-046">هذه صغيرة.</p>
+						<p id="ar-c06-short-047">صغيرة مثل الاصبع الصغير.</p>
+						<p id="ar-c06-short-048">جيني تضحك:ـ لماذا كنت خائفة؟</p>
+					</div>
 				</article>
 				<article id="language-contents-so" lang="so">
-					<audio controls="controls" preload="metadata" id="audio-so-c06-short" tabindex="0">
+					<audio controls="controls" preload="metadata" id="audio-so-c06-short">
 						<source src="audio/so-c06-short-64k.ogg" type="audio/ogg" />
 						<source src="audio/so-c06-short-96k.mp3" type="audio/mp3" />Nettleseren din støtter ikke audio-elementet. Last ned lydfilen:
 						<ul>
@@ -211,57 +286,88 @@
 								<a href="audio/so-c06-short-96k.mp3">so-c06-short-96k.mp3</a> (mp3 format)</li>
 						</ul>
 					</audio>
-					<p id="so-c06-short-001">Gooryaan dhuleedku wuxuu sameeyaa ciid wanaagsan.</p>
-					<p id="so-c06-short-002">Jenny, Samir, Hen iyo Katt dhulka hoose ayey ku jiraan.</p>
-					<p id="so-c06-short-003">Way yaryihiin.</p>
-					<p id="so-c06-short-004">Waxay socdaan luuqluuqyada gooryaan dhuleedka.</p>
-					<p id="so-c06-short-005">Waxay maqleen qaar wax cunaya.</p>
-					<p id="so-c06-short-006">Wax bunni ah ayaa dhaqdhaqaaqay.</p>
-					<p id="so-c06-short-007">– Ma gooryaan dhuleed baa, Jenny ayaa hoos u tiri.</p>
-					<p id="so-c06-short-008">– Muxuu samaynayaa! Samir baa yiri.</p>
-					<p id="so-c06-short-009">– Madaxa ayuu igaga soo xaaray!</p>
-					<p id="so-c06-short-010">– Fiican Hen baa yiri. – ciid fiican baay noqonqysaa!</p>
-					<p id="so-c06-short-011">– Anigu ciid noqon maayo! Samir baa yiri.</p>
-					<p id="so-c06-short-012">Wuxuu shanleeyay timahiisii.</p>
-					<p id="so-c06-short-013">Si shanqadh laáana ayey hore ugu socdeen.</p>
-					<p id="so-c06-short-014">Waxa ay maqleen cod.</p>
-					<p id="so-c06-short-015">– Qam…Qam!(wax la raamsanayo)</p>
-					<p id="so-c06-short-016">Jenny way istaagtay oo waxay tiri istaaga!</p>
-					<p id="so-c06-short-017">CId baa wax cunaysa!</p>
-					<p id="so-c06-short-018">Waxay arkeen xayawaan. Midab liinood.</p>
-					<p id="so-c06-short-019">Wuu dheer yahay.Cago badabna wu leeyahay.</p>
-					<p id="so-c06-short-020">Laba cidiyood oo waaweyn.</p>
-					<p id="so-c06-short-021">Cidiyiha ayuu ku hayaa gooryaanka.</p>
-					<p id="so-c06-short-022">Xayawaankii wuxuu cunay gooryaankii.</p>
-					<p id="so-c06-short-023">– Qam…Qam!</p>
-					<p id="so-c06-short-024">– Waa Geesoole! Hen baa yidhi.</p>
-					<p id="so-c06-short-025">– Geesooluhu wuu jecelyahay gooryaan dhuleedka!</p>
-					<p id="so-c06-short-026">Jenny way fikiraysaa: – Waynu yaryar nahay!</p>
-					<p id="so-c06-short-027">Way ordeen.</p>
-					<p id="so-c06-short-028">Geesoolihii wuu daba orday.</p>
-					<p id="so-c06-short-029">Jenny way oroday wayna qaylisay.</p>
-					<p id="so-c06-short-030">– Anigu cuntadaadii ma ihi!</p>
-					<p id="so-c06-short-031">Anigu cuntadaadii ma ihi!</p>
-					<p id="so-c06-short-032">Samir wuu orday waanu qayliyey.</p>
-					<p id="so-c06-short-033">– Anigu ma ihi gooryaan.</p>
-					<p id="so-c06-short-034">– Anigu ma ihi gooryaan.</p>
-					<p id="so-c06-short-035">Katt iyo Hen way ordeen.</p>
-					<p id="so-c06-short-036">Geesooliina wuu daba orday.</p>
-					<p id="so-c06-short-037">Cidiyihiisina in yar bay u soo jiraan.</p>
-					<p id="so-c06-short-038">Jenny waxay aragtay iftiin. Waa daloolkii.</p>
-					<p id="so-c06-short-039">Dibadda ayey usoo boodeen. Shantuba.</p>
-					<p id="so-c06-short-040">Dooga dhushiisa istaaga, ayuu yiri Hen.</p>
-					<p id="so-c06-short-041">Waynaada!</p>
-					<p id="so-c06-short-042">Jenny way weynaatay.</p>
-					<p id="so-c06-short-043">Samir wuu waynaaday.</p>
-					<p id="so-c06-short-044">Hen iyo Katt way weynaadeen.</p>
-					<p id="so-c06-short-045">Jenny waxay eegtay geesoolihii.</p>
-					<p id="so-c06-short-046">Waa waxyar.</p>
-					<p id="so-c06-short-047">Wuxuu leeg yahay far yarada.</p>
-					<p id="so-c06-short-048">Jenny way qososhay: ma waxan yar baan ka cabsanayey.</p>
+					<div id="slide-so01">
+						<p id="so-c06-short-001">Gooryaan dhuleedku wuxuu sameeyaa ciid wanaagsan.</p>
+						<p id="so-c06-short-002">Jenny, Samir, Hen iyo Katt dhulka hoose ayey ku jiraan.
+						</p>
+						<p id="so-c06-short-003">Way yaryihiin.</p>
+						<p id="so-c06-short-004">Waxay socdaan luuqluuqyada gooryaan dhuleedka.</p>
+					</div>
+					<div id="slide-so02">
+						<p id="so-c06-short-005">Waxay maqleen qaar wax cunaya.</p>
+						<p id="so-c06-short-006">Wax bunni ah ayaa dhaqdhaqaaqay.</p>
+						<p id="so-c06-short-007">– Ma gooryaan dhuleed baa, Jenny ayaa hoos u tiri.</p>
+					</div>
+					<div id="slide-so03">
+						<p id="so-c06-short-008">– Muxuu samaynayaa! Samir baa yiri.</p>
+						<p id="so-c06-short-009">– Madaxa ayuu igaga soo xaaray!</p>
+						<p id="so-c06-short-010">– Fiican Hen baa yiri. – ciid fiican baay noqonqysaa!
+						</p>
+						<p id="so-c06-short-011">– Anigu ciid noqon maayo! Samir baa yiri.</p>
+					</div>
+					<div id="slide-so04">
+						<p id="so-c06-short-012">Wuxuu shanleeyay timahiisii.</p>
+						<p id="so-c06-short-013">Si shanqadh laáana ayey hore ugu socdeen.</p>
+						<p id="so-c06-short-014">Waxa ay maqleen cod.</p>
+						<p id="so-c06-short-015">– Qam…Qam!(wax la raamsanayo)</p>
+					</div>
+					<div id="slide-so05">
+						<p id="so-c06-short-016">Jenny way istaagtay oo waxay tiri istaaga!</p>
+						<p id="so-c06-short-017">CId baa wax cunaysa!</p>
+						<p id="so-c06-short-018">Waxay arkeen xayawaan. Midab liinood.</p>
+						<p id="so-c06-short-019">Wuu dheer yahay.Cago badabna wu leeyahay.</p>
+					</div>
+					<div id="slide-so06">
+						<p id="so-c06-short-020">Laba cidiyood oo waaweyn.</p>
+						<p id="so-c06-short-021">Cidiyiha ayuu ku hayaa gooryaanka.</p>
+						<p id="so-c06-short-022">Xayawaankii wuxuu cunay gooryaankii.</p>
+					</div>
+					<div id="slide-so07">
+						<p id="so-c06-short-023">– Qam…Qam!</p>
+						<p id="so-c06-short-024">– Waa Geesoole! Hen baa yidhi.</p>
+						<p id="so-c06-short-025">– Geesooluhu wuu jecelyahay gooryaan dhuleedka!</p>
+						<p id="so-c06-short-026">Jenny way fikiraysaa: – Waynu yaryar nahay!</p>
+					</div>
+					<div id="slide-so08">
+						<p id="so-c06-short-027">Way ordeen.</p>
+						<p id="so-c06-short-028">Geesoolihii wuu daba orday.</p>
+					</div>
+					<div id="slide-so09">
+						<p id="so-c06-short-029">Jenny way oroday wayna qaylisay.</p>
+						<p id="so-c06-short-030">– Anigu cuntadaadii ma ihi!</p>
+						<p id="so-c06-short-031">Anigu cuntadaadii ma ihi!</p>
+					</div>
+					<div id="slide-so10">
+						<p id="so-c06-short-032">Samir wuu orday waanu qayliyey.</p>
+						<p id="so-c06-short-033">– Anigu ma ihi gooryaan.</p>
+						<p id="so-c06-short-034">– Anigu ma ihi gooryaan.</p>
+					</div>
+					<div id="slide-so11">
+						<p id="so-c06-short-035">Katt iyo Hen way ordeen.</p>
+						<p id="so-c06-short-036">Geesooliina wuu daba orday.</p>
+						<p id="so-c06-short-037">Cidiyihiisina in yar bay u soo jiraan.</p>
+					</div>
+					<div id="slide-so12">
+						<p id="so-c06-short-038">Jenny waxay aragtay iftiin. Waa daloolkii.</p>
+						<p id="so-c06-short-039">Dibadda ayey usoo boodeen. Shantuba.</p>
+						<p id="so-c06-short-040">Dooga dhushiisa istaaga, ayuu yiri Hen.</p>
+					</div>
+					<div id="slide-so13">
+						<p id="so-c06-short-041">Waynaada!</p>
+						<p id="so-c06-short-042">Jenny way weynaatay.</p>
+						<p id="so-c06-short-043">Samir wuu waynaaday.</p>
+						<p id="so-c06-short-044">Hen iyo Katt way weynaadeen.</p>
+					</div>
+					<div id="slide-so14">
+						<p id="so-c06-short-045">Jenny waxay eegtay geesoolihii.</p>
+						<p id="so-c06-short-046">Waa waxyar.</p>
+						<p id="so-c06-short-047">Wuxuu leeg yahay far yarada.</p>
+						<p id="so-c06-short-048">Jenny way qososhay: ma waxan yar baan ka cabsanayey.
+						</p>
+					</div>
 				</article>
 				<article id="language-contents-ti" lang="ti">
-					<audio controls="controls" preload="metadata" id="audio-ti-c06-short" tabindex="0">
+					<audio controls="controls" preload="metadata" id="audio-ti-c06-short">
 						<source src="audio/ti-c06-short-64k.ogg" type="audio/ogg" />
 						<source src="audio/ti-c06-short-96k.mp3" type="audio/mp3" />Nettleseren din støtter ikke audio-elementet. Last ned lydfilen:
 						<ul>
@@ -271,54 +377,82 @@
 								<a href="audio/ti-c06-short-96k.mp3">ti-c06-short-96k.mp3</a> (mp3 format)</li>
 						</ul>
 					</audio>
-					<p id="ti-c06-short-001">ሓሰኻ ጽቡቕ ሓመድ የዳሉ።</p>
-					<p id="ti-c06-short-002">የኒ፣ ሰሚር፣ ሄንን እቲ ድሙን ኣብ ውሽጢ መሬት እዮም ዘለዉ።</p>
-					<p id="ti-c06-short-003">ንኣሽቱ እዮም።</p>
-					<p id="ti-c06-short-004">ኣብቲ ሓሰኻታት መሬት ዘዳለውዎ መንገዲ ይኸዱ ኣለዉ።</p>
-					<p id="ti-c06-short-005">ሓደ ዝበልዕ ዘሎ ነገር ይሰምዑ ኣለዉ።</p>
-					<p id="ti-c06-short-006">ቡናዊ ሕብሪ ዘለዎም ነገራት ይንቃሳቐሱ ኣለዉ።</p>
-					<p id="ti-c06-short-007">–እዚ እቲ ሓሰኻ መሬት ድዩ? የኒ ሕሹኽሱኽ ትብል።</p>
-					<p id="ti-c06-short-008">–እንታይ እዩ ዝገብር ዘሎ! ሰሚር ይሓትት።</p>
-					<p id="ti-c06-short-009">–ኣብ ርእሰይ ሓሪኡለይ! ይብል ሰሚር</p>
-					<p id="ti-c06-short-010">–ጽቡቕ እምበር! ይብል ሄን። ሕጂ እቲ ሓመድ ጽቡቕ ክኸውን እዩ! </p>
-					<p id="ti-c06-short-011">–ኣነ ሓመድ ክኸውን ኣይደልን! ይብል ሰሚር።</p>
-					<p id="ti-c06-short-012">ነቲ ለሚሽ ጸጉሩ ይነግፍ።</p>
-					<p id="ti-c06-short-013">ቀስ ኢሎም መገዶም ይቕጽሉ።</p>
-					<p id="ti-c06-short-014">ገለ ድምጺ ይሰምዑ።</p>
-					<p id="ti-c06-short-015">–ውሕጥ! ውሕጥ!</p>
-					<p id="ti-c06-short-016">የኒ ጠጠው ትብል እሞ ጠጠው በሉ! ትብል።</p>
-					<p id="ti-c06-short-017">ገለ ነገር ይበልዕ ኣሎ።</p>
-					<p id="ti-c06-short-018">ሓደ እንሰሳ ይርእዩ። ኣራንሾኒ ሕብሪ ዘለዎ።</p>
-					<p id="ti-c06-short-019">ነዊሕ። ብዙሕ እግሪ ዘለዎ።</p>
-					<p id="ti-c06-short-020">ክልተ ዓበይቲ ኣጻፍር</p>
-					<p id="ti-c06-short-021">ኣብቲ ኣጽፋር ሓደ ሓሰኻ መሬት ተታሒዙ ኣሎ።</p>
-					<p id="ti-c06-short-022">እቲ እንሰሳ ነቲ ሓሰካ ይበልዖ።</p>
-					<p id="ti-c06-short-023">–ውሕጥ! ውሕጥ!</p>
-					<p id="ti-c06-short-024">–እግረ-ሚእቲ ይብል ሄን</p>
-					<p id="ti-c06-short-025">–እግረ-ሚእቲ ሓሰኻ መሬት ይፈቱ እዩ።</p>
-					<p id="ti-c06-short-026">ንኣሽቱ ኢና! ኢላ የኒ ትሓስብ።</p>
-					<p id="ti-c06-short-027">ይጎዩ</p>
-					<p id="ti-c06-short-028">እቲ እግረ-ሚእቲ ደድሕሪኦም መጺኡዎም።</p>
-					<p id="ti-c06-short-029">የኒ ትጎይን ትጭድርን።</p>
-					<p id="ti-c06-short-030">ኣነ መግብኻ ኣይኮንኩን</p>
-					<p id="ti-c06-short-031">ኣነ መግብኻ ኣይኮንኩን¨</p>
-					<p id="ti-c06-short-032">ሰሚር ይጎይን ይጭድርን</p>
-					<p id="ti-c06-short-033">ኣነ ሓሰኻ መሬት ኣይኾንኩን</p>
-					<p id="ti-c06-short-034">ኣነ ሓሰኻ መሬት ኣይኾንኩን</p>
-					<p id="ti-c06-short-035">እቲ ድሙን ሄንን ይጎዩ።</p>
-					<p id="ti-c06-short-036">እቲ እግሪሚእቲ ደድሕሪኦም።</p>
-					<p id="ti-c06-short-037">ኣጽፋሩ ናባታቶም አናቕረበ።</p>
-					<p id="ti-c06-short-038">የኒ ብርሃን ትርኢ። እቲ መውጽኢ ኣብኡ እዩ።</p>
-					<p id="ti-c06-short-039">ጢር ኢሎም ወጽዮም። ሓሙሽቲኦም።</p>
-					<p id="ti-c06-short-040">ኣብ ላዕሊ ኣብቲ ሳዕሪ ምስበጽሑ ሄን ይጭድር:</p>
-					<p id="ti-c06-short-041">–ዓበይቲ ኩኑ</p>
-					<p id="ti-c06-short-042">የኒ ትዓቢ</p>
-					<p id="ti-c06-short-043">ሰሚር ይዓቢ</p>
-					<p id="ti-c06-short-044">ሄንን እቲ ድሙን ይዓብዩ</p>
-					<p id="ti-c06-short-045">የኒ ነቲ እግረ-ሚእቲ ትጥምቶ።</p>
-					<p id="ti-c06-short-046">ንእሽተይ እዩ።</p>
-					<p id="ti-c06-short-047">ልክዕ ከም ሕንጥል ሕንጥሊቶ ንእሽተይ።</p>
-					<p id="ti-c06-short-048">የኒ ትስሕቕ: – ንምንታይ እየ ዝፈራሕኩ?</p>
+					<div id="slide-ti01">
+						<p id="ti-c06-short-001">ሓሰኻ ጽቡቕ ሓመድ የዳሉ።</p>
+						<p id="ti-c06-short-002">የኒ፣ ሰሚር፣ ሄንን እቲ ድሙን ኣብ ውሽጢ መሬት እዮም ዘለዉ።</p>
+						<p id="ti-c06-short-003">ንኣሽቱ እዮም።</p>
+						<p id="ti-c06-short-004">ኣብቲ ሓሰኻታት መሬት ዘዳለውዎ መንገዲ ይኸዱ ኣለዉ።</p>
+					</div>
+					<div id="slide-ti02">
+						<p id="ti-c06-short-005">ሓደ ዝበልዕ ዘሎ ነገር ይሰምዑ ኣለዉ።</p>
+						<p id="ti-c06-short-006">ቡናዊ ሕብሪ ዘለዎም ነገራት ይንቃሳቐሱ ኣለዉ።</p>
+						<p id="ti-c06-short-007">–እዚ እቲ ሓሰኻ መሬት ድዩ? የኒ ሕሹኽሱኽ ትብል።</p>
+					</div>
+					<div id="slide-ti03">
+						<p id="ti-c06-short-008">–እንታይ እዩ ዝገብር ዘሎ! ሰሚር ይሓትት።</p>
+						<p id="ti-c06-short-009">–ኣብ ርእሰይ ሓሪኡለይ! ይብል ሰሚር</p>
+						<p id="ti-c06-short-010">–ጽቡቕ እምበር! ይብል ሄን። ሕጂ እቲ ሓመድ ጽቡቕ ክኸውን እዩ! </p>
+						<p id="ti-c06-short-011">–ኣነ ሓመድ ክኸውን ኣይደልን! ይብል ሰሚር።</p>
+					</div>
+					<div id="slide-ti04">
+						<p id="ti-c06-short-012">ነቲ ለሚሽ ጸጉሩ ይነግፍ።</p>
+						<p id="ti-c06-short-013">ቀስ ኢሎም መገዶም ይቕጽሉ።</p>
+						<p id="ti-c06-short-014">ገለ ድምጺ ይሰምዑ።</p>
+						<p id="ti-c06-short-015">–ውሕጥ! ውሕጥ!</p>
+					</div>
+					<div id="slide-ti05">
+						<p id="ti-c06-short-016">የኒ ጠጠው ትብል እሞ ጠጠው በሉ! ትብል።</p>
+						<p id="ti-c06-short-017">ገለ ነገር ይበልዕ ኣሎ።</p>
+						<p id="ti-c06-short-018">ሓደ እንሰሳ ይርእዩ። ኣራንሾኒ ሕብሪ ዘለዎ።</p>
+						<p id="ti-c06-short-019">ነዊሕ። ብዙሕ እግሪ ዘለዎ።</p>
+					</div>
+					<div id="slide-ti06">
+						<p id="ti-c06-short-020">ክልተ ዓበይቲ ኣጻፍር</p>
+						<p id="ti-c06-short-021">ኣብቲ ኣጽፋር ሓደ ሓሰኻ መሬት ተታሒዙ ኣሎ።</p>
+						<p id="ti-c06-short-022">እቲ እንሰሳ ነቲ ሓሰካ ይበልዖ።</p>
+					</div>
+					<div id="slide-ti07">
+						<p id="ti-c06-short-023">–ውሕጥ! ውሕጥ!</p>
+						<p id="ti-c06-short-024">–እግረ-ሚእቲ ይብል ሄን</p>
+						<p id="ti-c06-short-025">–እግረ-ሚእቲ ሓሰኻ መሬት ይፈቱ እዩ።</p>
+						<p id="ti-c06-short-026">ንኣሽቱ ኢና! ኢላ የኒ ትሓስብ።</p>
+					</div>
+					<div id="slide-ti08">
+						<p id="ti-c06-short-027">ይጎዩ</p>
+						<p id="ti-c06-short-028">እቲ እግረ-ሚእቲ ደድሕሪኦም መጺኡዎም።</p>
+					</div>
+					<div id="slide-ti09">
+						<p id="ti-c06-short-029">የኒ ትጎይን ትጭድርን።</p>
+						<p id="ti-c06-short-030">ኣነ መግብኻ ኣይኮንኩን</p>
+						<p id="ti-c06-short-031">ኣነ መግብኻ ኣይኮንኩን¨</p>
+					</div>
+					<div id="slide-ti10">
+						<p id="ti-c06-short-032">ሰሚር ይጎይን ይጭድርን</p>
+						<p id="ti-c06-short-033">ኣነ ሓሰኻ መሬት ኣይኾንኩን</p>
+						<p id="ti-c06-short-034">ኣነ ሓሰኻ መሬት ኣይኾንኩን</p>
+					</div>
+					<div id="slide-ti11">
+						<p id="ti-c06-short-035">እቲ ድሙን ሄንን ይጎዩ።</p>
+						<p id="ti-c06-short-036">እቲ እግሪሚእቲ ደድሕሪኦም።</p>
+						<p id="ti-c06-short-037">ኣጽፋሩ ናባታቶም አናቕረበ።</p>
+					</div>
+					<div id="slide-ti12">
+						<p id="ti-c06-short-038">የኒ ብርሃን ትርኢ። እቲ መውጽኢ ኣብኡ እዩ።</p>
+						<p id="ti-c06-short-039">ጢር ኢሎም ወጽዮም። ሓሙሽቲኦም።</p>
+						<p id="ti-c06-short-040">ኣብ ላዕሊ ኣብቲ ሳዕሪ ምስበጽሑ ሄን ይጭድር:</p>
+					</div>
+					<div id="slide-ti13">
+						<p id="ti-c06-short-041">–ዓበይቲ ኩኑ</p>
+						<p id="ti-c06-short-042">የኒ ትዓቢ</p>
+						<p id="ti-c06-short-043">ሰሚር ይዓቢ</p>
+						<p id="ti-c06-short-044">ሄንን እቲ ድሙን ይዓብዩ</p>
+					</div>
+					<div id="slide-ti14">
+						<p id="ti-c06-short-045">የኒ ነቲ እግረ-ሚእቲ ትጥምቶ።</p>
+						<p id="ti-c06-short-046">ንእሽተይ እዩ።</p>
+						<p id="ti-c06-short-047">ልክዕ ከም ሕንጥል ሕንጥሊቶ ንእሽተይ።</p>
+						<p id="ti-c06-short-048">የኒ ትስሕቕ: – ንምንታይ እየ ዝፈራሕኩ?</p>
+					</div>
 				</article>
 			</div>
 		</section>

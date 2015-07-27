@@ -1,6 +1,20 @@
 // language menu interaction
 // Eirik Hanssen, (c) 2015
 
+// Todo1: reset showslide and slidesync when playing audio to avoid collision
+// if changing what language is played
+// add event listener that will listen on all audio elements whent they start playing,
+//	or when they are clicked.
+//  remove class slidesync of all decendands of containing article
+// remove class showslide from all decendants of other article
+
+// Todo2: add forward/back buttons to click between slides
+// Maybe use this solution: http://wam.inrialpes.fr/timesheets/slideshows/audio.html
+
+// Todo3: add function to maximise main / show and hide language selection.
+
+// Todo4: add possibility of clicking through slides, and playing the audio segment of // the slide only before pausing audio.
+
 window.addEventListener("load", langMenusInit, false);
 var primary_lang_controls,
 	secondary_lang_controls,
@@ -105,13 +119,19 @@ function rotateLanguages() {
 		hidden_languages_container.appendChild(primary_language_container.getElementsByTagName("article")[0]);
 	}
 
-	if (language_selected(primary_lang_controls) !== false) {
+	if (language_selected(primary_lang_controls) === language_selected(secondary_lang_controls)) {
 		primary_language_container.appendChild(getLanguageContentsElement(language_selected(primary_lang_controls)));
+	} else {
+		if (language_selected(primary_lang_controls) !== false) {
+			primary_language_container.appendChild(getLanguageContentsElement(language_selected(primary_lang_controls)));
+		}
+
+		if (language_selected(secondary_lang_controls) !== false) {
+			secondary_language_container.appendChild(getLanguageContentsElement(language_selected(secondary_lang_controls)));
+		}
 	}
 
-	if (language_selected(secondary_lang_controls) !== false) {
-		secondary_language_container.appendChild(getLanguageContentsElement(language_selected(secondary_lang_controls)));
-	}
+
 
 	updateDualClassOnBody();
 
