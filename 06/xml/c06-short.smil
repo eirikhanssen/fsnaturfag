@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <timesheet xmlns="http://www.w3.org/ns/SMIL">
-	<par mediaSync="#audio-ar-c06-short" timeAction="class: playing">
+	<par mediaSync="#audio-ar" timeAction="class: playing">
 		<!-- Timings for Arabic language - short story -->
 		<item select="#ar-c06-short-001" begin="0.812902" end="4.789265"/>
 		<item select="#ar-c06-short-002" begin="4.828441" end="10.215140"/>
@@ -52,7 +52,7 @@
 		<item select="#ar-c06-short-048" begin="133.648904" end="136.998451"/>
 	</par>
 	
-	<par mediaSync="#audio-ar-c06-short" timeAction="class: showslide" controls="#ar-controls">
+	<par mediaSync="#audio-ar" timeAction="class: showslide" controls="#ar-controls">
 		<item select="#slide-ar01" begin="0.812902" end="14.808526"/>
 		<item select="#slide-ar02" begin="14.906466" end="21.683913"/>
 		<item select="#slide-ar03" begin="21.683913" end="38.235770"/>
@@ -69,7 +69,7 @@
 		<item select="#slide-ar14" begin="125.931233" end="136.998451"/>
 	</par>
 	
-	<par mediaSync="#audio-ar-c06-short" controls="#ar-controls">
+	<par mediaSync="#audio-ar" controls="#ar-controls">
 		<item select="#slide-no01, #slide-so01, #slide-ti01" begin="0.812902" end="14.808526"/>
 		<item select="#slide-no02, #slide-so02, #slide-ti02" begin="14.906466" end="21.683913"/>
 		<item select="#slide-no03, #slide-so03, #slide-ti03" begin="21.683913" end="38.235770"/>
@@ -87,7 +87,7 @@
 	</par>
 	
 
-	<par mediaSync="#audio-no-c06-short" timeAction="class: playing">
+	<par mediaSync="#audio-no" timeAction="class: playing">
 		<!-- Timings for Norwegian language - short story -->
 		<item select="#no-c06-short-001" begin="0.428537" end="5.168421"/>
 		<item select="#no-c06-short-002" begin="6.077440" end="11.713356"/>
@@ -139,7 +139,7 @@
 		<item select="#no-c06-short-048" begin="152.221686" end="157.662813"/>
 	</par>
 	
-	<par mediaSync="#audio-no-c06-short" timeAction="class: showslide" controls="#no-controls">
+	<par mediaSync="#audio-no" timeAction="class: showslide" controls="#no-controls">
 		<item select="#slide-no01" begin="0.428537" end="18.764745"/>
 		<item select="#slide-no02" begin="19.011478" end="29.140545"/>
 		<item select="#slide-no03" begin="29.140545" end="44.632822"/>
@@ -156,7 +156,7 @@
 		<item select="#slide-no14" begin="141.910816" end="157.662813"/>
 	</par>
 	
-	<par mediaSync="#audio-no-c06-short" controls="#no-controls">
+	<par mediaSync="#audio-no" controls="#no-controls">
 		<item select="#slide-ar01, #slide-so01, #slide-ti01" begin="0.428537" end="18.764745"/>
 		<item select="#slide-ar02, #slide-so02, #slide-ti02" begin="19.011478" end="29.140545"/>
 		<item select="#slide-ar03, #slide-so03, #slide-ti03" begin="29.140545" end="44.632822"/>
@@ -173,7 +173,7 @@
 		<item select="#slide-ar14, #slide-so14, #slide-ti14" begin="141.910816" end="157.662813"/>
 	</par>
 
-	<par mediaSync="#audio-so-c06-short" timeAction="class: playing">
+	<par mediaSync="#audio-so" timeAction="class: playing">
 		<!-- Timings for Somali language - short story -->
 		<item select="#so-c06-short-001" begin="0.182104" end="5.275317"/>
 		<item select="#so-c06-short-002" begin="5.343606" end="11.142472"/>
@@ -225,7 +225,7 @@
 		<item select="#so-c06-short-048" begin="154.953202" end="159.887075"/>
 	</par>
 	
-	<par mediaSync="#audio-so-c06-short" timeAction="class: showslide" controls="#so-controls">
+	<par mediaSync="#audio-so" timeAction="class: showslide" controls="#so-controls">
 		<item select="#slide-so01" begin="0.182104" end="17.573010"/>
 		<item select="#slide-so02" begin="17.658371" end="28.584595"/>
 		<item select="#slide-so03" begin="28.630121" end="45.138962"/>
@@ -242,7 +242,7 @@
 		<item select="#slide-so14" begin="148.232436" end="159.887075"/>
 	</par>
 	
-	<par mediaSync="#audio-so-c06-short" controls="#so-controls">
+	<par mediaSync="#audio-so" controls="#so-controls">
 		<item select="#slide-ar01, #slide-no01, #slide-ti01" begin="0.182104" end="17.573010"/>
 		<item select="#slide-ar02, #slide-no02, #slide-ti02" begin="17.658371" end="28.584595"/>
 		<item select="#slide-ar03, #slide-no03, #slide-ti03" begin="28.630121" end="45.138962"/>
@@ -259,7 +259,7 @@
 		<item select="#slide-ar14, #slide-no14, #slide-ti14" begin="148.232436" end="159.887075"/>
 	</par>
 	
-	<par mediaSync="#audio-ti-c06-short" timeAction="class: playing">
+	<par mediaSync="#audio-ti" timeAction="class: playing">
 		<!-- Timings for Tigrinian language - short story -->
 		<item select="#ti-c06-short-001" begin="0.581976" end="3.753152"/>
 		<item select="#ti-c06-short-002" begin="3.753152" end="10.379320"/>
@@ -311,7 +311,7 @@
 		<item select="#ti-c06-short-048" begin="161.250975" end="166.672834"/>
 	</par>
 	
-	<par mediaSync="#audio-ti-c06-short" timeAction="class: showslide" controls="#ti-controls">
+	<par mediaSync="#audio-ti" timeAction="class: showslide" controls="#ti-controls">
 		<item select="#slide-ti01" begin="0.581976" end="17.473016"/>
 		<item select="#slide-ti02" begin="17.554286" end="31.637188"/>
 		<item select="#slide-ti03" begin="31.788118" end="50.247982"/>
@@ -328,7 +328,7 @@
 		<item select="#slide-ti14" begin="152.404172" end="166.672834"/>
 	</par>
 	
-	<par mediaSync="#audio-ti-c06-short" controls="#ti-controls">
+	<par mediaSync="#audio-ti" controls="#ti-controls">
 		<item select="#slide-ar01, #slide-no01, #slide-so01" begin="0.581976" end="17.473016"/>
 		<item select="#slide-ar02, #slide-no02, #slide-so02" begin="17.554286" end="31.637188"/>
 		<item select="#slide-ar03, #slide-no03, #slide-so03" begin="31.788118" end="50.247982"/>
@@ -345,7 +345,7 @@
 		<item select="#slide-ar14, #slide-no14, #slide-so14" begin="152.404172" end="166.672834"/>
 	</par>
 	
-	<par mediaSync="#audio-ar-c06-short">
+	<par mediaSync="#audio-ar">
 		<!-- sync other languages text to arabic during playback  -->
 		<item select="#no-c06-short-001, #so-c06-short-001, #ti-c06-short-001" begin="0.812902" end="4.789265"/>
 		<item select="#no-c06-short-002, #so-c06-short-002, #ti-c06-short-002" begin="4.828441" end="10.215140"/>
@@ -400,7 +400,7 @@
 	
 	
 	
-	<par mediaSync="#audio-no-c06-short">
+	<par mediaSync="#audio-no">
 		<!-- sync other languages text to norwegian during playback  -->
 		<item select="#ar-c06-short-001, #so-c06-short-001, #ti-c06-short-001" begin="0.428537" end="5.168421"/>
 		<item select="#ar-c06-short-002, #so-c06-short-002, #ti-c06-short-002" begin="6.077440" end="11.713356"/>
@@ -452,7 +452,7 @@
 		<item select="#ar-c06-short-048, #so-c06-short-048, #ti-c06-short-048" begin="152.221686" end="157.662813"/>
 	</par>
 	
-	<par mediaSync="#audio-so-c06-short">
+	<par mediaSync="#audio-so">
 		<!-- sync other languages text to arabic during playback  -->
 		<item select="#ar-c06-short-001, #no-c06-short-001, #ti-c06-short-001" begin="0.182104" end="5.275317"/>
 		<item select="#ar-c06-short-002, #no-c06-short-002, #ti-c06-short-002" begin="5.343606" end="11.142472"/>
@@ -506,7 +506,7 @@
 	
 	
 	
-	<par mediaSync="#audio-ti-c06-short">
+	<par mediaSync="#audio-ti">
 		<!-- sync other languages text to tigrinian during playback  -->
 		<item select="#ar-c06-short-001, #no-c06-short-001, #so-c06-short-001" begin="0.581976" end="3.753152"/>
 		<item select="#ar-c06-short-002, #no-c06-short-002, #so-c06-short-002" begin="3.753152" end="10.379320"/>

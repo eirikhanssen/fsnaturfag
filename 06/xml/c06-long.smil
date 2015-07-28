@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <timesheet xmlns="http://www.w3.org/ns/SMIL">
-	<par mediaSync="#audio-ar-c06-long" timeAction="class: playing">
+	<par mediaSync="#audio-ar" timeAction="class: playing">
 		<!-- Timings for Arabic language - long story -->
 		<!-- language key level sync -->
 		<item select="#ar-c06-long-001" begin="0.364183" end="4.148521"/>
@@ -22,7 +22,7 @@
 		<item select="#ar-c06-long-017" begin="869.574315" end="930.250391"/>
 	</par>
 	
-	<par mediaSync="#audio-ar-c06-long">
+	<par mediaSync="#audio-ar">
 		<!-- Timings for Arabic language - long story -->
 		<!-- language key level sync -->
 		<!-- Sync text in other languages to ar playback -->
@@ -45,7 +45,7 @@
 		<item select="#no-c06-long-017, #so-c06-long-017, #ti-c06-long-017" begin="869.574315" end="930.250391"/>
 	</par>
 
-	<par mediaSync="#audio-no-c06-long" timeAction="class: playing">
+	<par mediaSync="#audio-no" timeAction="class: playing">
 		<!-- Timings for Norwegian language - long story -->
 		<!-- language key level sync -->
 		<item select="#no-c06-long-001" begin="0.038938" end="3.083896"/>
@@ -67,7 +67,7 @@
 		<item select="#no-c06-long-017" begin="816.951969" end="872.399788"/>
 	</par>
 	
-	<par mediaSync="#audio-no-c06-long">
+	<par mediaSync="#audio-no">
 		<!-- Timings for Norwegian language - long story -->
 		<!-- language key level sync -->
 		<!-- Sync text in other languages to no playback -->
@@ -90,7 +90,7 @@
 		<item select="#ar-c06-long-017, #so-c06-long-017, #ti-c06-long-017" begin="816.951969" end="872.399788"/>
 	</par>
 	
-	<par mediaSync="#audio-no-c06-long" timeAction="class: current_para">
+	<par mediaSync="#audio-no" timeAction="class: current_para">
 		<!-- Timings for Norwegian language - long story -->
 		<!-- paragraph level sync (demo) -->
 		<item select="#no-c06-long-p001" begin="9.407439" end="73.333752"/>
@@ -107,7 +107,7 @@
 		<item select="#no-c06-long-p012" begin="196.653376" end="220.675135"/>
 	</par>
 	
-	<par mediaSync="#audio-no-c06-long" timeAction="class: current_sentence">
+	<par mediaSync="#audio-no" timeAction="class: current_sentence">
 		<!-- sentence level sync (demo) -->
 		<!-- paragraph level sync (demo) -->
 		<item select="#no-c06-long-s003" begin="9.407439" end="11.908461"/>
@@ -130,7 +130,7 @@
 		<item select="#no-c06-long-s020" begin="69.013545" end="73.378953"/>
 	</par>
 	
-	<par mediaSync="#audio-so-c06-long" timeAction="class: playing">
+	<par mediaSync="#audio-so" timeAction="class: playing">
 		<!-- Timings for Somali language - long story -->
 		<!-- language key level sync -->
 		<item select="#so-c06-long-001" begin="0.094327" end="3.350495"/>
@@ -152,7 +152,7 @@
 		<item select="#so-c06-long-017" begin="794.218287" end="847.901672"/>
 	</par>
 	
-	<par mediaSync="#audio-so-c06-long">
+	<par mediaSync="#audio-so">
 		<!-- Timings for Somali language - long story -->
 		<!-- Sync text in other languages to ti playback -->
 		<item select="#ar-c06-long-001, #no-c06-long-001, #ti-c06-long-001" begin="0.094327" end="3.350495"/>
@@ -174,7 +174,7 @@
 		<item select="#ar-c06-long-017, #no-c06-long-017, #ti-c06-long-017" begin="794.218287" end="847.901672"/>
 	</par>
 	
-	<par mediaSync="#audio-ti-c06-long" timeAction="class: playing">
+	<par mediaSync="#audio-ti" timeAction="class: playing">
 		<!-- Timings for Tigrinian language - long story -->
 		<!-- language key level sync -->
 		<item select="#ti-c06-long-001" begin="0.470312" end="2.406889"/>
@@ -195,7 +195,7 @@
 		<item select="#ti-c06-long-016" begin="882.249448" end="985.552033"/>
 		<item select="#ti-c06-long-017" begin="985.745690" end="1036.216593"/>
 	</par>
-	<par mediaSync="#audio-ti-c06-long">
+	<par mediaSync="#audio-ti">
 		<!-- Timings for Tigrinian language - long story -->
 		<!-- Sync text in other languages to ti playback -->
 		<item select="#ar-c06-long-001, #no-c06-long-001, #so-c06-long-001" begin="0.470312" end="2.406889"/>

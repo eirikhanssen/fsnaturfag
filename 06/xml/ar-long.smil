@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timesheet xmlns="http://www.w3.org/ns/SMIL">
+	<par mediaSync="#audio-ar" timeAction="class: playing">
+		<!-- Timings for Arabic language - long story -->
+		<!-- language key level sync -->
+		<item select="#ar-c06-long-001" begin="0.364183" end="4.148521"/>
+		<item select="#ar-c06-long-002" begin="4.496870" end="7.632012"/>
+		<item select="#ar-c06-long-003" begin="7.980361" end="70.999877"/>
+		<item select="#ar-c06-long-004" begin="71.677438" end="138.150574"/>
+		<item select="#ar-c06-long-005" begin="138.465986" end="220.449773"/>
+		<item select="#ar-c06-long-006" begin="220.948323" end="223.893456"/>
+		<item select="#ar-c06-long-007" begin="224.273473" end="261.170000"/>
+		<item select="#ar-c06-long-008" begin="261.170000" end="311.719410"/>
+		<item select="#ar-c06-long-009" begin="311.719410" end="363.994263"/>
+		<item select="#ar-c06-long-010" begin="363.994263" end="436.063152"/>
+		<item select="#ar-c06-long-011" begin="436.063152" end="526.979977"/>
+		<item select="#ar-c06-long-012" begin="527.099664" end="530.234806"/>
+		<item select="#ar-c06-long-013" begin="530.377312" end="607.464263"/>
+		<item select="#ar-c06-long-014" begin="607.891782" end="693.895539"/>
+		<item select="#ar-c06-long-015" begin="694.056342" end="778.496864"/>
+		<item select="#ar-c06-long-016" begin="778.686872" end="869.035957"/>
+		<item select="#ar-c06-long-017" begin="869.574315" end="930.250391"/>
+	</par>
+</timesheet>

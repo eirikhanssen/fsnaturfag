@@ -107,6 +107,13 @@
 		</xsl:element>
 	</xsl:template>
 	
+	<xsl:template match="span">
+		<xsl:element name="{local-name(.)}">
+			<xsl:copy-of select="@*"/>
+			<xsl:apply-templates/>
+		</xsl:element>
+	</xsl:template>
+	
 	<xsl:template match="h1|h2|h3|div|p">
 		<xsl:element name="{local-name(.)}">
 			<xsl:copy-of select="@*"/>
@@ -130,7 +137,7 @@
 	
 	<xsl:template match="audio">
 		<audio controls="controls" preload="metadata">
-			<xsl:attribute name="id" select="concat('audio-' , ../@id)"/>
+			<xsl:attribute name="id" select="concat('audio-' , ../@lang)"/>
 			<xsl:apply-templates select="source"/>
 			<xsl:text>Nettleseren din støtter ikke audio-elementet. Last ned lydfilen:</xsl:text> 
 			<ul>

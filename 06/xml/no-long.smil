@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timesheet xmlns="http://www.w3.org/ns/SMIL">
+	<par mediaSync="#audio-no" timeAction="class: playing">
+		<!-- Timings for Norwegian language - long story -->
+		<!-- language key level sync -->
+		<item select="#no-c06-long-001" begin="0.038938" end="3.083896"/>
+		<item select="#no-c06-long-002" begin="3.130621" end="9.103722"/>
+		<item select="#no-c06-long-003" begin="9.407439" end="73.390484"/>
+		<item select="#no-c06-long-004" begin="73.390484" end="142.419904"/>
+		<item select="#no-c06-long-005" begin="142.918311" end="220.607559"/>
+		<item select="#no-c06-long-006" begin="220.607559" end="226.837651"/>
+		<item select="#no-c06-long-007" begin="226.837651" end="255.309172"/>
+		<item select="#no-c06-long-008" begin="255.682977" end="311.380000"/>
+		<item select="#no-c06-long-009" begin="311.691505" end="356.672769"/>
+		<item select="#no-c06-long-010" begin="356.921973" end="422.462541"/>
+		<item select="#no-c06-long-011" begin="422.774046" end="498.843469"/>
+		<item select="#no-c06-long-012" begin="498.843469" end="506.319580"/>
+		<item select="#no-c06-long-013" begin="506.319580" end="572.047051"/>
+		<item select="#no-c06-long-014" begin="572.358555" end="653.598956"/>
+		<item select="#no-c06-long-015" begin="653.972761" end="735.773870"/>
+		<item select="#no-c06-long-016" begin="735.773870" end="816.951969"/>
+		<item select="#no-c06-long-017" begin="816.951969" end="872.399788"/>
+	</par>
+	<par mediaSync="#audio-no" timeAction="class: current_para">
+		<!-- Timings for Norwegian language - long story -->
+		<!-- paragraph level sync (demo) -->
+		<item select="#no-c06-long-p001" begin="9.407439" end="73.333752"/>
+		<item select="#no-c06-long-p002" begin="73.390484" end="77.099540"/>
+		<item select="#no-c06-long-p003" begin="77.099540" end="84.987873"/>
+		<item select="#no-c06-long-p004" begin="84.987873" end="92.955486"/>
+		<item select="#no-c06-long-p005" begin="92.955486" end="117.928602"/>
+		<item select="#no-c06-long-p006" begin="117.928602" end="125.143057"/>
+		<item select="#no-c06-long-p007" begin="125.143057" end="142.505319"/>
+		<item select="#no-c06-long-p008" begin="142.918311" end="147.777421"/>
+		<item select="#no-c06-long-p009" begin="147.777421" end="171.006382"/>
+		<item select="#no-c06-long-p010" begin="171.006382" end="179.727153"/>
+		<item select="#no-c06-long-p011" begin="179.727153" end="196.653376"/>
+		<item select="#no-c06-long-p012" begin="196.653376" end="220.675135"/>
+	</par>
+	
+	<par mediaSync="#audio-no" timeAction="class: current_sentence">
+		<!-- sentence level sync (demo) -->
+		<!-- paragraph level sync (demo) -->
+		<item select="#no-c06-long-s003" begin="9.407439" end="11.908461"/>
+		<item select="#no-c06-long-s004" begin="11.908461" end="15.718552"/>
+		<item select="#no-c06-long-s005" begin="15.718552" end="18.186627"/>
+		<item select="#no-c06-long-s006" begin="18.186627" end="21.873314"/>
+		<item select="#no-c06-long-s007" begin="21.873314" end="24.125432"/>
+		<item select="#no-c06-long-s008" begin="24.125432" end="26.223296"/>
+		<item select="#no-c06-long-s009" begin="26.223296" end="28.459989"/>
+		<item select="#no-c06-long-s010" begin="28.459989" end="31.915294"/>
+		<item select="#no-c06-long-s011" begin="31.915294" end="33.997732"/>
+		<item select="#no-c06-long-s012" begin="33.997732" end="39.242391"/>
+		<item select="#no-c06-long-s013" begin="39.242391" end="41.710466"/>
+		<item select="#no-c06-long-s014" begin="41.710466" end="45.921619"/>
+		<item select="#no-c06-long-s015" begin="45.921619" end="53.773182"/>
+		<item select="#no-c06-long-s016" begin="53.773182" end="56.272108"/>
+		<item select="#no-c06-long-s017" begin="56.272108" end="61.547618"/>
+		<item select="#no-c06-long-s018" begin="61.547618" end="65.943877"/>
+		<item select="#no-c06-long-s019" begin="65.943877" end="69.013545"/>
+		<item select="#no-c06-long-s020" begin="69.013545" end="73.378953"/>
+	</par>
+</timesheet>

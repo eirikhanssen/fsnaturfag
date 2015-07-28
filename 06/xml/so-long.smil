@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timesheet xmlns="http://www.w3.org/ns/SMIL">
+	<par mediaSync="#audio-so" timeAction="class: playing">
+		<!-- Timings for Somali language - long story -->
+		<!-- language key level sync -->
+		<item select="#so-c06-long-001" begin="0.094327" end="3.350495"/>
+		<item select="#so-c06-long-002" begin="3.399545" end="7.025475"/>
+		<item select="#so-c06-long-003" begin="7.070752" end="65.349749"/>
+		<item select="#so-c06-long-004" begin="65.485580" end="138.336212"/>
+		<item select="#so-c06-long-005" begin="138.592781" end="208.470226"/>
+		<item select="#so-c06-long-006" begin="208.560780" end="214.310955"/>
+		<item select="#so-c06-long-007" begin="214.552432" end="252.419064"/>
+		<item select="#so-c06-long-008" begin="252.569988" end="309.905714"/>
+		<item select="#so-c06-long-009" begin="310.056637" end="351.726535"/>
+		<item select="#so-c06-long-010" begin="351.952920" end="415.280298"/>
+		<item select="#so-c06-long-011" begin="415.385944" end="494.469704"/>
+		<item select="#so-c06-long-012" begin="494.635720" end="498.891754"/>
+		<item select="#so-c06-long-013" begin="498.967216" end="574.217527"/>
+		<item select="#so-c06-long-014" begin="574.398635" end="651.339286"/>
+		<item select="#so-c06-long-015" begin="651.535486" end="722.107178"/>
+		<item select="#so-c06-long-016" begin="722.197732" end="794.082456"/>
+		<item select="#so-c06-long-017" begin="794.218287" end="847.901672"/>
+	</par>
+</timesheet>

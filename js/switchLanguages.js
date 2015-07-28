@@ -15,7 +15,7 @@
 
 // Todo4: add possibility of clicking through slides, and playing the audio segment of // the slide only before pausing audio.
 
-window.addEventListener("load", langMenusInit, false);
+window.addEventListener("load", behaviourInit, false);
 var primary_lang_controls,
 	secondary_lang_controls,
 	primary_lang_labels,
@@ -24,9 +24,12 @@ var primary_lang_controls,
 	primary_language_container,
 	secondary_language_container,
 	hidden_languages_container,
-	all_languages = [];
+	all_languages = [],
+	all_audio_elements = [],
+	timesheetDOM;
 
-function langMenusInit() {
+
+function behaviourInit() {
 	console.log("initializing language menu interaction");
 	primary_lang_controls = document.querySelectorAll("#primary_language input");
 	primary_lang_labels = document.querySelectorAll("#primary_language label");
@@ -36,6 +39,8 @@ function langMenusInit() {
 	primary_language_container = document.getElementById("primary_language_container");
 	secondary_language_container = document.getElementById("secondary_language_container");
 	hidden_languages_container = document.getElementById("hidden_languages_container");
+	all_audio_elements = document.getElementsByTagName("audio");
+	timesheetDOM
 	addLanguageMenuBehaviour();
 	console.log("adding article elements to array");
 	var articles_in_document = document.getElementsByTagName("article");
@@ -48,6 +53,60 @@ function langMenusInit() {
 			//console.log(articles_in_document[i].id + ": fail");
 		}
 	}
+	addAudioResetSlideSyncBehaviour();
+}
+
+function addAudioResetSlideSyncBehaviour() {
+	for (var i = 0; i < all_audio_elements.length; i++) {
+		all_audio_elements[i].addEventListener('play', resetOtherSlidesync, false);
+	}
+}
+
+/*function eventualize(evt) {
+	console.log(evt.target.nodeName + ' was eventualized!');
+	var showslides = document.querySelectorAll('.showslide');
+	for (var i = 0; i < showslides.length; i++) {
+		removeClass(showslides[i], 'showslide');
+		showslides[i].setAttribute('smil', 'idle');
+		showslides[i].querySelectorAll("[smil]").setAttribute('smil', 'idle');
+	}
+}*/
+
+function resetOtherSlidesync(evt) {
+	var T = evt.target;
+	var current_time = T.currentTime;
+	var TP = T.parentElement;
+	var TPID = TP.getAttribute('id');
+	var showslides = document.querySelectorAll('.showslide');
+	var playing = document.querySelectorAll('.playing');
+	var active = document.querySelectorAll(['[smil="active"]']);
+	for (var i = 0; i < showslides.length; i++) {
+		// sjekk om showslides[i] er barn av samme article som audio element.
+		/*if (showslides[i].parentElement !== TP) {
+			removeClass(showslides[i], 'showslide');
+		}*/
+		removeClass(showslides[i], 'showslide');
+	}
+	for (var j = 0; j < playing.length; j++) {
+		/*if (playing[i].parentElement !== TP) {
+			removeClass(playing[j], 'playing')
+		}*/
+		removeClass(playing[j], 'playing')
+
+	}
+
+	for (var k = 0; k < active.length; k++) {
+		// sjekk om showslides[i] er barn av samme article som audio element.
+		/*if (active[k].parentElement !== TP) {
+				active[k].setAttribute('smil', 'idle');
+		}*/
+		active[k].setAttribute('smil', 'idle');
+
+	}
+
+
+
+	console.log('audio: ' + T.getAttribute('id') + ' : ' + current_time);
 }
 
 function addLanguageMenuBehaviour() {

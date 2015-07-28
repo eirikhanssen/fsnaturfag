@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timesheet xmlns="http://www.w3.org/ns/SMIL">
+	<par mediaSync="#audio-ti" timeAction="class: playing">
+		<!-- Timings for Tigrinian language - long story -->
+		<!-- language key level sync -->
+		<item select="#ti-c06-long-001" begin="0.470312" end="2.406889"/>
+		<item select="#ti-c06-long-002" begin="2.535995" end="5.173429"/>
+		<item select="#ti-c06-long-003" begin="5.320978" end="75.969175"/>
+		<item select="#ti-c06-long-004" begin="76.245829" end="154.437457"/>
+		<item select="#ti-c06-long-005" begin="154.548118" end="242.856059"/>
+		<item select="#ti-c06-long-006" begin="243.178822" end="248.905559"/>
+		<item select="#ti-c06-long-007" begin="249.108439" end="283.182984"/>
+		<item select="#ti-c06-long-008" begin="283.358198" end="351.903825"/>
+		<item select="#ti-c06-long-009" begin="352.051374" end="412.269717"/>
+		<item select="#ti-c06-long-010" begin="412.463375" end="488.792199"/>
+		<item select="#ti-c06-long-011" begin="488.948970" end="585.538086"/>
+		<item select="#ti-c06-long-012" begin="585.657969" end="591.357041"/>
+		<item select="#ti-c06-long-013" begin="591.476924" end="671.918671"/>
+		<item select="#ti-c06-long-014" begin="672.038554" end="780.818888"/>
+		<item select="#ti-c06-long-015" begin="780.901884" end="882.129564"/>
+		<item select="#ti-c06-long-016" begin="882.249448" end="985.552033"/>
+		<item select="#ti-c06-long-017" begin="985.745690" end="1036.216593"/>
+	</par>
+</timesheet>
