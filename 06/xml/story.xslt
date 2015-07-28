@@ -8,10 +8,17 @@
 	xmlns:style="http://saxonica.com/ns/html-style-property"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:ixsl="http://saxonica.com/ns/interactiveXSLT"
 	xmlns:hfw="http://www.hfw.no/ns"
-	xmlns:js="http://saxonica.com/ns/globalJS" exclude-result-prefixes="xs prop style js hfw"
+	xmlns:s="http://www.w3.org/ns/SMIL"
+	xmlns:js="http://saxonica.com/ns/globalJS" exclude-result-prefixes="xs prop style js hfw s"
 	extension-element-prefixes="ixsl" version="2.0">
 	
 	<xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
+	
+	<xsl:param name="smilpath" as="xs:string?"/>
+
+	<xsl:variable name="smilTimings">
+		<xsl:sequence select="doc($smilpath)"/>
+	</xsl:variable>
 	
 	<xsl:function name="hfw:padNumber" as="xs:string">
 		<xsl:param name="num" as="xs:integer"/>
@@ -25,12 +32,13 @@
 		</xsl:choose>
 	</xsl:function>
 	
-	
 	<xsl:template match="/">
+		<xsl:message select="concat('param: ' , $smilpath)"/>
 		<xsl:apply-templates/>
+		
 	</xsl:template>
 	
-	<xsl:variable name="languages">
+	<!--<xsl:variable name="languages">
 			<language name="ar">
 				<xsl:sequence select="doc('ar-c06-long.xml')"/>
 			</language>
@@ -43,7 +51,7 @@
 			<language name="ti">
 				<xsl:sequence select="doc('ti-c06-long.xml')"/>
 			</language>
-	</xsl:variable>
+	</xsl:variable>-->
 	
 	<xsl:template name="start">
 		<xsl:result-document href="#page-head" method="ixsl:append-content">
@@ -87,8 +95,14 @@
 			if (@html) 
 			then @html 
 			else 'div'"/>
+		<xsl:variable name="id" select="concat(ancestor::locale/@lang , '-' , @key)"/>
+		<xsl:variable name="hashId" select="concat('#',$id)"/>
+		<xsl:variable name="begin" select="$smilTimings/s:timesheet/s:par/s:item[@select eq $hashId]/@begin"/>
+		<xsl:variable name="end" select="$smilTimings/s:timesheet/s:par/s:item[@select eq $hashId]/@end"/>
 		<xsl:element name="{$elementName}">
-			<xsl:attribute name="id" select="concat(ancestor::locale/@lang , '-' , @key)"/>
+			<xsl:attribute name="id" select="$id" />
+			<xsl:attribute name="data-begin" select="xs:string($begin)"/>
+			<xsl:attribute name="data-end" select="xs:string($end)"/>
 			<xsl:apply-templates/>
 		</xsl:element>
 	</xsl:template>
@@ -102,8 +116,14 @@
 	
 	<xsl:template match="slide">
 		<xsl:variable name="num" select="hfw:padNumber((count(preceding::slide)+1))" as="xs:string"/>
+		<xsl:variable name="id" select="concat('slide-' , ancestor::locale/@lang , $num)"/>
+		<xsl:variable name="hashId" select="concat('#',$id)"/>
+		<xsl:variable name="begin" select="$smilTimings/s:timesheet/s:par/s:item[@select eq $hashId]/@begin"/>
+		<xsl:variable name="end" select="$smilTimings/s:timesheet/s:par/s:item[@select eq $hashId]/@end"/>
 		<div>
-			<xsl:attribute name="id" select="concat(ancestor::locale/@lang , '-slide' , $num)"/>
+			<xsl:attribute name="id" select="$id"/>
+			<xsl:attribute name="data-begin" select="xs:string($begin)"/>
+			<xsl:attribute name="data-end" select="xs:string($end)"/>
 			<xsl:apply-templates/>
 		</div>
 	</xsl:template>
@@ -126,10 +146,10 @@
 		</source>
 	</xsl:template>
 	
-	<xsl:template match="input" mode="ixsl:onclick">
+	<!--<xsl:template match="input" mode="ixsl:onclick">
 		<xsl:variable name="pri_or_sec_pattern" select="''"/>
 		<xsl:variable name="element-id" select="@id"/>
-		<!-- get language code from @id of input element -->
+		<!-\- get language code from @id of input element -\->
 		<xsl:variable name="new-language" select="replace($element-id, '.*_([^_]+)$', '$1')"/>
 		<xsl:variable name="pri_or_sec" select="replace($element-id, '^(primary|secondary).+', '$1')"/>
 		<xsl:variable name="new-locale" select="$languages/language[@name=$new-language]"/>
@@ -140,5 +160,5 @@
 				<xsl:otherwise><p>Språk 2 har blitt deaktivert.</p></xsl:otherwise>
 			</xsl:choose>
 		</xsl:result-document>
-	</xsl:template>
+	</xsl:template>-->
 </xsl:transform>
