@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timesheet xmlns="http://www.w3.org/ns/SMIL">
+	<par mediaSync="#audio-so-c06-short" timeAction="class: playing">
+		<!-- Timings for Somali language - short story -->
+		<item select="#so-c06-short-001" begin="0.182104" end="5.275317"/>
+		<item select="#so-c06-short-002" begin="5.343606" end="11.142472"/>
+		<item select="#so-c06-short-003" begin="11.193689" end="13.441532"/>
+		<item select="#so-c06-short-004" begin="13.555346" end="17.573010"/>
+		<item select="#so-c06-short-005" begin="17.658371" end="20.896403"/>
+		<item select="#so-c06-short-006" begin="20.981764" end="24.282394"/>
+		<item select="#so-c06-short-007" begin="24.344992" end="28.584595"/>
+		<item select="#so-c06-short-008" begin="28.630121" end="31.572234"/>
+		<item select="#so-c06-short-009" begin="31.612069" end="35.089112"/>
+		<item select="#so-c06-short-010" begin="35.163092" end="41.553795"/>
+		<item select="#so-c06-short-011" begin="41.593630" end="45.138962"/>
+		<item select="#so-c06-short-012" begin="45.190179" end="47.950188"/>
+		<item select="#so-c06-short-013" begin="47.984333" end="52.571071"/>
+		<item select="#so-c06-short-014" begin="52.639359" end="55.029471"/>
+		<item select="#so-c06-short-015" begin="55.097760" end="57.186262"/>
+		<item select="#so-c06-short-016" begin="57.277314" end="61.721783"/>
+		<item select="#so-c06-short-017" begin="61.773000" end="65.005341"/>
+		<item select="#so-c06-short-018" begin="65.073630" end="69.728656"/>
+		<item select="#so-c06-short-019" begin="69.774182" end="73.626814"/>
+		<item select="#so-c06-short-020" begin="73.655268" end="76.546165"/>
+		<item select="#so-c06-short-021" begin="76.580309" end="80.165476"/>
+		<item select="#so-c06-short-022" begin="80.205312" end="83.562849"/>
+		<item select="#so-c06-short-023" begin="83.608375" end="85.480629"/>
+		<item select="#so-c06-short-024" begin="85.594444" end="88.610537"/>
+		<item select="#so-c06-short-025" begin="88.644681" end="92.434715"/>
+		<item select="#so-c06-short-026" begin="92.474550" end="97.129577"/>
+		<item select="#so-c06-short-027" begin="97.180794" end="98.939233"/>
+		<item select="#so-c06-short-028" begin="99.047357" end="103.076402"/>
+		<item select="#so-c06-short-029" begin="103.167454" end="106.496538"/>
+		<item select="#so-c06-short-030" begin="106.530682" end="108.761453"/>
+		<item select="#so-c06-short-031" begin="108.846814" end="111.100347"/>
+		<item select="#so-c06-short-032" begin="111.180018" end="114.298544"/>
+		<item select="#so-c06-short-033" begin="114.326998" end="116.062674"/>
+		<item select="#so-c06-short-034" begin="116.096819" end="117.929237"/>
+		<item select="#so-c06-short-035" begin="117.969073" end="120.791680"/>
+		<item select="#so-c06-short-036" begin="120.922567" end="124.069547"/>
+		<item select="#so-c06-short-037" begin="124.109383" end="128.536780"/>
+		<item select="#so-c06-short-038" begin="128.758719" end="132.952795"/>
+		<item select="#so-c06-short-039" begin="132.981249" end="136.054249"/>
+		<item select="#so-c06-short-040" begin="136.116847" end="140.094676"/>
+		<item select="#so-c06-short-041" begin="140.145892" end="141.716537"/>
+		<item select="#so-c06-short-042" begin="141.955548" end="143.896091"/>
+		<item select="#so-c06-short-043" begin="143.941617" end="145.637458"/>
+		<item select="#so-c06-short-044" begin="145.637458" end="148.186910"/>
+		<item select="#so-c06-short-045" begin="148.232436" end="150.662383"/>
+		<item select="#so-c06-short-046" begin="150.730672" end="152.392368"/>
+		<item select="#so-c06-short-047" begin="152.472039" end="154.907676"/>
+		<item select="#so-c06-short-048" begin="154.953202" end="159.887075"/>
+	</par>
+
+	<par mediaSync="#audio-so-c06-short" timeAction="class: showslide" controls="#so-controls">
+		<item select="#slide-so01" begin="0.182104" end="17.573010"/>
+		<item select="#slide-so02" begin="17.658371" end="28.584595"/>
+		<item select="#slide-so03" begin="28.630121" end="45.138962"/>
+		<item select="#slide-so04" begin="45.190179" end="57.186262"/>
+		<item select="#slide-so05" begin="57.277314" end="73.626814"/>
+		<item select="#slide-so06" begin="73.655268" end="83.562849"/>
+		<item select="#slide-so07" begin="83.608375" end="97.129577"/>
+		<item select="#slide-so08" begin="97.180794" end="103.076402"/>
+		<item select="#slide-so09" begin="103.167454" end="111.100347"/>
+		<item select="#slide-so10" begin="111.180018" end="117.929237"/>
+		<item select="#slide-so11" begin="117.969073" end="128.536780"/>
+		<item select="#slide-so12" begin="128.758719" end="140.094676"/>
+		<item select="#slide-so13" begin="140.145892" end="148.186910"/>
+		<item select="#slide-so14" begin="148.232436" end="159.887075"/>
+	</par>
+</timesheet>

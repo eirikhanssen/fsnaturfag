@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timesheet xmlns="http://www.w3.org/ns/SMIL">
+	<par mediaSync="#audio-no-c06-short" timeAction="class: playing">
+		<!-- Timings for Norwegian language - short story -->
+		<item select="#no-c06-short-001" begin="0.428537" end="5.168421"/>
+		<item select="#no-c06-short-002" begin="6.077440" end="11.713356"/>
+		<item select="#no-c06-short-003" begin="11.791272" end="14.076805"/>
+		<item select="#no-c06-short-004" begin="14.284581" end="18.764745"/>
+		<item select="#no-c06-short-005" begin="19.011478" end="22.219016"/>
+		<item select="#no-c06-short-006" begin="22.374848" end="25.023988"/>
+		<item select="#no-c06-short-007" begin="25.023988" end="29.140545"/>
+		<item select="#no-c06-short-008" begin="29.140545" end="32.763634"/>
+		<item select="#no-c06-short-009" begin="32.763634" end="35.230970"/>
+		<item select="#no-c06-short-010" begin="35.321872" end="39.905924"/>
+		<item select="#no-c06-short-011" begin="39.983840" end="44.632822"/>
+		<item select="#no-c06-short-012" begin="44.775667" end="47.593626"/>
+		<item select="#no-c06-short-013" begin="47.723485" end="50.606374"/>
+		<item select="#no-c06-short-014" begin="50.736233" end="52.736075"/>
+		<item select="#no-c06-short-015" begin="52.839963" end="57.411028"/>
+		<item select="#no-c06-short-016" begin="57.411028" end="61.410711"/>
+		<item select="#no-c06-short-017" begin="61.605501" end="63.994921"/>
+		<item select="#no-c06-short-018" begin="64.072837" end="67.708912"/>
+		<item select="#no-c06-short-019" begin="67.773842" end="70.461941"/>
+		<item select="#no-c06-short-020" begin="70.656730" end="73.098095"/>
+		<item select="#no-c06-short-021" begin="73.266913" end="76.669240"/>
+		<item select="#no-c06-short-022" begin="76.799100" end="79.019703"/>
+		<item select="#no-c06-short-023" begin="79.019703" end="83.071330"/>
+		<item select="#no-c06-short-024" begin="83.214175" end="86.200951"/>
+		<item select="#no-c06-short-025" begin="86.369769" end="89.655223"/>
+		<item select="#no-c06-short-026" begin="89.655223" end="94.511980"/>
+		<item select="#no-c06-short-027" begin="94.641840" end="96.343004"/>
+		<item select="#no-c06-short-028" begin="96.433906" end="99.109018"/>
+		<item select="#no-c06-short-029" begin="99.212906" end="101.303649"/>
+		<item select="#no-c06-short-030" begin="101.407537" end="103.848902"/>
+		<item select="#no-c06-short-031" begin="103.965775" end="106.095477"/>
+		<item select="#no-c06-short-032" begin="106.173392" end="108.718645"/>
+		<item select="#no-c06-short-033" begin="108.822533" end="110.510711"/>
+		<item select="#no-c06-short-034" begin="110.562655" end="112.367706"/>
+		<item select="#no-c06-short-035" begin="112.536524" end="114.886987"/>
+		<item select="#no-c06-short-036" begin="114.938931" end="117.081618"/>
+		<item select="#no-c06-short-037" begin="117.081618" end="120.886511"/>
+		<item select="#no-c06-short-038" begin="120.886511" end="125.912086"/>
+		<item select="#no-c06-short-039" begin="126.171805" end="129.716979"/>
+		<item select="#no-c06-short-040" begin="129.911768" end="132.703755"/>
+		<item select="#no-c06-short-041" begin="132.872572" end="135.015259"/>
+		<item select="#no-c06-short-042" begin="135.132133" end="137.144961"/>
+		<item select="#no-c06-short-043" begin="137.209890" end="139.040914"/>
+		<item select="#no-c06-short-044" begin="139.040914" end="141.845886"/>
+		<item select="#no-c06-short-045" begin="141.910816" end="145.559877"/>
+		<item select="#no-c06-short-046" begin="145.559877" end="148.377835"/>
+		<item select="#no-c06-short-047" begin="148.377835" end="152.156756"/>
+		<item select="#no-c06-short-048" begin="152.221686" end="157.662813"/>
+	</par>
+	<!-- slides -->
+	<par mediaSync="#audio-no-c06-short" timeAction="class: showslide" controls="#no-controls">
+		<item select="#slide-no01" begin="0.428537" end="18.764745"/>
+		<item select="#slide-no02" begin="19.011478" end="29.140545"/>
+		<item select="#slide-no03" begin="29.140545" end="44.632822"/>
+		<item select="#slide-no04" begin="44.775667" end="57.411028"/>
+		<item select="#slide-no05" begin="57.411028" end="70.461941"/>
+		<item select="#slide-no06" begin="70.656730" end="79.019703"/>
+		<item select="#slide-no07" begin="79.019703" end="94.511980"/>
+		<item select="#slide-no08" begin="94.641840" end="99.109018"/>
+		<item select="#slide-no09" begin="99.212906" end="106.095477"/>
+		<item select="#slide-no10" begin="106.173392" end="112.367706"/>
+		<item select="#slide-no11" begin="112.536524" end="120.886511"/>
+		<item select="#slide-no12" begin="120.886511" end="132.703755"/>
+		<item select="#slide-no13" begin="132.872572" end="141.845886"/>
+		<item select="#slide-no14" begin="141.910816" end="157.662813"/>
+	</par>
+</timesheet>

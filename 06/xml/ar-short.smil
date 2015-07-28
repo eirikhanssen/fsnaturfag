@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timesheet xmlns="http://www.w3.org/ns/SMIL">
+	<par mediaSync="#audio-ar-c06-short" timeAction="class: playing">
+		<!-- Timings for Arabic language - short story -->
+		<item select="#ar-c06-short-001" begin="0.812902" end="4.789265"/>
+		<item select="#ar-c06-short-002" begin="4.828441" end="10.215140"/>
+		<item select="#ar-c06-short-003" begin="10.215140" end="11.772386"/>
+		<item select="#ar-c06-short-004" begin="11.889914" end="14.808526"/>
+		<item select="#ar-c06-short-005" begin="14.906466" end="16.963205"/>
+		<item select="#ar-c06-short-006" begin="16.963205" end="19.176649"/>
+		<item select="#ar-c06-short-007" begin="19.274589" end="21.683913"/>
+		<item select="#ar-c06-short-008" begin="21.683913" end="26.463384"/>
+		<item select="#ar-c06-short-009" begin="26.463384" end="30.165515"/>
+		<item select="#ar-c06-short-010" begin="30.283043" end="35.101691"/>
+		<item select="#ar-c06-short-011" begin="35.199631" end="38.235770"/>
+		<item select="#ar-c06-short-012" begin="38.235770" end="40.429626"/>
+		<item select="#ar-c06-short-013" begin="40.429626" end="43.152357"/>
+		<item select="#ar-c06-short-014" begin="43.054417" end="44.699809"/>
+		<item select="#ar-c06-short-015" begin="44.699809" end="47.579245"/>
+		<item select="#ar-c06-short-016" begin="47.579245" end="50.595796"/>
+		<item select="#ar-c06-short-017" begin="50.674148" end="53.005120"/>
+		<item select="#ar-c06-short-018" begin="53.945344" end="57.823767"/>
+		<item select="#ar-c06-short-019" begin="57.941295" end="60.566087"/>
+		<item select="#ar-c06-short-020" begin="60.566087" end="62.701178"/>
+		<item select="#ar-c06-short-021" begin="62.779530" end="66.285782"/>
+		<item select="#ar-c06-short-022" begin="66.383722" end="68.695106"/>
+		<item select="#ar-c06-short-023" begin="68.695106" end="71.261133"/>
+		<item select="#ar-c06-short-024" begin="71.398249" end="74.453977"/>
+		<item select="#ar-c06-short-025" begin="74.669445" end="78.998392"/>
+		<item select="#ar-c06-short-026" begin="78.998392" end="82.739699"/>
+		<item select="#ar-c06-short-027" begin="82.818051" end="84.502619"/>
+		<item select="#ar-c06-short-028" begin="84.992319" end="88.792390"/>
+		<item select="#ar-c06-short-029" begin="88.792390" end="90.731602"/>
+		<item select="#ar-c06-short-030" begin="90.731602" end="92.709990"/>
+		<item select="#ar-c06-short-031" begin="92.709990" end="94.766730"/>
+		<item select="#ar-c06-short-032" begin="94.766730" end="96.647177"/>
+		<item select="#ar-c06-short-033" begin="96.647177" end="98.272981"/>
+		<item select="#ar-c06-short-034" begin="98.272981" end="100.055489"/>
+		<item select="#ar-c06-short-035" begin="100.133841" end="102.170992"/>
+		<item select="#ar-c06-short-036" begin="102.170992" end="105.207132"/>
+		<item select="#ar-c06-short-037" begin="105.207132" end="108.458739"/>
+		<item select="#ar-c06-short-038" begin="109.046379" end="112.630983"/>
+		<item select="#ar-c06-short-039" begin="112.630983" end="115.902178"/>
+		<item select="#ar-c06-short-040" begin="115.980530" end="117.880566"/>
+		<item select="#ar-c06-short-041" begin="118.017682" end="119.643486"/>
+		<item select="#ar-c06-short-042" begin="119.643486" end="121.445581"/>
+		<item select="#ar-c06-short-043" begin="121.445581" end="123.423969"/>
+		<item select="#ar-c06-short-044" begin="123.423969" end="126.048761"/>
+		<item select="#ar-c06-short-045" begin="125.931233" end="128.986960"/>
+		<item select="#ar-c06-short-046" begin="128.986960" end="130.847820"/>
+		<item select="#ar-c06-short-047" begin="130.847820" end="133.648904"/>
+		<item select="#ar-c06-short-048" begin="133.648904" end="136.998451"/>
+	</par>
+	<par mediaSync="#audio-ar-c06-short" timeAction="class: showslide" controls="#ar-controls">
+		<item select="#slide-ar01" begin="0.812902" end="14.808526"/>
+		<item select="#slide-ar02" begin="14.906466" end="21.683913"/>
+		<item select="#slide-ar03" begin="21.683913" end="38.235770"/>
+		<item select="#slide-ar04" begin="38.235770" end="47.579245"/>
+		<item select="#slide-ar05" begin="47.579245" end="60.566087"/>
+		<item select="#slide-ar06" begin="60.566087" end="68.695106"/>
+		<item select="#slide-ar07" begin="68.695106" end="82.739699"/>
+		<item select="#slide-ar08" begin="82.818051" end="88.792390"/>
+		<item select="#slide-ar09" begin="88.792390" end="94.766730"/>
+		<item select="#slide-ar10" begin="94.766730" end="100.055489"/>
+		<item select="#slide-ar11" begin="100.133841" end="108.458739"/>
+		<item select="#slide-ar12" begin="109.046379" end="117.880566"/>
+		<item select="#slide-ar13" begin="118.017682" end="126.048761"/>
+		<item select="#slide-ar14" begin="125.931233" end="136.998451"/>
+	</par>
+</timesheet>
