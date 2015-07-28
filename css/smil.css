@@ -78,3 +78,20 @@ element[smil=done]*/
 	margin: 0;
 	padding: 0;
 }
+/* shortstory - slides */
+
+article div + div[id^='slide-'],
+article div[id^='slide-'][smil="done"] {
+	display: none;
+}
+
+article div[id^='slide-']::before {
+	display: none;
+}
+
+article div[id^='slide-'].showslide,
+article div[id^='slide-'][smil="active"] {
+	display: block;
+	border: none;
+	background-color: transparent;
+}
