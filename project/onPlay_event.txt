@@ -1,0 +1,27 @@
+play event:
+// pause audio of other lang.
+
+
+sett alle smil=active til smil=idle
+fjern alle class=playing|showslide
+
+finn ut hvilket element som spiller
+hent ut tidskoden
+
+finn alle noder hvor tidskoden ligger i intervallet data-begin - data-end
+sett disse elementenes smil=active
+
+sjekk hvilke elementer som skal få smil=active basert på tidskoden
+sjekk hvilke elementer som skal få class=playing og class = showslide
+
+extTiming
+_smilclass_active
+_smilclass_idle
+
+
+Public API:                                                                |
+|                                                                             |
+|    document.createTimeContainer(domNode, parentNode, targetNode, timerate)  |
+|    document.getTimeNodesByTarget(node)                                      |
+|    document.getTimeContainersByTarget(node)                                 |
+|    document.getTimeContainersByTagName(tagName)   

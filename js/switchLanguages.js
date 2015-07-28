@@ -1,12 +1,7 @@
 // language menu interaction
 // Eirik Hanssen, (c) 2015
 
-// Todo1: reset showslide and slidesync when playing audio to avoid collision
-// if changing what language is played
-// add event listener that will listen on all audio elements whent they start playing,
-//	or when they are clicked.
-//  remove class slidesync of all decendands of containing article
-// remove class showslide from all decendants of other article
+// Todo1: when beginning playback, pause playback of other languages.
 
 // Todo2: add forward/back buttons to click between slides
 // Maybe use this solution: http://wam.inrialpes.fr/timesheets/slideshows/audio.html
@@ -101,10 +96,23 @@ function resetOtherSlidesync(evt) {
 				active[k].setAttribute('smil', 'idle');
 		}*/
 		active[k].setAttribute('smil', 'idle');
-
 	}
 
+	// now get all elements in the right time-range
 
+	var timedElements = document.querySelectorAll('[data-begin]');
+
+	var activeTimedElements;
+	var beginTime, endTime
+	for (var l = 0; l < timedElements.length; l++) {
+		beginTime = timedElements[l].getAttribute("data-begin");
+		endTime = timedElements[l].getAttribute("data-end");
+		if (beginTime <= current_time && endTime >= current_time) {
+			//console.log(beginTime + " <= " + current_time + " <= " + endTime);
+			timedElements[l].setAttribute('smil', 'active');
+			// if decendant of same article as playing audio, set the playing class.
+		}
+	}
 
 	console.log('audio: ' + T.getAttribute('id') + ' : ' + current_time);
 }
