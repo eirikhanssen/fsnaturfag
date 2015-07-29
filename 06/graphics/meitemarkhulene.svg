@@ -79,7 +79,7 @@
 			height="100%" id="bakgrunn_meitemarkhulene"/>
 		
 		<use id="char01" xlink:href="#tri01" x="-10" y="-10">
-			<animateMotion id="char01anim01" begin="indefinite" dur="3s" repeatCount="1" fill="freeze" rotate="auto" additive="sum">
+			<animateMotion id="char01anim01" begin="indefinite" dur="10s" repeatCount="1" fill="freeze" rotate="auto" additive="sum">
 				<mpath xlink:href="#mpath01"></mpath>
 			</animateMotion>
 		</use>
