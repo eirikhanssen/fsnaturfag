@@ -52,7 +52,7 @@
 		<item select="#ti-c06-short-048" begin="161.250975" end="166.672834"/>
 	</par>
 
-	<par mediaSync="#audio-ti" timeAction="class: showslide" controls="#ti-controls">
+	<par mediaSync="#audio-ti" timeAction="class: showslide" controls="#controls-ti">
 		<item select="#slide-ti01" begin="0.581976" end="17.473016"/>
 		<item select="#slide-ti02" begin="17.554286" end="31.637188"/>
 		<item select="#slide-ti03" begin="31.788118" end="50.247982"/>

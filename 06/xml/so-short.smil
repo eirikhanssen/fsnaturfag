@@ -52,7 +52,7 @@
 		<item select="#so-c06-short-048" begin="154.953202" end="159.887075"/>
 	</par>
 
-	<par mediaSync="#audio-so" timeAction="class: showslide" controls="#so-controls">
+	<par mediaSync="#audio-so" timeAction="class: showslide" controls="#controls-so">
 		<item select="#slide-so01" begin="0.182104" end="17.573010"/>
 		<item select="#slide-so02" begin="17.658371" end="28.584595"/>
 		<item select="#slide-so03" begin="28.630121" end="45.138962"/>

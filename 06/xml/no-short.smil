@@ -52,7 +52,7 @@
 		<item select="#no-c06-short-048" begin="152.221686" end="157.662813"/>
 	</par>
 	<!-- slides -->
-	<par mediaSync="#audio-no" timeAction="class: showslide" controls="#no-controls">
+	<par mediaSync="#audio-no" timeAction="class: showslide" controls="#controls-no">
 		<item select="#slide-no01" begin="0.428537" end="18.764745"/>
 		<item select="#slide-no02" begin="19.011478" end="29.140545"/>
 		<item select="#slide-no03" begin="29.140545" end="44.632822"/>

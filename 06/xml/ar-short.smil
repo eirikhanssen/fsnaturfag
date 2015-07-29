@@ -51,7 +51,7 @@
 		<item select="#ar-c06-short-047" begin="130.847820" end="133.648904"/>
 		<item select="#ar-c06-short-048" begin="133.648904" end="136.998451"/>
 	</par>
-	<par mediaSync="#audio-ar" timeAction="class: showslide" controls="#ar-controls">
+	<par mediaSync="#audio-ar" timeAction="class: showslide" controls="#controls-ar">
 		<item select="#slide-ar01" begin="0.812902" end="14.808526"/>
 		<item select="#slide-ar02" begin="14.906466" end="21.683913"/>
 		<item select="#slide-ar03" begin="21.683913" end="38.235770"/>

@@ -86,6 +86,9 @@
 			<xsl:if test="./@dir">
 				<xsl:attribute name="dir" select="./@dir"/>
 			</xsl:if>
+			<nav id="{concat('controls-',@lang)}" class="smil-timeController">
+				
+			</nav>
 			<xsl:apply-templates/>
 		</article>
 	</xsl:template>
