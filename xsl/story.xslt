@@ -90,7 +90,7 @@
 				<div class="smil-controlBar">
 						<button class="smil-first"><span>| «</span>	</button>
 						<button class="smil-prev"><span>«</span></button>
-						<button class="smil-play"><span>play</span></button>
+						<button class="smil-play"><span>Lytt</span></button>
 						<button class="smil-next"><span>»</span></button>
 						<button class="smil-last"><span>» |</span></button>
 				</div>
