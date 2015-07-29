@@ -6,13 +6,9 @@ audio {
 	right: 0;
 	left: 0;
 	margin: 0 auto;
-	padding: .25em;
-	line-height: 2em;
 	width: 98%;
 	z-index: 10;
-	background: black;
 	opacity: 1;
-	box-shadow: 0 0 .35em gray;
 }
 
 .dual audio {

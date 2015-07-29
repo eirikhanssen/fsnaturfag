@@ -1,27 +1,87 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   version="1.1"
-   width="1140"
-   height="800"
-   id="meitemarkhulene_svg"
-   style="outline: 5px solid #000">
-  <defs
-     id="defs8332" />
-  <g id="layer1">
-    <image
-       xlink:href="meitemarkhulene.jpg"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%"
-       id="meitemarkhulene_bakgrunn" />
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+	width="1140" height="800" id="meitemarkhulene_svg" style="outline: 5px solid #000">
+	<script>
+		<![CDATA[
+		window.onload = svginit;
+		var layer1, transition01, motion01, char01, spin01;
+		function svginit() {
+			console.log("svg init");
+			bakgrunn = document.getElementById('bakgrunn_meitemarkhulene');
+			bakgrunn.addEventListener("click", getCoords, true);
+			transition01=document.getElementById('transition01');
+			motion01=document.getElementById('char01anim01');
+			char01=document.getElementById('char01');
+			spin01=document.getElementById('spin01');
+			char01.addEventListener("click", spin, false);
+			
+		}
+		function getCoords(ev) {
+			
+			console.log(ev.target.nodeName + ' #' + ev.target.getAttribute('id') + ' ' + ev.clientX + ',' + ev.clientY);
+			animate();
+		}
+		function animate() {
+			transition01.beginElement();
+			motion01.beginElement();
+		}
+		var spin = (function () {
+			var spinning = false;
+			var toggleSpin = function () {
+				if (spinning === false) {
+					spinning = true;
+					spin01.beginElement();
+					console.log('spinning');
+				} else if (spinning === true) {
+					spinning = false;
+					spin01.endElement();
+					console.log('stop spinning');
+				}
+			}
+			return toggleSpin;
+		}());
+		]]>
+	</script>
+	<defs id="defs">
+		<style type="text/css">
+			#mpath01 {
+				fill: none; stroke: red; stroke-width: 5;
+			}
+			#tri01 {
+				fill: rgba(255,0,255,0.7);
+				stroke: black;
+				stroke-width: 3;
+			}
+		</style>
+		<filter id="revealFromBlur">
+			<feGaussianBlur stdDeviation="0">
+				<animate id="transition01"
+					attributeName="stdDeviation"
+					attributeType="XML"
+					begin="0s" dur="5s" values="0;0;50;0" repeatCount="1"/>
+			</feGaussianBlur>
+		</filter>
+		<path id="mpath01" d="M 150 200 q 250 -100 500 200 s 250 100 500 0"></path>
+		<path id="tri01" d="M0 0 v-10 l 20 10 l -20 10 Z">
+			<animateTransform id="spin01"
+				attributeType="xml"
+				attributeName="transform"
+				begin="indefinite"
+				type="rotate"
+				from="0 10 0"
+				to="720 10 0"
+				dur="4s"
+				repeatCount="indefinite"/>
+		</path>
+	</defs>
+	<g id="layer1">
+		<image filter="url(#revealFromBlur)" xlink:href="meitemarkhulene.jpg" x="0" y="0" width="100%"
+			height="100%" id="bakgrunn_meitemarkhulene"/>
+		
+		<use id="char01" xlink:href="#tri01" x="-10" y="-10">
+			<animateMotion id="char01anim01" begin="indefinite" dur="3s" repeatCount="1" fill="freeze" rotate="auto" additive="sum">
+				<mpath xlink:href="#mpath01"></mpath>
+			</animateMotion>
+		</use>
+	</g>
 </svg>

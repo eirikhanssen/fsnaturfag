@@ -80,19 +80,19 @@ footer li {
 
 .lang_container article {
 	background: rgba(255, 255, 255, .5);
-	position: relative;
+	/*position: relative;*/
 	box-sizing: border-box;
 	padding: .5em 1em;
-	padding-top: 2em;
+	padding-top: 0em;
 	display: block;
 	line-height: 2em;
 	box-shadow: 0 0 .5em gray;
 	border: 1px solid black;
-	max-width: 95%;
+	max-width: 90%;
 	width: 30em;
 	height: 11em;
 	float: right;
-	margin: 0.5em 1em;
+	margin: 0.5em auto;
 	overflow: hidden;
 }
 
@@ -101,11 +101,11 @@ footer li {
 }
 
 #primary_language_container article {
-	margin-left: 0;
+	margin-right: .5em;
 }
 
 #secondary_language_container article {
-	margin-right: 0;
+	margin-left: .5em;
 }
 
 .lang_container article p {
@@ -120,12 +120,12 @@ footer li {
 }*/
 
 .lang_container audio {
-	position: absolute;
-	top: 0;
-	bottom: auto;
+	position: static;
 	width: 100%;
 	padding: 0;
-	margin: 0 !important;
+	margin: auto;
+	margin-top: .25em;
+	max-height: 1.5em;
 }
 /*
 .dual #primary_language_container audio {

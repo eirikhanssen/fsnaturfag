@@ -14,10 +14,10 @@
 	
 	<xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>
 	
-	<xsl:param name="smilpath" as="xs:string?"/>
+	<xsl:param name="sp" as="xs:string?"/>
 
 	<xsl:variable name="smilTimings">
-		<xsl:sequence select="doc($smilpath)"/>
+		<xsl:sequence select="doc($sp)"/>
 	</xsl:variable>
 	
 	<xsl:function name="hfw:padNumber" as="xs:string">
@@ -33,9 +33,7 @@
 	</xsl:function>
 	
 	<xsl:template match="/">
-		<xsl:message select="concat('param: ' , $smilpath)"/>
 		<xsl:apply-templates/>
-		
 	</xsl:template>
 	
 	<!--<xsl:variable name="languages">
@@ -78,16 +76,24 @@
 	</xsl:template>
 	
 	<xsl:template match="locale">
+		<xsl:variable name="this" select="."/>
 		<article>
-			<xsl:if test="@lang">
-				<xsl:attribute name="id" select="concat('language-contents-',/locale/@lang)"/>
-				<xsl:attribute name="lang" select="/locale/@lang"/>
+			<xsl:if test="$this/@lang">
+				<xsl:attribute name="id" select="concat('language-contents-',$this/@lang)"/>
+				<xsl:attribute name="lang" select="$this/@lang"/>
 			</xsl:if>
 			<xsl:if test="./@dir">
 				<xsl:attribute name="dir" select="./@dir"/>
 			</xsl:if>
 			<nav id="{concat('controls-',@lang)}" class="smil-timeController">
-				
+				<xsl:comment> Control buttons </xsl:comment>
+				<div class="smil-controlBar">
+						<button class="smil-first"><span>| «</span>	</button>
+						<button class="smil-prev"><span>«</span></button>
+						<button class="smil-play"><span>play</span></button>
+						<button class="smil-next"><span>»</span></button>
+						<button class="smil-last"><span>» |</span></button>
+				</div>
 			</nav>
 			<xsl:apply-templates/>
 		</article>
@@ -125,8 +131,9 @@
 	</xsl:template>
 	
 	<xsl:template match="slide">
-		<xsl:variable name="num" select="hfw:padNumber((count(preceding::slide)+1))" as="xs:string"/>
-		<xsl:variable name="id" select="concat('slide-' , ancestor::locale/@lang , $num)"/>
+		<xsl:variable name="slidenum" select="count(preceding-sibling::slide)+1"/>
+		<xsl:variable name="slidecount" select="count(ancestor::locale//slide)"/>
+		<xsl:variable name="id" select="concat('slide-' , ancestor::locale/@lang , hfw:padNumber($slidenum))"/>
 		<xsl:variable name="hashId" select="concat('#',$id)"/>
 		<xsl:variable name="begin" select="$smilTimings/s:timesheet/s:par/s:item[@select eq $hashId]/@begin"/>
 		<xsl:variable name="end" select="$smilTimings/s:timesheet/s:par/s:item[@select eq $hashId]/@end"/>
@@ -135,6 +142,7 @@
 			<xsl:attribute name="data-begin" select="xs:string($begin)"/>
 			<xsl:attribute name="data-end" select="xs:string($end)"/>
 			<xsl:apply-templates/>
+			<div class="slidenum"><xsl:value-of select="concat($slidenum,'/',$slidecount)"/></div>
 		</div>
 	</xsl:template>
 	
