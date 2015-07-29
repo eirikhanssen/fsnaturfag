@@ -1,0 +1,1 @@
+../../xsl/story.xslt
