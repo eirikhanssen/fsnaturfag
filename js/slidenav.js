@@ -17,7 +17,6 @@ function slidenavInit() {
 		console.log('adding control to: ');
 		addSlideControls(slide_controls[i]);
 	}
-
 }
 
 var sm = function () {
