@@ -36,6 +36,9 @@ element[smil=done]*/
 	position: relative;
 	z-index: 1;
 }
+#story div[id^=slide] {
+	position: static;
+}
 
 #story [smil=active]::before {
 	content: "";

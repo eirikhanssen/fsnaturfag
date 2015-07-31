@@ -121,27 +121,43 @@ var getCurrentSlide = function (audioElement, slides) {
 };
 
 // pause playback (if playing), move to next slide
-	var nextSlide = function (audioElement, slides) {
+var nextSlide = function (audioElement, slides) {
 	audioElement.pause();
 	var currentSlide = getCurrentSlide(audioElement, slides);
 	console.log(currentSlide.getAttribute('id'));
-	if (currentSlide.nextElementSibling) {
+	if (currentSlide.nextElementSibling.nodeName === 'DIV') {
 		currentSlide.setAttribute('smil','done');
 		audioElement.setCurrentTime(currentSlide.nextElementSibling.getAttribute('data-begin'));
+		clearOtherSlides(currentSlide);
 	}
 };
 
 // pause playback (if playing), move to prev slide
 var prevSlide = function (audioElement, slides) {
-
 	audioElement.pause();
 	var currentSlide = getCurrentSlide(audioElement, slides);
-	console.log(currentSlide.getAttribute('id'));
-	if (currentSlide.previousElementSibling) {
+	//console.log(currentSlide.getAttribute('id') + ', nodename: ' + currentSlide.nodeName);
+	if (currentSlide.previousElementSibling.nodeName === 'DIV') {
 		currentSlide.setAttribute('smil','idle');
 		audioElement.setCurrentTime(currentSlide.previousElementSibling.getAttribute('data-begin'));
+		clearOtherSlides(currentSlide);
 	}
 };
+
+var clearOtherSlides = function (slideEl) {
+	var slides = document.querySelectorAll('[id^=slide]');
+	var playingClassActive = document.querySelectorAll('.playing');
+	var activeElements = document.querySelectorAll('[smil=active]');
+	for (var j = 0; j < playingClassActive.length; j++) {
+		removeClass(playingClassActive[j], 'playing');
+	}
+	for (var i = 0; i < slides.length; i++) {
+		removeClass(slides[i], 'showslide');
+	}
+	for (var k = 0; k < activeElements.length; k++) {
+		activeElements[k].setAttribute('smil','idle');
+	}
+}
 
 var firstSlide = function (audioElement, slides) {
 	audioElement.pause();

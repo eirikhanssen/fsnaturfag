@@ -22,7 +22,6 @@
 			animate();
 		}
 		function animate() {
-			transition01.beginElement();
 			motion01.beginElement();
 		}
 		var spin = (function () {
@@ -53,14 +52,6 @@
 				stroke-width: 3;
 			}
 		</style>
-		<filter id="revealFromBlur">
-			<feGaussianBlur stdDeviation="0">
-				<animate id="transition01"
-					attributeName="stdDeviation"
-					attributeType="XML"
-					begin="0s" dur="5s" values="0;0;50;0" repeatCount="1"/>
-			</feGaussianBlur>
-		</filter>
 		<path id="mpath01" d="M 150 200 q 250 -100 500 200 s 250 100 500 0"></path>
 		<path id="tri01" d="M0 0 v-10 l 20 10 l -20 10 Z">
 			<animateTransform id="spin01"
@@ -75,9 +66,8 @@
 		</path>
 	</defs>
 	<g id="layer1">
-		<image filter="url(#revealFromBlur)" xlink:href="meitemarkhulene.jpg" x="0" y="0" width="100%"
+		<image xlink:href="bg-0006.jpg" x="0" y="0" width="100%"
 			height="100%" id="bakgrunn_meitemarkhulene"/>
-		
 		<use id="char01" xlink:href="#tri01" x="-10" y="-10">
 			<animateMotion id="char01anim01" begin="indefinite" dur="10s" repeatCount="1" fill="freeze" rotate="auto" additive="sum">
 				<mpath xlink:href="#mpath01"></mpath>

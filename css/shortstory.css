@@ -161,3 +161,26 @@ header h1 {
 }
 
 #lang_select {}
+
+
+
+div[id^=slide][smil=active] .slidenum,
+audio + div[id^=slide] .slidenum
+{
+	display: inline-block;
+	position: absolute; font-size: 1em; 
+	font-weight: normal;
+	color: black;
+	z-index: 10;
+	bottom: -1.5em; right: .25em;
+	border-radius: .5em;
+
+}
+
+[id^=slide] + [id^=slide] .slidenum,
+audio + div[id^=slide][smil=done] .slidenum{display: none;}
+
+#secondary_language_container .slidenum {
+	right: auto; left: .5em;
+}
+
