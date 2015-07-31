@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-	width="1140" height="800" id="meitemarkhulene_svg" style="outline: 5px solid #000">
+	width="1536" height="1080" id="meitemarkhulene_svg" style="outline: 5px solid #000" viewBox="0 0 100% 100%">
 	<script>
 		<![CDATA[
 		window.onload = svginit;
@@ -64,14 +64,36 @@
 				dur="4s"
 				repeatCount="indefinite"/>
 		</path>
+		<image id="_bille" xlink:href="bille01.png" x="0" y="-147" width="294" height="300" transform="scale(0.5)"></image>
+		<image id="_skolopender_spiser" xlink:href="skolopender_spiser_mark.png" x="-307.5" y="-400" width="615" height="800" transform="scale(0.55)"></image>
+		<image id="_meitemark_par" xlink:href="meitemark_par01.png" x="-400" y="-94" width="800" height="188" transform="scale(0.55)" ></image>
+		<image id="_meitemark_hviler" xlink:href="meitemark03_hviler.png" x="-200" y="-164.5" width="400" height="329" transform="scale(0.55)"></image>
+		<image id="_kokong" xlink:href="kokong01.png" x="-200" y="-164.5" width="400" height="329" transform="scale(0.4)"></image>
+		<image id="_meitemark01" xlink:href="meitemark01.png" x="-400" y="-62" width="800" height="124" transform="scale(0.6)"></image>
+		<image id="_meitemark02" xlink:href="meitemark02.png" x="-400" y="-62" width="800" height="160.5" transform="scale(1.2)"></image>
+		<use id="_bille01" xlink:href="#_bille" x="0" y="0" transform="rotate(0)"></use>
+		<use id="_bille02" xlink:href="#_bille" x="0" y="0" transform="rotate(0)"></use>
+		<use id="_skolopender01" xlink:href="#_skolopender_spiser" x="0" y="0" transform="rotate(0)"></use>
+		<use id="_meitemark_par01" xlink:href="#_meitemark_par" x="0" y="0" transform="rotate(0)"></use>
+		<use id="_meitemark_hviler01" xlink:href="#_meitemark_hviler" x="0" y="0" transform="rotate(0)"></use>
+		<use id="_meitemark01b" xlink:href="#_meitemark01" x="0" y="0" transform="scale(1.2)"></use>
 	</defs>
-	<g id="layer1">
-		<image xlink:href="bg-0006.jpg" x="0" y="0" width="100%"
-			height="100%" id="bakgrunn_meitemarkhulene"/>
+	<g id="background">
+		<image xlink:href="bg-0006.jpg" x="0" y="0" width="1536" height="1080"
+			id="bakgrunn_meitemarkhulene"/>
 		<use id="char01" xlink:href="#tri01" x="-10" y="-10">
 			<animateMotion id="char01anim01" begin="indefinite" dur="10s" repeatCount="1" fill="freeze" rotate="auto" additive="sum">
 				<mpath xlink:href="#mpath01"></mpath>
 			</animateMotion>
 		</use>
+		<use id="bille01" xlink:href="#_bille01" x="0" y="0" transform="translate(1400,900) rotate(60)"/>
+		<use id="bille02" xlink:href="#_bille02" x="0" y="0" transform="translate(750,1080) rotate(-75)"/>
+		<use id="skolopender01" xlink:href="#_skolopender01" x="0" y="0" transform="translate(1360,690) rotate(10)"/>
+		<use id="meitemark_par" xlink:href="#_meitemark_par01" x="0" y="0" transform="translate(1020, 970) rotate(17)"/>
+		<use id="meitemark_hviler" xlink:href="#_meitemark_hviler01" x="0" y="0" transform="translate(340,920) rotate(-100)"/>
+		<use id="kokong" xlink:href="#_kokong" x="0" y="0" transform="translate(1150,1055) rotate(3)"/>
+		<use id="meitemark01" xlink:href="#_meitemark01" x="0" y="0" transform="translate(1200,590) rotate(-27)"/>
+		<use id="meitemark01b" xlink:href="#_meitemark01b" x="0" y="0" transform="translate(1200,400) rotate(-10) scale(1,-1)"/>
+		<use id="meitemark02" xlink:href="#_meitemark02" x="0" y="0" transform="translate(200,550) rotate(80)"/>
 	</g>
 </svg>
