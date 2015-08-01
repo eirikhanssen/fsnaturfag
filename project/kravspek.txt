@@ -5,15 +5,15 @@
 - menyfunksjoner:
   - språkvalg (OK) [toppmeny]
   - kort tekst (lagt til av meg)
-    - bilde + kort tekst
-    - kort tekst delt opp i 'slides', med mulighet til å gå til forrige, neste
+    - bilde + kort tekst OK
+    - kort tekst delt opp i 'slides', med mulighet til å gå til forrige, neste OK
     - automatisk modus
-        - lese hele
-        - bytte 'slides' automatisk
+        - lese hele OK
+        - bytte 'slides' automatisk OK
         - animasjoner i bildet trigges på bestemte tidspunkt (bestemte slides er ferdig)
     - animasjoner trigges på bestemte slides, eller mellom slides
   - lang tekst
-    - lyd + tekst ok
+    - lyd + tekst OK
     - trenger bilder
   - oppgaver
   - film

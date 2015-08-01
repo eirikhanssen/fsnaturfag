@@ -13,7 +13,7 @@
 			bakgrunn = document.getElementById('bakgrunn_meitemarkhulene');
 			bakgrunn.addEventListener("click", getCoords, true);
 			transition01=document.getElementById('transition01');
-			motion01=document.getElementById('char01anim01');
+			motion01=document.getElementById('c01a01');
 			char01=document.getElementById('char01');
 			spin01=document.getElementById('spin01');
 			char01.addEventListener("click", spin, false);
@@ -55,7 +55,11 @@
 				stroke-width: 3;
 			}
 		</style>
-		<path id="mpath01" d="M 150 200 q 250 -100 500 200 s 250 100 500 0"></path>
+		<path id="mpath01" d="M 399,283 c 0,0 2,31 70,68 51,27 85,37 84,94 -1,109 -235,122 -179,226 55,103 271,42 371,66 100,24 233,81 233,81"></path>
+		<path id="mpath12" d="M 978,849 c -25,12 -102,-132 -168,-86 -36,25 -41,62 -35,85 11,40 41,51 41,51"></path>
+		<path id="mpath23" d="M 818,938 C 713,828 806,729 965,812 c 158,83 209,92 244,113"></path>
+		<path id="mpath30" d="M 1213,920 c 0,0 -345,-149 -513,-184 C 532,700 380,767 360,662 339,556 570,527 560,440 552,377 477,383 439,349 403,317 397,261 364,245 335,231 289,285 289,285"></path>
+		<path id="mpath40" d="m 1359,642 c 0,0 -81,65 -124,146 C 1180,892 1144,905 1075,871 980,824 836,779 704,752 536,717 401,749 381,643 360,538 568,570 560,440 554,343 456,370 418,336 391,312 399,262 355,277"></path>
 		<path id="tri01" d="M0 0 v-10 l 20 10 l -20 10 Z">
 			<animateTransform id="spin01"
 				attributeType="xml"
@@ -77,6 +81,7 @@
 		<use id="_bille01" xlink:href="#_bille" x="0" y="0" transform="rotate(0)"></use>
 		<use id="_bille02" xlink:href="#_bille" x="0" y="0" transform="rotate(0)"></use>
 		<use id="_skolopender01" xlink:href="#_skolopender_spiser" x="0" y="0" transform="rotate(0)"></use>
+		<use id="_skolopender02" xlink:href="#_skolopender01" x="0" y="0" transform="rotate(230)"/>
 		<use id="_meitemark_par01" xlink:href="#_meitemark_par" x="0" y="0" transform="rotate(0)"></use>
 		<use id="_meitemark_hviler01" xlink:href="#_meitemark_hviler" x="0" y="0" transform="rotate(0)">
 			<animateTransform attributeType="xml"
@@ -96,6 +101,7 @@
 		<use id="bille01" xlink:href="#_bille01" x="0" y="0" transform="translate(1400,900) rotate(60)"/>
 		<use id="bille02" xlink:href="#_bille02" x="0" y="0" transform="translate(750,1080) rotate(-75)"/>
 		<use id="skolopender01" xlink:href="#_skolopender01" x="0" y="0" transform="translate(1360,690) rotate(10)"/>
+		
 		<use id="meitemark_par" xlink:href="#_meitemark_par01" x="0" y="0" transform="translate(1020, 970) rotate(17)"/>
 		<use id="meitemark_hviler" xlink:href="#_meitemark_hviler01" x="0" y="0" transform="translate(340,920) rotate(-100)"></use>
 		<use id="kokong" xlink:href="#_kokong" x="0" y="0" transform="translate(1150,1055) rotate(3)"/>
@@ -103,14 +109,28 @@
 		<use id="meitemark01b" xlink:href="#_meitemark01b" x="0" y="0" transform="translate(1200,400) rotate(-10) scale(1,-1)"/>
 		<use id="meitemark02" xlink:href="#_meitemark02" x="0" y="0" transform="translate(200,550) rotate(80)"></use>
 
-		<use id="meitemark_hviler_langs_stien" xlink:href="#_meitemark_hviler01" x="0" y="0">
+		<!--<use id="meitemark_hviler_langs_stien" xlink:href="#_meitemark_hviler01" x="0" y="0">
 			<animateMotion id="mark_anim01" begin="0" dur="5s" repeatCount="1" fill="freeze" rotate="auto" additive="replace">
 				<mpath xlink:href="#mpath01"></mpath>
 			</animateMotion>
-		</use>
+		</use>-->
 		<use id="char01" xlink:href="#tri01" x="-10" y="-10">
-			<animateMotion id="char01anim01" begin="indefinite" dur="10s" repeatCount="1" fill="freeze" rotate="auto" additive="sum">
+			<animateMotion id="c01a01" begin="indefinite" dur="5s" repeatCount="1" rotate="auto" additive="sum">
 				<mpath xlink:href="#mpath01"></mpath>
+			</animateMotion>
+			<animateMotion id="c01a12" begin="c01a01.end" dur="3s" repeatCount="1" rotate="auto" additive="sum">
+				<mpath xlink:href="#mpath12"></mpath>
+			</animateMotion>
+			<animateMotion id="c01a23" begin="c01a12.end" dur="5s" repeatCount="1" rotate="auto" additive="sum">
+				<mpath xlink:href="#mpath23"></mpath>
+			</animateMotion>
+			<animateMotion id="c01a30" begin="c01a23.end" dur="3s" repeatCount="1" fill="freeze" rotate="auto" additive="sum">
+				<mpath xlink:href="#mpath30"></mpath>
+			</animateMotion>
+		</use>
+		<use id="skolopender01b" xlink:href="#_skolopender02" x="0" y="0">
+			<animateMotion id="c02a40" begin="c01a23.end" dur="4s" repeatCount="1" fill="freeze" rotate="auto" additive="sum">
+				<mpath xlink:href="#mpath40"></mpath>
 			</animateMotion>
 		</use>
 	</g>
