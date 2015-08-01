@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
-	width="1536" height="1080" id="meitemarkhulene_svg" style="outline: 5px solid #000" viewBox="0 0 100% 100%">
+<svg 
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	version="1.1" id="meitemarkhulene_svg"
+	viewBox="0 0 1536 1080">
 	<script>
 		<![CDATA[
 		window.onload = svginit;
@@ -75,25 +78,42 @@
 		<use id="_bille02" xlink:href="#_bille" x="0" y="0" transform="rotate(0)"></use>
 		<use id="_skolopender01" xlink:href="#_skolopender_spiser" x="0" y="0" transform="rotate(0)"></use>
 		<use id="_meitemark_par01" xlink:href="#_meitemark_par" x="0" y="0" transform="rotate(0)"></use>
-		<use id="_meitemark_hviler01" xlink:href="#_meitemark_hviler" x="0" y="0" transform="rotate(0)"></use>
+		<use id="_meitemark_hviler01" xlink:href="#_meitemark_hviler" x="0" y="0" transform="rotate(0)">
+			<animateTransform attributeType="xml"
+				attributeName="transform"
+				type="rotate"
+				from="0"
+				to="360"
+				dur="4s"
+				repeatCount="indefinite"/>
+			
+		</use>
 		<use id="_meitemark01b" xlink:href="#_meitemark01" x="0" y="0" transform="scale(1.2)"></use>
 	</defs>
 	<g id="background">
 		<image xlink:href="bg-0006.jpg" x="0" y="0" width="1536" height="1080"
 			id="bakgrunn_meitemarkhulene"/>
+		<use id="bille01" xlink:href="#_bille01" x="0" y="0" transform="translate(1400,900) rotate(60)"/>
+		<use id="bille02" xlink:href="#_bille02" x="0" y="0" transform="translate(750,1080) rotate(-75)"/>
+		<use id="skolopender01" xlink:href="#_skolopender01" x="0" y="0" transform="translate(1360,690) rotate(10)"/>
+		<use id="meitemark_par" xlink:href="#_meitemark_par01" x="0" y="0" transform="translate(1020, 970) rotate(17)"/>
+		<use id="meitemark_hviler" xlink:href="#_meitemark_hviler01" x="0" y="0" transform="translate(340,920) rotate(-100)"></use>
+		<use id="kokong" xlink:href="#_kokong" x="0" y="0" transform="translate(1150,1055) rotate(3)"/>
+		<use id="meitemark01" xlink:href="#_meitemark01" x="0" y="0" transform="translate(1200,590) rotate(-27)"/>
+		<use id="meitemark01b" xlink:href="#_meitemark01b" x="0" y="0" transform="translate(1200,400) rotate(-10) scale(1,-1)"/>
+		<use id="meitemark02" xlink:href="#_meitemark02" x="0" y="0" transform="translate(200,550) rotate(80)"></use>
+
+		<use id="meitemark_hviler_langs_stien" xlink:href="#_meitemark_hviler01" x="0" y="0">
+			<animateMotion id="mark_anim01" begin="0" dur="5s" repeatCount="1" fill="freeze" rotate="auto" additive="replace">
+				<mpath xlink:href="#mpath01"></mpath>
+			</animateMotion>
+		</use>
 		<use id="char01" xlink:href="#tri01" x="-10" y="-10">
 			<animateMotion id="char01anim01" begin="indefinite" dur="10s" repeatCount="1" fill="freeze" rotate="auto" additive="sum">
 				<mpath xlink:href="#mpath01"></mpath>
 			</animateMotion>
 		</use>
-		<use id="bille01" xlink:href="#_bille01" x="0" y="0" transform="translate(1400,900) rotate(60)"/>
-		<use id="bille02" xlink:href="#_bille02" x="0" y="0" transform="translate(750,1080) rotate(-75)"/>
-		<use id="skolopender01" xlink:href="#_skolopender01" x="0" y="0" transform="translate(1360,690) rotate(10)"/>
-		<use id="meitemark_par" xlink:href="#_meitemark_par01" x="0" y="0" transform="translate(1020, 970) rotate(17)"/>
-		<use id="meitemark_hviler" xlink:href="#_meitemark_hviler01" x="0" y="0" transform="translate(340,920) rotate(-100)"/>
-		<use id="kokong" xlink:href="#_kokong" x="0" y="0" transform="translate(1150,1055) rotate(3)"/>
-		<use id="meitemark01" xlink:href="#_meitemark01" x="0" y="0" transform="translate(1200,590) rotate(-27)"/>
-		<use id="meitemark01b" xlink:href="#_meitemark01b" x="0" y="0" transform="translate(1200,400) rotate(-10) scale(1,-1)"/>
-		<use id="meitemark02" xlink:href="#_meitemark02" x="0" y="0" transform="translate(200,550) rotate(80)"/>
 	</g>
+	<!--<rect id="eventCatcher" x="0" y="0" width="1536" height="1080"
+		style="fill: none;" pointer-events="visible" />-->
 </svg>
