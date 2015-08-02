@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="meitemarkhulene_svg"
+   viewBox="0 0 1536 1080"
+   inkscape:version="0.91 r"
+   sodipodi:docname="meitemarkhulene_newpaths.svg">
+  <metadata
+     id="metadata3464">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="1182"
+     id="namedview3462"
+     showgrid="false"
+     inkscape:zoom="0.53999756"
+     inkscape:cx="742.77853"
+     inkscape:cy="564.07312"
+     inkscape:window-x="1280"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="meitemarkhulene_svg" />
+  <script
+     id="script3429"><![CDATA[
+		window.onload = svginit;
+		var layer1, transition01, motion01, char01, spin01;
+		function svginit() {
+			console.log("svg init");
+			bakgrunn = document.getElementById('bakgrunn_meitemarkhulene');
+			bakgrunn.addEventListener("click", getCoords, true);
+			transition01=document.getElementById('transition01');
+			motion01=document.getElementById('char01anim01');
+			char01=document.getElementById('char01');
+			spin01=document.getElementById('spin01');
+			char01.addEventListener("click", spin, false);
+			
+		}
+		function getCoords(ev) {
+			
+			console.log(ev.target.nodeName + ' #' + ev.target.getAttribute('id') + ' ' + ev.clientX + ',' + ev.clientY);
+			animate();
+		}
+		function animate() {
+			motion01.beginElement();
+		}
+		var spin = (function () {
+			var spinning = false;
+			var toggleSpin = function () {
+				if (spinning === false) {
+					spinning = true;
+					spin01.beginElement();
+					console.log('spinning');
+				} else if (spinning === true) {
+					spinning = false;
+					spin01.endElement();
+					console.log('stop spinning');
+				}
+			}
+			return toggleSpin;
+		}());
+		]]></script>
+  <defs
+     id="defs">
+    <style
+       type="text/css"
+       id="style3432">
+			#mpath01 {
+				fill: none; stroke: red; stroke-width: 5;
+			}
+			#tri01 {
+				fill: rgba(255,0,255,0.7);
+				stroke: black;
+				stroke-width: 3;
+			}
+		</style>
+    <path
+       id="mpath01"
+       d="M 150 200 q 250 -100 500 200 s 250 100 500 0" />
+    <path
+       id="tri01"
+       d="M0 0 v-10 l 20 10 l -20 10 Z">
+      <animateTransform
+         id="spin01"
+         attributeType="xml"
+         attributeName="transform"
+         begin="indefinite"
+         type="rotate"
+         from="0 10 0"
+         to="720 10 0"
+         dur="4s"
+         repeatCount="indefinite" />
+    </path>
+    <image
+       sodipodi:absref="/home/hanson/public_html/fsnaturfag/06/graphics/bille01.png"
+       xlink:href="bille01.png"
+       transform="scale(0.5)"
+       height="300"
+       width="294"
+       y="-147"
+       x="0"
+       id="_bille" />
+    <image
+       sodipodi:absref="/home/hanson/public_html/fsnaturfag/06/graphics/skolopender_spiser_mark.png"
+       xlink:href="skolopender_spiser_mark.png"
+       transform="scale(0.55)"
+       height="800"
+       width="615"
+       y="-400"
+       x="-307.5"
+       id="_skolopender_spiser" />
+    <image
+       sodipodi:absref="/home/hanson/public_html/fsnaturfag/06/graphics/meitemark_par01.png"
+       xlink:href="meitemark_par01.png"
+       transform="scale(0.55)"
+       height="188"
+       width="800"
+       y="-94"
+       x="-400"
+       id="_meitemark_par" />
+    <image
+       sodipodi:absref="/home/hanson/public_html/fsnaturfag/06/graphics/meitemark03_hviler.png"
+       xlink:href="meitemark03_hviler.png"
+       transform="scale(0.55)"
+       height="329"
+       width="400"
+       y="-164.5"
+       x="-200"
+       id="_meitemark_hviler" />
+    <image
+       sodipodi:absref="/home/hanson/public_html/fsnaturfag/06/graphics/kokong01.png"
+       xlink:href="kokong01.png"
+       transform="scale(0.4)"
+       height="329"
+       width="400"
+       y="-164.5"
+       x="-200"
+       id="_kokong" />
+    <image
+       sodipodi:absref="/home/hanson/public_html/fsnaturfag/06/graphics/meitemark01.png"
+       xlink:href="meitemark01.png"
+       transform="scale(0.6)"
+       height="124"
+       width="800"
+       y="-62"
+       x="-400"
+       id="_meitemark01" />
+    <image
+       sodipodi:absref="/home/hanson/public_html/fsnaturfag/06/graphics/meitemark02.png"
+       xlink:href="meitemark02.png"
+       transform="scale(1.2)"
+       height="160.5"
+       width="800"
+       y="-62"
+       x="-400"
+       id="_meitemark02" />
+    <use
+       id="_bille01"
+       xlink:href="#_bille"
+       x="0"
+       y="0"
+       transform="rotate(0)" />
+    <use
+       id="_bille02"
+       xlink:href="#_bille"
+       x="0"
+       y="0"
+       transform="rotate(0)" />
+    <use
+       id="_skolopender01"
+       xlink:href="#_skolopender_spiser"
+       x="0"
+       y="0"
+       transform="rotate(0)" />
+    <use
+       id="_meitemark_par01"
+       xlink:href="#_meitemark_par"
+       x="0"
+       y="0"
+       transform="rotate(0)" />
+    <use
+       id="_meitemark_hviler01"
+       xlink:href="#_meitemark_hviler"
+       x="0"
+       y="0"
+       transform="rotate(0)">
+      <animateTransform
+         attributeType="xml"
+         attributeName="transform"
+         type="rotate"
+         from="0"
+         to="360"
+         dur="4s"
+         repeatCount="indefinite" />
+    </use>
+    <use
+       id="_meitemark01b"
+       xlink:href="#_meitemark01"
+       x="0"
+       y="0"
+       transform="scale(1.2)" />
+  </defs>
+  <g
+     id="background">
+    <image
+       sodipodi:absref="/home/hanson/public_html/fsnaturfag/06/graphics/bg-0006.jpg"
+       xlink:href="bg-0006.jpg"
+       id="bakgrunn_meitemarkhulene"
+       height="1080"
+       width="1536"
+       y="0"
+       x="0" />
+    <use
+       id="bille01"
+       xlink:href="#_bille01"
+       x="0"
+       y="0"
+       transform="translate(1400,900) rotate(60)" />
+    <use
+       id="bille02"
+       xlink:href="#_bille02"
+       x="0"
+       y="0"
+       transform="translate(750,1080) rotate(-75)" />
+    <use
+       id="skolopender01"
+       xlink:href="#_skolopender01"
+       x="0"
+       y="0"
+       transform="translate(1360,690) rotate(10)" />
+    <use
+       id="meitemark_par"
+       xlink:href="#_meitemark_par01"
+       x="0"
+       y="0"
+       transform="translate(1020, 970) rotate(17)" />
+    <use
+       id="meitemark_hviler"
+       xlink:href="#_meitemark_hviler01"
+       x="0"
+       y="0"
+       transform="translate(340,920) rotate(-100)" />
+    <use
+       id="kokong"
+       xlink:href="#_kokong"
+       x="0"
+       y="0"
+       transform="translate(1150,1055) rotate(3)" />
+    <use
+       id="meitemark01"
+       xlink:href="#_meitemark01"
+       x="0"
+       y="0"
+       transform="translate(1200,590) rotate(-27)" />
+    <use
+       id="meitemark01b"
+       xlink:href="#_meitemark01b"
+       x="0"
+       y="0"
+       transform="translate(1200,400) rotate(-10) scale(1,-1)" />
+    <use
+       id="meitemark02"
+       xlink:href="#_meitemark02"
+       x="0"
+       y="0"
+       transform="translate(200,550) rotate(80)" />
+    <use
+       id="meitemark_hviler_langs_stien"
+       xlink:href="#_meitemark_hviler01"
+       x="0"
+       y="0">
+      <animateMotion
+         id="mark_anim01"
+         begin="0"
+         dur="5s"
+         repeatCount="1"
+         fill="freeze"
+         rotate="auto"
+         additive="replace">
+        <mpath
+           xlink:href="#mpath01" />
+      </animateMotion>
+    </use>
+    <use
+       id="char01"
+       xlink:href="#tri01"
+       x="-10"
+       y="-10">
+      <animateMotion
+         id="char01anim01"
+         begin="indefinite"
+         dur="10s"
+         repeatCount="1"
+         fill="freeze"
+         rotate="auto"
+         additive="sum">
+        <mpath
+           xlink:href="#mpath01" />
+      </animateMotion>
+    </use>
+  </g>
+  <!--<rect id="eventCatcher" x="0" y="0" width="1536" height="1080"
+		style="fill: none;" pointer-events="visible" />-->
+</svg>
