@@ -168,10 +168,7 @@
 			<use xlink:href="#_samir_bakfra" x="-350" y="490"></use>
 			<use xlink:href="#_jenny_bakfra" x="0" y="520"></use>
 		</g>
-		
 	</defs>
-	
-	
 	
 	<g id="background">
 		<image xlink:href="bg-0006.jpg" x="0" y="0" width="1536" height="1080"
@@ -193,13 +190,13 @@
 		<use id="meitemark01b" xlink:href="#_meitemark01b" x="0" y="0" transform="translate(1200,400) rotate(-10) scale(1,-1)"/>
 		<use id="meitemark02" xlink:href="#_meitemark02" x="0" y="0" transform="translate(200,550) rotate(80)"></use>
 			<use id="char01" xlink:href="#tri01" x="-10" y="-10">
-			<animateMotion id="c01a01" begin="indefinite" dur="2s" repeatCount="1" rotate="auto" additive="sum">
+			<animateMotion id="c01a01" begin="indefinite" dur="10s" repeatCount="1" rotate="auto" additive="sum">
 				<mpath xlink:href="#mpath01"></mpath>
 			</animateMotion>
-			<animateMotion id="c01a12" begin="c01a01.end" dur="2s" repeatCount="1" rotate="auto" additive="sum">
+			<animateMotion id="c01a12" begin="c01a01.end" dur="5s" repeatCount="1" rotate="auto" additive="sum">
 				<mpath xlink:href="#mpath12"></mpath>
 			</animateMotion>
-			<animateMotion id="c01a23" begin="c01a12.end" dur="2s" repeatCount="1" rotate="auto" additive="sum">
+			<animateMotion id="c01a23" begin="c01a12.end" dur="7s" repeatCount="1" rotate="auto" additive="sum">
 				<mpath xlink:href="#mpath23"></mpath>
 			</animateMotion>
 				<animateMotion id="c01a30" begin="c01a23.end+9s" dur="7s" repeatCount="1" fill="freeze" rotate="auto" additive="sum">
@@ -209,8 +206,7 @@
 		<use xlink:href="#_meitemark_spist" x="0" y="0" transform="translate(1375,710)" visibility="hidden">
 			<set attributeName="visibility" attributeType="CSS" to="visible" begin="c02a40.begin"></set>
 		</use>
-		
-		
+
 	</g>
 	<use xlink:href="#_oppdaget" x="50%" y="50%" visibility="hidden" opacity="0">
 		<set id="oppdaget_anim00" attributeName="visibility" attributeType="CSS" to="visible" begin="c01a23.end" fill="freeze"></set>

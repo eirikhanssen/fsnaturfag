@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="../css/story.css" />
 	<link rel="stylesheet" href="../css/common.css" />
 	<link rel="stylesheet" href="../css/longstory.css" />
+	<link rel="stylesheet" href="../css/chapmenu.css" />
 	<link rel="stylesheet" href="../css/smil.css" />
 	<script src="../js/timesheets.js"></script>
 	<link href="xml/c06-long.smil" rel="timesheet" type="application/smil+xml" />
@@ -17,6 +18,27 @@
 		body {
 			position: relative;
 			z-index: 1;
+		}
+		
+		#lang_select {
+			font-size: .75em;
+			display: inline-block;
+			float: left;
+			margin-bottom: 2em;
+			width: auto;
+		}
+		
+		#lang_select fieldset+fieldset {
+			min-width: 35em;
+		}
+		
+		main {
+			clear: both;
+		}
+		
+		#menu {
+			position: static;
+			float: right;
 		}
 		
 		body:after {
@@ -46,7 +68,20 @@
 </head>
 
 <body id="body">
+
 	<h1 id="page-head">Kap 6: I meitemarkens verden – hele fortellingen</h1>
+	<nav id="menu">
+		<ul>
+			<li><strong>Kap 06 Meny</strong>
+			</li>
+			<li><a href="index.html">lettlest</a>
+			</li>
+			<li><a href="fortelling.html">hele fortellingen</a>
+			</li>
+			<li>oppgaver</li>
+			<li>film</li>
+		</ul>
+	</nav>
 	<section id="lang_select">
 		<h2 class="invisible">Språkvalg</h2>
 		<fieldset id="primary_language">
