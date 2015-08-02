@@ -7,7 +7,7 @@
 	<script>
 		<![CDATA[
 		window.onload = svginit;
-		var layer1, transition01, motion01, char01, spin01;
+		var layer1, transition01, motion01, char01, spin01, meitemark_hviler;
 		function svginit() {
 			console.log("svg init");
 			bakgrunn = document.getElementById('bakgrunn_meitemarkhulene');
@@ -17,7 +17,9 @@
 			char01=document.getElementById('char01');
 			spin01=document.getElementById('spin01');
 			char01.addEventListener("click", spin, false);
-			
+			meitemark_hviler = document.getElementById('meitemark_hviler');
+			meitemark_hviler.addEventListener("click", meitemarkspin, false);
+			meitemark_spinner_anim = document.getElementById('meitemark_hviler_rot_start');
 		}
 		function getCoords(ev) {
 			
@@ -27,6 +29,11 @@
 		function animate() {
 			motion01.beginElement();
 		}
+		
+		var meitemarkspin = function (ev) {
+			meitemark_spinner_anim.beginElement();
+		}
+		
 		var spin = (function () {
 			var spinning = false;
 			var toggleSpin = function () {
@@ -73,34 +80,53 @@
 		</path>
 		<image id="_bille" xlink:href="bille01.png" x="0" y="-147" width="294" height="300" transform="scale(0.5)"></image>
 		<image id="_skolopender_spiser" xlink:href="skolopender_spiser_mark.png" x="-307.5" y="-400" width="615" height="800" transform="scale(0.55)"></image>
+		<image id="_skolopender_jakter" xlink:href="skolopender01.png" x="-400" y="-135" width="800" height="270" transform="scale(0.7)"></image>
+		<image id="_meitemark_spist" xlink:href="spist_meitemark02.png" x="-310" y="-400" width="620" height="800" transform="scale(.43) rotate(10)"></image>
 		<image id="_meitemark_par" xlink:href="meitemark_par01.png" x="-400" y="-94" width="800" height="188" transform="scale(0.55)" ></image>
 		<image id="_meitemark_hviler" xlink:href="meitemark03_hviler.png" x="-200" y="-164.5" width="400" height="329" transform="scale(0.55)"></image>
 		<image id="_kokong" xlink:href="kokong01.png" x="-200" y="-164.5" width="400" height="329" transform="scale(0.4)"></image>
 		<image id="_meitemark01" xlink:href="meitemark01.png" x="-400" y="-62" width="800" height="124" transform="scale(0.6)"></image>
 		<image id="_meitemark02" xlink:href="meitemark02.png" x="-400" y="-62" width="800" height="160.5" transform="scale(1.2)"></image>
+		<image id="_meitemarkdrit_mange" xlink:href="meitemarkdrit02.png" x="-150" y="-135" width="300" height="270" transform="scale(.75)"></image>
 		<use id="_bille01" xlink:href="#_bille" x="0" y="0" transform="rotate(0)"></use>
 		<use id="_bille02" xlink:href="#_bille" x="0" y="0" transform="rotate(0)"></use>
 		<use id="_skolopender01" xlink:href="#_skolopender_spiser" x="0" y="0" transform="rotate(0)"></use>
-		<use id="_skolopender02" xlink:href="#_skolopender01" x="0" y="0" transform="rotate(230)"/>
+		
 		<use id="_meitemark_par01" xlink:href="#_meitemark_par" x="0" y="0" transform="rotate(0)"></use>
 		<use id="_meitemark_hviler01" xlink:href="#_meitemark_hviler" x="0" y="0" transform="rotate(0)">
-			<animateTransform attributeType="xml"
+			<animateTransform id="meitemark_hviler_rot_start" attributeType="xml"
 				attributeName="transform"
+				begin="indefinite"
 				type="rotate"
 				from="0"
-				to="360"
-				dur="4s"
-				repeatCount="indefinite"/>
-			
+				to="10"
+				dur="1s"
+			    calcMode="linear"
+				fill="remove"
+				repeatCount="1"/>
+			<animateTransform attributeType="xml"
+				attributeName="transform"
+				begin="meitemark_hviler_rot_start.end"
+				type="rotate"
+				from="10"
+				to="0"
+				dur="1s"
+				repeatCount="1"/>
 		</use>
 		<use id="_meitemark01b" xlink:href="#_meitemark01" x="0" y="0" transform="scale(1.2)"></use>
 	</defs>
 	<g id="background">
 		<image xlink:href="bg-0006.jpg" x="0" y="0" width="1536" height="1080"
 			id="bakgrunn_meitemarkhulene"/>
+		<use id="drit_mange01" xlink:href="#_meitemarkdrit_mange" x="0" y="0" transform="translate(1430,1061) rotate(0)"/>
+		<use id="drit_mange02" xlink:href="#_meitemarkdrit_mange" x="0" y="0" transform="translate(1350,961) rotate(45) scale(0.8)"></use>
+		<use id="drit_mange03" xlink:href="#_meitemarkdrit_mange" x="0" y="0" transform="translate(850,1074) rotate(0) scale(0.9)"></use>
+		<use id="drit_mange04" xlink:href="#_meitemarkdrit_mange" x="0" y="0" transform="translate(80,850) rotate(160) scale(0.8)"></use>
 		<use id="bille01" xlink:href="#_bille01" x="0" y="0" transform="translate(1400,900) rotate(60)"/>
 		<use id="bille02" xlink:href="#_bille02" x="0" y="0" transform="translate(750,1080) rotate(-75)"/>
-		<use id="skolopender01" xlink:href="#_skolopender01" x="0" y="0" transform="translate(1360,690) rotate(10)"/>
+		<use id="skolopender01" xlink:href="#_skolopender01" x="0" y="0" transform="translate(1360,690) rotate(10)">
+			<set attributeName="visibility" attributeType="CSS" begin="c02a40.begin" to="hidden"></set>
+		</use>
 		
 		<use id="meitemark_par" xlink:href="#_meitemark_par01" x="0" y="0" transform="translate(1020, 970) rotate(17)"/>
 		<use id="meitemark_hviler" xlink:href="#_meitemark_hviler01" x="0" y="0" transform="translate(340,920) rotate(-100)"></use>
@@ -108,13 +134,7 @@
 		<use id="meitemark01" xlink:href="#_meitemark01" x="0" y="0" transform="translate(1200,590) rotate(-27)"/>
 		<use id="meitemark01b" xlink:href="#_meitemark01b" x="0" y="0" transform="translate(1200,400) rotate(-10) scale(1,-1)"/>
 		<use id="meitemark02" xlink:href="#_meitemark02" x="0" y="0" transform="translate(200,550) rotate(80)"></use>
-
-		<!--<use id="meitemark_hviler_langs_stien" xlink:href="#_meitemark_hviler01" x="0" y="0">
-			<animateMotion id="mark_anim01" begin="0" dur="5s" repeatCount="1" fill="freeze" rotate="auto" additive="replace">
-				<mpath xlink:href="#mpath01"></mpath>
-			</animateMotion>
-		</use>-->
-		<use id="char01" xlink:href="#tri01" x="-10" y="-10">
+			<use id="char01" xlink:href="#tri01" x="-10" y="-10">
 			<animateMotion id="c01a01" begin="indefinite" dur="5s" repeatCount="1" rotate="auto" additive="sum">
 				<mpath xlink:href="#mpath01"></mpath>
 			</animateMotion>
@@ -128,8 +148,12 @@
 				<mpath xlink:href="#mpath30"></mpath>
 			</animateMotion>
 		</use>
-		<use id="skolopender01b" xlink:href="#_skolopender02" x="0" y="0">
-			<animateMotion id="c02a40" begin="c01a23.end" dur="4s" repeatCount="1" fill="freeze" rotate="auto" additive="sum">
+		<use xlink:href="#_meitemark_spist" x="0" y="0" transform="translate(1375,710)" visibility="hidden">
+			<set attributeName="visibility" attributeType="CSS" to="visible" begin="c02a40.begin"></set>
+		</use>
+		<use id="skolopender_jakter" xlink:href="#_skolopender_jakter" x="0" y="0" transform="rotate(0)" visibility="hidden">
+			<set attributeName="visibility" attributeType="CSS" to="visible" begin="c01a30.begin"></set>
+			<animateMotion id="c02a40" begin="c01a30.begin" dur="4s" repeatCount="1" fill="freeze" rotate="auto" additive="sum">
 				<mpath xlink:href="#mpath40"></mpath>
 			</animateMotion>
 		</use>

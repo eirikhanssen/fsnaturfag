@@ -7,11 +7,42 @@
 	<title id="page-title">Kap 6: I meitemarkens verden - hele fortellingen</title>
 	<link rel="stylesheet" href="../css/story.css" />
 	<link rel="stylesheet" href="../css/common.css" />
+	<link rel="stylesheet" href="../css/longstory.css" />
 	<link rel="stylesheet" href="../css/smil.css" />
 	<script src="../js/timesheets.js"></script>
 	<link href="xml/c06-long.smil" rel="timesheet" type="application/smil+xml" />
 	<script src="../js/classmod.js"></script>
 	<script src="../js/switchLanguages.js"></script>
+	<style>
+		body {
+			position: relative;
+			z-index: 1;
+		}
+		
+		body:after {
+			position: fixed;
+			z-index: -1;
+			content: "";
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background-image: url(graphics/bg-0006.jpg);
+			background-position: bottom;
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+		
+		article {
+			background-color: rgba(255, 255, 255, 0.95);
+			padding: 1em;
+			border: 1px solid gray;
+		}
+		
+		article#language-contents-ar {
+			font-size: 1.408em;
+		}
+	</style>
 </head>
 
 <body id="body">

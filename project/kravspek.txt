@@ -1,26 +1,37 @@
-- hovedoppslag med kort tekst inkludert i bildet
-- mulighet for å vise to språk samtidig (OK)
-- mulighet for å spille av innlest tekst med synkronisering til tekst (OK)
+- hovedoppslag med kort tekst inkludert i bildet [OK]
+- mulighet for å vise to språk samtidig [OK]
+- mulighet for å spille av innlest tekst med synkronisering til tekst [OK]
 
 - menyfunksjoner:
-  - språkvalg (OK) [toppmeny]
-  - kort tekst (lagt til av meg)
-    - bilde + kort tekst OK
-    - kort tekst delt opp i 'slides', med mulighet til å gå til forrige, neste OK
-    - automatisk modus
-        - lese hele OK
-        - bytte 'slides' automatisk OK
-        - animasjoner i bildet trigges på bestemte tidspunkt (bestemte slides er ferdig)
-    - animasjoner trigges på bestemte slides, eller mellom slides
-  - lang tekst
-    - lyd + tekst OK
-    - trenger bilder
-  - oppgaver
-  - film
-  - pekere til dokumeter til læreren og foreldre
+  - språkvalg [toppmeny] [OK]
+  - lettlest [OK]
+      - kort tekst delt opp i 'slides', med mulighet til å gå til forrige, neste [OK]
+  - lang tekst [WIP]
+      - lyd + tekst [OK]
+      - trenger bilder [TODO]
+  - ordliste [TODO]
+  - oppgaver [TODO]
+  - filmlenker [TODO]
 
+Det skal også være pekere til 
+- dokumenter til læreren og foreldre [TODO]
+
+Ikoner til menyen [TODO]
+
+------------    
 
 Interaktivitet:
-    - klikke på en meitemark og få opp informasjonsoppslaget
-    - ett oppgavesett
-    - en ordliste, hvor en av termene leder til et fullstendig informasjonsoppslag
+    - klikke på en meitemark og få opp informasjonsoppslaget [TODO]
+    - ett oppgavesett [TODO]
+    - en ordliste, hvor en av termene leder til et fullstendig informasjonsoppslag [TODO]
+
+----------
+animasjoner automatisk modus
+    - aktiveres når lyden startes OK    
+    - lese hele OK
+    - bytte 'slides' automatisk OK
+    - bytte 'slides' med knapp OK
+    - animasjoner i bildet trigges på bestemte tidspunkt (bestemte slides er ferdig) [TODO]
+    - animasjoner trigges på bestemte slides, eller mellom slides [TODO]
+
+
