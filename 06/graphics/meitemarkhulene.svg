@@ -88,10 +88,10 @@
 		<image id="_meitemark01" xlink:href="meitemark01.png" x="-400" y="-62" width="800" height="124" transform="scale(0.6)"></image>
 		<image id="_meitemark02" xlink:href="meitemark02.png" x="-400" y="-62" width="800" height="160.5" transform="scale(1.2)"></image>
 		<image id="_meitemarkdrit_mange" xlink:href="meitemarkdrit02.png" x="-150" y="-135" width="300" height="270" transform="scale(.75)"></image>
+		<image id="_skolopender_oppdager_gjestene" xlink:href="skolopender_oppdager_gjestene.png" x="-267" y="-400" width="534" height="800" transform="scale(1)"></image>
 		<use id="_bille01" xlink:href="#_bille" x="0" y="0" transform="rotate(0)"></use>
 		<use id="_bille02" xlink:href="#_bille" x="0" y="0" transform="rotate(0)"></use>
 		<use id="_skolopender01" xlink:href="#_skolopender_spiser" x="0" y="0" transform="rotate(0)"></use>
-		
 		<use id="_meitemark_par01" xlink:href="#_meitemark_par" x="0" y="0" transform="rotate(0)"></use>
 		<use id="_meitemark_hviler01" xlink:href="#_meitemark_hviler" x="0" y="0" transform="rotate(0)">
 			<animateTransform id="meitemark_hviler_rot_start" attributeType="xml"
@@ -113,7 +113,15 @@
 				dur="1s"
 				repeatCount="1"/>
 		</use>
+		
+		<!--<rect id="_oppdaget" x="0" y="0" width="800" height="800" style="stroke: black;" fill="url('skolopender_oppdager_gjestene.png')" ></rect>-->
 		<use id="_meitemark01b" xlink:href="#_meitemark01" x="0" y="0" transform="scale(1.2)"></use>
+		
+		<g id="_oppdaget">
+			<rect x="-400" y="-400" width="800" height="800" style="stroke: black; fill: black; fill-opacity: 0.7"></rect>
+			<use xlink:href="#_skolopender_oppdager_gjestene" x="0" y="0"></use>
+		</g>
+		
 	</defs>
 	<g id="background">
 		<image xlink:href="bg-0006.jpg" x="0" y="0" width="1536" height="1080"
@@ -157,7 +165,10 @@
 				<mpath xlink:href="#mpath40"></mpath>
 			</animateMotion>
 		</use>
+		
 	</g>
+	<use xlink:href="#_oppdaget" x="50%" y="50%"></use>
+	
 	<!--<rect id="eventCatcher" x="0" y="0" width="1536" height="1080"
 		style="fill: none;" pointer-events="visible" />-->
 </svg>
