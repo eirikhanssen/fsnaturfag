@@ -88,7 +88,13 @@
 		<image id="_meitemark01" xlink:href="meitemark01.png" x="-400" y="-62" width="800" height="124" transform="scale(0.6)"></image>
 		<image id="_meitemark02" xlink:href="meitemark02.png" x="-400" y="-62" width="800" height="160.5" transform="scale(1.2)"></image>
 		<image id="_meitemarkdrit_mange" xlink:href="meitemarkdrit02.png" x="-150" y="-135" width="300" height="270" transform="scale(.75)"></image>
-		<image id="_skolopender_oppdager_gjestene" xlink:href="skolopender_oppdager_gjestene.png" x="-267" y="-400" width="534" height="800" transform="scale(1)"></image>
+		<image id="_skolopender_oppdager_gjestene" xlink:href="skolopender_oppdager_gjestene.png" x="-167" y="-400" width="534" height="800" transform="scale(1)"></image>
+		<image id="_oppdaget_bg" xlink:href="oppdaget_bg_tile01.jpg" x="0" y="0" width="800" height="800" transform="scale(1)"></image>
+		<image id="_katt_bakfra" xlink:href="katt-3d-01.png" x="-198" y="-400" width="396" height="400" transform="scale(.55)"></image>
+		<image id="_jenny_bakfra" xlink:href="jenny-3d-02.png" x="-167" y="-400" width="335" height="400" transform="scale(.75)"></image>
+		<image id="_hen_bakfra" xlink:href="hen-3d-02.png" x="-174" y="-400" width="348" height="400"></image>
+		<image id="_samir_bakfra" xlink:href="samir-3d-02.png" x="-128" y="-400" width="396" height="400" transform="scale(.75)"></image>
+		
 		<use id="_bille01" xlink:href="#_bille" x="0" y="0" transform="rotate(0)"></use>
 		<use id="_bille02" xlink:href="#_bille" x="0" y="0" transform="rotate(0)"></use>
 		<use id="_skolopender01" xlink:href="#_skolopender_spiser" x="0" y="0" transform="rotate(0)"></use>
@@ -113,16 +119,60 @@
 				dur="1s"
 				repeatCount="1"/>
 		</use>
-		
-		<!--<rect id="_oppdaget" x="0" y="0" width="800" height="800" style="stroke: black;" fill="url('skolopender_oppdager_gjestene.png')" ></rect>-->
+
 		<use id="_meitemark01b" xlink:href="#_meitemark01" x="0" y="0" transform="scale(1.2)"></use>
 		
+		<linearGradient id="oppdaget_gradient1"
+			x1="0%"
+			x2="50%"
+			y1="0%"
+			y2="0%"
+			spreadMethod="reflect"><!-- pad|reflect| repeat-->
+			<stop offset="10%" stop-color="#1f130e" stop-opacity="0.7"/>
+			<stop offset="25%" stop-color="#342617" stop-opacity="0.5"/>
+			<stop offset="50%" stop-color="#000000" stop-opacity="0"/>
+		</linearGradient>
+		<linearGradient id="oppdaget_gradient2"
+			x1="0%"
+			x2="0%"
+			y1="0%"
+			y2="50%"
+			spreadMethod="reflect"><!-- pad|reflect| repeat-->
+			<stop offset="10%" stop-color="#1f130e" stop-opacity="0.6"/>
+			<stop offset="25%" stop-color="#342617" stop-opacity="0.3"/>
+			<stop offset="50%" stop-color="#000000" stop-opacity="0"/>
+		</linearGradient>
+		
+		<radialGradient id="oppdaget_gradient3"
+			fx="50%" fy="5%" r="50%"
+			spreadMethod="pad"><!-- pad|reflect| repeat-->
+			<stop offset="0%" stop-color="#342617" stop-opacity="0"/>
+			<stop offset="25%" stop-color="#342617" stop-opacity="0.2"/>
+			<stop offset="50%" stop-color="#000000" stop-opacity="0.2"/>
+		</radialGradient>
+		
+		<pattern id="oppdaget_pattern"
+			x="0" y="0" width="800" height="800"
+			patternUnits="userSpaceOnUse">
+			<image xlink:href="oppdaget_bg_tile01.jpg" x="0" y="0" width="800" height="800" transform="scale(1)"></image>
+		</pattern>
+		
 		<g id="_oppdaget">
-			<rect x="-400" y="-400" width="800" height="800" style="stroke: black; fill: black; fill-opacity: 0.7"></rect>
+			<rect x="-768" y="-540" width="1536" height="1080" style="stroke: black; fill:url(#oppdaget_pattern);"></rect>
+			<rect x="-768" y="-540" width="1536" height="1080" style="stroke: none; fill:url(#oppdaget_gradient1);"></rect>
+			<rect x="-768" y="-540" width="1536" height="1080" style="stroke: none; fill:url(#oppdaget_gradient2);"></rect>
+			<rect x="-768" y="-540" width="1536" height="1080" style="stroke: none; fill:url(#oppdaget_gradient3);"></rect>
 			<use xlink:href="#_skolopender_oppdager_gjestene" x="0" y="0"></use>
+			<use xlink:href="#_katt_bakfra" x="-150" y="510"></use>
+			<use xlink:href="#_hen_bakfra" x="150" y="500"></use>
+			<use xlink:href="#_samir_bakfra" x="-350" y="490"></use>
+			<use xlink:href="#_jenny_bakfra" x="0" y="520"></use>
 		</g>
 		
 	</defs>
+	
+	
+	
 	<g id="background">
 		<image xlink:href="bg-0006.jpg" x="0" y="0" width="1536" height="1080"
 			id="bakgrunn_meitemarkhulene"/>
@@ -133,7 +183,7 @@
 		<use id="bille01" xlink:href="#_bille01" x="0" y="0" transform="translate(1400,900) rotate(60)"/>
 		<use id="bille02" xlink:href="#_bille02" x="0" y="0" transform="translate(750,1080) rotate(-75)"/>
 		<use id="skolopender01" xlink:href="#_skolopender01" x="0" y="0" transform="translate(1360,690) rotate(10)">
-			<set attributeName="visibility" attributeType="CSS" begin="c02a40.begin" to="hidden"></set>
+			<set attributeName="visibility" attributeType="CSS" begin="c02a40.begin" to="hidden" fill="freeze"></set>
 		</use>
 		
 		<use id="meitemark_par" xlink:href="#_meitemark_par01" x="0" y="0" transform="translate(1020, 970) rotate(17)"/>
@@ -143,31 +193,38 @@
 		<use id="meitemark01b" xlink:href="#_meitemark01b" x="0" y="0" transform="translate(1200,400) rotate(-10) scale(1,-1)"/>
 		<use id="meitemark02" xlink:href="#_meitemark02" x="0" y="0" transform="translate(200,550) rotate(80)"></use>
 			<use id="char01" xlink:href="#tri01" x="-10" y="-10">
-			<animateMotion id="c01a01" begin="indefinite" dur="5s" repeatCount="1" rotate="auto" additive="sum">
+			<animateMotion id="c01a01" begin="indefinite" dur="2s" repeatCount="1" rotate="auto" additive="sum">
 				<mpath xlink:href="#mpath01"></mpath>
 			</animateMotion>
-			<animateMotion id="c01a12" begin="c01a01.end" dur="3s" repeatCount="1" rotate="auto" additive="sum">
+			<animateMotion id="c01a12" begin="c01a01.end" dur="2s" repeatCount="1" rotate="auto" additive="sum">
 				<mpath xlink:href="#mpath12"></mpath>
 			</animateMotion>
-			<animateMotion id="c01a23" begin="c01a12.end" dur="5s" repeatCount="1" rotate="auto" additive="sum">
+			<animateMotion id="c01a23" begin="c01a12.end" dur="2s" repeatCount="1" rotate="auto" additive="sum">
 				<mpath xlink:href="#mpath23"></mpath>
 			</animateMotion>
-			<animateMotion id="c01a30" begin="c01a23.end" dur="3s" repeatCount="1" fill="freeze" rotate="auto" additive="sum">
+				<animateMotion id="c01a30" begin="c01a23.end+9s" dur="7s" repeatCount="1" fill="freeze" rotate="auto" additive="sum">
 				<mpath xlink:href="#mpath30"></mpath>
 			</animateMotion>
 		</use>
 		<use xlink:href="#_meitemark_spist" x="0" y="0" transform="translate(1375,710)" visibility="hidden">
 			<set attributeName="visibility" attributeType="CSS" to="visible" begin="c02a40.begin"></set>
 		</use>
-		<use id="skolopender_jakter" xlink:href="#_skolopender_jakter" x="0" y="0" transform="rotate(0)" visibility="hidden">
-			<set attributeName="visibility" attributeType="CSS" to="visible" begin="c01a30.begin"></set>
-			<animateMotion id="c02a40" begin="c01a30.begin" dur="4s" repeatCount="1" fill="freeze" rotate="auto" additive="sum">
-				<mpath xlink:href="#mpath40"></mpath>
-			</animateMotion>
-		</use>
+		
 		
 	</g>
-	<use xlink:href="#_oppdaget" x="50%" y="50%"></use>
+	<use xlink:href="#_oppdaget" x="50%" y="50%" visibility="hidden" opacity="0">
+		<set id="oppdaget_anim00" attributeName="visibility" attributeType="CSS" to="visible" begin="c01a23.end" fill="freeze"></set>
+		<animate id="oppdaget_anim01" attributeName="opacity" attributeType="CSS" from="0" to="1" begin="oppdaget_anim00.begin" dur="1s" fill="freeze"></animate>
+		<animate id="oppdaget_anim02" attributeName="opacity" attributeType="CSS" from="1" to="0" begin="oppdaget_anim01.begin+8s" dur="1s" fill="freeze"></animate>
+		<set id="oppdaget_anim_end" attributeName="visibility" attributeType="CSS" to="hidden" begin="oppdaget_anim02.end" fill="freeze"></set>
+	</use>
+	
+	<use id="skolopender_jakter" xlink:href="#_skolopender_jakter" x="0" y="0" transform="rotate(0)" visibility="hidden">
+		<set attributeName="visibility" attributeType="CSS" to="visible" begin="c02a40.begin" fill="freeze"></set>
+		<animateMotion id="c02a40" begin="c01a23.end+11s" dur="5s" repeatCount="1" fill="freeze" rotate="auto" additive="sum">
+			<mpath xlink:href="#mpath40"></mpath>
+		</animateMotion>
+	</use>
 	
 	<!--<rect id="eventCatcher" x="0" y="0" width="1536" height="1080"
 		style="fill: none;" pointer-events="visible" />-->
