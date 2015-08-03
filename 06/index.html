@@ -21,6 +21,34 @@
 </head>
 
 <body id="body">
+	<nav id="chapmenu">
+		<h2 id="chapmenuheading">Meny</h2>
+		<section>
+			<h3>kapittel 6</h3>
+			<ul>
+				<li><a href="index.html">kort tekst</a>
+				</li>
+				<li><a href="fortelling.html">lang tekst</a>
+				</li>
+				<li><a href="ordliste.html">ordliste</a>
+				</li>
+				<li><a href="oppgaver.html">oppgaver</a>
+				</li>
+				<li><a href="film.html">film</a>
+				</li>
+			</ul>
+		</section>
+
+		<section>
+			<h3>Info</h3>
+			<ul>
+				<li><a href="./veiledning.html">Til læreren</a>
+				</li>
+				<li><a href="foreldre.html">Til foreldre</a>
+				</li>
+			</ul>
+		</section>
+	</nav>
 	<header>
 		<h1 id="page-head">Kap 6: I meitemarkens verden (lettlest)</h1>
 		<section id="lang_select">
@@ -39,6 +67,7 @@
 				<label for="primary_lang_ti"><span lang="ti">ትግርኛ</span><span lang="no">Tigrinja</span>
 					<input id="primary_lang_ti" type="radio" name="primary_language" />
 				</label>
+
 			</fieldset>
 			<fieldset id="secondary_language">
 				<legend>Velg språk 2</legend>
@@ -54,25 +83,14 @@
 				<label for="secondary_lang_ti"><span lang="ti">ትግርኛ</span><span lang="no">Tigrinja</span>
 					<input id="secondary_lang_ti" type="radio" name="secondary_language" />
 				</label>
-				<label for="secondary_lang_none"><span>Ingen</span><span>(skjul)</span>
+				<label for="secondary_lang_none"><span>Ikke</span><span>valgt</span>
 					<input id="secondary_lang_none" type="radio" name="secondary_language" />
 				</label>
 			</fieldset>
 		</section>
 	</header>
 
-	<nav id="menu">
-		<ul>
-			<li><strong>Kap 06 Meny</strong>
-			</li>
-			<li><a href="index.html">lettlest</a>
-			</li>
-			<li><a href="fortelling.html">hele fortellingen</a>
-			</li>
-			<li>oppgaver</li>
-			<li>film</li>
-		</ul>
-	</nav>
+
 	<main>
 		<section id="story">
 			<h2 class="invisible">Innhold</h2>
@@ -577,13 +595,6 @@
 		</section>
 		<object id="caves" type="image/svg+xml" data="./graphics/meitemarkhulene.svg" width="1140" height="800" border="1"></object>
 	</main>
-	<footer>
-		<ul>
-			<li><a href="./veiledning.html">Lærerveiledning</a>
-			</li>
-			<li>Til foreldre</li>
-		</ul>
-	</footer>
 </body>
 
 </html>

@@ -1,28 +1,76 @@
+#chapmenu {
+	background: #e6e6e6;
+	padding: .25em;
+}
 
-		nav#menu {
-			position: absolute;
-			right: 0;
-			z-index: 5;
-		}
-		
-		nav ul {
-			margin: 0;
-			padding: 0;
-			background: lightgray;
-			box-sizing: border-box;
-			border: 1px solid lightgray;
-		}
-		
-		nav li {
-			list-style-type: none;
-			background: #ebebeb;
-			box-sizing: border-box;
-		}
-		
-		nav li+li {
-			margin-top: 1px;
-		}
-		
-		nav li:hover {
-			background-color: #f2f2f2;
-		}
+#chapmenu h2,
+#chapmenu h3 {
+	margin: 0;
+	text-align: center;
+	color: black;
+}
+
+#chapmenu h3 {
+	margin-bottom: .25em;
+}
+
+#chapmenu h2 span {
+	display: block;
+	font-size: 0.6em;
+	font-weight: normal;
+}
+
+#chapmenu {
+	width: 9em;
+	position: absolute;
+	right: 5px;
+	top: auto;
+	bottom: auto;
+	margin: auto;
+	z-index: 5;
+	border: 1px solid gray;
+}
+
+#chapmenu ul {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#chapmenu li {
+	padding: 0;
+	list-style-type: none;
+	box-sizing: border-box;
+	color: black;
+	background-color: #d7d7d7;
+	text-align: center;
+}
+
+#chapmenu li a {
+	display: block;
+	height: 2.5em;
+	line-height: 2.5em;
+	/*padding-left: 3em;*/
+	
+	border: 1px solid #8f8f8f;
+	text-decoration: none;
+	color: black;
+}
+
+#chapmenu li+li {
+	margin-top: .5em;
+}
+
+#chapmenu a:hover {
+	background-color: #ffee9c;
+	color: black;
+	border-color: black;
+}
+
+#chapmenu section {
+	margin-top: 1em;
+}
+
+#chapmenu section + section {
+	margin-top: 3em;
+}
