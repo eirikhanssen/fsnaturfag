@@ -8,58 +8,58 @@ var slide_controls;
 }());*/
 
 function slidenavInit() {
-	console.log("foo! bar ! slidenav!! foo!");
+	//console.log("foo! bar ! slidenav!! foo!");
 	
 	// get all control buttons
 	slide_controls = document.querySelectorAll('.smil-timeController');
 	
 	for (var i = 0; i< slide_controls.length; i++) {
-		console.log('adding control to: ');
+		//console.log('adding control to: ');
 		addSlideControls(slide_controls[i]);
 	}
 }
 
 var sm = function () {
-	console.log(slide_control_buttons.length);
+	//console.log(slide_control_buttons.length);
 };
 
 var addSlideControls = function (el) {
 	var audioElementToControl = el.parentNode.getElementsByTagName('audio')[0];
 	var slides = el.parentNode.querySelectorAll('div[id^=slide]');
 	var controlButtons = el.getElementsByTagName('button');
-	console.log(audioElementToControl.getAttribute('id'));
+	//console.log(audioElementToControl.getAttribute('id'));
 	for (var i = 0; i< controlButtons.length; i++) {
 		switch (controlButtons[i].getAttribute('class')) {
 			case "smil-play":
-				console.log('found a play button');
+				//console.log('found a play button');
 				controlButtons[i].addEventListener("click", 
 					function() {
 						playAudio(audioElementToControl);
 					}, false);
 				break;
 			case "smil-next":
-				console.log('found a next button');
+				//console.log('found a next button');
 				controlButtons[i].addEventListener("click", 
 					function() {
 						nextSlide(audioElementToControl, slides);
 					}, false);
 				break;
 				case "smil-prev":
-				console.log('found a next button');
+				//console.log('found a next button');
 				controlButtons[i].addEventListener("click", 
 					function() {
 						prevSlide(audioElementToControl, slides);
 					}, false);
 				break;
 				case "smil-first":
-				console.log('found a next button');
+				//console.log('found a next button');
 				controlButtons[i].addEventListener("click", 
 					function() {
 						firstSlide(audioElementToControl, slides);
 					}, false);
 				break;
 				case "smil-last":
-				console.log('found a next button');
+				//console.log('found a next button');
 				controlButtons[i].addEventListener("click", 
 					function() {
 						lastSlide(audioElementToControl, slides);
@@ -87,7 +87,7 @@ var getCurrentSlide = function (audioElement, slides) {
 	
 	var i,j;
 	var currentTime = audioElement.currentTime;
-	console.log('getCurrentSlide - currentTime: ' + currentTime);
+	//console.log('getCurrentSlide - currentTime: ' + currentTime);
 	var min = Infinity;
 	var max = 0;
 	var begintime,endtime;
@@ -100,7 +100,7 @@ var getCurrentSlide = function (audioElement, slides) {
 		}
 	}
 	if (currentTime <= min) {
-		console.log('a5');
+		//console.log('a5');
 		return slides[0];
 	} else if (currentTime >= max) {
 		return slides[slides.length-1];
@@ -115,7 +115,7 @@ var getCurrentSlide = function (audioElement, slides) {
 			}
 		}
 	}
-	console.log('match not found!!, returning first');
+	//console.log('match not found!!, returning first');
 	return slides[0];
 };
 
@@ -123,7 +123,7 @@ var getCurrentSlide = function (audioElement, slides) {
 var nextSlide = function (audioElement, slides) {
 	audioElement.pause();
 	var currentSlide = getCurrentSlide(audioElement, slides);
-	console.log(currentSlide.getAttribute('id'));
+	//console.log(currentSlide.getAttribute('id'));
 	if (currentSlide.nextElementSibling.nodeName === 'DIV') {
 		currentSlide.setAttribute('smil','done');
 		audioElement.setCurrentTime(currentSlide.nextElementSibling.getAttribute('data-begin'));
@@ -164,7 +164,7 @@ var firstSlide = function (audioElement, slides) {
 		slides[i].setAttribute('smil','idle');
 	}
 	audioElement.setCurrentTime(0);
-	console.log('to first slide');
+	//console.log('to first slide');
 };
 
 var lastSlide = function (audioElement, slides) {
@@ -175,7 +175,7 @@ var lastSlide = function (audioElement, slides) {
 	}
 	slides[slides.length-1].setAttribute('smil','active');
 	audioElement.setCurrentTime(newCurrentTime);
-	console.log('to last slide');
+	//console.log('to last slide');
 };
 
 

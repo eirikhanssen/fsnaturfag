@@ -7,33 +7,69 @@
 	<script>
 		<![CDATA[
 		window.onload = svginit;
-		var layer1, transition01, motion01, char01, spin01, meitemark_hviler;
+		var layer1, transition01, motion01, char01, spin01, meitemark_hviler, eventCatcher;
 		function svginit() {
-			console.log("svg init");
-			bakgrunn = document.getElementById('bakgrunn_meitemarkhulene');
-			bakgrunn.addEventListener("click", getCoords, true);
+			//console.log("svg init");
 			transition01=document.getElementById('transition01');
 			motion01=document.getElementById('c01a01');
 			char01=document.getElementById('char01');
 			spin01=document.getElementById('spin01');
-			char01.addEventListener("click", spin, false);
 			meitemark_hviler = document.getElementById('meitemark_hviler');
-			meitemark_hviler.addEventListener("click", meitemarkspin, false);
 			meitemark_spinner_anim = document.getElementById('meitemark_hviler_rot_start');
+			bakgrunn = document.getElementById('bakgrunn_meitemarkhulene');
+			eventCatcher = document.getElementById('eventCatcher');
+			if (eventCatcher) {
+				eventCatcher.addEventListener('click', getCoords, true);
+			}
+			bakgrunn.addEventListener("click", animate, true);
+			char01.addEventListener("click", spin, false);
+			meitemark_hviler.addEventListener("click", meitemarkspin, false);
 		}
+	
+		/*function toggleCatch() {
+			if (! eventCatcher) {
+				return;
+			}
+			var pe = eventCathcer.getAttribute("pointer-events");
+			switch (pe) {
+				case 'visible':
+					eventCatcher.setAttribute("pointer-events",'invisible');
+					console.log('disable event catcher');
+					break;
+				case 'invisible':
+					eventCatcher.setAttribute("pointer-events",'visible');
+					console.log('enable event catcher');
+					break;
+				default:
+					break;
+			}
+		}*/
+	
 		function getCoords(ev) {
-			
-			console.log(ev.target.nodeName + ' #' + ev.target.getAttribute('id') + ' ' + ev.clientX + ',' + ev.clientY);
-			animate();
+			var target = ev.target;
+			var t_id = target.getAttribute('id');
+			var t_w = target.getAttribute("width");
+			var t_h = target.getAttribute("height");
+			var c_l = target.getBoundingClientRect().left;
+			var c_r = target.getBoundingClientRect().right;
+			var c_t = target.getBoundingClientRect().top;
+			var c_b = target.getBoundingClientRect().bottom;
+			var c_w = c_r - c_l;
+			var c_h = c_b - c_t;
+			var c_x = ev.clientX;
+			var c_y = ev.clientY;
+			var t_x = Math.floor((c_x - c_l) * t_w / c_w);
+			var t_y = Math.floor((c_y - c_t) * t_h / c_h);
+			console.log('x: ' +  t_x + ' y: ' + t_y);
+			//animate();
 		}
+
 		function animate() {
 			motion01.beginElement();
 		}
-		
 		var meitemarkspin = function (ev) {
 			meitemark_spinner_anim.beginElement();
 		}
-		
 		var spin = (function () {
 			var spinning = false;
 			var toggleSpin = function () {
@@ -78,6 +114,7 @@
 				dur="4s"
 				repeatCount="indefinite"/>
 		</path>
+		<!-- Images -->
 		<image id="_bille" xlink:href="bille01.png" x="0" y="-147" width="294" height="300" transform="scale(0.5)"></image>
 		<image id="_skolopender_spiser" xlink:href="skolopender_spiser_mark.png" x="-307.5" y="-400" width="615" height="800" transform="scale(0.55)"></image>
 		<image id="_skolopender_jakter" xlink:href="skolopender01.png" x="-400" y="-135" width="800" height="270" transform="scale(0.7)"></image>
@@ -94,7 +131,9 @@
 		<image id="_jenny_bakfra" xlink:href="jenny-3d-02.png" x="-167" y="-400" width="335" height="400" transform="scale(.75)"></image>
 		<image id="_hen_bakfra" xlink:href="hen-3d-02.png" x="-174" y="-400" width="348" height="400"></image>
 		<image id="_samir_bakfra" xlink:href="samir-3d-02.png" x="-128" y="-400" width="396" height="400" transform="scale(.75)"></image>
-		
+		<!--<image id="_meitemarkdrit_klump01" xlink:href="drit-005.png" width="143" height="200" x="-72" y="-100" transform="scale(.3)" ></image>
+		<image id="_meitemarkdrit_klump02" xlink:href="drit-006.png" width="200" height="200" x="-100" y="-100" transform="scale(.3)" ></image>-->
+
 		<use id="_bille01" xlink:href="#_bille" x="0" y="0" transform="rotate(0)"></use>
 		<use id="_bille02" xlink:href="#_bille" x="0" y="0" transform="rotate(0)"></use>
 		<use id="_skolopender01" xlink:href="#_skolopender_spiser" x="0" y="0" transform="rotate(0)"></use>
@@ -173,12 +212,18 @@
 	<g id="background">
 		<image xlink:href="bg-0006.jpg" x="0" y="0" width="1536" height="1080"
 			id="bakgrunn_meitemarkhulene"/>
-		<use id="drit_mange01" xlink:href="#_meitemarkdrit_mange" x="0" y="0" transform="translate(1430,1061) rotate(0)"/>
-		<use id="drit_mange02" xlink:href="#_meitemarkdrit_mange" x="0" y="0" transform="translate(1350,961) rotate(45) scale(0.8)"></use>
-		<use id="drit_mange03" xlink:href="#_meitemarkdrit_mange" x="0" y="0" transform="translate(850,1074) rotate(0) scale(0.9)"></use>
+		<use id="drit_mange01" xlink:href="#_meitemarkdrit_mange" x="0" y="0" transform="translate(881,434) rotate(0) scale(.6)" style="opacity: 0.85;"/>
+		<use id="drit_mange02" xlink:href="#_meitemarkdrit_mange" x="0" y="0" transform="translate(992,728) rotate(180) scale(0.8)"></use>
+		<use id="drit_mange03" xlink:href="#_meitemarkdrit_mange" x="0" y="0" transform="translate(913,1013) rotate(0) scale(0.8)" style="opacity: 0.85;"></use>
 		<use id="drit_mange04" xlink:href="#_meitemarkdrit_mange" x="0" y="0" transform="translate(80,850) rotate(160) scale(0.8)"></use>
+		<use id="drit_mange05" xlink:href="#_meitemarkdrit_mange" x="0" y="0" transform="translate(190,760) rotate(45) scale(0.8)"></use>
+		<use id="drit_mange06" xlink:href="#_meitemarkdrit_mange" x="0" y="0" transform="translate(1101,651) rotate(-30) scale(-0.6)" style="opacity: 0.85;"></use>
+		<use id="drit_mange07" xlink:href="#_meitemarkdrit_mange" x="0" y="0" transform="translate(979,448) rotate(45) scale(0.6)" style="opacity: 0.85"></use>
+		<use id="drit_mange08" xlink:href="#_meitemarkdrit_mange" x="0" y="0" transform="translate(1480,630) rotate(0) scale(-0.6)" style="opacity: 0.65"></use>
+		
+		
 		<use id="bille01" xlink:href="#_bille01" x="0" y="0" transform="translate(1400,900) rotate(60)"/>
-		<use id="bille02" xlink:href="#_bille02" x="0" y="0" transform="translate(750,1080) rotate(-75)"/>
+		<use id="bille02" xlink:href="#_bille02" x="0" y="0" transform="translate(720,1050) rotate(-115)"/>
 		<use id="skolopender01" xlink:href="#_skolopender01" x="0" y="0" transform="translate(1360,690) rotate(10)">
 			<set attributeName="visibility" attributeType="CSS" begin="c02a40.begin" to="hidden" fill="freeze"></set>
 		</use>

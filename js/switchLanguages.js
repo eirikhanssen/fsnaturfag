@@ -25,7 +25,7 @@ var primary_lang_controls,
 
 
 function behaviourInit() {
-	console.log("initializing language menu interaction");
+	//console.log("initializing language menu interaction");
 	primary_lang_controls = document.querySelectorAll("#primary_language input");
 	primary_lang_labels = document.querySelectorAll("#primary_language label");
 	secondary_lang_controls = document.querySelectorAll("#secondary_language input");
@@ -37,7 +37,7 @@ function behaviourInit() {
 	all_audio_elements = document.getElementsByTagName("audio");
 	timesheetDOM
 	addLanguageMenuBehaviour();
-	console.log("adding article elements to array");
+	//console.log("adding article elements to array");
 	var articles_in_document = document.getElementsByTagName("article");
 	for (var i = 0; i < articles_in_document.length; i++) {
 		if (articles_in_document[i].id.indexOf("language-contents") == 0) {
