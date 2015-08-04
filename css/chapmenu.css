@@ -61,7 +61,8 @@
 	margin-top: .5em;
 }
 
-#chapmenu a:hover {
+#chapmenu a:hover,
+#chapmenu a:focus {
 	background-color: #ffee9c;
 	color: black;
 	border-color: black;
