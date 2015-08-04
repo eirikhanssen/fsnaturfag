@@ -29,9 +29,10 @@ main {
 	position: fixed;
 	z-index: 1;
 	top: 7em;
-/*	top: 0;*/
+	/*	top: 0;*/
+	
 	right: 5px;
-	bottom: 2em;
+	bottom: 5px;
 	left: 5px;
 	box-sizing: border-box;
 	background-color: #fffef0;
@@ -82,6 +83,7 @@ footer li {
 .lang_container article {
 	background: rgba(255, 255, 255, .5);
 	/*position: relative;*/
+	
 	box-sizing: border-box;
 	padding: .5em 1em;
 	padding-top: 0em;
@@ -163,25 +165,25 @@ header h1 {
 
 #lang_select {}
 
-
-
 div[id^=slide][smil=active] .slidenum,
-audio + div[id^=slide] .slidenum
-{
+audio + div[id^=slide] .slidenum {
 	display: inline-block;
-	position: absolute; font-size: 1em; 
+	position: absolute;
+	font-size: 1em;
 	font-weight: normal;
 	color: black;
 	z-index: 10;
-	bottom: -1.5em; right: .25em;
+	bottom: -1.5em;
+	right: .25em;
 	border-radius: .5em;
-
 }
 
 [id^=slide] + [id^=slide] .slidenum,
-audio + div[id^=slide][smil=done] .slidenum{display: none;}
-
-#secondary_language_container .slidenum {
-	right: auto; left: .5em;
+audio + div[id^=slide][smil=done] .slidenum {
+	display: none;
 }
 
+#secondary_language_container .slidenum {
+	right: auto;
+	left: .5em;
+}
