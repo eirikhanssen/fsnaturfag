@@ -24,7 +24,7 @@
 	width: 9em;
 	position: absolute;
 	right: 5px;
-	top: auto;
+	top: 0;
 	bottom: auto;
 	margin: auto;
 	z-index: 5;
