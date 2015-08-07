@@ -8,211 +8,281 @@
 	<link rel="stylesheet" href="../css/naturfag.css" />
 	<link rel="stylesheet" href="../css/chapmenu.css" />
 	<style>
+		body {
+			line-height: 1.5em;
+			margin: auto;
+		}
+		
+		header {
+			height: 4em;
+			/*background: rgba(0, 128, 0, 0.1);*/
+			
+			margin: 0;
+			margin-bottom: .5em;
+			border-bottom: 1px solid #bcbcbc;
+		}
+		
+		header h1 {
+			margin: 0 10rem 0 16rem;
+			line-height: 2em;
+			text-align: center;
+			/*background: rgba(255, 255, 0, 0.42);*/
+		}
+		
+		#toc,
+		nav#chapmenu {
+			font-family: arial, sans-serif;
+			top: 4.5em;
+		}
+		
+		#toc {
+			padding: .25em;
+			box-sizing: border-box;
+			position: absolute;
+			left: 5px;
+			width: 15em;
+			bottom: auto;
+			margin: auto;
+			/*background: rgba(245, 0, 255, 0.53);*/
+		}
+		
+		#toc h2,
+		main section:first-child h2:first-child {
+			margin: 0;
+		}
+		
+		#toc a {
+			text-decoration: none;
+			color: #3c56c7;
+		}
+		
+		#toc ul ul a {}
+		
+		#toc a:hover {
+			text-decoration: underline;
+		}
+		
+		#toc ul {
+			margin: 0;
+			padding: 0;
+			/*background: rgba(255, 0, 245, 0.4);*/
+		}
+		
+		#toc ul ul {
+			margin-left: .75em;
+			list-style-type: none;
+		}
+		
+		#toc li {
+			font-weight: bold;
+		}
+		
+		#toc li li {
+			font-weight: normal;
+		}
+		
+		main {
+			/*background-color: yellow;*/
+			
+			margin-left: 16em;
+			margin-right: 10em;
+			padding: .25em;
+		}
+		
+		#chapmenu {
+			width: 9em;
+			position: absolute;
+			right: 5px;
+			top: 0;
+			bottom: auto;
+			margin: auto;
+		}
 	</style>
 </head>
 
 <body>
-<h1>Lærerveiledning</h1>
-<nav id="chapmenu">
-		<h2 id="chapmenuheading">Meny</h2>
-		<section>
-			<h3>kapittel 6</h3>
-			<ul>
-				<li><a href="index.html">kort tekst</a>
-				</li>
-				<li><a href="fortelling.html">lang tekst</a>
-				</li>
-				<li><a href="ordliste.html">ordliste</a>
-				</li>
-				<li><a href="oppgaver.html">oppgaver</a>
-				</li>
-				<li><a href="film.html">film</a>
-				</li>
-			</ul>
-		</section>
+	<header>
+		<h1>Lærerveiledning</h1>
+	</header>
 
-		<section>
-			<h3>Info</h3>
-			<ul>
-				<li><a href="./veiledning.html">Til læreren</a>
-				</li>
-				<li><a href="foreldre.html">Til foreldre</a>
-				</li>
-			</ul>
-		</section>
+	<nav id="toc">
+		<h2>Innhold</h2>
+		<ul>
+			<li>
+				<a href="#om">Om prototypen</a>
+			</li>
+			<li>
+				<ul>
+					<li>
+						<a href="#spraak">Språk</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li>
+						<a href="#maal">Målsetning</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li>
+						<a href="#innhold">Prototypens innhold</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#tema">Tema</a>
+			</li>
+			<li>
+				<a href="#hovedpersoner">Hovedpersoner</a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="#sammenheng">Sammenheng og dybde</a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="#jenny_og_samir">Jenny og Samir</a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="#menyen">Menyen</a>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="#bakgrunn">Bakgrunnsstoff</a>
+			</li>
+			<li>
+				<ul>
+					<li>
+						<a href="#jord">Hva jord er</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li>
+						<a href="#meitemarken_blander_jorda">Meitemarken blander jorda</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li>
+						<a href="#25_tonn_jord">1 mål jord – 25 tonn spist – på et år</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li>
+						<a href="#forskjellige_meitemarker">Forskjellige meitemarker</a>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<a href="#graameitemarken">Dette gjør gråmeitemarken</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<a href="#stormeitemarken">Dette gjør stormeitemarken</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li>
+						<a href="#meitemarker_felles">Hva meitemarkene har til felles</a>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<a href="#kro_og_kraas">Kro og krås som ei høne</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<a href="#en_leddorm">En ledd-orm</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<a href="#meitemarkens_fiender">Fiender</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<a href="#meitemark_over_hele_verden">Over hele verden</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<a href="#navnopprinnelse">Hvor kommer navnet meite fra?</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<a href="#delt_meitemark">Lever en delt meitemark?</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<a href="#vann_ikke_sol">Tåler vann, ikke sol</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<a href="#har_den_oyne">Har meitemarken øyne?</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<a href="#kjenner_smerte">Kjenner den smerte?</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
 	</nav>
 	<main>
-		<nav>
-			<h2>Innhold</h2>
-			<ul>
-				<li>
-					<a href="#om">Om prototypen</a>
-				</li>
-				<li>
-					<ul>
-						<li>
-							<a href="#spraak">Språk</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<ul>
-						<li>
-							<a href="#maal">Målsetning</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<ul>
-						<li>
-							<a href="#innhold">Prototypens innhold</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<a href="#tema">Tema</a>
-				</li>
-				<li>
-					<a href="#hovedpersoner">Hovedpersoner</a>
-				</li>
-			</ul>
-			<ul>
-				<li>
-					<a href="#sammenheng">Sammenheng og dybde</a>
-				</li>
-			</ul>
-			<ul>
-				<li>
-					<a href="#jenny_og_samir">Jenny og Samir</a>
-				</li>
-			</ul>
-			<ul>
-				<li>
-					<a href="#menyen">Menyen</a>
-				</li>
-			</ul>
-			<ul>
-				<li>
-					<a href="#bakgrunn">Bakgrunnsstoff</a>
-				</li>
-				<li>
-					<ul>
-						<li>
-							<a href="#jord">Hva jord er</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<ul>
-						<li>
-							<a href="#meitemarken_blander_jorda">Meitemarken blander jorda</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<ul>
-						<li>
-							<a href="#25_tonn_jord">1 mål jord – 25 tonn spist – på et år</a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<ul>
-						<li>
-							<a href="#forskjellige_meitemarker">Forskjellige meitemarker</a>
-						</li>
-						<li>
-							<ul>
-								<li>
-									<a href="#graameitemarken">Dette gjør gråmeitemarken</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<ul>
-								<li>
-									<a href="#stormeitemarken">Dette gjør stormeitemarken</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<ul>
-						<li>
-							<a href="#meitemarker_felles">Hva meitemarkene har til felles</a>
-						</li>
-						<li>
-							<ul>
-								<li>
-									<a href="#kro_og_kraas">Kro og krås som ei høne</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<ul>
-								<li>
-									<a href="#en_leddorm">En ledd-orm</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<ul>
-								<li>
-									<a href="#meitemarkens_fiender">Fiender</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<ul>
-								<li>
-									<a href="#meitemark_over_hele_verden">Over hele verden</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<ul>
-								<li>
-									<a href="#navnopprinnelse">Hvor kommer navnet meite fra?</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<ul>
-								<li>
-									<a href="#delt_meitemark">Lever en delt meitemark?</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<ul>
-								<li>
-									<a href="#vann_ikke_sol">Tåler vann, ikke sol</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<ul>
-								<li>
-									<a href="#har_den_oyne">Har meitemarken øyne?</a>
-								</li>
-							</ul>
-						</li>
-						<li>
-							<ul>
-								<li>
-									<a href="#kjenner_smerte">Kjenner den smerte?</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-			</ul>
-		</nav>
 		<section>
 			<h2 id="om">Om prototypen</h2>
-			<p>Takk for at du vil hjelpe oss med å prøve ut det nye læremiddelet!</p>
-			<p>Dette skal bli et elektronisk læremiddel i naturfag, ikke på papir. Illustratøren er Svetlana Voronkova, webutvikleren er Eirik Hanssen og skriveren er Jorun Gulbrandsen</p>
+			<p>Takk for at du vil hjelpe oss med å prøve ut den nye læringsressursen! Denne nettsiden/prototypen er en flerspråklig læringsressurs i naturfag. Nettsiden er ikke ferdig, men vi ønsker å prøve den ut slik at den ferdige versjonen kan bli best mulig. Denne prototypen tar for seg kap. 6 som er midt i historien om Jenny, Samir, Hen og Katt. Vi vil gjerne ha kommentarer fra dere på hvordan ressursen fungerer.</p>
+			<p>Svar på denne <a href="http://nafo.empatix.no/evaluering-av-flerspraklig-naturfag-1">lærerevalueringen</a> for å si hva dere mener.</p>
+
+			<p>Hovedideen bak ressursen er å lære naturfag i en skjønnlitterær sammenheng. Ressursen er laget spesielt med tanke på elever som trenger støtte på morsmål, men kan brukes av alle elever. Ressursen gir elever tilgang på lyd, tekst og bilde på flere språk samtidig. Flerspråklig naturfag vil kunne være med på å støtte og utvikle elevers faglige utvikling i naturfag i og på norsk og i og på morsmålet. </p>
+			<p>Vi har lyst til å gjøre elevene overraska, vi vil fortelle ting de ikke veit fra før. Det pleier barn å like. Vi håper de blir glade, enda mer nysgjerrige, mer vennligsinnet overfor det som lever og gror og skjønner bedre at alt henger sammen med alt. Vi ønsker å lage et læremiddel som er lettere enn vanlig for elever som holder på med å lære norsk. Vi tenker også på alle elever. Læreren skal få et redskap som er greit å bruke.</p>
+			<p>Flerspråklig naturfag er utarbeidet av <a href="http://nafo.hioa.no/">Nasjonalt senter for flerkulturell opplæring.</a> Naturfagsenteret har bistått med faglig veiledning. Illustratøren er Svetlana Voronkova, webutvikleren er Eirik Hanssen og forfatteren er Jorun Gulbrandsen.</p>
+
+
 			<section>
 				<h3 id="spraak">Språk</h3>
 				<p>Språkene er i første omgang norsk, arabisk, polsk og tigrini.</p>
@@ -354,7 +424,7 @@
 					<p>Lumbricus lager seg et slags hvilerom langt nede i gangen, hvor den kan være hvis det er kaldt eller tørt lenger oppe. Om vinteren kan den krølle seg sammen i hvilerommet og ligge i dvale og sove som en bjørn, til det blir varmt nok til å komme opp.</p>
 					<p>Den parer seg oppe på bakken. Det skjer om natta. Begge markene holder seg fast med halen i hullene sine. Se bildet her:</p>
 					<figure>
-						<legend>To meitemarker parer seg (mangler bilde)</legend>
+						<legend>To meitemarker parer seg</legend>
 						<img src="graphics/meitemark_par01.png" />
 						<figcaption>Begge markene holder seg fast med halen i hullene sine mens de parer seg.
 						</figcaption>
@@ -452,6 +522,34 @@
 		Til læreren. Her vises en modell av meitemarkens indre, og den er i farger. Det er lett å se delene. Her kan mye vises for elevene, læreren må velge ut. -->
 		</section>
 	</main>
+	<nav id="chapmenu">
+		<h2 id="chapmenuheading">Meny</h2>
+		<section>
+			<h3>kapittel 6</h3>
+			<ul>
+				<li><a href="index.html">kort tekst</a>
+				</li>
+				<li><a href="fortelling.html">lang tekst</a>
+				</li>
+				<li><a href="ordliste.html">ordliste</a>
+				</li>
+				<li><a href="oppgaver.html">oppgaver</a>
+				</li>
+				<li><a href="film.html">film</a>
+				</li>
+			</ul>
+		</section>
+
+		<section>
+			<h3>Info</h3>
+			<ul>
+				<li><a href="./veiledning.html">Til læreren</a>
+				</li>
+				<li><a href="foreldre.html">Til foreldre</a>
+				</li>
+			</ul>
+		</section>
+	</nav>
 </body>
 
 </html>
