@@ -4,6 +4,7 @@
     
     <fieldset>
         <legend>Meitemarken</legend>
+        <p>Hva er sant om meitemarken?</p>
         <set name="earthworm_has_eyes">
             <q>Har meitemarken øyne?</q>
             <a res="incorrect">Ja</a>
@@ -54,7 +55,8 @@
     </fieldset>
     
     <fieldset>
-        <legend>En kokong er …</legend>
+        <legend>Kokong</legend>
+        <p>En kokong er …</p>
         <set name="kokong_is_a_king">
             <q>en konge</q>
             <a res="incorrect">Ja</a>
@@ -73,19 +75,20 @@
             <q>en fugl som sier ko–ko</q>
             <a res="incorrect">Ja</a>
             <a res="correct">Nei</a>
-            <expl res="correct">Begynnelsen av ordete <strong>koko</strong>ng kan ligne på «ko-ko», men har ingenting med ko-ko å gjøre.</expl>
+            <expl res="correct">Begynnelsen av ordet <strong>koko</strong>ng kan ligne på «ko-ko», men har ingenting med ko-ko å gjøre.</expl>
             <expl res="incorrect">Begynnelsen av ordete <strong>koko</strong>ng kan ligne på «ko-ko», men har ingenting med «ko-ko» å gjøre.</expl>
         </set>
     </fieldset>
     
     <fieldset>
-        <legend>Å observere er …</legend>
+        <legend>Observere</legend>
+        <p>Å observere er …</p>
         <set name="observing_is_running">
             <q>å løpe fort</q>
             <a res="incorrect">Ja</a>
             <a res="correct">Nei</a>
-            <expl res="correct">Slutten av ordet ko<em>kong</em> kan ligne på ordet «konge», men har ingenting med konge å gjøre.</expl>
-            <expl res="incorrect">Slutten av ordet ko<em>kong</em> kan ligne på ordet «konge», men har ingenting med konge å gjøre.</expl>
+            <expl res="correct">Å løpe fort er ikke det samme som å observere.</expl>
+            <expl res="incorrect">Å løpe fort er ikke det samme som å observere.</expl>
         </set>
         <set name="observing_is_noticing">
             <q>å legge merke til noe</q>
@@ -98,13 +101,14 @@
             <q>å servere mat</q>
             <a res="incorrect">Ja</a>
             <a res="correct">Nei</a>
-            <expl res="correct">Slutten av ordet ko<em>kong</em> kan ligne på ordet «konge», men har ingenting med konge å gjøre.</expl>
-            <expl res="incorrect">Slutten av ordet ob<em>servere</em> ligner på ordet «servere», men har ikke noe med servere å gjøre.</expl>
+            <expl res="correct">Slutten av ordet ob<em>servere</em> ligner på ordet «servere», men har ikke noe med servere å gjøre.</expl>
+            <expl res="incorrect">Slutten av ordet ob<em>servere</em> ligner på ordet «servere», men har ikke noe med servere å gjøre. </expl>
         </set>
     </fieldset>
     
     <fieldset>
-        <legend>Å undersøke er …</legend>
+        <legend>Undersøke</legend>
+        <p>Å undersøke er …</p>
         <set name="investigating_is_finding_answers">
             <q>å lete etter svar</q>
             <a res="correct">Ja</a>

@@ -13,13 +13,36 @@
 		
 		.quiz {
 			font-size: 1em;
+			counter-reset: quizcounter;
+		}
+		
+		.quiz li:before {
+			content: counter(quizcounter);
+			counter-increment: quizcounter;
+			position: absolute;
+			font-size: 2em;
+			width: 1.5em;
+			font-weight: normal;
+			margin-right: 0.125em;
+			box-sizing: border-box;
+			padding-right: .4rem;
+			text-align: right;
+			top: auto;
+			bottom: auto;
+			right: 100%;
+			height: 4em;
+			line-height: 4em;
+			color: gray;
 		}
 		
 		.quiz label {
-			display: block;
+			display: inline-block;
 			border: 2px solid #ccc;
 			line-height: 1.75em;
 			padding: 0 .5em;
+			box-sizing: border-box;
+			float: left;
+			min-width: 6em;
 		}
 		
 		.quiz label input[type="radio"] {
@@ -27,13 +50,8 @@
 		}
 		
 		.quiz label + label {
-			margin-top: .5em;
-		}
-		
-		.quiz label:hover,
-		.quiz label:focus {
-			display: block;
-			border: 2px solid #0873f0;
+			margin-left: 1em;
+			/*margin-top: .5em;*/
 		}
 		
 		.explanation h3 {
@@ -42,21 +60,31 @@
 			color: gray;
 		}
 		
+		.incorrect label[data-incorrect],
+		.correct label[data-correct] {
+			border-color: gray;
+			box-shadow: 0 0 5px #999;
+		}
+		
 		input[type=button].check_answer,
 		button.check_answer {
+			float: left;
+			clear: left;
+			margin: .5em 0;
+			min-width: 13em;
 			font-size: 1em;
 			padding: .25em .5em;
-			margin-top: .5em;
+			/*margin-top: .5em;*/
 		}
 		
 		.quiz li {
-			list-style;
 			border: 1px solid gray;
 			padding: 0 1em;
 			margin: 0;
-			margin-left: 1.75em;
+			margin-left: 2.5em;
 			border-radius: .5em;
 			background: white;
+			position: relative;
 		}
 		
 		.quiz li+li {
@@ -64,6 +92,7 @@
 		}
 		
 		.quiz ol {
+			list-style-type: none;
 			padding: 0;
 		}
 		
@@ -76,7 +105,24 @@
 			margin-top: 1.5em;
 		}
 		
-		.quiz section {}
+		.quiz section {
+			float: left;
+			width: 13em;
+			margin-right: -13em;
+		}
+		
+		.quiz section + section {
+			width: auto;
+			margin-left: 14em;
+			margin-right: 1em;
+		}
+		
+		.quiz li:after {
+			content: "";
+			display: block;
+			clear: both;
+			height: 0;
+		}
 		
 		.quiz p {
 			/*margin: 0;*/
@@ -111,6 +157,19 @@
 			border-color: crimson;
 		}
 		
+		.explanation [data-incorrect] span,
+		.explanation [data-correct] span {
+			font-weight: bold;
+		}
+		
+		.explanation [data-incorrect] span {
+			color: crimson;
+		}
+		
+		.explanation [data-correct] span {
+			color: limegreen;
+		}
+		
 		.show_result label {
 			position: relative;
 		}
@@ -130,6 +189,12 @@
 		.show_result.incorrect label[data-incorrect]:after {
 			content: "✖";
 			color: crimson;
+		}
+		
+		.quiz label:hover,
+		.quiz label:focus {
+			display: block;
+			border: 2px solid #0873f0;
 		}
 		
 		.show_result label:hover,
@@ -174,7 +239,9 @@
 		
 		fieldset legend + p {
 			font-size: 1.5em;
-			text-align: center;
+			/*text-align: center;*/
+			
+			margin-left: 1.75em;
 		}
 	</style>
 	<!--<script src="../js/classmod.js" />-->
@@ -232,6 +299,7 @@
 
 			<fieldset>
 				<legend>Meitemarken</legend>
+				<p>Hva er sant om meitemarken?</p>
 				<ol>
 					<li>
 						<section>
@@ -346,7 +414,8 @@
 			</fieldset>
 
 			<fieldset>
-				<legend>En kokong er …</legend>
+				<legend>Kokong</legend>
+				<p>En kokong er …</p>
 				<ol>
 					<li>
 						<section>
@@ -394,7 +463,7 @@
 						<section class="explanation">
 							<h3>Forklaring</h3>
 							<p data-correct="data-correct">
-								<span>Riktig!</span> Begynnelsen av ordete <strong>koko</strong>ng kan ligne på «ko-ko», men har ingenting med ko-ko å gjøre.</p>
+								<span>Riktig!</span> Begynnelsen av ordet <strong>koko</strong>ng kan ligne på «ko-ko», men har ingenting med ko-ko å gjøre.</p>
 							<p data-incorrect="data-incorrect">
 								<span>Beklager, det er feil.</span> Begynnelsen av ordete <strong>koko</strong>ng kan ligne på «ko-ko», men har ingenting med «ko-ko» å gjøre.</p>
 						</section>
@@ -403,7 +472,8 @@
 			</fieldset>
 
 			<fieldset>
-				<legend>Å observere er …</legend>
+				<legend>Observere</legend>
+				<p>Å observere er …</p>
 				<ol>
 					<li>
 						<section>
@@ -417,9 +487,9 @@
 						<section class="explanation">
 							<h3>Forklaring</h3>
 							<p data-correct="data-correct">
-								<span>Riktig!</span> Slutten av ordet ko<em>kong</em> kan ligne på ordet «konge», men har ingenting med konge å gjøre.</p>
+								<span>Riktig!</span> Å løpe fort er ikke det samme som å observere.</p>
 							<p data-incorrect="data-incorrect">
-								<span>Beklager, det er feil.</span> Slutten av ordet ko<em>kong</em> kan ligne på ordet «konge», men har ingenting med konge å gjøre.</p>
+								<span>Beklager, det er feil.</span> Å løpe fort er ikke det samme som å observere.</p>
 						</section>
 					</li>
 					<li>
@@ -451,16 +521,17 @@
 						<section class="explanation">
 							<h3>Forklaring</h3>
 							<p data-correct="data-correct">
-								<span>Riktig!</span> Slutten av ordet ko<em>kong</em> kan ligne på ordet «konge», men har ingenting med konge å gjøre.</p>
+								<span>Riktig!</span> Slutten av ordet ob<em>servere</em> ligner på ordet «servere», men har ikke noe med servere å gjøre.</p>
 							<p data-incorrect="data-incorrect">
-								<span>Beklager, det er feil.</span> Slutten av ordet ob<em>servere</em> ligner på ordet «servere», men har ikke noe med servere å gjøre.</p>
+								<span>Beklager, det er feil.</span> Slutten av ordet ob<em>servere</em> ligner på ordet «servere», men har ikke noe med servere å gjøre. </p>
 						</section>
 					</li>
 				</ol>
 			</fieldset>
 
 			<fieldset>
-				<legend>Å undersøke er …</legend>
+				<legend>Undersøke</legend>
+				<p>Å undersøke er …</p>
 				<ol>
 					<li>
 						<section>
@@ -517,7 +588,6 @@
 			</fieldset>
 
 		</form>
-
 		<h2 id="studer">Studer</h2>
 		<h2 id="observer">Observer</h2>
 		<h2 id="tegn">Tegn</h2>
