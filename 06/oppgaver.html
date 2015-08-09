@@ -67,7 +67,12 @@
 		}
 		
 		.quiz fieldset {
+			background: #f8f5f2;
 			border-radius: .5em;
+		}
+		
+		.quiz fieldset + fieldset {
+			margin-top: 1.5em;
 		}
 		
 		.quiz section {}
@@ -78,10 +83,8 @@
 		
 		.quiz legend {
 			font-weight: bold;
-		}
-		
-		fieldset {
-			background: #f0ece8;
+			text-align: center;
+			font-size: 1.5em;
 		}
 		
 		.quiz label.status_correct,
@@ -94,22 +97,6 @@
 		.quiz label.status_incorrect {
 			border-color: crimson;
 		}
-		/*.quiz label.status_correct:after,
-		.quiz label.status_incorrect:after {
-			position: absolute;
-			left: -.3em;
-			text-align: center;
-			content: "✓";
-			color: limegreen;
-			font-weight: bold;
-			margin-left: 1em;
-			float: right;
-		}
-		
-		.quiz label.status_incorrect:after {
-			content: "✖";
-			color: crimson;
-		}*/
 		
 		.show_result input[type="radio"] {
 			visibility: hidden;
@@ -176,6 +163,12 @@
 		
 		.quiz .show_result.incorrect .explanation [data-incorrect] {
 			display: block;
+		}
+		
+		.explanation em {
+			font-weight: bold;
+			font-style: italic;
+			text-decoration: none;
 		}
 	</style>
 </head>
@@ -276,6 +269,57 @@
 							<h3>Forklaring</h3>
 							<p data-correct><span>Riktig!</span> Meitemarken har ikke føtter, men børster som den bruker som bein.</p>
 							<p data-incorrect><span>Beklager, det er feil.</span> Meitemarken har ikke føtter, men børster som den bruker som bein.</p>
+						</section>
+					</li>
+				</ol>
+			</fieldset>
+
+			<fieldset>
+				<legend>Skolopender</legend>
+				<ol>
+					<li class="show_result correct">
+						<section>
+							<p class="q">Er skolopender en pen katt?</p>
+							<label data-incorrect for="caterpillar_is_cat_yes">
+								<input id="caterpillar_is_cat_yes" type="radio" name="caterpillar_is_cat" />Ja</label>
+							<label data-correct for="caterpillar_is_cat_no">
+								<input id="caterpillar_is_cat_no" type="radio" name="caterpillar_is_cat" />Nei</label>
+							<button class="check_answer">Sjekk svar</button>
+						</section>
+						<section class="explanation">
+							<h3>Forklaring</h3>
+							<p data-correct><span>Riktig!</span> Ordet «pen» kan vi finne i skolo<em>pen</em>der, men det har ingenting med pen å gjøre.</p>
+							<p data-incorrect><span>Beklager, det er feil.</span> Ordet «pen» kan vi finne i skolo<em>pen</em>der, men det har ingenting med pen å gjøre.</p>
+						</section>
+					</li>
+					<li>
+						<section>
+							<p class="q">Er skolopender en skole?</p>
+							<label data-incorrect for="caterpillar_is_school_yes">
+								<input id="caterpillar_is_school_yes" type="radio" name="caterpillar_is_school" />Ja</label>
+							<label data-correct for="caterpillar_is_school_no">
+								<input id="caterpillar_is_school_no" type="radio" name="caterpillar_is_school" />Nei</label>
+							<button class="check_answer">Sjekk svar</button>
+						</section>
+						<section class="explanation">
+							<h3>Forklaring</h3>
+							<p data-correct><span>Riktig!</span> Begynnelsen av ordet <em>skolo</em>pender kan ligne på ordet «skole», men har ingenting med skole å gjøre.</p>
+							<p data-incorrect><span>Beklager, det er feil.</span>Begynnelsen av ordet <em>skolo</em>pender kan ligne på ordet «skole», men har ingenting med skole å gjøre.</p>
+						</section>
+					</li>
+					<li class="show_result correct">
+						<section>
+							<p class="q">Er skolopender et dyr?</p>
+							<label data-correct for="caterpillar_is_animal_yes">
+								<input id="caterpillar_is_animal_yes" type="radio" name="caterpillar_is_animal" />Ja</label>
+							<label data-incorrect for="caterpillar_is_animal_no">
+								<input id="caterpillar_is_animal_no" type="radio" name="caterpillar_is_animal" />Nei</label>
+							<button class="check_answer">Sjekk svar</button>
+						</section>
+						<section class="explanation">
+							<h3>Forklaring</h3>
+							<p data-correct><span>Riktig!</span> En skolopender er et lite dyr.</p>
+							<p data-incorrect><span>Beklager, det er feil.</span> En skolopender er et lite dyr.</p>
 						</section>
 					</li>
 				</ol>
