@@ -6,10 +6,182 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Oppgaver</title>
 	<link rel="stylesheet" href="../css/chapmenu.css" />
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		
+		.quiz {
+			font-size: 1.25em;
+		}
+		
+		.quiz label {
+			display: block;
+			border: 2px solid #ccc;
+			line-height: 1.75em;
+			padding: 0 .5em;
+		}
+		
+		.quiz label input[type="radio"] {
+			margin-right: 1em;
+		}
+		
+		.quiz label + label {
+			margin-top: .5em;
+		}
+		
+		.quiz label:hover,
+		.quiz label:focus {
+			display: block;
+			border: 2px solid #0873f0;
+		}
+		
+		.explanation h3 {
+			font-family: Arial, sans-serif;
+			font-size: 1em;
+			color: gray;
+		}
+		
+		button.check_answer {
+			font-size: 1em;
+			padding: .25em .5em;
+			margin-top: .5em;
+		}
+		
+		.quiz li {
+			list-style;
+			border: 1px solid gray;
+			padding: 0 1em;
+			margin: 0;
+			margin-left: 1.75em;
+			border-radius: .5em;
+			background: white;
+		}
+		
+		.quiz li+li {
+			margin-top: 1em;
+		}
+		
+		.quiz ol {
+			padding: 0;
+		}
+		
+		.quiz fieldset {
+			border-radius: .5em;
+		}
+		
+		.quiz section {}
+		
+		.quiz p {
+			/*margin: 0;*/
+		}
+		
+		.quiz legend {
+			font-weight: bold;
+		}
+		
+		fieldset {
+			background: #f0ece8;
+		}
+		
+		.quiz label.status_correct,
+		.quiz label.status_incorrect {
+			position: relative;
+		}
+		
+		.quiz label.status_correct {}
+		
+		.quiz label.status_incorrect {
+			border-color: crimson;
+		}
+		/*.quiz label.status_correct:after,
+		.quiz label.status_incorrect:after {
+			position: absolute;
+			left: -.3em;
+			text-align: center;
+			content: "✓";
+			color: limegreen;
+			font-weight: bold;
+			margin-left: 1em;
+			float: right;
+		}
+		
+		.quiz label.status_incorrect:after {
+			content: "✖";
+			color: crimson;
+		}*/
+		
+		.show_result input[type="radio"] {
+			visibility: hidden;
+		}
+		
+		.show_result.correct label[data-correct] {
+			border-color: limegreen;
+		}
+		
+		.show_result.incorrect label[data-incorrect] {
+			border-color: crimson;
+		}
+		
+		.show_result label {
+			position: relative;
+		}
+		
+		.show_result.correct label[data-correct]:after,
+		.show_result.incorrect label[data-incorrect]:after {
+			position: absolute;
+			left: -.3em;
+			text-align: center;
+			content: "✓";
+			color: limegreen;
+			font-weight: bold;
+			margin-left: 1em;
+			float: right;
+		}
+		
+		.show_result.incorrect label[data-incorrect]:after {
+			content: "✖";
+			color: crimson;
+		}
+		
+		.show_result label:hover,
+		.show_result label:focus {
+			border-color: #ccc;
+		}
+		
+		.quiz .explanation {
+			visibility: hidden;
+		}
+		
+		.quiz .explanation [data-incorrect] {
+			display: none;
+		}
+		
+		.quiz .show_result.incorrect .explanation,
+		.quiz .show_result.correct .explanation {
+			visibility: visible;
+		}
+		
+		.quiz .show_result.correct .explanation [data-correct] {
+			display: block;
+		}
+		
+		.quiz .show_result.incorrect .explanation [data-correct] {
+			display: none;
+		}
+		
+		.quiz .show_result.correct .explanation [data-incorrect] {
+			display: none;
+		}
+		
+		.quiz .show_result.incorrect .explanation [data-incorrect] {
+			display: block;
+		}
+	</style>
 </head>
 
 <body>
-	<h1>Oppgaver</h1>
+	<h1>Oppgaver til elevene</h1>
 	<nav id="chapmenu">
 		<h2 id="chapmenuheading">Meny</h2>
 		<section>
@@ -38,6 +210,82 @@
 			</ul>
 		</section>
 	</nav>
+	<nav id="oppgavemeny">
+		<ul>
+			<li><a href="#kviss">Kviss</a>
+			</li>
+			<li><a href="#studer">Studer</a>
+			</li>
+			<li><a href="#observer">Observer</a>
+			</li>
+			<li><a href="#tegn">Tegn</a>
+			</li>
+			<li><a href="#fantasi">Fantasi</a>
+			</li>
+		</ul>
+	</nav>
+	<main>
+		<h2 id="kviss">Kviss</h2>
+		<img src="graphics/meitemark01.png" alt="en meitemark" />
+		<p>Kviss for deg som har studert og lest om meitemark</p>
+		<form class="quiz" id="quiz01">
+			<fieldset>
+				<legend>Meitemarken</legend>
+				<ol>
+					<li>
+						<section>
+							<p class="q">Har meitemarken øyne?</p>
+							<label data-correct for="has_eyes_yes">
+								<input id="has_eyes_yes" type="radio" name="eyes" />Ja</label>
+							<label data-incorrect for="has_eyes_no">
+								<input id="has_eyes_no" type="radio" name="eyes" />Nei</label>
+							<button class="check_answer">Sjekk svar</button>
+						</section>
+						<section class="explanation">
+							<h3>Forklaring</h3>
+							<p data-correct><span>Riktig!</span> Meitemarken har hverken øyne, ører eller nese. Men den merker lys og mørke og kjenner at noe nærmer seg.</p>
+							<p data-incorrect><span>Beklager, det er feil.</span> Meitemarken har ikke øyne, men den merker lys og mørke og kjenner at noe nærmer seg.</p>
+
+						</section>
+					</li>
+					<li>
+						<section>
+							<p class="q">Har meitemarken nese?</p>
+							<label data-correct for="has_nose_yes">
+								<input id="has_nose_yes" type="radio" name="eyes" />Ja</label>
+							<label data-incorrect for="has_nose_no">
+								<input id="has_nose_no" type="radio" name="eyes" />Nei</label>
+							<button class="check_answer">Sjekk svar</button>
+						</section>
+						<section class="explanation">
+							<h3>Forklaring</h3>
+							<p data-correct><span>Riktig!</span> Meitemarken har hverken nese, øyne eller ører. Men den merker lys og mørke og kjenner at noe nærmer seg.</p>
+							<p data-incorrect><span>Beklager, det er feil.</span>Meitemarken har ikke nese, men den merker lys og mørke og kjenner at noe nærmer seg.</p>
+						</section>
+					</li>
+					<li class="show_result correct">
+						<section>
+							<p class="q">Har meitemarken føtter?</p>
+							<label data-correct for="has_feet_yes">
+								<input id="has_feet_yes" type="radio" name="eyes" />Ja</label>
+							<label data-incorrect for="has_feet_no">
+								<input id="has_feet_no" type="radio" name="eyes" />Nei</label>
+							<button class="check_answer">Sjekk svar</button>
+						</section>
+						<section class="explanation">
+							<h3>Forklaring</h3>
+							<p data-correct><span>Riktig!</span> Meitemarken har ikke føtter, men børster som den bruker som bein.</p>
+							<p data-incorrect><span>Beklager, det er feil.</span> Meitemarken har ikke føtter, men børster som den bruker som bein.</p>
+						</section>
+					</li>
+				</ol>
+			</fieldset>
+		</form>
+		<h2 id="studer">Studer</h2>
+		<h2 id="observer">Observer</h2>
+		<h2 id="tegn">Tegn</h2>
+		<h2 id="fantasi">Fantasi</h2>
+	</main>
 </body>
 
 </html>
