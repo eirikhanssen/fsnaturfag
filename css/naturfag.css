@@ -1,3 +1,21 @@
+.meitemarkramme {
+	position: relative;
+	border-radius: 2em;
+}
+
+.meitemarkramme:after {
+	position: absolute;
+	z-index: -1;
+	content: "";
+	top: -2em;
+	left: -2em;
+	right: -2em;
+	bottom: -2em;
+	background-image: url('../img/meitemark02-bg-tl-81x200.png'), url('../img/meitemark02-bg-tr-200x81.png'), url('../img/meitemark02-bg-br-81x200.png'), url('../img/meitemark02-bg-bl-200x81.png');
+	background-position: top left, top right, bottom right, bottom left;
+	background-repeat: no-repeat;
+}
+
 h1,
 h2,
 h3,
