@@ -16,52 +16,8 @@
 
 <body>
 	<h1>Oppgaver til elevene – observer</h1>
-	<nav id="chapmenu">
-		<h2 id="chapmenuheading">Meny</h2>
-		<section>
-			<h3>kapittel 6</h3>
-			<ul>
-				<li><a href="../index.html">kort tekst</a>
-				</li>
-				<li><a href="../fortelling.html">lang tekst</a>
-				</li>
-				<li><a href="../ordliste.html">ordliste</a>
-				</li>
-				<li><a href="index.html">oppgaver</a>
-				</li>
-				<li><a href="../film.html">film</a>
-				</li>
-			</ul>
-		</section>
-
-		<section>
-			<h3>Info</h3>
-			<ul>
-				<li><a href="../veiledning">Til læreren</a>
-				</li>
-				<li><a href="../foreldre.html">Til foreldre</a>
-				</li>
-			</ul>
-		</section>
-	</nav>
-	<nav id="toc">
-		<ul>
-			<li><a href="index.html"><strong>Oppgaver</strong></a>
-			</li>
-			<li><a href="kviss.html">Kviss</a>
-			</li>
-			<li><a href="studer.html">Studer</a>
-			</li>
-			<li><a href="snakke.html">Snakk sammen</a>
-			</li>
-			<li><a href="observer.html">Observer</a>
-			</li>
-			<li><a href="tegne.html">Tegn</a>
-			</li>
-			<li><a href="fantasi.html">Fantasi</a>
-			</li>
-		</ul>
-	</nav>
+	<?php $folder_level=1; include "../phpinclude/chapmenu.php";?>
+	<?php include "toc.php"; ?>
 	<main>
 		<h2>Hvis dere har observert levende meitemark:</h2>
 		<p>Hvordan beveger den seg?</p>
