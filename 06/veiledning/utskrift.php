@@ -17,6 +17,8 @@
 	<?php include "toc.php"; ?>
 	<main>
 		<h1>Lærerveiledning</h1>
+		<h2>Utskrift</h2>
+		<p>Her kommer utskriftsversjoner av historien i kort og lang tekst på alle språk.</p>
 	</main>
 	<?php $folder_level=1; include "../phpinclude/chapmenu.php";?>
 </body>

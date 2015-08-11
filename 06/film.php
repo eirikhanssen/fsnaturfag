@@ -54,7 +54,6 @@
 	<header>
 		<h1 id="page-head">Kap 6: Film</h1>
 	</header>
-
 	<?php include "phpinclude/chapmenu.php";?>
 	<main>
 		<ul id="filmklipp" class="meitemarkramme">

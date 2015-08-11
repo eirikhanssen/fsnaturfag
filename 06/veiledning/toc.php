@@ -208,7 +208,7 @@
 		<ul>
 			<li><a href="oppgaver_til_lareren.php">Oppgaver til læreren om meitemark</a>
 			</li>
-			<li><a href="oppgaver_til_lareren.php">Utskriftsoppsett</a>
+			<li><a href="utskrift.php">Utskrift</a>
 			</li>
 			<li><a href="illustrasjoner.php">Illustrasjoner</a>
 			</li>

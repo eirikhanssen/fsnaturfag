@@ -13,15 +13,15 @@ $chapmenu = <<<HTMLCODE
 		<section>
 			<h3>kapittel 6</h3>
 			<ul>
-				<li><a href="index.html">kort tekst</a>
+				<li><a href="index.php">kort tekst</a>
 				</li>
-				<li><a href="fortelling.html">lang tekst</a>
+				<li><a href="fortelling.php">lang tekst</a>
 				</li>
-				<li><a href="ordliste.html">ordliste</a>
+				<li><a href="ordliste.php">ordliste</a>
 				</li>
 				<li><a href="oppgaver">oppgaver</a>
 				</li>
-				<li><a href="film.html">film</a>
+				<li><a href="film.php">film</a>
 				</li>
 			</ul>
 		</section>
@@ -31,7 +31,7 @@ $chapmenu = <<<HTMLCODE
 			<ul>
 				<li><a href="veiledning/">Til læreren</a>
 				</li>
-				<li><a href="foreldre.html">Til foreldre</a>
+				<li><a href="foreldre.php">Til foreldre</a>
 				</li>
 			</ul>
 		</section>

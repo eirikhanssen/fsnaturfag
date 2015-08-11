@@ -17,6 +17,8 @@
 	<?php include "toc.php"; ?>
 	<main>
 		<h1>Lærerveiledning</h1>
+		<h2>Illustrasjoner</h2>
+		<p>Her kommer litt informasjon om rettigheter og bruk av illustrasjonene i prototypen og lenke til mappen med filene.</p>
 	</main>
 	<?php $folder_level=1; include "../phpinclude/chapmenu.php";?>
 </body>
