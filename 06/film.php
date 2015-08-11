@@ -55,34 +55,7 @@
 		<h1 id="page-head">Kap 6: Film</h1>
 	</header>
 
-	<nav id="chapmenu">
-		<h2 id="chapmenuheading">Meny</h2>
-		<section>
-			<h3>kapittel 6</h3>
-			<ul>
-				<li><a href="index.html">kort tekst</a>
-				</li>
-				<li><a href="fortelling.html">lang tekst</a>
-				</li>
-				<li><a href="ordliste.html">ordliste</a>
-				</li>
-				<li><a href="oppgaver">oppgaver</a>
-				</li>
-				<li><a href="film.html">film</a>
-				</li>
-			</ul>
-		</section>
-
-		<section>
-			<h3>Info</h3>
-			<ul>
-				<li><a href="./veiledning.html">Til læreren</a>
-				</li>
-				<li><a href="foreldre.html">Til foreldre</a>
-				</li>
-			</ul>
-		</section>
-	</nav>
+	<?php include "phpinclude/chapmenu.php";?>
 	<main>
 		<ul id="filmklipp" class="meitemarkramme">
 			<li><strong>NRK TV - Ut i naturen: Marksommer - magasin 29.10.2013</strong>
