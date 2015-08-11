@@ -124,7 +124,7 @@ figure:after,
 }
 
 .figurewrap figure {
-	width: 33.33%;
+	width: 25%;
 	float: left;
 	margin: 0;
 	border: none;
@@ -159,7 +159,7 @@ figure img {
 	min-width: 6em;
 	margin: 1em auto;
 	display: block;
-	max-width: 80%;
+	max-width: 99%;
 	height: auto;
 	z-index: 1;
 }
@@ -185,4 +185,54 @@ p+p {
 	height: 0;
 	position: absolute;
 	left: -9999px;
+}
+
+body {
+	line-height: 1.5em;
+	margin: auto;
+}
+
+header {
+	height: 4em;
+	/*background: rgba(0, 128, 0, 0.1);*/
+	
+	margin: 0;
+	margin-bottom: .5em;
+	border-bottom: 1px solid #bcbcbc;
+}
+
+header h1 {
+	margin: 0 10rem 0 16rem;
+	line-height: 2em;
+	text-align: center;
+	/*background: rgba(255, 255, 0, 0.42);*/
+}
+
+.fourchildren {
+	width: 100%;
+	padding: 0;
+	box-sizing: border-box;
+	display: table;
+}
+
+legend.fourchildren span {
+	text-align: center;
+	display: inline-block;
+	padding: 0;
+	margin: 0 -.125em;
+}
+
+.fourchildren > span {
+	width: 25%;
+	box-sizing: border-box;
+	margin: 0;
+	display: table-cell;
+	vertical-align: top;
+	text-align: left;
+	padding: 0;
+	padding-left: 1em;
+}
+
+.fourchildren > span:first-child {
+	padding-left: 0;
 }
