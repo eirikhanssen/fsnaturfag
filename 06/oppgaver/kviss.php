@@ -574,6 +574,7 @@
 		</form>
 	</main>
 	<script src="../../js/classmod.js"></script>
+	<script src="../../js/currentpage.js"></script>
 	<script>
 		window.addEventListener('load', quizInit, false);
 		var check_answer_buttons, radio_inputs;

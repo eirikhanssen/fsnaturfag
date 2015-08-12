@@ -24,6 +24,8 @@
 <p>Lag en stor tegning av meitemarken. Vis den til en annen og fortell hvordan meitemarken er.</p>
 <p>Lag en figur av meitemarken. Sett navn på de forskjellige delene av meitemarken</p>
 	</main>
+	<script src="../../js/classmod.js"></script>
+	<script src="../../js/currentpage.js"></script>
 </body>
 
 </html>

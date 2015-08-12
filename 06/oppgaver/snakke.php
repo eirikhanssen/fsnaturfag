@@ -28,6 +28,8 @@
 		<p>Hvor mye bæsjer en meitemark hver dag?</p>
 		<p>Har dere sett film om meitemark? Hva så dere?</p>
 	</main>
+	<script src="../../js/classmod.js"></script>
+	<script src="../../js/currentpage.js"></script>
 </body>
 
 </html>

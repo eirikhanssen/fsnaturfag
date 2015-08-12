@@ -544,6 +544,8 @@
 			</article>
 		</div>
 	</main>
+	<script src="../js/classmod.js"></script>
+	<script src="../js/currentpage.js"></script>
 </body>
 
 </html>

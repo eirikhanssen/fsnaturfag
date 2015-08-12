@@ -9,8 +9,6 @@
 	<link rel="stylesheet" href="../../css/chapmenu.css" />
 	<link rel="stylesheet" href="../../css/layout_veil.css" />
 	<link rel="icon" type="image/png" href="../../img/favicon.png" />
-	<style>
-	</style>
 </head>
 
 <body>
@@ -190,6 +188,8 @@
 		</section>
 	</main>
 	<?php $folder_level=1; include "../phpinclude/chapmenu.php";?>
+	<script src="../../js/classmod.js"></script>
+	<script src="../../js/currentpage.js"></script>
 </body>
 
 </html>

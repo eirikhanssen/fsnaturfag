@@ -12,13 +12,7 @@
 	<link rel="stylesheet" href="../css/chapmenu.css" />
 	<link rel="stylesheet" href="../css/shortstory.css" />
 	<link rel="stylesheet" href="../css/smilcontrols.css" />
-	<script src="../js/timesheets.min.js"></script>
 	<link id="timesheet" href="xml/c06-short.smil" rel="timesheet" type="application/smil+xml" />
-	<script src="../js/classmod.js"></script>
-	<script src="../js/switchLanguages.js"></script>
-	<script src="../js/slidenav.js"></script>
-	<style>
-	</style>
 </head>
 
 <body id="body">
@@ -569,6 +563,11 @@
 		</section>
 		<object id="caves" type="image/svg+xml" data="./graphics/meitemarkhulene.svg" width="1140" height="800" border="1"></object>
 	</main>
+	<script src="../js/timesheets.min.js"></script>
+	<script src="../js/classmod.js"></script>
+	<script src="../js/currentpage.js"></script>
+	<script src="../js/switchLanguages.js"></script>
+	<script src="../js/slidenav.js"></script>
 </body>
 
 </html>

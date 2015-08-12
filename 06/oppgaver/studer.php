@@ -24,6 +24,8 @@
 	<img src="../graphics/meitemark_i_gang.jpg"/>
 	<p>Dere kan finne meitemark. Vær snille og forsiktige. Dere kan ha ei kasse inne i klasserommet hvor meitemarken kan bo. Dere kan lage et sted hvor den liker seg. Da kan dere se hva den spiser. Dere kan se hvordan den lever. Læreren veit hvordan dere kan gjøre det. Et hus for meitemark heter et terrarium. Ordet terrarium kommer av ordet <em>terra</em> som betyr jord. </p>
 	</main>
+	<script src="../../js/classmod.js"></script>
+	<script src="../../js/currentpage.js"></script>
 </body>
 
 </html>

@@ -30,6 +30,8 @@
 		<p>Veit dere hva ordet <em>nyttig</em> betyr? Kan dere forklare hva det betyr? Eksempler?</p>
 		<p>Hvorfor er meitemarken et nyttig dyr?</p>
 	</main>
+	<script src="../../js/classmod.js"></script>
+	<script src="../../js/currentpage.js"></script>
 </body>
 
 </html>

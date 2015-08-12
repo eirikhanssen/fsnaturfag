@@ -21,6 +21,8 @@
 		<p>Her kommer litt informasjon om rettigheter og bruk av illustrasjonene i prototypen og lenke til mappen med filene.</p>
 	</main>
 	<?php $folder_level=1; include "../phpinclude/chapmenu.php";?>
+	<script src="../../js/classmod.js"></script>
+	<script src="../../js/currentpage.js"></script>
 </body>
 
 </html>

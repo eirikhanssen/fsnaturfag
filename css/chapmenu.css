@@ -76,3 +76,7 @@
 #chapmenu section + section {
 	margin-top: 3em;
 }
+
+#chapmenu a.currentPage {
+	background-color: #ffee9c;
+}
