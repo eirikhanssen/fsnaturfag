@@ -48,6 +48,4 @@ $chapmenu = str_replace('<nav id="chapmenu"', '<nav id="chapmenu" data-tail="'. 
 $chapmenu = str_replace('href="' , 'href="' . $pfx , $chapmenu);
 
 echo $chapmenu;
-//echo "<!-- current folder: " . $current_folder . "-->";
-//echo "tail: " . $self_tail;
 ?>
