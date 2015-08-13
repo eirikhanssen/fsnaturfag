@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="600"
+   height="400"
+   viewBox="0 0 600 400"
+   id="forskning_svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3338">
+      <stop
+         id="stop3340"
+         style="stop-color:#ffdc4b;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3342"
+         style="stop-color:#fff9e2;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="0"
+       y1="160"
+       x2="0"
+       y2="40"
+       id="linearGradient3344"
+       xlink:href="#linearGradient3338"
+       gradientUnits="userSpaceOnUse"/>
+  	<style type="text/css">
+  		text {fill: #000000; stroke: none; font-size: 12px; font-family: Arial, sans-serif;"}
+  	</style>
+  </defs>
+ <g id="layer1">
+    <image
+       xlink:href="../graphics/hen-03.jpg"
+       x="0"
+       y="710"
+       width="164"
+       height="340"
+       id="img_hen" />
+    <path
+       d="m 299.00517,667.49408 223.24371,0 c 11.19249,0 20.20305,9.01056 20.20305,20.20305 l 0,98.99495 c 0,11.19249 -9.01056,20.20305 -20.20305,20.20305 l -223.24371,0 c -11.19249,0 -20.20305,-9.01056 -20.20305,-20.20305 l 0,-28.61561 -66.78571,17.5 66.78571,-52.14286 0,-35.73648 c 0,-11.19249 9.01056,-20.20305 20.20305,-20.20305 z"
+       id="rect3336"
+       style="opacity:0.5;color:#000000;fill:url(#linearGradient3344);fill-opacity:1;stroke:#ff9955;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+ 	
+ 	<text font-size="10" font-family="Verdana">
+ 		<tspan x="0" y="12">Har du hørt om Forskerføtter og leserøtter?</tspan>
+ 		<tspan x="0" y="36">Det er et forsknings- og utviklingsprosjekt</tspan> 
+ 		<tspan x="0" y="62">ved Naturfagsenteret ved Universitetet i Oslo</tspan>.
+ 		<tspan x="0" y="86">Se naturfagsenteret.no/fflr. Der kan du lese</tspan> 
+ 		<tspan x="0" y="110">om hvordan du kan kombinere utforskende</tspan> 
+ 		<tspan x="0" y="134">undervisning med grunnleggende ferdigheter.</tspan>
+ 	</text>
+
+  </g>
+</svg>
