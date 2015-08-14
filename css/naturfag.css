@@ -236,3 +236,28 @@ legend.fourchildren span {
 .fourchildren > span:first-child {
 	padding-left: 0;
 }
+
+a[href$=".docx"]:after,
+a[href$=".pdf"]:after {
+	font-family: sans-serif;
+	color: black;
+	font-size: .85em;
+	margin-left: .25em;
+	padding: .125em .25em;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: .25em;
+}
+
+a[href$=".docx"]:hover:after,
+a[href$=".pdf"]:hover:after {
+	background-color: #ffee9c;
+}
+
+a[href$=".docx"]:after {
+	content: "[docx]";
+}
+
+a[href$=".pdf"]:after {
+	content: "[pdf]";
+}
