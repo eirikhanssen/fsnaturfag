@@ -69,22 +69,31 @@
 	</figure>
 	<h2>Last ned historien om meitemarken</h2>
 	<p>Hvis du vil skrive ut historien om barna i meitemarkens huler, kan du laste ned og skrive ut på flere språk i PDF-format:</p>
+	<h3>Tekstene</h3>
+	<p>Tekstene du finner til utskrift her er de samme som på den nettbaserte.</p>
+
+	<h4>Korte tekster</h4>
+	<p>Den korte teksten om Jenny, Samir, Hen og Katt som tar seg en tur ned i meitemarkens huler. Den korte utgaven av teskten er lettlest og litt kortere i historien. Den har korte setninger.</p>
 	<ul>
-		<li>Norsk: <a href="nedlasting/meitemark_lager_god_jord_kort_tekst_norsk.pdf">Meitemark lager god jord (kortversjon)</a>
+		<li><a href="nedlasting/meitemark_lager_god_jord_kort_tekst_norsk.pdf">Meitemark lager god jord (norsk)</a>
 		</li>
-		<li>Norsk: <a href="nedlasting/i_meitemarkens_verden_lang_tekst_norsk.pdf">I meitemarkens verden (lengre tekst)</a>
+		<li><a href="nedlasting/meitemark_lager_god_jord_kort_tekst_arabisk.pdf">Meitemark lager god jord (arabisk)</a>
 		</li>
-		<li>Arabisk: <a href="nedlasting/meitemark_lager_god_jord_kort_tekst_arabisk.pdf">Meitemark lager god jord (kortversjon)</a>
+		<li><a href="nedlasting/meitemark_lager_god_jord_kort_tekst_somali.pdf">Meitemark lager god jord (somali)</a>
 		</li>
-		<li>Arabisk: <a href="nedlasting/i_meitemarkens_verden_lang_tekst_arabisk.pdf">I meitemarkens verden (lengre tekst)</a>
+		<li><a href="nedlasting/meitemark_lager_god_jord_kort_tekst_tigrinja.pdf">Meitemark lager god jord (tigrinja)</a>
 		</li>
-		<li>Somali: <a href="nedlasting/meitemark_lager_god_jord_kort_tekst_somali.pdf">Meitemark lager god jord (kortversjon)</a>
+	</ul>
+	<h4>Lange tekster</h4>
+	<p>I den lange teksten kan man lese hele historien om Jenny, Samir, Hen og Katt som går inn i meitemarkens huler. Her er det noen scener som ble sløyfet i den korte teksten.</p>
+	<ul>
+		<li><a href="nedlasting/i_meitemarkens_verden_lang_tekst_norsk.pdf">I meitemarkens verden (norsk)</a>
 		</li>
-		<li>Somali: <a href="nedlasting/i_meitemarkens_verden_lang_tekst_somali.pdf">I meitemarkens verden (lengre tekst)</a>
+		<li><a href="nedlasting/i_meitemarkens_verden_lang_tekst_arabisk.pdf">I meitemarkens verden (arabisk)</a>
 		</li>
-		<li>Tigrinja: <a href="nedlasting/meitemark_lager_god_jord_kort_tekst_tigrinja.pdf">Meitemark lager god jord (kortversjon)</a>
+		<li><a href="nedlasting/i_meitemarkens_verden_lang_tekst_somali.pdf">I meitemarkens verden (somali)</a>
 		</li>
-		<li>Tigrinja: <a href="nedlasting/i_meitemarkens_verden_lang_tekst_tigrinja.pdf">I meitemarkens verden (lengre tekst)</a>
+		<li><a href="nedlasting/i_meitemarkens_verden_lang_tekst_tigrinja.pdf">I meitemarkens verden (tigrinja)</a>
 		</li>
 	</ul>
 	<?php include "phpinclude/chapmenu.php";?>
