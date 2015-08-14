@@ -64,8 +64,8 @@
 		<li><a href="http://www.morsmal.no/veiledning-til-foreldre/1463-norske-kategorier/hjelp-barnet-ditt/5167-a-arbeide-med-matematikk-sammen-med-barnet-ditt">«Matematikk»</a>
 		</li>
 	</ul>
-	<figure><img src="graphics/meitemarker_i_regnet_600x446.jpg" alt="meitemarker som ligger på asfalten i regnet" />
-		<figcaption>I regnet kommer meitemarken opp fra gangene i jorda.</figcaption>
+	<figure><img src="graphics/meitemarker_i_regnet_600x446.jpg" alt="meitemarker som ligger på asfalten i mørket" />
+		<figcaption>Om natten kommer meitemarken opp fra gangene i jorda.</figcaption>
 	</figure>
 	<h2>Last ned historien om meitemarken</h2>
 	<p>Hvis du vil skrive ut historien om barna i meitemarkens huler, kan du laste ned og skrive ut på flere språk i PDF-format:</p>
