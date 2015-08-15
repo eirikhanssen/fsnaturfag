@@ -9,7 +9,27 @@
 </head>
 
 <body>
-	<h1>Ordliste</h1>
+	<h1>I meitemarkens verden – Ordliste</h1>
+	<ul>
+		<li>Bille</li>
+		<li>Bæsj</li>
+		<li>Gang</li>
+		<li>Grå meitemark</li>
+		<li>Hen</li>
+		<li>Hvile seg</li>
+		<li>Insekt</li>
+		<li>Jenny</li>
+		<li>Jord</li>
+		<li>Katt</li>
+		<li>Kokong</li>
+		<li>Mark</li>
+		<li>Meitemark</li>
+		<li>Pare seg</li>
+		<li>Rot</li>
+		<li>Samir</li>
+		<li>Skolopender</li>
+		<li>Sperm</li>
+	</ul>
 	<?php include "phpinclude/chapmenu.php";?>
 	<script src="../js/classmod.js"></script>
 	<script src="../js/currentpage.js"></script>

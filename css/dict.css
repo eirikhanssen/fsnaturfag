@@ -1,0 +1,6 @@
+input.listen {
+	height: 2em;
+	width: 2em;
+	background-color: white;
+	background-image: url(../img/listen.svg);
+}
