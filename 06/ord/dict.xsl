@@ -23,21 +23,24 @@
             </xsl:for-each>
         </xsl:if>
     </xsl:variable>
+    
+    <xsl:variable name="lang" select="$query_params/var[@name='w']/@val"/>
+    <xsl:variable name="word" select="$query_params/var[@name='l']/@val"/>
 
     <xsl:template name="start">
         <xsl:result-document href="#main" method="ixsl:append-content">
             <xsl:choose>
                 <xsl:when test="$query_params/var">
-                    <h2>params:</h2>
+                    <!--<h2>params:</h2>
                     <xsl:for-each select="$query_params/var">
                         <p><xsl:value-of select="@name"/> = <xsl:value-of select="@val"/></p>
-                    </xsl:for-each>
+                    </xsl:for-each>-->
                     <xsl:choose>
                         
                         <xsl:when test="(count($query_params/var[@name='w']) eq 1) and (count($query_params/var[@name='l']) eq 1)">
                             <xsl:variable name="word" select="$query_params/var[@name='w']/@val"/>
                             <xsl:variable name="lang" select="$query_params/var[@name='l']/@val"/>
-                            <p>one word and one locale ok</p>
+                            <!--<p>one word and one locale ok</p>-->
                              <!--check if entry exists, and get it if it does--> 
                             <xsl:choose>
                                 <!-- test if entry exists -->
@@ -46,6 +49,7 @@
                                     <p>lang: <xsl:value-of select="$lang"/></p>
                                     <p>word: <xsl:value-of select="$word"/></p>-->
                                     <xsl:call-template name="getEntry"/>
+                                    <xsl:call-template name="smilTimings"/>
                                 </xsl:when>
                                 <xsl:when test="not(locales/locale[@lang = $lang])">
                                     <h2>Ordliste – feilmelding</h2>
@@ -75,12 +79,56 @@
         </xsl:result-document>
     </xsl:template>
 
+    <xsl:template name="smilTimings">
+        <xsl:result-document href="#page-head" method="ixsl:append-content">
+            <link id="timesheet" href="no.dict.earth.smil" rel="timesheet" type="application/smil+xml" />
+        </xsl:result-document>
+        <xsl:result-document href="#body" method="ixsl:append-content">
+            <script src="../../js/timesheets.min.js"></script>
+        </xsl:result-document>
+    </xsl:template>
+
     <xsl:template name="getEntry">
         <article>
-            <xsl:attribute name="id" select="concat('dict-', locale/@lang)"/>
-            <h2>Entry</h2>
-            <p>Getting the entry</p>
+            <xsl:attribute name="id" select="concat('dict-', locales/locale/@lang)"/>
+            <xsl:apply-templates/>
         </article>
     </xsl:template>
+    
+    <xsl:template match="audio">
+        <xsl:element name="{local-name()}">
+            <xsl:attribute name="id" select="concat('audio-' , ancestor::locale/@lang)"/>
+            <xsl:attribute name="controls" select="'controls'"/>
+            <xsl:apply-templates/>
+            <p>Nettleseren støtter ikke html5 audio-elementet. Last ned lydfilen her:</p>
+            <ul>
+                <xsl:for-each select="source">
+                    <li><a href="{@src}"><xsl:value-of select="replace(@src,'^.+?[/]([^/]+)$','$1')"/></a></li>
+                </xsl:for-each>
+            </ul>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="source">
+        <xsl:element name="{local-name()}">
+            <xsl:copy-of select="@*"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="term">
+        <xsl:element name="{@t}">
+            <xsl:attribute name="id" select="@id"/>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="img">
+        <xsl:element name="{local-name()}">
+            <xsl:copy-of select="@*"/>
+            <xsl:apply-templates/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="item"/>
 
 </xsl:stylesheet>

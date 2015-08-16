@@ -13,8 +13,8 @@
             <audio>
                 <!-- add sourrce audio file -->
                 <!-- map to data-begin and data-end -->
-                <source type="audio/ogg" src="../audio/no-06-dict.earth-64k.ogg"/>
-                <source type="audio/mp3" src="../audio/no-06-dict.earth-96k.mp3"/>
+                <source type="audio/ogg" src="../audio/no-06-dict-earth-64k.ogg"/>
+                <source type="audio/mp3" src="../audio/no-06-dict-earth-96k.mp3"/>
                 <item select="#no.06.dict.earth.001" begin="0.190039" end="2.664331"/>
                 <item select="#no.06.dict.earth.002" begin="0.266851" end="4.614306"/>
                 <item select="#no.06.dict.earth.003" begin="0.498407" end="4.859472"/>
@@ -34,7 +34,7 @@
                 <item select="#no.06.dict.earth.017" begin="71.178802" end="77.876150"/>
             </audio>
             <term t="h1" id="no.06.dict.earth.001">Jord</term>
-            <image src="../graphics/jordprofil.jpg" alt="Jordprofil som viser de forskjellige jordlagene."/>
+            <img src="../graphics/jordprofil.jpg" alt="Jordprofil som viser de forskjellige jordlagene."/>
             <term t="p" id="no.06.dict.earth.002">Planter vokser i jord</term>
             <term t="h2" id="no.06.dict.earth.003">Meitemarken lager jord</term>
             <term t="p" id="no.06.dict.earth.004">Maitemarken bor i jorda. </term>
