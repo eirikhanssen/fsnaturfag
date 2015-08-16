@@ -15,42 +15,42 @@
                 <!-- map to data-begin and data-end -->
                 <source type="audio/ogg" src="../audio/no-06-dict-earth-64k.ogg"/>
                 <source type="audio/mp3" src="../audio/no-06-dict-earth-96k.mp3"/>
-                <item select="#no.06.dict.earth.001" begin="0.190039" end="2.664331"/>
-                <item select="#no.06.dict.earth.002" begin="0.266851" end="4.614306"/>
-                <item select="#no.06.dict.earth.003" begin="0.498407" end="4.859472"/>
-                <item select="#no.06.dict.earth.004" begin="5.015224" end="8.659828"/>
-                <item select="#no.06.dict.earth.005" begin="8.472925" end="11.494520"/>
-                <item select="#no.06.dict.earth.006" begin="11.712573" end="16.945850"/>
-                <item select="#no.06.dict.earth.007" begin="17.101603" end="21.338065"/>
-                <item select="#no.06.dict.earth.008" begin="21.338065" end="23.736651"/>
-                <item select="#no.06.dict.earth.009" begin="23.861253" end="31.773469"/>
-                <item select="#no.06.dict.earth.010" begin="31.991523" end="41.959670"/>
-                <item select="#no.06.dict.earth.011" begin="42.271174" end="50.152241"/>
-                <item select="#no.06.dict.earth.012" begin="50.339144" end="53.983747"/>
-                <item select="#no.06.dict.earth.013" begin="54.139500" end="57.597201"/>
-                <item select="#no.06.dict.earth.014" begin="57.597201" end="61.553309"/>
-                <item select="#no.06.dict.earth.015" begin="61.553309" end="66.257029"/>
-                <item select="#no.06.dict.earth.016" begin="66.537383" end="71.178802"/>
-                <item select="#no.06.dict.earth.017" begin="71.178802" end="77.876150"/>
+                <item select="#no-06-dict-earth-001" begin="0.190039" end="2.664331"/>
+                <item select="#no-06-dict-earth-002" begin="0.266851" end="4.614306"/>
+                <item select="#no-06-dict-earth-003" begin="0.498407" end="4.859472"/>
+                <item select="#no-06-dict-earth-004" begin="5.015224" end="8.659828"/>
+                <item select="#no-06-dict-earth-005" begin="8.472925" end="11.494520"/>
+                <item select="#no-06-dict-earth-006" begin="11.712573" end="16.945850"/>
+                <item select="#no-06-dict-earth-007" begin="17.101603" end="21.338065"/>
+                <item select="#no-06-dict-earth-008" begin="21.338065" end="23.736651"/>
+                <item select="#no-06-dict-earth-009" begin="23.861253" end="31.773469"/>
+                <item select="#no-06-dict-earth-010" begin="31.991523" end="41.959670"/>
+                <item select="#no-06-dict-earth-011" begin="42.271174" end="50.152241"/>
+                <item select="#no-06-dict-earth-012" begin="50.339144" end="53.983747"/>
+                <item select="#no-06-dict-earth-013" begin="54.139500" end="57.597201"/>
+                <item select="#no-06-dict-earth-014" begin="57.597201" end="61.553309"/>
+                <item select="#no-06-dict-earth-015" begin="61.553309" end="66.257029"/>
+                <item select="#no-06-dict-earth-016" begin="66.537383" end="71.178802"/>
+                <item select="#no-06-dict-earth-017" begin="71.178802" end="77.876150"/>
             </audio>
-            <term t="h1" id="no.06.dict.earth.001">Jord</term>
+            <term t="h1" id="no-06-dict-earth-001">Jord</term>
             <img src="../graphics/jordprofil.jpg" alt="Jordprofil som viser de forskjellige jordlagene."/>
-            <term t="p" id="no.06.dict.earth.002">Planter vokser i jord</term>
-            <term t="h2" id="no.06.dict.earth.003">Meitemarken lager jord</term>
-            <term t="p" id="no.06.dict.earth.004">Maitemarken bor i jorda. </term>
-            <term t="p" id="no.06.dict.earth.005">Den spiser jord.</term>
-            <term t="p" id="no.06.dict.earth.006">Marken spiser. Og spiser. Og spiser.</term>
-            <term t="p" id="no.06.dict.earth.007">Da blir det lange ganger i jorda </term>
-            <term t="p" id="no.06.dict.earth.008">der den har spist. </term>
-            <term t="p" id="no.06.dict.earth.009">Noen steder er jorda full av små biter av stein og sand.</term>
-            <term t="p" id="no.06.dict.earth.010">Noen steder er jorda full av små biter av løv og gress og døde dyr.</term>
-            <term t="p" id="no.06.dict.earth.011">Meitemarken spiser jord med sand og jord med løv.</term>
-            <term t="p" id="no.06.dict.earth.012">Den blander alt i magen. </term>
-            <term t="p" id="no.06.dict.earth.013">Meitemarken blander jord. </term>
-            <term t="p" id="no.06.dict.earth.014">Og den bæsjer mye. </term>
-            <term t="p" id="no.06.dict.earth.015">Da blir jorda bedre for plantene.</term>
-            <term t="p" id="no.06.dict.earth.016">Kan du se hvor det bor mange mark?</term>
-            <term t="p" id="no.06.dict.earth.017">Kan du se hvor det ikke bor så mange mark?</term>
+            <term t="p" id="no-06-dict-earth-002">Planter vokser i jord</term>
+            <term t="h2" id="no-06-dict-earth-003">Meitemarken lager jord</term>
+            <term t="p" id="no-06-dict-earth-004">Meitemarken bor i jorda. </term>
+            <term t="p" id="no-06-dict-earth-005">Den spiser jord.</term>
+            <term t="p" id="no-06-dict-earth-006">Marken spiser. Og spiser. Og spiser.</term>
+            <term t="p" id="no-06-dict-earth-007">Da blir det lange ganger i jorda </term>
+            <term t="p" id="no-06-dict-earth-008">der den har spist. </term>
+            <term t="p" id="no-06-dict-earth-009">Noen steder er jorda full av små biter av stein og sand.</term>
+            <term t="p" id="no-06-dict-earth-010">Noen steder er jorda full av små biter av løv og gress og døde dyr.</term>
+            <term t="p" id="no-06-dict-earth-011">Meitemarken spiser jord med sand og jord med løv.</term>
+            <term t="p" id="no-06-dict-earth-012">Den blander alt i magen. </term>
+            <term t="p" id="no-06-dict-earth-013">Meitemarken blander jord. </term>
+            <term t="p" id="no-06-dict-earth-014">Og den bæsjer mye. </term>
+            <term t="p" id="no-06-dict-earth-015">Da blir jorda bedre for plantene.</term>
+            <term t="p" id="no-06-dict-earth-016">Kan du se hvor det bor mange mark?</term>
+            <term t="p" id="no-06-dict-earth-017">Kan du se hvor det ikke bor så mange mark?</term>
         </entry>
     </locale>
 </locales>

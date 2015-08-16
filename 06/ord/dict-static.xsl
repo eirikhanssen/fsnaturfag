@@ -49,7 +49,7 @@
                                     <p>lang: <xsl:value-of select="$lang"/></p>
                                     <p>word: <xsl:value-of select="$word"/></p>-->
                                     <xsl:call-template name="getEntry"/>
-                                    <xsl:call-template name="smilTimings"/>
+                                    <!--<xsl:call-template name="smilTimings"/>-->
                                 </xsl:when>
                                 <xsl:when test="not(locales/locale[@lang = $lang])">
                                     <h2>Ordliste – feilmelding</h2>
@@ -78,24 +78,23 @@
 
         </xsl:result-document>
     </xsl:template>
-
+    
+    <!--<xsl:template name="smilTimings">
+        <xsl:result-document href="#page-head" method="ixsl:append-content">
+            <link id="timesheet" href="{concat('dict-' , 'no' , '-' , 'earth' , '.smil')}" rel="timesheet" type="application/smil+xml"/>
+        </xsl:result-document>
+    </xsl:template>-->
+    <!--<xsl:result-document href="#body" method="ixsl:append-content">
+            <script src="../../js/timesheets.min.js"></script>
+        </xsl:result-document>-->
+    
     <xsl:template name="getEntry">
         <article>
             <xsl:attribute name="id" select="concat('dict-', locales/locale/@lang)"/>
             <xsl:apply-templates/>
         </article>
     </xsl:template>
-
-    <xsl:template name="smilTimings">
-        <xsl:result-document href="#page-head" method="ixsl:append-content">
-            <link id="timesheet" href="{concat('dict-' , 'no' , '-' , 'earth' , '.smil')}" rel="timesheet" type="application/smil+xml"/>
-        </xsl:result-document>
-        <!--<xsl:result-document href="#body" method="ixsl:append-content">
-            <script src="../../js/timesheets.min.js"></script>
-        </xsl:result-document>-->
-    </xsl:template>
-
-
+    
     <xsl:template match="audio">
         <xsl:element name="{local-name()}">
             <xsl:attribute name="id" select="concat('audio-' , ancestor::locale/@lang)"/>
