@@ -122,7 +122,7 @@
 			<h3>Tips — Skjemaer</h3>
 			<p>Se ulike skjemaer og skriv dem ut lenger ned på siden!</p>
 			<h3>Forskerføtter og leserøtter</h3>
-			<object id="forskning" type="image/svg+xml" data="forskning.svg" width="600" height="400" border="1"></object>
+			<object id="forskning" type="image/svg+xml" data="../graphics/forskning.svg" width="600" height="400" border="1"></object>
 			<h3>Studer meitemark på nært hold</h3>
 			<p>Når du vil at elevene skal få erfaringer med meitemark, så velg ut aktiviteter som du selv tror du klarer å gjennomføre med glede. La elevene få delta mest mulig i forberedelsene, som å finne eller lage det som meitemarkene skal bo i og finne det de skal ha i bostedet sitt. Hvis elevene skal ut og grave etter meitemark, undersøk på forhånd hvor de lykkes. Det er ikke alltid greit å finne nok meitemark i tørre områder der bakken er hard. </p>
 			<p>Det finnes mye om meitemark på internett, blant annet om hvordan elevene kan studere meitemark, finne ut hva den spiser, hvor den liker seg og hvordan det blir nye, små meitemark.</p>

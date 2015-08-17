@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="600"
+   height="400"
+   viewBox="0 0 600 400"
+   id="forskning_svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient01">
+      <stop
+         id="stop3340"
+         style="stop-color:#ede0a9;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop3342"
+         style="stop-color:#fff9e2;stop-opacity:1"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       x1="0"
+       y1="160"
+       x2="0"
+       y2="40"
+       id="linearGradient02"
+       xlink:href="#linearGradient01"
+       gradientUnits="userSpaceOnUse"/>
+  	<style type="text/css">
+  		#text_bubble {
+  			fill: #000000;
+  			stroke: none;
+  			font-size: 16px;
+  			font-family: Arial, sans-serif;}
+  		#bubble_path {
+  			stroke: black; 
+  			stroke-width: 1s; 
+  			stroke-linejoin: round;
+  			fill: url(#linearGradient02);}
+  			a {text-decoration: underline; fill: blue;}
+  	</style>
+  	<image id="img_hen" xlink:href="hen-03.jpg"
+  		x="50" y="-600"
+  		width="289"
+  		height="600"
+  		transform="scale(0.65)"/>
+  	<text x="0" y="0" id="text_bubble">
+  		<tspan x="0" y="0">Har du hørt om Forskerføtter og leserøtter?</tspan>
+  		<tspan x="0" y="36">Det er et forsknings- og utviklingsprosjekt</tspan> 
+  		<tspan x="0" y="72">ved Naturfagsenteret ved Universitetet i Oslo</tspan>.
+  		<tspan x="0" y="108">Se <a xlink:href="http://naturfagsenteret.no/fflr" target="_blank">naturfagsenteret.no/fflr</a>. Der kan du lese</tspan> 
+  		<tspan x="0" y="144">om hvordan du kan kombinere utforskende</tspan> 
+  		<tspan x="0" y="180">undervisning med grunnleggende ferdigheter.</tspan>
+  	</text>
+  	<path id="bubble_path"
+  		d="m 594.49371,36.25 c 11.19249,0 20.20305,9.01056 20.20305,20.20305 l 0,238.99495 c 0,11.19249 -9.01056,20.20305 -20.20305,20.20305 l -306.99371,0 c -11.19249,0 -20.20305,-9.01056 -20.20305,-20.20305 l 0,-159.98046 -55.52493,-21.45369 55.52493,-13.18917 0,-44.37163 c 0,-11.19249 9.01056,-20.20305 20.20305,-20.20305 74.4203,-0.802376 232.57702,-0.721033 306.99371,0 z"/>
+  </defs>
+ <g id="layer1">
+ 	
+    <use xlink:href="#img_hen" x="0" y="400"></use>
+ 	<use xlink:href="#bubble_path" x="-30" y="-30"></use>
+ 	<use xlink:href="#text_bubble" x="250" y="50"></use>
+    
+ 	
+ 	
+
+  </g>
+</svg>
