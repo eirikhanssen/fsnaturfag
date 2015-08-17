@@ -19,7 +19,7 @@
 		<h1>Lærerveiledning</h1>
 		<h2>Utskrift</h2>
 		<p>Her finner du oppgavesett, skjemaer og tekster beregnet for utskrift.</p>
-		<p>Tekstene er skrevet av Jorun Gulbrandsen for NAFO, Illustrasjonene er laget av Svetlana Voronkova for NAFO, oppgavene er laget av NAFO.</p>
+		<p>Tekstene er skrevet av Jorun Gulbrandsen for NAFO. Illustrasjonene er laget av Svetlana Voronkova for NAFO og oppgavene er laget av NAFO.</p>
 		<p> Det er Nasjonalt senter for flerkulturell opplæring (NAFO) som står som rettighetshaver av tekstene og illustrasjonene. Du kan benytte de fritt etter betingelsene som er angitt Creative Commons lisensen <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/deed.no">CC BY-NC-SA (norsk tekst)</a>, <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA (engelsk tekst)</a> </p>
 		<h3>Tekster</h3>
 		<p>Tekstene du finner til utskrift her er de samme som på den nettbaserte.</p>
