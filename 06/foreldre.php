@@ -102,7 +102,6 @@
 	</main>
 	<?php include "phpinclude/chapmenu.php";?>
 	<script src="../js/classmod.js"></script>
-	<script src="../js/currentpage.js"></script>
 </body>
 
 </html>

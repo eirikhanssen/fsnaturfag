@@ -565,7 +565,6 @@
 	</main>
 	<script src="../js/timesheets.min.js"></script>
 	<script src="../js/classmod.js"></script>
-	<script src="../js/currentpage.js"></script>
 	<script src="../js/switchLanguages.js"></script>
 	<script src="../js/slidenav.js"></script>
 </body>

@@ -23,7 +23,7 @@
 							av døde organismer.</em>
 				</p>
 				<p>Sand er små biter av fjell og stein. Fjell og stein er laget av mineraler. De små bitene fraktes av sted med vann eller vind. Planter og dyr dør, nedbryterne deler alt opp i bitte små deler. Meitemarken blander alt dette når den spiser, og avføringa er denne blandinga, rett og slett. </p>
-				<p>Se tegningen under. Det øverste, mørkebrune laget, er humus. Humus dannes når vissent løv og døde dyr råtner. ­Det betyr at dyr, sopp og bakterier spiser vissent løv og døde dyr. Det kalles <em>nedbryting</em>. De som spiser kalles <em>nedbrytere</em>. Et annet ord kunne godt vært <em>oppdeling</em> og <em>oppdelere</em>, for det døde blir delt opp i smått når det blir spist. Kroppen til meitemarken bruker noe av det den spiser. Resten, som er delt opp i tarmen, går ut som ekskrementer (den bæsjer). De små delene kan da brukes av andre som skal leve. Når vi skriver "vissent løv" her, er det en forenkling. Det riktige er vissent løv, trær, barnåler og greiner som faller, visne planter av alle slag som gress og blomster. Altså døde planter og deler av planter som blir liggende på bakken. Men også røtter som ikke lever lenger. </p>
+				<p>Se tegningen under. Det øverste, mørkebrune laget, er humus. Humus dannes når vissent løv og døde dyr råtner. Det betyr at dyr, sopp og bakterier spiser vissent løv og døde dyr. Det kalles <em>nedbryting</em>. De som spiser kalles <em>nedbrytere</em>. Et annet ord kunne godt vært <em>oppdeling</em> og <em>oppdelere</em>, for det døde blir delt opp i smått når det blir spist. Kroppen til meitemarken bruker noe av det den spiser. Resten, som er delt opp i tarmen, går ut som ekskrementer (den bæsjer). De små delene kan da brukes av andre som skal leve. Når vi skriver "vissent løv" her, er det en forenkling. Det riktige er vissent løv, trær, barnåler og greiner som faller, visne planter av alle slag som gress og blomster. Altså døde planter og deler av planter som blir liggende på bakken. Men også røtter som ikke lever lenger. </p>
 			</section>
 			<section>
 				<h3 id="meitemarken_blander_jorda">Meitemarken blander jorda</h3>
@@ -189,7 +189,6 @@
 	</main>
 	<?php $folder_level=1; include "../phpinclude/chapmenu.php";?>
 	<script src="../../js/classmod.js"></script>
-	<script src="../../js/currentpage.js"></script>
 </body>
 
 </html>

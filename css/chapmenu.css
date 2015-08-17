@@ -77,6 +77,6 @@
 	margin-top: 3em;
 }
 
-#chapmenu a.currentPage {
+#chapmenu .currentPage {
 	background-color: #ffee9c;
 }
