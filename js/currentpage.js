@@ -8,7 +8,7 @@ window.addEventListener("load", currentPage, false);
 		var folder = chapmenu.getAttribute('data-folder');
 		var toc = document.getElementById('toc');
 		var toc_filename, toc_folder, toc_links;
-		if (toc !== undefined) {
+		if (toc !== null) {
 			toc_filename = toc.getAttribute('data-filename');
 			toc_links = toc.getElementsByTagName('A');
 			for (var j = 0; j< toc_links.length; j++) {

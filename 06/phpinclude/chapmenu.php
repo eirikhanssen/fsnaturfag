@@ -1,5 +1,4 @@
 <?php
-//$folder_level = 5; 
 //$folder_level should be set on file that includes this menu if required.
 if (!isset($folder_level)) {
 	$folder_level = 0;
