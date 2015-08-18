@@ -1,3 +1,23 @@
-#toc .currentPage {
+#toc .currentPage a {
 	color: black;
+}
+
+#toc a {display: block; padding: .25em;}
+
+#toc a:hover, #toc a:focus {
+	border-color: black; text-decoration: underline;
+	
+}
+
+#toc {
+border: 1px solid #ddd;
+	background-color: #fdfdfd;
+	border-radius: .25em;
+}
+#toc li {
+	
+}
+
+#toc li + li {
+	margin-top: .25em;
 }
