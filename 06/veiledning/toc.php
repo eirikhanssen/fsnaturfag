@@ -4,8 +4,7 @@ $self_filename = preg_replace('/.+?[^\/]+\/([^\/]+)$/', '\1', $self_path);
 $self_folder = preg_replace('/.+?([^\/]+)\/[^\/]+$/', '\1', $self_path);
 
 $toc = <<<HTMLCODE
-
-	<nav id="toc">
+<nav id="toc">
 	<ul>
 		<li><a href="index.php">Om prototypen</a></li>
 		<li><a href="hovedpersoner.php">Hovedpersoner</a></li>
@@ -15,8 +14,8 @@ $toc = <<<HTMLCODE
 		<li><a href="oppgaver_til_lareren.php">Oppgaver til læreren</a></li>
 		<li><a href="utskrift.php">Utskrift</a></li>
 		<li><a href="illustrasjoner.php">Illustrasjoner</a></li>
-		</ul>
-	</nav>
+	</ul>
+</nav>
 HTMLCODE;
 
 $toc = str_replace('<nav id="toc"', '<nav id="toc" data-filename="'. $self_filename .'"' . ' data-folder="' . $self_folder . '"' , $toc);

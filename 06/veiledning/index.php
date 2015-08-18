@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="../../css/naturfag.css" />
 	<link rel="stylesheet" href="../../css/chapmenu.css" />
 	<link rel="stylesheet" href="../../css/layout_veil.css" />
+	<link rel="stylesheet" href="../../css/toc.css" />
 	<link rel="icon" type="image/png" href="../../img/favicon.png" />
 </head>
 

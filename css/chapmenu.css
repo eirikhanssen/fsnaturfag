@@ -64,7 +64,7 @@
 
 #chapmenu a:hover,
 #chapmenu a:focus {
-	background-color: #ffee9c;
+	background-color: #fff7d1;
 	color: black;
 	border-color: black;
 }
@@ -77,6 +77,6 @@
 	margin-top: 3em;
 }
 
-#chapmenu .currentPage {
+#chapmenu .currentPage, #chapmenu .currentPage a {
 	background-color: #ffee9c;
 }

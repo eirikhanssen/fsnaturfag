@@ -7,6 +7,7 @@
 	<title>Oppgaver</title>
 	<link rel="stylesheet" href="../../css/chapmenu.css" />
 	<link rel="stylesheet" href="../../css/layout_oppgaver.css" />
+	<link rel="stylesheet" href="../../css/toc.css" />
 	<style>
 		body {
 			font-family: Arial, sans-serif;
