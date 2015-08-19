@@ -22,7 +22,8 @@
 }
 
 #chapmenu {
-	width: 9em;
+	width: 7rem;
+	box-sizing: border-box;
 	position: absolute;
 	right: 5px;
 	top: 0;

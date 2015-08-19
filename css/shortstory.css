@@ -20,7 +20,7 @@ body {
 	margin-top: 0;
 }
 
-h1#page-head {
+h1#page_head {
 	text-align: center;
 	margin: .25em;
 }
@@ -28,15 +28,14 @@ h1#page-head {
 main {
 	position: fixed;
 	z-index: 1;
-	top: 7em;
-	/*	top: 0;*/
-	
-	right: 5px;
+	top: 8em;
+	right: 20px;
 	bottom: 5px;
 	left: 5px;
 	box-sizing: border-box;
 	background-color: #fffef0;
 	border: 1px solid black;
+	margin-right: 6.25em;
 }
 
 footer {
@@ -186,4 +185,22 @@ audio + div[id^=slide][smil=done] .slidenum {
 #secondary_language_container .slidenum {
 	right: auto;
 	left: .5em;
+}
+
+.fullscreen #chapmenu,
+.fullscreen #toc,
+.fullscreen #lang_select,
+.fullscreen #page_head {
+	display: none;
+}
+.fullscreen main {
+	top: 0;
+	margin: 0;
+	right: 0;
+	bottom:0;
+	left:0;
+}
+
+.hideText .lang_container {
+	opacity: 0;
 }

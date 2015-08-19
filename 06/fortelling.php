@@ -65,6 +65,7 @@
 		article#language-contents-ar {
 			font-size: 1.408em;
 		}
+		main {margin-right: 7rem;}
 	</style>
 </head>
 

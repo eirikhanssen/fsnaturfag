@@ -9,7 +9,7 @@ nav#chapmenu {
 	box-sizing: border-box;
 	position: absolute;
 	left: 5px;
-	width: 15rem;
+	max-width: 12rem;
 	bottom: auto;
 	margin: auto;
 	/*background: rgba(245, 0, 255, 0.53);*/
@@ -55,18 +55,7 @@ nav#chapmenu {
 }
 
 main {
-	/*background-color: yellow;*/
-	
-	margin-left: 16em;
-	margin-right: 10em;
+	margin-left: 12em;
+	margin-right: 8em;
 	padding: .25em;
-}
-
-#chapmenu {
-	width: 9em;
-	position: absolute;
-	right: 5px;
-	top: 0;
-	bottom: auto;
-	margin: auto;
 }

@@ -8,9 +8,8 @@
 	<link rel="icon" type="image/png" href="../img/favicon.png">
 	<link rel="stylesheet" href="../css/story.css" />
 	<link rel="stylesheet" href="../css/common.css" />
-
 	<link rel="stylesheet" href="../css/chapmenu.css" />
-
+	<link rel="stylesheet" href="../css/layout_oppgaver.css"/>
 	<link rel="stylesheet" href="../css/naturfag.css" />
 	<script src="../js/timesheets.min.js"></script>
 	<link id="timesheet" href="xml/c06-short.smil" rel="timesheet" type="application/smil+xml" />
