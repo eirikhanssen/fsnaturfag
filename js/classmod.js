@@ -54,10 +54,8 @@ var removeClass = function (el, classname) {
 var toggleClass = function (el, classname) {
 	if (hasClass(el, classname)) {
 		removeClass(el, classname);
-		//console.log("Removed " + classname + " from " + elementID);
 	} else {
-		addClass(elementID, classname);
-		//console.log("Added " + classname + " to " + elementID);
+		addClass(el, classname);
 	}
 };
 
