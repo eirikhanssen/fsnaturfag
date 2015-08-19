@@ -15,7 +15,7 @@ border: 1px solid #ddd;
 	border-radius: .25em;
 }
 #toc li {
-	
+	list-style-type: none;
 }
 
 #toc li + li {
