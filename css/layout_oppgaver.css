@@ -9,7 +9,7 @@
 	box-sizing: border-box;
 	position: absolute;
 	left: 5px;
-	width: 6rem;
+	max-width: 12rem;
 	bottom: auto;
 	margin: auto;
 	/*background: rgba(245, 0, 255, 0.53);*/
@@ -55,24 +55,11 @@
 }
 
 main {
-	/*background-color: yellow;*/
-	
-	margin-left: 7em;
-	margin-right: 9em;
+	margin-left: 8rem;
+	margin-right: 7em;
 	padding: .25em;
 }
-
-#chapmenu {
-	width: 9em;
-	position: absolute;
-	right: 5px;
-	top: 0;
-	bottom: auto;
-	margin: auto;
-	border-right: none;
-	border-top: none;
-}
-
+/*
 @media screen and (min-height: 30em) {
 	#chapmenu {
 		position: fixed;
@@ -81,4 +68,4 @@ main {
 		bottom: auto;
 		margin: auto;
 	}
-}
+}*/

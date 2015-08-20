@@ -13,13 +13,59 @@
 	<link rel="stylesheet" href="../css/shortstory.css" />
 	<link rel="stylesheet" href="../css/smilcontrols.css" />
 	<link id="timesheet" href="xml/c06-short.smil" rel="timesheet" type="application/smil+xml" />
+	<style>
+		#chapmenu {top: 4rem;}
+		#fullscreen_toggle {
+			padding: .25em;
+			box-sizing: border-box;
+			width: 7rem;
+			position: fixed;
+			top: 1px;
+			right: 5px;
+			left: auto;
+			z-index: 5;
+			font-size: 1em;
+		}
+		#text_visibility_toggle {
+			padding: .25em;
+			box-sizing: border-box;
+			width: 7rem;
+			position: fixed;
+			top: 2em;
+			right: 5px;
+			left: auto;
+			z-index: 5;
+			font-size: 1em;
+			margin-top: 1px;
+		}
+		.fullscreen #fullscreen_toggle {
+			opacity: .5;
+			transition-property: opacity;
+			transition-duration: .5s;
+			transform: translateX(2.5em) translateY(2.75em) rotate(90deg);
+		}
+		.fullscreen #fullscreen_toggle:hover {
+			opacity: 1;
+		}
+		.fullscreen #text_visibility_toggle {
+			opacity: .5;
+			transition-property: opacity;
+			transition-duration: .5s;
+			transform: translateX(2.5em) translateY(8em) rotate(90deg);
+		}
+		.fullscreen #text_visibility_toggle:hover {
+			opacity: 1;
+		}
+	</style>
 </head>
 
 <body id="body">
-	<h1 id="page-head">Kap 6: I meitemarkens verden (lettlest)</h1>
+	<button id="fullscreen_toggle">Skjul menyer</button>
+	<button id="text_visibility_toggle">Skjul tekst</button>
+	<h1 id="page_head">Kap 6: I meitemarkens verden (lettlest)</h1>
 	<?php include "phpinclude/chapmenu.php";?>
 	<header>
-
+		
 		<section id="lang_select">
 			<h2 class="invisible">Språkvalg</h2>
 			<fieldset id="primary_language">
@@ -36,7 +82,6 @@
 				<label for="primary_lang_ti"><span lang="ti">ትግርኛ</span><span lang="no">Tigrinja</span>
 					<input id="primary_lang_ti" type="radio" name="primary_language" />
 				</label>
-
 			</fieldset>
 			<fieldset id="secondary_language">
 				<legend>Velg språk 2</legend>
@@ -567,6 +612,36 @@
 	<script src="../js/classmod.js"></script>
 	<script src="../js/switchLanguages.js"></script>
 	<script src="../js/slidenav.js"></script>
+	<script>
+		var body, fullscreenToggleButton, textVisibilityToggleButton;
+		window.addEventListener('load',initFsToggle, false);
+		function initFsToggle() {
+			console.log('initFsToggle');
+			fullscreenToggleButton = document.getElementById('fullscreen_toggle');
+			body = document.body;
+			textVisibilityToggleButton = document.getElementById('text_visibility_toggle');
+			fullscreenToggleButton.addEventListener('click', fullScreenToggle, false);
+			textVisibilityToggleButton.addEventListener('click', textVisibilityToggle, false);
+		}
+		function fullScreenToggle() {
+			console.log('toggle fullscreen');
+			toggleClass(body, 'fullscreen');
+			if (hasClass(body, 'fullscreen')) {
+				fullscreenToggleButton.innerHTML = 'Vis menyer';
+			}else {
+				fullscreenToggleButton.innerHTML = 'Skjul menyer';
+			}
+		}
+		function textVisibilityToggle () {
+			console.log('toggle text visibility');
+			toggleClass(body, 'hideText');
+			if (hasClass(body, 'hideText')) {
+				textVisibilityToggleButton.innerHTML = 'Vis tekst';
+			} else {
+				textVisibilityToggleButton.innerHTML = 'Skjul tekst';
+			}
+		}
+	</script>
 </body>
 
 </html>
