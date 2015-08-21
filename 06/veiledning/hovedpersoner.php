@@ -28,8 +28,7 @@
 				<h3 id="jenny_og_samir_moter_hen_og_katt">Jenny og Samir møter Hen og Katt</h3>
 
 				<figure>
-					<legend class="fourchildren"> <span>Jenny</span> <span>Hen</span> <span>Samir</span> <span>Katt</span>
-					</legend>
+					<figcaption class="fourchildren"> <span>Jenny</span> <span>Hen</span> <span>Samir</span> <span>Katt</span></figcaption>
 					<img src="../graphics/jenny_hen_samir_katt.jpg" alt="Jenny, ei jente med gul hår, Hen ei grønn jente med katteører og rødt hår, Samir en brunkrøllete gutt og Katt, en katt med gul pels, støvler og belte." />
 					<figcaption class="fourchildren">
 						<span>Her ser vi Jenny som spør: Hvis det ikke hadde vært meitemark?</span>
