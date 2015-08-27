@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flerspråklig naturfag</title>
+	<style>
+		body {
+			font-family: sans-serif;
+			counter-reset: section;
+			background: #ccc;
+		}
+		
+		header h1 {
+			text-align: center;
+		}
+		
+		#chapters {
+			list-style-type: none;
+			width: 80vw;
+			margin: auto;
+		}
+		
+		#chapters li {
+			float: left;
+			width: 20vw;
+			height: 25vh;
+			display: inline-block;
+			position: relative;
+			box-sizing: border-box;
+			border: 1px solid transparent;
+		}
+		
+		#chapters li h2 {
+			font-size: 3.5vh;
+			font-weight: bold;
+			text-align: center;
+			z-index: 1;
+			color: black;
+			display: inline-block;
+			position: absolute;
+			margin: auto;
+			text-shadow: 
+				-2px -2px 0px white,
+				2px -2px 0px white,
+				2px 2px 0px white,
+				-2px 2px 0px white;
+		}
+		
+		#chapters li section {
+			position: absolute;
+			top: .25em;
+			left: .25em;
+			right: .25em;
+			bottom: .25em;
+			background: #afafaf;
+		}
+
+		#chapters li[id]:hover {
+			background-color: white;
+			border: 1px solid black;
+		}
+		
+		#chapters section {}
+		
+		#chapters section::before {
+			counter-increment: section;
+			content: counter(section);
+			position: absolute;
+			color: rgba(203, 203, 203, 0.5);
+			font-weight: bold;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			margin: auto;
+			font-size: 15vw;
+			text-align: center;
+			line-height: 25vh;
+			z-index: 0;
+		}
+		#chapters li[id] section::before {
+			color: rgba(255, 255, 99, 0.55);
+		}
+		
+		#chapters li[id]:hover section::before {
+			color: rgba(255, 255, 99, 0.85);
+		}
+		
+		#chapters::after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+		
+		footer {
+			text-align: center;
+		}
+		
+		li#c06 section {
+			background-image: url(img/bg-06.jpg);
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<h1>Flerspråklig naturfag</h1>
+	</header>
+	<main>
+
+		<ul id="chapters">
+			<li>
+				<section></section>
+			</li>
+			<li>
+				<section></section>
+			</li>
+			<li>
+				<section></section>
+			</li>
+			<li>
+				<section></section>
+			</li>
+			<li>
+				<section></section>
+			</li>
+			<li id="c06">
+				<a href="06/index.php">
+					<section>
+						<h2>Meitemarkens verden</h2>
+					</section>
+				</a>
+			</li>
+			<li>
+				<section></section>
+			</li>
+			<li>
+				<section></section>
+			</li>
+			<li>
+				<section></section>
+			</li>
+			<li>
+				<section></section>
+			</li>
+			<li>
+				<section></section>
+			</li>
+			<li>
+				<section></section>
+			</li>
+		</ul>
+	</main>
+	<footer>
+		<p>Et læreverk utviklet av <a href="http://nafo.hioa.no">Nasjonalt senter for flerkulturell opplæring (NAFO)</a
+		</p>
+		<p><a href="06/veiledning">Lærerveiledning til prototypen</a>
+		</p>
+	</footer>
+</body>
+
+</html>
