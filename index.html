@@ -55,6 +55,17 @@
 			line-height: 1.5em;
 			z-index: 0;
 		}
+		#chapters li[id] {
+			position: relative;
+			z-index: 1;
+			transition: all .5s ease-in-out;
+		}
+		#chapters li[id]:hover,
+		#chapters li[id]:focus {
+			
+			z-index: 10;
+			transform: scale(1.05);
+		}
 		#chapters li[id] section::before {
 			color: rgba(255, 255, 99, 0.55);
 		}
