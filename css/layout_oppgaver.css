@@ -5,10 +5,12 @@
 }
 
 #toc {
+	padding: .25em;
 	padding: .25rem;
 	box-sizing: border-box;
 	position: absolute;
 	left: 5px;
+	max-width: 12em;
 	max-width: 12rem;
 	bottom: auto;
 	margin: auto;
@@ -21,6 +23,7 @@
 
 #toc h2 {
 	margin: 0;
+	margin-bottom: 1em;
 	margin-bottom: 1rem;
 }
 
@@ -55,6 +58,7 @@
 }
 
 main {
+	margin-left: 8em;
 	margin-left: 8rem;
 	margin-right: 7em;
 	padding: .25em;

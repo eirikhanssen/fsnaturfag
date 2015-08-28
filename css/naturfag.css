@@ -202,6 +202,7 @@ header {
 }
 
 header h1 {
+	margin: 0 10em 0 16em;
 	margin: 0 10rem 0 16rem;
 	line-height: 2em;
 	text-align: center;

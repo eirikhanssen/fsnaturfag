@@ -12,6 +12,7 @@ element[smil=done]*/
 #story [smil=active] {}
 
 #story .playing {
+	border-radius: .25em;
 	border-radius: .25rem;
 	position: relative;
 	z-index: 5;
@@ -21,10 +22,10 @@ element[smil=done]*/
 #story .playing::after {
 	content: "";
 	position: absolute;
-	left: -.5rem;
-	right: -.5rem;
-	bottom: -.5rem;
-	top: -.5rem;
+	left: -.5em;
+	right: -.5em;
+	bottom: -.5em;
+	top: -.5em;
 	z-index: -1;
 	box-sizing: border-box;
 	border-radius: .25em;
@@ -43,10 +44,10 @@ element[smil=done]*/
 #story [smil=active]::before {
 	content: "";
 	position: absolute;
-	left: -.5rem;
-	right: -.5rem;
-	bottom: -.5rem;
-	top: -.5rem;
+	left: -.5em;
+	right: -.5em;
+	bottom: -.5em;
+	top: -.5em;
 	z-index: -2;
 	box-sizing: border-box;
 	border-radius: .25em;
@@ -58,7 +59,7 @@ element[smil=done]*/
 	border-radius: .75em;
 	box-sizing: border-box;
 	box-shadow: 0 0 .35em gray;
-	border-radius: .25rem;
+	border-radius: .25em;
 	background-color: rgb(211, 255, 206);
 	margin: -.5em;
 	padding: .5em;
