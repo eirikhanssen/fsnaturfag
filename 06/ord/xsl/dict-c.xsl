@@ -31,7 +31,7 @@
                 <meta charset="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <title id="page-title">Ordliste</title>
-                <link id="timesheet" href="no.dict.earth.smil" rel="timesheet" type="application/smil+xml" />
+                <!--<link id="timesheet" href="no.dict.earth.smil" rel="timesheet" type="application/smil+xml" />-->
                 <script src="../../js/timesheets.min.js"></script>
             </head>
             
@@ -56,8 +56,7 @@
                                     <!--<p> - Test OK - </p>
                                     <p>lang: <xsl:value-of select="$lang"/></p>
                                     <p>word: <xsl:value-of select="$word"/></p>-->
-                                    <xsl:call-template name="getEntry"/>
-                                    <!--<xsl:call-template name="smilTimings"/>-->
+                                    <xsl:apply-templates select="locales/locale[@lang = $lang]/entry[@word = $word]"/>
                                 </xsl:when>
                                 <xsl:when test="not(locales/locale[@lang = $lang])">
                                     <h2>Ordliste – feilmelding</h2>
@@ -88,28 +87,28 @@
         </html>
     </xsl:template>
 
-    <xsl:template name="getEntry">
+    <xsl:template match="entry">
         <article>
-            <xsl:attribute name="id" select="concat('dict-', locales/locale/@lang)"/>
-            <xsl:apply-templates/>
+            <xsl:if test="smil">
+                <xsl:attribute name="data-timecontainer" select="smil/@type"/>
+                <xsl:variable name="data-sync">
+                    <xsl:choose>
+                        <xsl:when test="audio"><xsl:value-of select="concat('#audio-', ../@lang)"/></xsl:when>
+                        <xsl:when test="video"><xsl:value-of select="concat('#video-', ../@lang)"/></xsl:when>
+                    </xsl:choose>
+                </xsl:variable>
+                <xsl:attribute name="data-sync" select="$data-sync"/>
+            </xsl:if>
+            <xsl:attribute name="id" select="concat('dict-', ../@lang)"/>
+            <xsl:apply-templates select="audio | term | img"/>
         </article>
     </xsl:template>
-<!--
-    <xsl:template name="smilTimings">
-        <xsl:result-document href="#page-head" method="ixsl:append-content">
-            <link id="timesheet" href="{concat('dict-' , 'no' , '-' , 'earth' , '.smil')}" rel="timesheet" type="application/smil+xml"/>
-        </xsl:result-document>
-        <xsl:result-document href="#body" method="ixsl:append-content">
-            <script src="../../js/timesheets.min.js"></script>
-        </xsl:result-document>
-    </xsl:template>-->
-
 
     <xsl:template match="audio">
         <xsl:element name="{local-name()}">
             <xsl:attribute name="id" select="concat('audio-' , ancestor::locale/@lang)"/>
             <xsl:attribute name="controls" select="'controls'"/>
-            <xsl:apply-templates/>
+            <xsl:apply-templates select="source"/>
             <p>Nettleseren støtter ikke html5 audio-elementet. Last ned lydfilen her:</p>
             <ul>
                 <xsl:for-each select="source">
@@ -126,8 +125,16 @@
     </xsl:template>
     
     <xsl:template match="term">
+        <xsl:variable name="this" select="."/>
+        <xsl:variable name="hasSmilItem" select="$this/@id and preceding::smil/item[@select eq $this/@id]" as="xs:boolean"/>
         <xsl:element name="{@t}">
-            <xsl:attribute name="id" select="@id"/>
+            <xsl:attribute name="id" select="$this/@id"/>
+            <xsl:if test="$hasSmilItem eq true()">
+                <xsl:variable name="smilBegin" select="preceding::smil/item[@select eq $this/@id]/@begin"/>
+                <xsl:variable name="smilEnd" select="preceding::smil/item[@select eq $this/@id]/@end"/>
+                <xsl:attribute name="data-begin" select="$smilBegin"/>
+                <xsl:attribute name="data-end" select="$smilEnd"/>
+            </xsl:if>
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
@@ -138,7 +145,5 @@
             <xsl:apply-templates/>
         </xsl:element>
     </xsl:template>
-    
-    <xsl:template match="item"/>
 
 </xsl:stylesheet>
