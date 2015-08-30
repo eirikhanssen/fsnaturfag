@@ -55,4 +55,44 @@
             <term t="p" id="no-06-dict-earth-17">Kan du se hvor det ikke bor så mange mark?</term>
         </entry>
     </locale>
+    <locale
+        lang="so"
+        langtitle="Somali"
+        id="so-06-dict"
+        desc="dictionary list for chapter 6 – in the earthworm's world"
+        dir="ltr">
+        <!-- One audiofile has:
+            - one or more sources (different formats)
+            - one or more (lang) key(s) with begin and end attrs-->
+        <entry word="earth">
+            <audio>
+                <!-- add source audio file -->
+                <!-- map to data-begin and data-end -->
+                <source type="audio/ogg" src="../audio/so-06-dict-earth-64k.ogg"/>
+                <source type="audio/mp3" src="../audio/so-06-dict-earth-96k.mp3"/>
+            </audio>
+            <smil type="par">
+                <item select="so-06-dict-earth-01" begin="0.922857" end="2.648941"/>
+                
+            </smil>
+            <term t="h1" id="so-06-dict-earth-01">Ciid</term>
+            <img src="../graphics/jordprofil.jpg" alt="Jordprofil som viser de forskjellige jordlagene."/>
+            <term t="p" id="so-06-dict-earth-02">Dirtu waxa ay ka baxdaa dhulka</term>
+            <term t="h2" id="so-06-dict-earth-03">Gooryaan dhuleedku wuxuu sameeya ciida</term>
+            <term t="p" id="so-06-dict-earth-04">Gooryaan dhuleedku wuxuu ku noolyahay dhulka hoostiisa</term>
+            <term t="p" id="so-06-dict-earth-05">Wuxuu cunaa ciida</term>
+            <term t="p" id="so-06-dict-earth-06">Gooyaan dhuleedku ciida ayuu cunayaa. Oo cunayaa. Oo cunayaa.</term>
+            <term t="p" id="so-06-dict-earth-07">Jidad dhaadheer ayuu ka sameeyaa ciida hoosteeda.</term>
+            <term t="p" id="so-06-dict-earth-08">Jidadkaasi oo ka samaysmay ciidii uu cunay</term>
+            <term t="p" id="so-06-dict-earth-09">Meelo ka mid ah ciida waxaa ka buuxa bacaad iyo dgagxaan yaryar.</term>
+            <term t="p" id="so-06-dict-earth-10">Meela ka mid ahna waxaa ka buuxa caleemo yaryar,doog iyo xayawaan dhintay.</term>
+            <term t="p" id="so-06-dict-earth-11">Gooryaan dhuleedku wuxuu cunaa ciida iyo calaanta oo isku jirta.</term>
+            <term t="p" id="so-06-dict-earth-12">Calooshiisa ayuu ku dhex qasaa wuxuu cuno oo dhan.</term>
+            <term t="p" id="so-06-dict-earth-13">Gooryaan dhuleedku wuxuu qasaa ciidda.</term>
+            <term t="p" id="so-06-dict-earth-14">Xaar badanna wuu sii daayaa.</term>
+            <term t="p" id="so-06-dict-earth-15">Ciidaasina dhirta ayay u fiicantahay-</term>
+            <term t="p" id="so-06-dict-earth-16">Ma arki kartaa meel ay ku noolyihii gooryaan badani?</term>
+            <term t="p" id="so-06-dict-earth-17">Ma arki kartaa meel aanay ku noolayn gooryaan badani?</term>
+        </entry>
+    </locale>
 </locales>
