@@ -31,7 +31,7 @@
                 <meta charset="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <title id="page-title">Ordliste</title>
-                <!--<link id="timesheet" href="no.dict.earth.smil" rel="timesheet" type="application/smil+xml" />-->
+                <link rel="stylesheet" href="../../css/dict-smil.css"/>
                 <script src="../../js/timesheets.min.js"></script>
             </head>
             
@@ -89,18 +89,23 @@
 
     <xsl:template match="entry">
         <article>
-            <xsl:if test="smil">
-                <xsl:attribute name="data-timecontainer" select="smil/@type"/>
-                <xsl:variable name="data-sync">
-                    <xsl:choose>
-                        <xsl:when test="audio"><xsl:value-of select="concat('#audio-', ../@lang)"/></xsl:when>
-                        <xsl:when test="video"><xsl:value-of select="concat('#video-', ../@lang)"/></xsl:when>
-                    </xsl:choose>
-                </xsl:variable>
-                <xsl:attribute name="data-sync" select="$data-sync"/>
-            </xsl:if>
             <xsl:attribute name="id" select="concat('dict-', ../@lang)"/>
-            <xsl:apply-templates select="audio | term | img"/>
+            <xsl:apply-templates select="audio | video"/>
+            <div id="smilcontainer">
+                <xsl:if test="smil">
+                    <xsl:attribute name="data-timecontainer" select="smil/@type"/>
+                    <xsl:variable name="data-mediasync">
+                        <xsl:choose>
+                            <xsl:when test="audio"><xsl:value-of select="concat('#audio-', ../@lang)"/></xsl:when>
+                            <xsl:when test="video"><xsl:value-of select="concat('#video-', ../@lang)"/></xsl:when>
+                        </xsl:choose>
+                    </xsl:variable>
+                    <xsl:attribute name="data-mediasync" select="$data-mediasync"/>
+                    <xsl:attribute name="data-timeaction" select="'class: playing'"></xsl:attribute>
+                </xsl:if>
+                <xsl:apply-templates select="term | img"/>
+            </div>
+            
         </article>
     </xsl:template>
 
