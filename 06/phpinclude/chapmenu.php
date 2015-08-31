@@ -21,9 +21,8 @@ $folder_pattern = '/<li>(<a href=".*?' . $self_folder . '.*?">[^<]+<\/a><\/li>)/
 
 $chapmenu = <<<HTMLCODE
 <nav id="chapmenu">
-		<h2 id="chapmenuheading">Meny</h2>
 		<section>
-			<h3>kapittel 6</h3>
+			<h3>Kapittel 6</h3>
 			<ul>
 				<li><a href="06/index.php">kort tekst</a></li>
 				<li><a href="06/fortelling.php">lang tekst</a></li>
