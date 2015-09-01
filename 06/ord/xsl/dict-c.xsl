@@ -11,7 +11,8 @@
     <!-- TODO: get word and language as a parameter from get variables -->
     <!-- example link: dict.html?w=earth&l=no -->
     <!-- if there is no word/language match display notice -->
-    <xsl:param name="query_string"><xsl:text>?l=no&amp;w=earth</xsl:text></xsl:param>
+    <xsl:param name="query_string"/>
+	<!--<xsl:param name="query_string"><xsl:text>?l=no&amp;w=earth</xsl:text></xsl:param>-->
 
     <xsl:variable name="query_params">
         <xsl:if test="$query_string != ''">
@@ -22,8 +23,8 @@
         </xsl:if>
     </xsl:variable>
     
-    <xsl:variable name="lang" select="$query_params/var[@name='w']/@val"/>
-    <xsl:variable name="word" select="$query_params/var[@name='l']/@val"/>
+    <xsl:variable name="lang" select="$query_params/var[@name='w']/@val"/><!-- notice that this can be 0 or more -->
+	<xsl:variable name="word" select="$query_params/var[@name='l']/@val"/><!-- notice that this can be 0 or more -->
 
     <xsl:template match="/">
         <html lang="no">
