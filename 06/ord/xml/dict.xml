@@ -1,6 +1,61 @@
 <locales>
     <!-- add one locale section for each language -->
     <locale
+        lang="ar"
+        langtitle="Arabisk"
+        id="ar-06-dict"
+        desc="dictionary list for chapter 6 – in the earthworm's world"
+        dir="rtl">
+        <!-- One audiofile has:
+            - one or more sources (different formats)
+            - one or more (lang) key(s) with begin and end attrs-->
+        <entry word="earth">
+            <audio>
+                <!-- add source audio file -->
+                <!-- map to data-begin and data-end -->
+                <source type="audio/ogg" src="../audio/ar-06-dict-earth-64k.ogg"/>
+                <source type="audio/mp3" src="../audio/ar-06-dict-earth-96k.mp3"/>
+            </audio>
+            <smil type="par">
+                <item select="ar-06-dict-earth-01" begin="0.58177" end="2.94816"/>
+                <item select="ar-06-dict-earth-02" begin="3.022847" end="6.092864"/>
+                <item select="ar-06-dict-earth-03" begin="8.138725" end="11.46032"/>
+                <item select="ar-06-dict-earth-04" begin="11.865393" end="14.579379"/>
+                <item select="ar-06-dict-earth-05" begin="14.781915" end="16.685756"/>
+                <item select="ar-06-dict-earth-06" begin="16.685756" end="20.574453"/>
+                <item select="ar-06-dict-earth-07" begin="20.574453" end="24.625179"/>
+                <item select="ar-06-dict-earth-08" begin="24.625179" end="26.853078"/>
+                <item select="ar-06-dict-earth-09" begin="26.853078" end="33.901341"/>
+                <item select="ar-06-dict-earth-10" begin="33.901341" end="44.311706"/>
+                <item select="ar-06-dict-earth-11" begin="44.55475" end="51.359969"/>
+                <item select="ar-06-dict-earth-12" begin="51.359969" end="54.924608"/>
+                <item select="ar-06-dict-earth-13" begin="55.086637" end="58.73229"/>
+                <item select="ar-06-dict-earth-14" begin="58.73229" end="61.405769"/>
+                <item select="ar-06-dict-earth-15" begin="61.203233" end="65.861568"/>
+                <item select="ar-06-dict-earth-16" begin="65.861568" end="70.84396"/>
+                <item select="ar-06-dict-earth-17" begin="70.84396" end="77.082078"/>
+            </smil>
+            <term t="h1" id="ar-06-dict-earth-01">التربة</term>
+            <img src="../graphics/jordprofil.jpg" alt="Jordprofil som viser de forskjellige jordlagene."/>
+            <term t="p" id="ar-06-dict-earth-02">النباتات تنمو في التربة</term>
+            <term t="h2" id="ar-06-dict-earth-03">دودة الأرض تنتج التربة.</term>
+            <term t="p" id="ar-06-dict-earth-04">دودة الأرض تسكن في التربة.</term>
+            <term t="p" id="ar-06-dict-earth-05">هي تأكل التربة.</term>
+            <term t="p" id="ar-06-dict-earth-06">الدود يأكل ويأكل ويأكل.</term>
+            <term t="p" id="ar-06-dict-earth-07">فتصبح ممرات أطول في الأرض.</term>
+            <term t="p" id="ar-06-dict-earth-08">هناك حيث أكلت.</term>
+            <term t="p" id="ar-06-dict-earth-09">بعضا الآماكن تكون التربة فيها مليئة بأجزاء من الحجارة والرمال.</term>
+            <term t="p" id="ar-06-dict-earth-10">بعض ألاماكن تكون التربة فيها مليئة بأجزاء من بقايا أوراق الشجر والعشب والحيوانات الميتة.</term>
+            <term t="p" id="ar-06-dict-earth-11">دودة الأرض تأكل التربة مع الرمال والتربة مع ورق الشجر.</term>
+            <term t="p" id="ar-06-dict-earth-12">هي تخلط كل شيء في بطنها.</term>
+            <term t="p" id="ar-06-dict-earth-13">دودة الأرض تمزج التراب.</term>
+            <term t="p" id="ar-06-dict-earth-14">وتتغوط كثيرا.</term>
+            <term t="p" id="ar-06-dict-earth-15">وهكذا تصبح التربة جيدة للنباتات.</term>
+            <term t="p" id="ar-06-dict-earth-16">هل يمكنك رؤية أين يسكن أكبر عدد من الدود؟</term>
+            <term t="p" id="ar-06-dict-earth-17">هل يمكنك رؤية أين يسكن أقل من الدود؟</term>
+        </entry>
+    </locale>
+    <locale
         lang="no"
         langtitle="Norsk"
         id="no-06-dict"
@@ -72,8 +127,23 @@
                 <source type="audio/mp3" src="../audio/so-06-dict-earth-96k.mp3"/>
             </audio>
             <smil type="par">
-                <item select="so-06-dict-earth-01" begin="0.922857" end="2.648941"/>
-                
+                <item select="so-06-dict-earth-01" begin="0.000000" end="2.917009"/>
+                <item select="so-06-dict-earth-02" begin="2.917009" end="7.152954"/>
+                <item select="so-06-dict-earth-03" begin="7.152954" end="10.984145"/>
+                <item select="so-06-dict-earth-04" begin="10.984145" end="15.506208"/>
+                <item select="so-06-dict-earth-05" begin="15.506208" end="17.795153"/>
+                <item select="so-06-dict-earth-06" begin="17.795153" end="24.201408"/>
+                <item select="so-06-dict-earth-07" begin="24.201408" end="28.842105"/>
+                <item select="so-06-dict-earth-08" begin="28.842105" end="33.454887"/>
+                <item select="so-06-dict-earth-09" begin="33.454887" end="40.684604"/>
+                <item select="so-06-dict-earth-10" begin="40.684604" end="48.277203"/>
+                <item select="so-06-dict-earth-11" begin="48.277203" end="54.194964"/>
+                <item select="so-06-dict-earth-12" begin="54.194964" end="59.568402"/>
+                <item select="so-06-dict-earth-13" begin="59.568402" end="63.239088"/>
+                <item select="so-06-dict-earth-14" begin="63.239088" end="66.337539"/>
+                <item select="so-06-dict-earth-15" begin="66.337539" end="70.636289"/>
+                <item select="so-06-dict-earth-16" begin="70.636289" end="75.353749"/>
+                <item select="so-06-dict-earth-17" begin="75.353749" end="80.838844"/>
             </smil>
             <term t="h1" id="so-06-dict-earth-01">Ciid</term>
             <img src="../graphics/jordprofil.jpg" alt="Jordprofil som viser de forskjellige jordlagene."/>
@@ -93,6 +163,61 @@
             <term t="p" id="so-06-dict-earth-15">Ciidaasina dhirta ayay u fiicantahay-</term>
             <term t="p" id="so-06-dict-earth-16">Ma arki kartaa meel ay ku noolyihii gooryaan badani?</term>
             <term t="p" id="so-06-dict-earth-17">Ma arki kartaa meel aanay ku noolayn gooryaan badani?</term>
+        </entry>
+    </locale>
+    <locale
+        lang="ti"
+        langtitle="Tigrinja"
+        id="ti-06-dict"
+        desc="dictionary list for chapter 6 – in the earthworm's world"
+        dir="ltr">
+        <!-- One audiofile has:
+            - one or more sources (different formats)
+            - one or more (lang) key(s) with begin and end attrs-->
+        <entry word="earth">
+            <audio>
+                <!-- add source audio file -->
+                <!-- map to data-begin and data-end -->
+                <source type="audio/ogg" src="../audio/ti-06-dict-earth-64k.ogg"/>
+                <source type="audio/mp3" src="../audio/ti-06-dict-earth-96k.mp3"/>
+            </audio>
+            <smil type="par">
+                <item select="ti-06-dict-earth-01" begin="0.0" end="2.201806"/>
+                <item select="ti-06-dict-earth-02" begin="2.707835" end="5.991229"/>
+                <item select="ti-06-dict-earth-03" begin="7.197872" end="11.715369"/>
+                <item select="ti-06-dict-earth-04" begin="11.715369" end="16.232866"/>
+                <item select="ti-06-dict-earth-05" begin="16.232866" end="20.473781"/>
+                <item select="ti-06-dict-earth-06" begin="21.073041" end="27.618802"/>
+                <item select="ti-06-dict-earth-07" begin="27.94148" end="34.072369"/>
+                <!-- key 07 and 08 had to be merged in Tigrinyan translation -->
+                <item select="ti-06-dict-earth-09" begin="34.418095" end="41.378728"/>
+                <item select="ti-06-dict-earth-10" begin="41.517019" end="50.690303"/>
+                <item select="ti-06-dict-earth-11" begin="50.805546" end="59.425667"/>
+                <item select="ti-06-dict-earth-12" begin="59.633103" end="64.888151"/>
+                <item select="ti-06-dict-earth-13" begin="65.003393" end="69.129066"/>
+                <item select="ti-06-dict-earth-14" begin="69.382599" end="72.701576"/>
+                <item select="ti-06-dict-earth-15" begin="72.932061" end="77.311267"/>
+                <item select="ti-06-dict-earth-16" begin="77.426509" end="82.404975"/>
+                <item select="ti-06-dict-earth-17" begin="82.497169" end="87.383441"/>
+            </smil>
+            <term t="h1" id="ti-06-dict-earth-01">ሓመድ</term>
+            <img src="../graphics/jordprofil.jpg" alt="Jordprofil som viser de forskjellige jordlagene."/>
+            <term t="p" id="ti-06-dict-earth-02">ኣትኽልቲ ኣብ ሓመድ ይቦቍሉ።</term>
+            <term t="h2" id="ti-06-dict-earth-03">ሓሰኻ መሬት ሓመድ የዳሉ።</term>
+            <term t="p" id="ti-06-dict-earth-04">ሓሰኻ መሬት ኣብ ውሽጢ መሬት ይነብር።</term>
+            <term t="p" id="ti-06-dict-earth-05">ሓሰኻ መሬት ሓመድ ይበልዕ።</term>
+            <term t="p" id="ti-06-dict-earth-06">እቲ ሓሰኻ ይበልዕ፣ ይበልዕ ወይበልዕ</term>
+            <term t="p" id="ti-06-dict-earth-07">ኣብ ውሽጢ መሬት፣ ኣብቲ ዝበልዓሉ ቦታታት ድማ ነዋሕቲ መንገድታት የዳሉ።</term>
+            <!-- key 07 and 08 had to be merged in Tigrinyan translation -->
+            <term t="p" id="ti-06-dict-earth-09">ኣብ ገሊኡ ቦታታት ውሽጢ መሬት፡ ብዙሕ ንኣሽቱ የእማንን ሑጻን ይርከብ።</term>
+            <term t="p" id="ti-06-dict-earth-10">ኣብ ገሊኡ ቦታታት ውሽጢ መሬት፡ ብዙሕ ንኣሽቱ ቁርጽራጻት ኣቑጽልቲ፣ ሳዕርን ዝሞቱ እንሰሳታትን ይርከብ።</term>
+            <term t="p" id="ti-06-dict-earth-11">እቲ ሓሰኻ መሬት ሑጻ ዝተሓወሶ ሓመድን፡ ቆጽሊ ዝተሓወሶ ሓመድን ይበልዕ።</term>
+            <term t="p" id="ti-06-dict-earth-12">ንኹሉ ድማ ኣብ ከብዱ ይሓዋውሶ።</term>
+            <term t="p" id="ti-06-dict-earth-13">ሓሰኻ መሬት ንሓመድ ሕውስውስ የብሎ።</term>
+            <term t="p" id="ti-06-dict-earth-14">ብዙሕ ድማ ይሓርእ።</term>
+            <term t="p" id="ti-06-dict-earth-15">እቲ ሓመድ ድማ ንኣትኽልቲ ዝበለጸ ይኸውን።</term>
+            <term t="p" id="ti-06-dict-earth-16">ብዙሓት ሓሰኻታት ዝነብሩሉ ቦታ ክትርኢ ትኽእል ዶ?</term>
+            <term t="p" id="ti-06-dict-earth-17">ብዙሓት ሓሰኻታት ዘይነብሩሉ ቦታ ክትርኢ ትኽእል ዶ?</term>
         </entry>
     </locale>
 </locales>
