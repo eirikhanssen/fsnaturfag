@@ -22,7 +22,7 @@
 			<li>Hvile seg</li>
 			<li>Insekt</li>
 			<li>Jenny</li>
-			<li><a href="ord/dict.html?l=no&amp;w=earth">Jord</a></li>
+			<li><a href="ord/oppslag.php?l=no&amp;w=earth">Jord</a></li>
 			<li>Katt</li>
 			<li>Kokong</li>
 			<li>Mark</li>
