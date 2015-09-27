@@ -2,7 +2,17 @@
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     version="1.1"
-    height="100" width="200">
+    height="40" width="40">
+   <view id="short1" viewBox="0 0 40 40" preserveAspectRatio="xMinYMin meet" />
+   <view id="short2" viewBox="0 40 40 40" preserveAspectRatio="xMinYMin meet" />
+   <view id="long1" viewBox="40 0 40 40" preserveAspectRatio="xMinYMin meet" />
+   <view id="long2" viewBox="40 40 40 40" preserveAspectRatio="xMinYMin meet" />
+   <view id="dict1" viewBox="80 0 40 40" preserveAspectRatio="xMinYMin meet" />
+   <view id="dict2" viewBox="80 40 40 40" preserveAspectRatio="xMinYMin meet" />
+   <view id="film1" viewBox="120 0 40 40" preserveAspectRatio="xMinYMin meet" />
+   <view id="film2" viewBox="120 40 40 40" preserveAspectRatio="xMinYMin meet" />
+   <view id="quiz1" viewBox="160 0 40 40" preserveAspectRatio="xMinYMin meet" />
+   <view id="quiz2" viewBox="160 40 40 40" preserveAspectRatio="xMinYMin meet" />
    <defs>
       <style type="text/css">
          .active {fill:#f9e7a6;}
@@ -61,9 +71,9 @@
 
       <g id="film" transform="translate(-15,-15)">
          <rect class="film" x="0" y="0" width="30" height="30"/>
-         <use xlink:href="#mirroredskew" transform="translate(22,0)"/>
-         <use xlink:href="#mirroredskew" transform="translate(14,0)"/>
-         <use xlink:href="#mirroredskew" transform="translate(6,0)"/>
+         <use xlink:href="#mirroredskew" transform="translate(20,0)"/>
+         <use xlink:href="#mirroredskew" transform="translate(12,0)"/>
+         <use xlink:href="#mirroredskew" transform="translate(4,0)"/>
          <path class="playpause" d="m4,13 v14 l10,-7 z m13,0 v14h4v-14z m6,0 v14h4v-14z"/>
       </g>
       
