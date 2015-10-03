@@ -24,19 +24,11 @@ $chapmenu = <<<HTMLCODE
 		<section>
 			<h3>Kapittel 6</h3>
 			<ul>
-				<li><a href="06/index.php">kort tekst</a></li>
-				<li><a href="06/fortelling.php">lang tekst</a></li>
-				<li><a href="06/ordliste.php">ordliste</a></li>
-				<li><a href="06/oppgaver/index.php">oppgaver</a></li>
-				<li><a href="06/film.php">film</a></li>
-			</ul>
-		</section>
-
-		<section>
-			<h3>Info</h3>
-			<ul>
-				<li><a href="06/veiledning/index.php">Til læreren</a></li>
-				<li><a href="06/foreldre.php">Til foreldre</a></li>
+				<li id="short"><a href="06/index.php"><span>kort tekst</span><span class="icon"/></a></li>
+				<li id="long"><a href="06/fortelling.php"><span>lang tekst</span><span class="icon"/></a></li>
+				<li id="dict"><a href="06/ordliste.php"><span>ordliste</span><span class="icon"/></a></li>
+				<li id="film"><a href="06/film.php"><span>film</span><span class="icon"/></a></li>
+				<li id="quiz"><a href="06/oppgaver/index.php"><span>oppgaver</span><span class="icon"/></a></li>
 			</ul>
 		</section>
 	</nav>

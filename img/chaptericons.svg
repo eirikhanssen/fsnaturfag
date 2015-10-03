@@ -2,7 +2,8 @@
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
     version="1.1"
-    height="40" width="40">
+    height="80" width="200">
+   <!--
    <view id="short1" viewBox="0 0 40 40" preserveAspectRatio="xMinYMin meet" />
    <view id="short2" viewBox="0 40 40 40" preserveAspectRatio="xMinYMin meet" />
    <view id="long1" viewBox="40 0 40 40" preserveAspectRatio="xMinYMin meet" />
@@ -12,7 +13,7 @@
    <view id="film1" viewBox="120 0 40 40" preserveAspectRatio="xMinYMin meet" />
    <view id="film2" viewBox="120 40 40 40" preserveAspectRatio="xMinYMin meet" />
    <view id="quiz1" viewBox="160 0 40 40" preserveAspectRatio="xMinYMin meet" />
-   <view id="quiz2" viewBox="160 40 40 40" preserveAspectRatio="xMinYMin meet" />
+   <view id="quiz2" viewBox="160 40 40 40" preserveAspectRatio="xMinYMin meet" />-->
    <defs>
       <style type="text/css">
          .active {fill:#f9e7a6;}
