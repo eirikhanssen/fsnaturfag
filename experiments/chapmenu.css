@@ -1,0 +1,15 @@
+#chapmenu {counter-reset: menuitem;}
+#chapmenu ul {list-style-type: none; margin: 0; padding: 0;}
+#chapmenu li {border: 1px solid gray; width: 2em; height: 2em; line-height: 2em; text-align: left; padding-left: .5em; border-radius: .25em; margin: .25em; box-sizing: border-box;}
+#chapmenu li::before {counter-increment: menuitem; content: counter(menuitem);}
+
+#chapmenu li {
+	transition: .5s;
+	overflow: hidden;
+}
+
+#chapmenu li span{opacity: 0; transition: .5s; padding-left: .25em;}
+
+#chapmenu li:focus {width: 6em;}
+
+#chapmenu li:focus span {opacity: 1;}
